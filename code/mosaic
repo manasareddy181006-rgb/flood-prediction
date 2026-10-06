@@ -1,0 +1,85 @@
+import os
+import math
+import requests
+
+API_KEY = "1024da750b3a91f41b929e8024b0a1e0"
+OUTPUT_DIR = r"d:\Manasa_ce24b050\Chingka_lai\India_DEM"
+MAX_AREA_KM2 = 400000  # stay safely under OpenTopography's 450,000 km^2 limit for SRTMGL1
+
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+EARTH_RADIUS_KM = 6371.0
+
+
+def bbox_area_km2(south, north, west, east):
+    lon_width_rad = math.radians(east - west)
+    return lon_width_rad * EARTH_RADIUS_KM ** 2 * (
+        math.sin(math.radians(north)) - math.sin(math.radians(south))
+    )
+
+
+def split_bbox(south, north, west, east, max_area=MAX_AREA_KM2):
+    if bbox_area_km2(south, north, west, east) <= max_area:
+        return [(south, north, west, east)]
+    if (north - south) >= (east - west):
+        mid = (south + north) / 2
+        return split_bbox(south, mid, west, east, max_area) + split_bbox(mid, north, west, east, max_area)
+    else:
+        mid = (west + east) / 2
+        return split_bbox(south, north, west, mid, max_area) + split_bbox(south, north, mid, east, max_area)
+
+
+tiles = [
+    ("sw1",  8, 14, 68, 76),
+    ("sw2",  8, 14, 76, 84),
+    ("sw3",  8, 14, 84, 97),
+    ("mw1", 14, 20, 68, 76),
+    ("mw2", 14, 20, 76, 84),
+    ("mw3", 14, 20, 84, 97),
+    ("nw1", 20, 28, 68, 76),
+    ("nw2", 20, 28, 76, 84),
+    ("nw3", 20, 28, 84, 97),
+    ("nn1", 28, 37, 68, 76),
+    ("nn2", 28, 37, 76, 84),
+    ("nn3", 28, 37, 84, 97),
+]
+
+for name, south, north, west, east in tiles:
+    for i, (s, n, w, e) in enumerate(split_bbox(south, north, west, east)):
+        out_path = os.path.join(OUTPUT_DIR, f"{name}_{i}.tif")
+        if os.path.exists(out_path):
+            print(f"Skipping {name}_{i} (already downloaded)")
+            continue
+        url = (
+            f"https://portal.opentopography.org/API/globaldem"
+            f"?demtype=SRTMGL1&south={s}&north={n}"
+            f"&west={w}&east={e}&outputFormat=GTiff&API_Key={API_KEY}"
+        )
+        print(f"Downloading {name}_{i} ({s},{n},{w},{e})...")
+        r = requests.get(url, timeout=300)
+        if r.status_code == 200:
+            with open(out_path, "wb") as f:
+                f.write(r.content)
+            print("  Saved")
+        else:
+            print(f"  Failed: HTTP {r.status_code} - {r.text[:200]}")
+
+
+from rasterio.merge import merge
+import rasterio
+import glob
+
+files = glob.glob(os.path.join(OUTPUT_DIR, "*.tif"))
+datasets = [rasterio.open(f) for f in files]
+mosaic, transform = merge(datasets)
+
+meta = datasets[0].meta.copy()
+meta.update({"height": mosaic.shape[1], "width": mosaic.shape[2], "transform": transform})
+
+with rasterio.open(os.path.join(OUTPUT_DIR, "india_dem_mosaic.tif"), "w", **meta) as dest:
+    dest.write(mosaic)
+
+for ds in datasets:
+    ds.close()
+
+print("Mosaic saved!")

@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Sirimoda,2019,30,7.35,07-Dec-2019,341,5.67,0.0
+River Water Discharge_Sirimoda,2020,348,47.05,16-Oct-2020,290,7.97,0.0
+River Water Discharge_Sirimoda,2021,364,152.64,27-Sep-2021,270,7.54,0.0
+River Water Discharge_Sirimoda,2022,359,140.68,11-Sep-2022,254,10.94,1.81
+River Water Discharge_Sirimoda,2023,362,126.83,07-Sep-2023,250,9.62,2.0
+River Water Discharge_Sirimoda,2024,361,121.29,09-Sep-2024,253,11.17,1.55
+River Water Discharge_Sirimoda,2025,261,133.04,19-Aug-2025,231,12.23,2.5

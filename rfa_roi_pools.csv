@@ -1,0 +1,277 @@
+station,region,pool_size,pool_years,H1,is_contributing,pool
+bhamgarh,1,13,452,0.4639070958852034,False,Baronda;Rampur;Kogaon;Dhariawad;Gandlapet;Tapi at burhanpur;Pati;Salebhata;Bamnidhi;Degloor;Betmogra;Belkhedi;Chhidgaon
+sandia,1,10,447,4.836538672207729,True,sandia;Narmadapuram;Jaraikela;Kurubhata;Tapi at burhanpur;Bamnidhi;Adityapur;Baronda;Manot;Salebhata
+A.p.puram,3,17,515,7.231026543053198,False,Magaral;Nandipalli;Kamalapuram;Theni;Ambasamudram;Alladupalli;Madhira;Keesara;Elunuthimangalam;Tulaghat;Singavaram;Halia;Altuma;Pudur;Ozerkheda;Dameracherla;Hogenakkal
+Abna at khandwa,1,12,406,1.9998669790935901,False,Dhariawad;Degloor;Betmogra;Gandlapet;Sundergarh;Belkhedi;Manendragarh;Chhidgaon;Rampur;Baronda;Paleru bridge;Dindori
+Adityapur,1,9,387,3.1812806689473496,True,Adityapur;Salebhata;Bamnidhi;Kurubhata;Rampur;Baronda;Jaraikela;Tapi at burhanpur;Kogaon
+Adkasthala,3,14,512,7.659108060509854,False,Kalampur;Ozerkheda;Pulamanthole;Thumpamon;Tulaghat;Arangali;Koyna;Sundergarh;Altuma;Warunji;Bamnidhi;Pudur;Adityapur;Rampur
+Akkalpada,1,14,447,5.800611610922527,False,Pati;Kogaon;Tapi at burhanpur;Gandlapet;Singavaram;Baronda;Chhidgaon;Dhariawad;Kamalapuram;Belkhedi;Halia;Rampur;Kurubhata;Hogenakkal
+Akkihebbal,2,15,481,3.8663519450027133,True,Akkihebbal;M.h. halli;K.m. vadi;T.k.halli;Sakleshpur;Muthankera;Warunji;Kudlur;Dindori;Manot;Hogenakkal;Koyna;Manendragarh;Jaraikela;Elunuthimangalam
+Alandurai,2,15,437,5.781336188247441,False,Kudlur;Ambasamudram;Theni;Hogenakkal;Muthankera;Tulaghat;Warunji;Arangali;Pudur;Sakleshpur;Koyna;Elunuthimangalam;Ozerkheda;K.m. vadi;M.h. halli
+Alladupalli,1,12,437,4.071393937827767,True,Alladupalli;Nandipalli;Halia;Magaral;Dameracherla;Keesara;Kamalapuram;Madhira;Singavaram;Paleru bridge;Kogaon;Gandlapet
+Allam vari ghanapur,1,12,490,4.1071532816799206,False,Madhira;Paleru bridge;Altuma;Keesara;Halia;Rampur;Salebhata;Gandlapet;Baronda;Dameracherla;Adityapur;Kogaon
+Allam vari ghanapur,1,16,536,4.089999418525456,False,Sundergarh;Gandlapet;Paleru bridge;Altuma;Degloor;Madhira;Dhariawad;Betmogra;Ozerkheda;Rampur;Keesara;Tulaghat;Halia;Baronda;Belkhedi;Salebhata
+Altuma,1,10,375,2.3091796682041053,True,Altuma;Salebhata;Ozerkheda;Rampur;Adityapur;Madhira;Tulaghat;Baronda;Bamnidhi;Sundergarh
+Ambaliyara,1,11,456,1.84118818057244,False,Dhariawad;Rampur;Sundergarh;Baronda;Gandlapet;Salebhata;Kogaon;Chhidgaon;Bamnidhi;Belkhedi;Adityapur
+Ambarampalayam,3,12,350,6.041988584324197,False,Pudur;Hogenakkal;Kudlur;Ambasamudram;Elunuthimangalam;Arangali;Tulaghat;Muthankera;Theni;Pulamanthole;Ozerkheda;Warunji
+Ambasamudram,3,16,482,11.492992622407046,True,Ambasamudram;Theni;Kudlur;Hogenakkal;Tulaghat;Pudur;Elunuthimangalam;Thumpamon;Ozerkheda;Warunji;Kamalapuram;Singavaram;Muthankera;Arangali;Magaral;Koyna
+Anantharam,1,13,467,3.763027900466446,False,Halia;Gandlapet;Dameracherla;Paleru bridge;Madhira;Alladupalli;Keesara;Kogaon;Pati;Nandipalli;Rampur;Degloor;Baronda
+Anantwadi,1,13,447,1.8645729058001905,False,Gandlapet;Degloor;Betmogra;Dhariawad;Rampur;Baronda;Halia;Kogaon;Paleru bridge;Pati;Salebhata;Dameracherla;Belkhedi
+Ankushapur,1,16,506,6.164506939482368,False,Altuma;Gandlapet;Sundergarh;Nandipalli;Pati;Ozerkheda;Tulaghat;Madhira;Halia;Dhariawad;Baronda;Magaral;Rampur;Kogaon;Keesara;Degloor
+Ankushapur,1,10,363,1.7904727361217363,False,Paleru bridge;Halia;Madhira;Gandlapet;Keesara;Dameracherla;Rampur;Degloor;Betmogra;Salebhata
+Arangali,3,16,490,8.759345583105729,True,Arangali;Pulamanthole;Pudur;Kalampur;Thumpamon;Muthankera;Ozerkheda;Kudlur;Tulaghat;Hogenakkal;Ambasamudram;Elunuthimangalam;Warunji;Koyna;K.m. vadi;Theni
+Arkkannur,3,16,532,11.954590361533421,False,Kalampur;Thumpamon;Ozerkheda;Tulaghat;Altuma;Madhira;Pulamanthole;Ambasamudram;Magaral;Keesara;Paleru bridge;Pudur;Koyna;Arangali;Hogenakkal;Warunji
+Arni,1,14,487,2.1499667591909004,False,Gandlapet;Dhariawad;Degloor;Betmogra;Pati;Baronda;Rampur;Kogaon;Halia;Sundergarh;Belkhedi;Chhidgaon;Salebhata;Paleru bridge
+Aruvipuram,3,15,451,11.324885851022195,False,Thumpamon;Kalampur;Ambasamudram;Ozerkheda;Magaral;Tulaghat;Pudur;Madhira;Pulamanthole;Altuma;Keesara;Theni;Hogenakkal;Arangali;Elunuthimangalam
+Asegaon,1,15,501,4.247080080603994,False,Degloor;Betmogra;Dhariawad;Gandlapet;Sundergarh;Manendragarh;Belkhedi;Dindori;Chhidgaon;Paleru bridge;Rampur;Baronda;Manot;Halia;Pati
+Ayoor,3,13,424,10.439046042727586,False,Kalampur;Thumpamon;Ozerkheda;Tulaghat;Altuma;Pulamanthole;Ambasamudram;Madhira;Magaral;Keesara;Paleru bridge;Koyna;Pudur
+Balasamudram,2,16,476,7.8343723502657445,False,Kudlur;Koyna;Muthankera;Sakleshpur;Ambasamudram;Warunji;Arangali;M.h. halli;K.m. vadi;Hogenakkal;Pulamanthole;Akkihebbal;Tulaghat;Thumpamon;Theni;Ozerkheda
+Bamnia,1,15,517,3.349229110248268,False,Dhariawad;Sundergarh;Belkhedi;Degloor;Manendragarh;Chhidgaon;Betmogra;Gandlapet;Baronda;Rampur;Dindori;Pati;Manot;Bamnidhi;Kogaon
+Bamnidhi,1,10,434,2.821589979846211,True,Bamnidhi;Kurubhata;Adityapur;Baronda;Rampur;Salebhata;Jaraikela;Tapi at burhanpur;Chhidgaon;Belkhedi
+Baronda,1,13,518,3.115389200084301,True,Baronda;Rampur;Bamnidhi;Tapi at burhanpur;Kurubhata;Kogaon;Salebhata;Adityapur;Dhariawad;Chhidgaon;Belkhedi;Pati;Jaraikela
+Bayyaram,1,13,469,3.7742305588136955,False,Paleru bridge;Madhira;Halia;Keesara;Gandlapet;Dameracherla;Degloor;Betmogra;Rampur;Salebhata;Altuma;Magaral;Baronda
+Belkhedi,1,13,507,3.349140154737166,True,Belkhedi;Chhidgaon;Manendragarh;Dhariawad;Manot;Sundergarh;Baronda;Kurubhata;Bamnidhi;Dindori;Jaraikela;Rampur;Tapi at burhanpur
+Belkund at ghughra,1,10,362,1.374580147780589,False,Dhariawad;Chhidgaon;Sundergarh;Belkhedi;Manendragarh;Baronda;Pati;Gandlapet;Rampur;Bamnidhi
+Betmogra,1,15,542,4.402308044159464,True,Betmogra;Degloor;Gandlapet;Dhariawad;Rampur;Baronda;Belkhedi;Paleru bridge;Manendragarh;Manot;Halia;Bamnidhi;Dindori;Dameracherla;Chhidgaon
+Bettadamane,2,15,472,4.892068846290701,False,Sakleshpur;Koyna;Warunji;K.m. vadi;Muthankera;M.h. halli;Kudlur;Akkihebbal;Dindori;T.k.halli;Hogenakkal;Manendragarh;Manot;Tulaghat;Belkhedi
+Bhadli,1,11,414,0.6172699929921625,False,Pati;Kogaon;Baronda;Tapi at burhanpur;Gandlapet;Dhariawad;Chhidgaon;Rampur;Belkhedi;Salebhata;Bamnidhi
+Bhakudar (sipu dam),1,12,466,3.8063702803573163,False,Kogaon;Pati;Tapi at burhanpur;Baronda;Kurubhata;Salebhata;Bamnidhi;Chhidgaon;Adityapur;Rampur;Dhariawad;Sundergarh
+Bhamragad,1,12,484,5.292453167565603,False,Rampur;Salebhata;Adityapur;Baronda;Bamnidhi;Tapi at burhanpur;Dameracherla;Kurubhata;Jaraikela;Kogaon;Halia;Betmogra
+Bifercation of e&w tammileru,1,14,539,5.146066671813572,False,Madhira;Keesara;Paleru bridge;Halia;Magaral;Altuma;Nandipalli;Dameracherla;Gandlapet;Alladupalli;Rampur;Salebhata;Baronda;Kogaon
+Borad at thikri,1,13,486,1.7947164507465676,False,Pati;Kogaon;Baronda;Gandlapet;Dhariawad;Rampur;Sundergarh;Salebhata;Chhidgaon;Altuma;Tapi at burhanpur;Bamnidhi;Belkhedi
+Butaram,1,16,534,4.44658106218586,False,Sundergarh;Gandlapet;Altuma;Paleru bridge;Degloor;Madhira;Dhariawad;Betmogra;Ozerkheda;Rampur;Tulaghat;Halia;Keesara;Baronda;Belkhedi;Chhidgaon
+Chakkalakuth,3,17,541,8.43128764548098,False,Pulamanthole;Arangali;Kalampur;Thumpamon;Ozerkheda;Pudur;Tulaghat;Muthankera;Kudlur;Hogenakkal;Ambasamudram;Elunuthimangalam;Koyna;Altuma;Warunji;Sundergarh;Bamnidhi
+Chakrar at gadasarai,2,16,518,2.9799228834642446,False,Dindori;Manendragarh;Belkhedi;Manot;Chhidgaon;Dhariawad;Degloor;Sundergarh;Betmogra;Warunji;Sakleshpur;K.m. vadi;T.k.halli;Hogenakkal;Kudlur;Baronda
+Chanwada,1,13,498,5.966595811861799,False,Salebhata;Kogaon;Adityapur;Rampur;Baronda;Tapi at burhanpur;Altuma;Pati;Bamnidhi;Halia;Kurubhata;Dameracherla;Madhira
+Cherpad,3,17,527,7.5005473560227705,False,Thumpamon;Kalampur;Pulamanthole;Arangali;Ambasamudram;Ozerkheda;Tulaghat;Koyna;Pudur;Kudlur;Muthankera;Theni;Warunji;Hogenakkal;Altuma;Elunuthimangalam;Sundergarh
+Chhidgaon,1,12,478,3.627126551915223,True,Chhidgaon;Belkhedi;Manendragarh;Dhariawad;Sundergarh;Kurubhata;Baronda;Bamnidhi;Manot;Rampur;Jaraikela;Tapi at burhanpur
+Chikkamalur,2,15,502,6.416430494537913,False,T.k.halli;Akkihebbal;M.h. halli;K.m. vadi;Manot;Dindori;Warunji;Hogenakkal;Kudlur;Sakleshpur;Muthankera;Manendragarh;Jaraikela;Singavaram;Belkhedi
+Chimthane,1,9,304,1.7650797951518191,False,Pati;Kogaon;Gandlapet;Baronda;Tapi at burhanpur;Dhariawad;Halia;Rampur;Salebhata
+Chinamusi  tumadu,1,14,501,4.7214455295798485,False,Keesara;Madhira;Paleru bridge;Halia;Magaral;Dameracherla;Alladupalli;Nandipalli;Gandlapet;Altuma;Rampur;Salebhata;Kamalapuram;Degloor
+Chitrasani -duplicate,1,14,509,4.138470914784189,False,Sundergarh;Dhariawad;Chhidgaon;Pati;Belkhedi;Baronda;Gandlapet;Rampur;Kogaon;Altuma;Bamnidhi;Manendragarh;Kurubhata;Salebhata
+Chitrasani,1,14,509,4.472277136080214,False,Sundergarh;Dhariawad;Chhidgaon;Pati;Belkhedi;Baronda;Gandlapet;Rampur;Kogaon;Altuma;Bamnidhi;Manendragarh;Kurubhata;Salebhata
+Choral at barwah,1,14,515,3.628667327582873,False,Sundergarh;Chhidgaon;Dhariawad;Belkhedi;Baronda;Rampur;Bamnidhi;Manendragarh;Kurubhata;Pati;Gandlapet;Kogaon;Salebhata;Tapi at burhanpur
+Collem,3,16,488,8.38829322786411,False,Kalampur;Ozerkheda;Thumpamon;Tulaghat;Pulamanthole;Arangali;Ambasamudram;Koyna;Altuma;Pudur;Warunji;Kudlur;Hogenakkal;Sundergarh;Muthankera;Elunuthimangalam
+Dabri,1,15,517,3.314472453003666,False,Dhariawad;Belkhedi;Sundergarh;Manendragarh;Chhidgaon;Degloor;Betmogra;Gandlapet;Dindori;Baronda;Rampur;Manot;Pati;Bamnidhi;Kogaon
+Dameracherla,1,10,389,3.2160254295822512,True,Dameracherla;Halia;Keesara;Alladupalli;Paleru bridge;Kamalapuram;Madhira;Rampur;Singavaram;Salebhata
+Datuni at dudwas,1,15,516,4.815177405870615,False,Dhariawad;Sundergarh;Chhidgaon;Belkhedi;Manendragarh;Baronda;Rampur;Bamnidhi;Gandlapet;Degloor;Kurubhata;Betmogra;Pati;Kogaon;Manot
+Deb at khajuri,1,13,466,2.8020920293582168,False,Pati;Kogaon;Gandlapet;Baronda;Dhariawad;Rampur;Sundergarh;Chhidgaon;Tapi at burhanpur;Salebhata;Altuma;Halia;Belkhedi
+Denwa at matkuli,1,13,467,4.40518447672372,False,Manendragarh;Belkhedi;Chhidgaon;Manot;Sundergarh;Dindori;Kurubhata;Bamnidhi;Baronda;Dhariawad;Jaraikela;Hogenakkal;Tulaghat
+Dhadgaon,1,13,411,2.9238455054281602,False,Pati;Gandlapet;Hogenakkal;Sundergarh;Chhidgaon;Baronda;Tulaghat;Belkhedi;Kogaon;Dhariawad;Singavaram;Manendragarh;Tapi at burhanpur
+Dhariawad,1,15,518,4.150928794302649,True,Dhariawad;Belkhedi;Chhidgaon;Baronda;Sundergarh;Rampur;Manendragarh;Gandlapet;Degloor;Bamnidhi;Betmogra;Kogaon;Kurubhata;Pati;Salebhata
+Dhule,1,14,461,6.206560827813361,False,Pati;Kogaon;Tapi at burhanpur;Baronda;Singavaram;Gandlapet;Kamalapuram;Halia;Rampur;Salebhata;Chhidgaon;Nandipalli;Kurubhata;Dhariawad
+Dindori,2,15,529,4.740428807209075,True,Dindori;Manot;Manendragarh;Belkhedi;Chhidgaon;T.k.halli;Dhariawad;Betmogra;Degloor;Baronda;Jaraikela;Hogenakkal;Warunji;Kurubhata;Sundergarh
+Dipuru,1,14,508,4.891243732207149,False,Madhira;Nandipalli;Keesara;Magaral;Halia;Alladupalli;Paleru bridge;Dameracherla;Altuma;Gandlapet;Kamalapuram;Salebhata;Singavaram;Rampur
+Doddipadu,1,15,484,3.6590065960944758,False,Halia;Gandlapet;Dameracherla;Degloor;Betmogra;Alladupalli;Paleru bridge;Singavaram;Madhira;Kamalapuram;Kogaon;Pati;Baronda;Rampur;Nandipalli
+Dudhi at panagar,1,14,524,4.399158685201595,False,Chhidgaon;Belkhedi;Sundergarh;Manendragarh;Kurubhata;Bamnidhi;Baronda;Dhariawad;Manot;Pati;Jaraikela;Rampur;Dindori;Tapi at burhanpur
+Elunuthimangalam,1,15,505,6.543800091949144,True,Elunuthimangalam;Pudur;Kamalapuram;Hogenakkal;Singavaram;Tulaghat;Tapi at burhanpur;Kurubhata;Bamnidhi;Adityapur;Baronda;Jaraikela;Salebhata;Ozerkheda;Rampur
+Errakalva    ananthapalli,1,8,326,3.832758711985691,False,Madhira;Keesara;Magaral;Halia;Paleru bridge;Altuma;Dameracherla;Salebhata
+Fekoghat,1,10,408,2.2465365742112717,False,Altuma;Rampur;Salebhata;Paleru bridge;Sundergarh;Madhira;Adityapur;Baronda;Dhariawad;Bamnidhi
+Gagadio   sanaliya,1,15,540,5.012235094392518,False,Pati;Gandlapet;Kogaon;Nandipalli;Halia;Dhariawad;Altuma;Madhira;Baronda;Sundergarh;Alladupalli;Rampur;Salebhata;Keesara;Paleru bridge
+Bamrul,1,9,302,2.1530753661084554,False,Pati;Kogaon;Gandlapet;Baronda;Tapi at burhanpur;Dhariawad;Rampur;Halia;Chhidgaon
+Daredu,1,14,504,4.399186720482381,False,Paleru bridge;Madhira;Keesara;Halia;Dameracherla;Magaral;Rampur;Gandlapet;Salebhata;Altuma;Alladupalli;Betmogra;Degloor;Baronda
+Degloor,1,10,322,1.5170585658815328,True,Degloor;Betmogra;Gandlapet;Dhariawad;Rampur;Baronda;Belkhedi;Paleru bridge;Manendragarh;Halia
+Gandlapet,1,14,471,1.8308919456353911,True,Gandlapet;Halia;Degloor;Betmogra;Baronda;Pati;Dhariawad;Rampur;Kogaon;Paleru bridge;Dameracherla;Tapi at burhanpur;Madhira;Salebhata
+Ganjem,3,16,503,8.946694576215844,False,Kalampur;Thumpamon;Ozerkheda;Pulamanthole;Tulaghat;Pudur;Arangali;Altuma;Ambasamudram;Hogenakkal;Elunuthimangalam;Warunji;Koyna;Bamnidhi;Kudlur;Adityapur
+Garimillapalli,1,13,458,3.3980943774171792,False,Paleru bridge;Madhira;Gandlapet;Halia;Keesara;Altuma;Rampur;Degloor;Salebhata;Baronda;Betmogra;Dameracherla;Dhariawad
+Garimillapalli,1,13,458,2.9904860476657946,False,Paleru bridge;Madhira;Gandlapet;Halia;Keesara;Altuma;Rampur;Degloor;Salebhata;Baronda;Betmogra;Dameracherla;Dhariawad
+Gaur at bhalawara,1,14,510,4.273546593887293,False,Belkhedi;Chhidgaon;Manendragarh;Dhariawad;Sundergarh;Manot;Dindori;Baronda;Bamnidhi;Kurubhata;Rampur;Degloor;Betmogra;Jaraikela
+Gavachi(ver),1,12,475,3.2460689694912515,False,Salebhata;Kogaon;Altuma;Adityapur;Rampur;Pati;Baronda;Tapi at burhanpur;Bamnidhi;Madhira;Halia;Keesara
+Halia,1,14,522,4.404597759990079,True,Halia;Dameracherla;Madhira;Alladupalli;Keesara;Gandlapet;Paleru bridge;Nandipalli;Magaral;Kamalapuram;Kogaon;Rampur;Singavaram;Salebhata
+Hamdapur,1,14,529,3.511834146156757,False,Rampur;Gandlapet;Dhariawad;Degloor;Betmogra;Baronda;Salebhata;Paleru bridge;Kogaon;Halia;Bamnidhi;Adityapur;Sundergarh;Belkhedi
+Harur,2,18,513,11.270903316617416,False,Ambasamudram;Kudlur;Koyna;Warunji;Hogenakkal;Theni;Tulaghat;Sakleshpur;Muthankera;Singavaram;Ozerkheda;M.h. halli;Kamalapuram;Gandlapet;Degloor;Thumpamon;Magaral;Betmogra
+Hathed at misrod,1,14,515,3.847970002625343,False,Sundergarh;Chhidgaon;Dhariawad;Belkhedi;Pati;Baronda;Manendragarh;Kogaon;Bamnidhi;Kurubhata;Rampur;Gandlapet;Salebhata;Tapi at burhanpur
+Hemavathy reservoir,2,16,488,5.104819820970924,False,Sakleshpur;M.h. halli;K.m. vadi;Akkihebbal;Warunji;Koyna;Muthankera;Kudlur;T.k.halli;Dindori;Hogenakkal;Manot;Manendragarh;Tulaghat;Belkhedi;Betmogra
+Hiran at singaldeep,1,14,533,4.250507865999581,False,Chhidgaon;Dhariawad;Belkhedi;Manendragarh;Sundergarh;Baronda;Kurubhata;Bamnidhi;Rampur;Kogaon;Manot;Pati;sandia;Tapi at burhanpur
+Hogenakkal,2,17,520,8.55846597426605,True,Hogenakkal;Tulaghat;Elunuthimangalam;Kudlur;Singavaram;Kamalapuram;Warunji;T.k.halli;Manot;Pudur;Baronda;Ozerkheda;Tapi at burhanpur;Ambasamudram;Bamnidhi;Kurubhata;Dindori
+Hommaragalli,2,16,495,5.804602633605559,False,Muthankera;K.m. vadi;Akkihebbal;M.h. halli;T.k.halli;Kudlur;Warunji;Sakleshpur;Hogenakkal;Koyna;Manot;Dindori;Arangali;Pudur;Elunuthimangalam;Manendragarh
+Indra at khapriya,1,13,480,3.9222654409877777,False,Sundergarh;Chhidgaon;Dhariawad;Belkhedi;Baronda;Pati;Manendragarh;Kogaon;Bamnidhi;Kurubhata;Rampur;Gandlapet;Salebhata
+Jamner at sandalpur,1,14,502,4.0302477099385206,False,Dhariawad;Sundergarh;Chhidgaon;Belkhedi;Baronda;Manendragarh;Rampur;Gandlapet;Pati;Bamnidhi;Kogaon;Kurubhata;Degloor;Salebhata
+Jannapura,2,15,475,4.68227952406545,False,M.h. halli;Sakleshpur;K.m. vadi;Akkihebbal;Kudlur;Warunji;Muthankera;T.k.halli;Koyna;Dindori;Hogenakkal;Manot;Manendragarh;Ambasamudram;Belkhedi
+Jannepally,1,14,443,4.213781644831838,False,Gandlapet;Pati;Dhariawad;Halia;Degloor;Kogaon;Baronda;Betmogra;Rampur;Sundergarh;Nandipalli;Madhira;Altuma;Paleru bridge
+Jaraikela,1,10,438,4.459092635632071,True,Jaraikela;Kurubhata;sandia;Bamnidhi;Narmadapuram;Adityapur;Manot;Baronda;Tapi at burhanpur;Rampur
+Jeeraguda,2,19,521,8.53666789254777,False,Warunji;Hogenakkal;Kudlur;Tulaghat;T.k.halli;Koyna;Singavaram;Manot;Betmogra;Degloor;Dindori;M.h. halli;Kamalapuram;Sakleshpur;Elunuthimangalam;Ambasamudram;Muthankera;Akkihebbal;Manendragarh
+Jotasan,1,14,497,4.275547016082101,False,Chhidgaon;Belkhedi;Manendragarh;Manot;Baronda;Pati;Kurubhata;Tapi at burhanpur;Dindori;Dhariawad;Sundergarh;Bamnidhi;Kogaon;Hogenakkal
+K.m. vadi,2,15,507,3.8177820016829913,True,K.m. vadi;Akkihebbal;M.h. halli;Sakleshpur;Muthankera;T.k.halli;Warunji;Kudlur;Koyna;Dindori;Manot;Hogenakkal;Manendragarh;Belkhedi;Jaraikela
+Kalampur,3,17,549,9.912339239435054,True,Kalampur;Thumpamon;Pulamanthole;Ozerkheda;Arangali;Pudur;Tulaghat;Altuma;Ambasamudram;Elunuthimangalam;Hogenakkal;Koyna;Warunji;Adityapur;Kudlur;Muthankera;Bamnidhi
+Kalasapadu,1,14,483,5.491403920428428,False,Nandipalli;Alladupalli;Halia;Magaral;Madhira;Gandlapet;Pati;Keesara;Kamalapuram;Singavaram;Dameracherla;Kogaon;Altuma;Paleru bridge
+Kalimachak at charuwa,1,15,500,4.894424325987079,False,Sundergarh;Dhariawad;Belkhedi;Chhidgaon;Manendragarh;Gandlapet;Baronda;Rampur;Degloor;Betmogra;Bamnidhi;Pati;Altuma;Kurubhata;Kogaon
+Kallooppara,3,16,504,11.897778016648846,False,Kalampur;Thumpamon;Pulamanthole;Ozerkheda;Arangali;Pudur;Tulaghat;Ambasamudram;Altuma;Elunuthimangalam;Magaral;Hogenakkal;Madhira;Keesara;Koyna;Warunji
+Kalpadai,3,16,450,7.715531133669385,False,Ambasamudram;Tulaghat;Theni;Hogenakkal;Magaral;Nandipalli;Ozerkheda;Gandlapet;Kudlur;Halia;Singavaram;Madhira;Kamalapuram;Altuma;Warunji;Degloor
+Kamalapuram,1,15,471,4.566630808624631,True,Kamalapuram;Singavaram;Elunuthimangalam;Dameracherla;Magaral;Tapi at burhanpur;Halia;Alladupalli;Hogenakkal;Kogaon;Nandipalli;Baronda;Tulaghat;Pati;Salebhata
+Kamarajupeta,1,14,455,5.442411822224908,False,Altuma;Ozerkheda;Madhira;Tulaghat;Paleru bridge;Gandlapet;Keesara;Sundergarh;Halia;Magaral;Rampur;Degloor;Betmogra;Baronda
+Kanas (s),1,10,437,2.315627603971652,False,Altuma;Madhira;Paleru bridge;Rampur;Salebhata;Keesara;Adityapur;Baronda;Bamnidhi;Sundergarh
+Kaner at mendhikheda,1,8,320,-0.19278335525813345,False,Dhariawad;Belkhedi;Chhidgaon;Sundergarh;Baronda;Manendragarh;Rampur;Bamnidhi
+Kanodar,1,13,486,1.898807432071412,False,Pati;Dhariawad;Sundergarh;Kogaon;Gandlapet;Chhidgaon;Baronda;Altuma;Rampur;Belkhedi;Salebhata;Bamnidhi;Tapi at burhanpur
+Karam at dahiwar,1,14,515,3.7166990379716958,False,Sundergarh;Chhidgaon;Dhariawad;Baronda;Belkhedi;Pati;Rampur;Kogaon;Bamnidhi;Kurubhata;Gandlapet;Manendragarh;Tapi at burhanpur;Salebhata
+Karanjkuwa,1,16,533,4.272399912340934,False,Pati;Gandlapet;Sundergarh;Dhariawad;Kogaon;Baronda;Chhidgaon;Altuma;Belkhedi;Rampur;Halia;Nandipalli;Tapi at burhanpur;Degloor;Tulaghat;Salebhata
+Karoti,1,13,485,3.8244959610744718,False,Pati;Kogaon;Baronda;Chhidgaon;Tapi at burhanpur;Sundergarh;Dhariawad;Kurubhata;Gandlapet;Belkhedi;Bamnidhi;Rampur;Salebhata
+Katangatola,1,14,510,4.175146213138594,False,Manendragarh;Belkhedi;Chhidgaon;Dhariawad;Sundergarh;Dindori;Manot;Baronda;Degloor;Betmogra;Bamnidhi;Kurubhata;Rampur;Jaraikela
+Kattaleru   tiruvuru,1,15,518,5.075736456150375,False,Madhira;Paleru bridge;Gandlapet;Halia;Keesara;Altuma;Nandipalli;Degloor;Rampur;Betmogra;Dhariawad;Magaral;Sundergarh;Salebhata;Baronda
+Keesara,1,13,479,4.970586608525818,True,Keesara;Madhira;Halia;Paleru bridge;Magaral;Dameracherla;Alladupalli;Nandipalli;Altuma;Salebhata;Rampur;Gandlapet;Kamalapuram
+Kelo at raigarh,1,11,446,2.861900965190574,False,Sundergarh;Bamnidhi;Rampur;Chhidgaon;Belkhedi;Dhariawad;Baronda;Kurubhata;Adityapur;Salebhata;Manendragarh
+Kesrali,1,14,515,3.852688752934739,False,Betmogra;Degloor;Gandlapet;Rampur;Dhariawad;Baronda;Belkhedi;Paleru bridge;Halia;Manot;Dameracherla;Bamnidhi;Manendragarh;Salebhata
+Khadakewada,2,17,518,5.53358159688551,False,Warunji;Koyna;Tulaghat;Hogenakkal;Kudlur;Betmogra;Sakleshpur;Degloor;Dindori;Manot;Manendragarh;Muthankera;Ozerkheda;Belkhedi;T.k.halli;M.h. halli;K.m. vadi
+Khadka,1,13,473,1.954473072308297,False,Gandlapet;Betmogra;Degloor;Rampur;Dhariawad;Baronda;Paleru bridge;Halia;Dameracherla;Kogaon;Salebhata;Tapi at burhanpur;Bamnidhi
+Khandiovari,1,13,488,4.036667294571043,False,Chhidgaon;Pati;Belkhedi;Baronda;Dhariawad;Kogaon;Sundergarh;Manendragarh;Tapi at burhanpur;Kurubhata;Bamnidhi;Manot;Rampur
+Khanditar,1,12,517,5.1130267844295005,False,Salebhata;Adityapur;Rampur;Bamnidhi;Tapi at burhanpur;Altuma;Kurubhata;Dameracherla;Keesara;Baronda;Kogaon;Jaraikela
+Khariya,1,13,539,3.582660133698134,False,Tapi at burhanpur;Baronda;Kogaon;Kurubhata;Bamnidhi;Rampur;Jaraikela;Pati;sandia;Salebhata;Adityapur;Belkhedi;Chhidgaon
+Kheda,1,14,520,4.784424851764156,False,Rampur;Salebhata;Kogaon;Baronda;Dhariawad;Adityapur;Bamnidhi;Kurubhata;Gandlapet;Tapi at burhanpur;Altuma;Pati;Sundergarh;Chhidgaon
+Khedbrahma,1,15,544,4.044332507099274,False,Pati;Chhidgaon;Sundergarh;Baronda;Dhariawad;Belkhedi;Kogaon;Kurubhata;Bamnidhi;Tapi at burhanpur;Rampur;Manendragarh;Gandlapet;Altuma;Salebhata
+Khorsi_balodabazar,1,13,477,1.238292734293081,False,Dhariawad;Degloor;Betmogra;Sundergarh;Gandlapet;Rampur;Paleru bridge;Belkhedi;Manendragarh;Baronda;Chhidgaon;Bamnidhi;Salebhata
+Kodaganar dam,1,17,496,5.918777661278288,False,Theni;Kamalapuram;Nandipalli;Magaral;Singavaram;Elunuthimangalam;Alladupalli;Hogenakkal;Ambasamudram;Halia;Tulaghat;Pati;Madhira;Pudur;Altuma;Keesara;Tapi at burhanpur
+Kogaon,1,14,529,6.8279217569646455,True,Kogaon;Tapi at burhanpur;Pati;Baronda;Salebhata;Rampur;Bamnidhi;Adityapur;Kurubhata;Gandlapet;Dhariawad;Halia;sandia;Dameracherla
+Kokkedoddy,2,14,425,7.050598015505759,False,T.k.halli;Hogenakkal;Manot;Warunji;Kudlur;Singavaram;Elunuthimangalam;Akkihebbal;Dindori;M.h. halli;Tulaghat;Kamalapuram;Jaraikela;K.m. vadi
+Kolar at mahgaon,1,13,460,4.446657867565355,False,Dhariawad;Belkhedi;Chhidgaon;Manendragarh;Sundergarh;Baronda;Bamnidhi;Rampur;Kurubhata;Manot;Dindori;Degloor;Betmogra
+Koli(bk),1,11,385,1.788600719240251,False,Degloor;Betmogra;Gandlapet;Rampur;Dhariawad;Paleru bridge;Baronda;Halia;Dameracherla;Salebhata;Kogaon
+Koliari   rampur,1,10,329,2.279752333863191,False,Rampur;Gandlapet;Baronda;Dhariawad;Salebhata;Degloor;Betmogra;Kogaon;Altuma;Sundergarh
+Kondazhy,3,15,500,10.44109716672114,False,Pulamanthole;Kalampur;Arangali;Pudur;Ozerkheda;Thumpamon;Tulaghat;Elunuthimangalam;Altuma;Hogenakkal;Bamnidhi;Adityapur;Muthankera;Kurubhata;Jaraikela
+Kothapalle (sileru),3,17,532,7.956834458842526,False,Tulaghat;Hogenakkal;Elunuthimangalam;Pudur;Ambasamudram;Ozerkheda;Kamalapuram;Singavaram;Magaral;Kudlur;Theni;Altuma;Warunji;Baronda;Thumpamon;Bamnidhi;Rampur
+Kottapuram,3,11,370,7.059844106239178,False,Kalampur;Ozerkheda;Pulamanthole;Thumpamon;Arangali;Tulaghat;Altuma;Koyna;Sundergarh;Pudur;Warunji
+Kovvada kalva near dommeru,1,15,518,5.077518158068535,False,Madhira;Paleru bridge;Keesara;Altuma;Gandlapet;Halia;Rampur;Nandipalli;Salebhata;Degloor;Magaral;Sundergarh;Dhariawad;Betmogra;Baronda
+Kovvadakalva   pragadapalli,3,16,520,5.351872689017377,False,Ozerkheda;Tulaghat;Altuma;Magaral;Madhira;Keesara;Halia;Kamalapuram;Elunuthimangalam;Salebhata;Rampur;Hogenakkal;Nandipalli;Pudur;Baronda;Paleru bridge
+Koyna,2,15,445,5.402951830696876,True,Koyna;Warunji;Sakleshpur;Muthankera;Kudlur;K.m. vadi;M.h. halli;Hogenakkal;Akkihebbal;Tulaghat;Dindori;T.k.halli;Ambasamudram;Manendragarh;Manot
+Kudlur,2,17,505,5.0832452210485854,True,Kudlur;Muthankera;Hogenakkal;Warunji;Sakleshpur;Koyna;K.m. vadi;M.h. halli;Ambasamudram;T.k.halli;Akkihebbal;Tulaghat;Dindori;Elunuthimangalam;Manot;Pudur;Theni
+Kukshi,1,13,486,1.795532005905555,False,Dhariawad;Gandlapet;Pati;Baronda;Kogaon;Rampur;Sundergarh;Chhidgaon;Salebhata;Belkhedi;Bamnidhi;Altuma;Tapi at burhanpur
+Kundanpur,1,14,516,3.4164000330402646,False,Dhariawad;Belkhedi;Baronda;Chhidgaon;Rampur;Bamnidhi;Kogaon;Kurubhata;Manendragarh;Betmogra;Tapi at burhanpur;Degloor;Manot;Jaraikela
+Kunturla (machkund),2,18,512,7.253847928438314,False,Sakleshpur;Kudlur;Warunji;Koyna;M.h. halli;K.m. vadi;Hogenakkal;Muthankera;Akkihebbal;T.k.halli;Dindori;Ambasamudram;Tulaghat;Manot;Singavaram;Manendragarh;Degloor;Betmogra
+Kurubhata,1,10,434,3.3372698957897113,True,Kurubhata;Bamnidhi;Jaraikela;Adityapur;Baronda;sandia;Rampur;Tapi at burhanpur;Salebhata;Chhidgaon
+Lakkavalli,2,17,512,7.048860619782819,False,Muthankera;K.m. vadi;Warunji;M.h. halli;Kudlur;Koyna;Sakleshpur;Akkihebbal;T.k.halli;Hogenakkal;Arangali;Manot;Pudur;Tulaghat;Pulamanthole;Dindori;Ambasamudram
+Lakshmananpatti,1,18,544,6.2141359619756305,False,Theni;Kamalapuram;Nandipalli;Magaral;Singavaram;Elunuthimangalam;Alladupalli;Ambasamudram;Hogenakkal;Tulaghat;Halia;Pati;Pudur;Madhira;Altuma;Tapi at burhanpur;Keesara;Dameracherla
+Lasur,2,16,479,5.696068666831922,False,Hogenakkal;Manot;T.k.halli;Singavaram;Warunji;Dindori;Tulaghat;Betmogra;Degloor;Baronda;Manendragarh;Belkhedi;Kudlur;Kamalapuram;Elunuthimangalam;Tapi at burhanpur
+Lohara,1,14,482,1.9319977261280952,False,Gandlapet;Dhariawad;Degloor;Betmogra;Baronda;Rampur;Kogaon;Halia;Pati;Salebhata;Tapi at burhanpur;Dameracherla;Paleru bridge;Belkhedi
+Lonkheda,1,14,486,4.279090026335509,False,Pati;Kogaon;Nandipalli;Tapi at burhanpur;Gandlapet;Baronda;Altuma;Halia;Salebhata;Alladupalli;Dhariawad;Rampur;Chhidgaon;Sundergarh
+M.h. halli,2,10,319,3.6809545409991604,True,M.h. halli;Akkihebbal;K.m. vadi;Sakleshpur;T.k.halli;Muthankera;Warunji;Kudlur;Koyna;Dindori
+Maan at gopalpura,1,14,515,3.8415672125488816,False,Dhariawad;Chhidgaon;Pati;Baronda;Sundergarh;Belkhedi;Kogaon;Rampur;Bamnidhi;Gandlapet;Kurubhata;Tapi at burhanpur;Manendragarh;Salebhata
+Machak at barangi,1,13,500,3.7480011170954266,False,Sundergarh;Chhidgaon;Dhariawad;Belkhedi;Manendragarh;Baronda;Bamnidhi;Kurubhata;Rampur;Pati;Kogaon;Manot;Salebhata
+Pachegaon,1,15,531,9.207777787949931,False,Singavaram;Tapi at burhanpur;Manot;Pati;Dindori;Kogaon;Baronda;T.k.halli;Hogenakkal;sandia;Kamalapuram;Belkhedi;Chhidgaon;Kurubhata;Narmadapuram
+Padampur,1,13,500,3.773938051055907,False,Rampur;Salebhata;Baronda;Adityapur;Bamnidhi;Kurubhata;Kogaon;Altuma;Tapi at burhanpur;Dhariawad;Sundergarh;Pati;Jaraikela
+Palakmati at sohagpur,1,14,457,4.760614829184631,False,Sundergarh;Dhariawad;Chhidgaon;Belkhedi;Manendragarh;Baronda;Gandlapet;Degloor;Rampur;Dindori;Bamnidhi;Betmogra;Kurubhata;Pati
+Paleru bridge,1,14,504,4.565218399576572,True,Paleru bridge;Madhira;Keesara;Halia;Dameracherla;Gandlapet;Rampur;Degloor;Betmogra;Salebhata;Magaral;Altuma;Alladupalli;Baronda
+Pallamala,1,15,496,5.73738305654578,False,Nandipalli;Magaral;Madhira;Altuma;Keesara;Halia;Alladupalli;Tulaghat;Ozerkheda;Gandlapet;Paleru bridge;Kamalapuram;Pati;Dameracherla;Salebhata
+Pallippady,3,17,549,9.996672091825323,False,Kalampur;Thumpamon;Pulamanthole;Ozerkheda;Arangali;Pudur;Tulaghat;Altuma;Ambasamudram;Elunuthimangalam;Hogenakkal;Koyna;Warunji;Adityapur;Kudlur;Muthankera;Bamnidhi
+Panam at santrod,1,10,329,2.0593519440113868,False,Rampur;Gandlapet;Dhariawad;Baronda;Salebhata;Degloor;Betmogra;Sundergarh;Altuma;Kogaon
+Parmanpur,1,13,530,3.1200666891639215,False,Rampur;Bamnidhi;Adityapur;Baronda;Salebhata;Kurubhata;Sundergarh;Jaraikela;Dhariawad;Belkhedi;Altuma;Chhidgaon;Tapi at burhanpur
+Patan,1,13,521,3.5250022394637366,False,Chhidgaon;Belkhedi;Dhariawad;Kurubhata;Baronda;Bamnidhi;sandia;Manendragarh;Rampur;Jaraikela;Sundergarh;Kogaon;Tapi at burhanpur
+Pati,1,14,504,6.461945968689428,True,Pati;Kogaon;Baronda;Tapi at burhanpur;Gandlapet;Rampur;Dhariawad;Salebhata;Chhidgaon;Bamnidhi;Singavaram;Halia;Kurubhata;Belkhedi
+Pedageddada,3,17,523,10.370335938377158,False,Tulaghat;Ozerkheda;Ambasamudram;Hogenakkal;Altuma;Kudlur;Sundergarh;Warunji;Koyna;Gandlapet;Kalampur;Thumpamon;Madhira;Magaral;Degloor;Baronda;Theni
+Penuganchi prolu,1,8,332,3.1858218388171196,False,Keesara;Madhira;Dameracherla;Paleru bridge;Halia;Magaral;Alladupalli;Salebhata
+Pillaperu riverr   narravada.,1,16,540,5.0111960623643865,False,Magaral;Madhira;Nandipalli;Keesara;Halia;Alladupalli;Paleru bridge;Gandlapet;Dameracherla;Altuma;Kamalapuram;Tulaghat;Singavaram;Rampur;Pati;Salebhata
+Pipriya,1,16,524,4.280091539514925,False,Sundergarh;Manendragarh;Belkhedi;Dhariawad;Degloor;Betmogra;Chhidgaon;Gandlapet;Tulaghat;Baronda;Dindori;Rampur;Manot;Bamnidhi;Ozerkheda;Altuma
+Pookkayam,3,16,488,8.043064897615217,False,Pulamanthole;Kalampur;Arangali;Thumpamon;Ozerkheda;Pudur;Tulaghat;Muthankera;Koyna;Kudlur;Ambasamudram;Warunji;Hogenakkal;Altuma;Elunuthimangalam;Sundergarh
+Potteru (potteruvagu),3,13,366,5.355746389205382,False,Tulaghat;Hogenakkal;Elunuthimangalam;Pudur;Kamalapuram;Singavaram;Ozerkheda;Ambasamudram;Magaral;Kudlur;Warunji;Baronda;Tapi at burhanpur
+Prakasha(damarkheda),1,13,428,4.729674823317842,False,Pati;Kogaon;Nandipalli;Tapi at burhanpur;Baronda;Gandlapet;Altuma;Salebhata;Alladupalli;Halia;Singavaram;Kamalapuram;Rampur
+Pratappur,1,16,498,5.7424384139694675,False,Hogenakkal;Singavaram;Dindori;Manot;Pati;Tapi at burhanpur;T.k.halli;Belkhedi;Baronda;Chhidgaon;Manendragarh;Kogaon;Kamalapuram;Gandlapet;Elunuthimangalam;Kudlur
+Pudunagara,2,17,513,6.768833206247518,False,Kudlur;Sakleshpur;Warunji;Muthankera;M.h. halli;Koyna;K.m. vadi;Hogenakkal;Akkihebbal;T.k.halli;Dindori;Ambasamudram;Tulaghat;Manot;Manendragarh;Singavaram;Theni
+Pudur,3,17,503,13.048950309557434,True,Pudur;Elunuthimangalam;Pulamanthole;Arangali;Tulaghat;Hogenakkal;Ozerkheda;Thumpamon;Kamalapuram;Kalampur;Ambasamudram;Theni;Kudlur;Singavaram;Kurubhata;Adityapur;Bamnidhi
+Pulamanthole,3,14,411,8.240793040242725,True,Pulamanthole;Arangali;Kalampur;Pudur;Thumpamon;Ozerkheda;Tulaghat;Elunuthimangalam;Muthankera;Hogenakkal;Kudlur;Ambasamudram;Altuma;Warunji
+Pullakkayar,3,16,484,9.023696278422381,False,Thumpamon;Kalampur;Ambasamudram;Pulamanthole;Arangali;Ozerkheda;Tulaghat;Pudur;Kudlur;Koyna;Theni;Muthankera;Hogenakkal;Warunji;Altuma;Elunuthimangalam
+Rahu,2,14,467,5.205012436820891,False,Hogenakkal;Warunji;T.k.halli;Manot;Kudlur;Tulaghat;Dindori;Singavaram;Manendragarh;Elunuthimangalam;Belkhedi;Jaraikela;M.h. halli;Baronda
+Rambhapur,1,13,443,1.0789297927199526,False,Dhariawad;Sundergarh;Belkhedi;Chhidgaon;Manendragarh;Degloor;Gandlapet;Baronda;Betmogra;Rampur;Bamnidhi;Pati;Kogaon
+Rampur,1,10,411,3.350169039767967,True,Rampur;Baronda;Salebhata;Bamnidhi;Adityapur;Kurubhata;Tapi at burhanpur;Kogaon;Dhariawad;Jaraikela
+Rangeli,1,10,433,4.498725538824993,False,Tapi at burhanpur;Kogaon;sandia;Kurubhata;Baronda;Bamnidhi;Narmadapuram;Adityapur;Salebhata;Rampur
+Ratanpur,1,12,474,4.281223679472386,False,Rampur;Salebhata;Dhariawad;Baronda;Kogaon;Adityapur;Bamnidhi;Kurubhata;Gandlapet;Tapi at burhanpur;Sundergarh;Chhidgaon
+Rayachoti,1,19,540,6.658998191565969,False,Tulaghat;Hogenakkal;Gandlapet;Singavaram;Pati;Nandipalli;Kamalapuram;Halia;Baronda;Altuma;Ozerkheda;Ambasamudram;Magaral;Degloor;Betmogra;Theni;Sundergarh;Rampur;Kogaon
+Sakleshpur,2,16,490,5.049849060831213,True,Sakleshpur;K.m. vadi;M.h. halli;Koyna;Warunji;Muthankera;Kudlur;Akkihebbal;T.k.halli;Dindori;Hogenakkal;Manot;Manendragarh;Tulaghat;Belkhedi;Ambasamudram
+Salebhata,1,12,509,4.6466508460354525,True,Salebhata;Adityapur;Rampur;Bamnidhi;Baronda;Kurubhata;Tapi at burhanpur;Kogaon;Altuma;Jaraikela;Dameracherla;sandia
+Samdoli (seasonal),2,16,485,5.945150966153475,False,Warunji;Hogenakkal;Tulaghat;Kudlur;Manot;T.k.halli;Koyna;Dindori;Betmogra;Degloor;Singavaram;Manendragarh;Belkhedi;M.h. halli;Sakleshpur;Baronda
+Sanarpatti,1,11,306,4.884481248716518,False,Nandipalli;Theni;Magaral;Ambasamudram;Alladupalli;Halia;Madhira;Gandlapet;Kamalapuram;Tulaghat;Pati
+Saner at chargawan,1,15,535,5.674474523073495,False,Belkhedi;Manendragarh;Sundergarh;Dhariawad;Chhidgaon;Dindori;Baronda;Manot;Degloor;Betmogra;Bamnidhi;Rampur;Kurubhata;Gandlapet;Jaraikela
+Sangam (murredu),1,13,479,4.97299472317199,False,Madhira;Keesara;Halia;Magaral;Altuma;Paleru bridge;Nandipalli;Dameracherla;Alladupalli;Salebhata;Gandlapet;Rampur;Kamalapuram
+Sanoor,3,14,504,7.732004544592277,False,Kalampur;Ozerkheda;Pulamanthole;Thumpamon;Sundergarh;Koyna;Tulaghat;Altuma;Warunji;Arangali;Manendragarh;Bamnidhi;Belkhedi;Rampur
+Seedhi,3,17,520,6.17121352460584,False,Tulaghat;Ozerkheda;Altuma;Magaral;Elunuthimangalam;Hogenakkal;Pudur;Kamalapuram;Madhira;Ambasamudram;Singavaram;Nandipalli;Salebhata;Keesara;Baronda;Rampur;Halia
+Seethapalli,3,15,460,9.748834957475193,False,Tulaghat;Ozerkheda;Altuma;Madhira;Ambasamudram;Magaral;Hogenakkal;Kalampur;Keesara;Gandlapet;Halia;Thumpamon;Rampur;Sundergarh;Kamalapuram
+Sevanur,2,14,462,8.540840427930044,False,Elunuthimangalam;T.k.halli;Pudur;Hogenakkal;Narmadapuram;Jaraikela;Akkihebbal;sandia;Singavaram;Manot;Kamalapuram;Tapi at burhanpur;Kurubhata;M.h. halli
+Sharad,1,15,505,3.197866024315649,False,Gandlapet;Degloor;Betmogra;Dhariawad;Paleru bridge;Rampur;Halia;Baronda;Sundergarh;Madhira;Salebhata;Altuma;Kogaon;Belkhedi;Pati
+Machna at shahpur,1,15,535,5.606206387677932,False,Belkhedi;Manendragarh;Dhariawad;Chhidgaon;Manot;Dindori;Baronda;Sundergarh;Degloor;Betmogra;Rampur;Bamnidhi;Gandlapet;Kurubhata;Jaraikela
+Machrewa at bakori,1,14,486,5.426957391027319,False,Belkhedi;Chhidgaon;Manendragarh;Sundergarh;Dhariawad;Dindori;Manot;Baronda;Bamnidhi;Kurubhata;Pati;Rampur;Gandlapet;Degloor
+Madhira,1,14,521,4.694339635594848,True,Madhira;Keesara;Paleru bridge;Halia;Magaral;Dameracherla;Altuma;Alladupalli;Nandipalli;Salebhata;Gandlapet;Rampur;Baronda;Kamalapuram
+Madhya bharat paper ltd (mbpl),1,12,522,3.179779872879478,False,Bamnidhi;Kurubhata;Adityapur;Baronda;Rampur;Salebhata;Jaraikela;Tapi at burhanpur;Chhidgaon;Belkhedi;sandia;Kogaon
+Magaral,1,15,504,6.056836974268839,True,Magaral;Keesara;Nandipalli;Madhira;Alladupalli;Halia;Kamalapuram;Dameracherla;Singavaram;Altuma;Paleru bridge;Tulaghat;Salebhata;Elunuthimangalam;Gandlapet
+Mahanadi_ arang,1,8,344,3.2012564149710556,False,Rampur;Tapi at burhanpur;Baronda;Adityapur;Bamnidhi;Salebhata;Kurubhata;Jaraikela
+Mahanadi_ kasdol,1,7,316,-0.4381724590668576,False,Adityapur;Salebhata;Rampur;Tapi at burhanpur;Bamnidhi;Baronda;Jaraikela
+Malpur,1,14,496,4.0838372258101225,False,Pati;Gandlapet;Kogaon;Dhariawad;Baronda;Halia;Sundergarh;Nandipalli;Chhidgaon;Tapi at burhanpur;Rampur;Altuma;Salebhata;Belkhedi
+Manakkad,3,15,445,8.469070364093932,False,Thumpamon;Kalampur;Pulamanthole;Arangali;Ozerkheda;Ambasamudram;Tulaghat;Pudur;Koyna;Warunji;Hogenakkal;Kudlur;Altuma;Muthankera;Elunuthimangalam
+Mandal,1,14,504,4.224568227629675,False,Pati;Kogaon;Gandlapet;Baronda;Tapi at burhanpur;Dhariawad;Altuma;Nandipalli;Halia;Rampur;Salebhata;Chhidgaon;Sundergarh;Bamnidhi
+Mandalapadu,1,16,503,5.247689521508695,False,Gandlapet;Madhira;Paleru bridge;Altuma;Halia;Keesara;Nandipalli;Sundergarh;Degloor;Dhariawad;Betmogra;Rampur;Pati;Baronda;Magaral;Tulaghat
+Manendragarh,1,14,510,4.566032863319166,True,Manendragarh;Belkhedi;Manot;Chhidgaon;Dindori;Dhariawad;Sundergarh;Baronda;Kurubhata;Bamnidhi;Jaraikela;Betmogra;Degloor;Rampur
+Mangaon,3,12,435,5.976380002230789,False,Ozerkheda;Kalampur;Altuma;Tulaghat;Pulamanthole;Thumpamon;Pudur;Adityapur;Sundergarh;Bamnidhi;Salebhata;Rampur
+Manikal,3,16,484,8.887018749071633,False,Thumpamon;Kalampur;Ambasamudram;Pulamanthole;Arangali;Ozerkheda;Tulaghat;Pudur;Kudlur;Koyna;Hogenakkal;Theni;Muthankera;Warunji;Altuma;Elunuthimangalam
+Manot,1,13,505,4.512109415619616,True,Manot;Manendragarh;Dindori;Belkhedi;Jaraikela;Chhidgaon;Kurubhata;sandia;Baronda;Bamnidhi;T.k.halli;Dhariawad;Tapi at burhanpur
+Maruthankuzhy,3,16,474,12.008018717281608,False,Thumpamon;Kalampur;Ozerkheda;Magaral;Ambasamudram;Tulaghat;Pudur;Madhira;Altuma;Keesara;Pulamanthole;Elunuthimangalam;Kamalapuram;Nandipalli;Theni;Hogenakkal
+Mat sekawi,3,15,488,10.223001392357682,False,Pulamanthole;Arangali;Pudur;Ozerkheda;Kalampur;Muthankera;Elunuthimangalam;Tulaghat;Kurubhata;Thumpamon;Hogenakkal;Bamnidhi;Jaraikela;Kudlur;Adityapur
+Mat-2,3,18,517,9.328641850610053,False,Arangali;Pulamanthole;Muthankera;Pudur;Kalampur;Kudlur;Ozerkheda;Thumpamon;Koyna;K.m. vadi;Warunji;Tulaghat;Hogenakkal;Elunuthimangalam;Sakleshpur;Akkihebbal;Ambasamudram;M.h. halli
+Mat-i,2,17,502,7.40990704455793,False,Muthankera;Koyna;Arangali;Sakleshpur;K.m. vadi;Kudlur;Pulamanthole;Warunji;M.h. halli;Akkihebbal;Hogenakkal;Ozerkheda;Kalampur;Pudur;Tulaghat;T.k.halli;Manendragarh
+Mayambadi,3,16,475,9.95087289231543,False,Ambasamudram;Tulaghat;Theni;Hogenakkal;Kudlur;Ozerkheda;Magaral;Warunji;Koyna;Nandipalli;Singavaram;Kamalapuram;Thumpamon;Gandlapet;Madhira;Halia
+Meghraj,1,15,519,1.9033055280533904,False,Dhariawad;Sundergarh;Gandlapet;Rampur;Baronda;Chhidgaon;Belkhedi;Degloor;Pati;Kogaon;Betmogra;Bamnidhi;Salebhata;Altuma;Manendragarh
+Mirawadi,2,13,416,5.188257696816125,False,Warunji;Hogenakkal;Kudlur;T.k.halli;Tulaghat;Manot;Dindori;Koyna;Muthankera;Manendragarh;K.m. vadi;M.h. halli;Elunuthimangalam
+Morane,1,11,356,3.524251590634349,False,Pati;Kogaon;Tapi at burhanpur;Baronda;Singavaram;Gandlapet;Kamalapuram;Halia;Chhidgaon;Dhariawad;Rampur
+Mukki,1,13,457,3.14686039954374,False,Belkhedi;Manendragarh;Dhariawad;Chhidgaon;Dindori;Manot;Degloor;Betmogra;Sundergarh;Baronda;Gandlapet;Rampur;Bamnidhi
+Mukkodlu,2,17,522,7.127836162720309,False,Sakleshpur;Koyna;Muthankera;K.m. vadi;Warunji;Kudlur;M.h. halli;Akkihebbal;T.k.halli;Hogenakkal;Dindori;Ambasamudram;Arangali;Manendragarh;Tulaghat;Manot;Belkhedi
+Mundakayam_gd,3,16,484,9.32317610400494,False,Thumpamon;Kalampur;Ambasamudram;Pulamanthole;Arangali;Ozerkheda;Tulaghat;Pudur;Kudlur;Koyna;Hogenakkal;Theni;Muthankera;Warunji;Altuma;Elunuthimangalam
+Munugodu,1,15,507,5.1543386465231364,False,Paleru bridge;Madhira;Keesara;Halia;Magaral;Gandlapet;Dameracherla;Altuma;Degloor;Betmogra;Nandipalli;Alladupalli;Rampur;Salebhata;Tulaghat
+Murli,1,14,513,3.720094523210365,False,Betmogra;Degloor;Rampur;Gandlapet;Dameracherla;Baronda;Dhariawad;Paleru bridge;Halia;Tapi at burhanpur;Manot;Belkhedi;Jaraikela;Kogaon
+Muthanga (ponkuzhi),2,16,515,4.443247906908666,False,Sakleshpur;Koyna;Warunji;K.m. vadi;Kudlur;Muthankera;M.h. halli;Dindori;Akkihebbal;Manendragarh;T.k.halli;Hogenakkal;Manot;Belkhedi;Tulaghat;Sundergarh
+Muthankera,2,17,512,7.847444803305144,True,Muthankera;Kudlur;K.m. vadi;Warunji;Sakleshpur;M.h. halli;Koyna;Akkihebbal;Hogenakkal;Arangali;T.k.halli;Pulamanthole;Pudur;Tulaghat;Ambasamudram;Manot;Dindori
+Nagaram,1,14,438,3.8291718703156663,False,Gandlapet;Paleru bridge;Madhira;Degloor;Halia;Betmogra;Altuma;Dhariawad;Sundergarh;Rampur;Keesara;Baronda;Pati;Tulaghat
+Nagari,1,14,498,3.071613823975479,False,Degloor;Betmogra;Dhariawad;Gandlapet;Paleru bridge;Rampur;Sundergarh;Baronda;Madhira;Halia;Salebhata;Belkhedi;Altuma;Bamnidhi
+Nandalur,1,14,459,4.421602055426752,False,Kamalapuram;Singavaram;Magaral;Elunuthimangalam;Dameracherla;Halia;Tulaghat;Tapi at burhanpur;Hogenakkal;Alladupalli;Baronda;Keesara;Madhira;Rampur
+Nandipalli,1,15,518,5.734786037896683,True,Nandipalli;Alladupalli;Magaral;Halia;Madhira;Keesara;Kamalapuram;Dameracherla;Pati;Gandlapet;Singavaram;Kogaon;Altuma;Paleru bridge;Tapi at burhanpur
+Nandre,2,14,432,5.248227649714289,False,Dindori;Manot;T.k.halli;Singavaram;Hogenakkal;Manendragarh;Belkhedi;Betmogra;Degloor;Tapi at burhanpur;Baronda;Chhidgaon;Gandlapet;Pati
+Narasingarayainpet,1,14,460,4.302252667280826,False,Kamalapuram;Singavaram;Magaral;Halia;Tulaghat;Dameracherla;Madhira;Gandlapet;Nandipalli;Keesara;Hogenakkal;Alladupalli;Baronda;Rampur
+Narmadapuram,1,12,528,4.465138834286185,True,Narmadapuram;sandia;Jaraikela;Kurubhata;Tapi at burhanpur;Bamnidhi;Adityapur;Baronda;Manot;Salebhata;Kogaon;Rampur
+Navalgund,2,17,530,6.08833738224759,False,Betmogra;Degloor;Dindori;Manot;Warunji;T.k.halli;Singavaram;Gandlapet;Manendragarh;Hogenakkal;Belkhedi;Baronda;Dhariawad;Rampur;Tulaghat;Kamalapuram;Tapi at burhanpur
+Noornagar,1,13,508,4.347265356869554,False,Dhariawad;Chhidgaon;Belkhedi;Sundergarh;Manendragarh;Baronda;Bamnidhi;Rampur;Kurubhata;Manot;Kogaon;Degloor;Jaraikela
+Odendurai,2,18,519,6.7110080476036105,False,Muthankera;Kudlur;Arangali;K.m. vadi;Hogenakkal;Akkihebbal;M.h. halli;Pudur;Sakleshpur;Warunji;Ambasamudram;T.k.halli;Pulamanthole;Koyna;Theni;Elunuthimangalam;Tulaghat;Ozerkheda
+Orsang at bodeli,1,15,542,6.741361415452308,False,Kogaon;Salebhata;Rampur;Baronda;Pati;Altuma;Adityapur;Gandlapet;Bamnidhi;Dhariawad;Tapi at burhanpur;Halia;Kurubhata;Madhira;Sundergarh
+Ozerkheda,3,13,439,4.26336687425771,True,Ozerkheda;Tulaghat;Altuma;Sundergarh;Pudur;Bamnidhi;Kalampur;Hogenakkal;Adityapur;Rampur;Elunuthimangalam;Salebhata;Baronda
+Sher at kacchara,1,14,510,4.2464247436808735,False,Manendragarh;Belkhedi;Chhidgaon;Dhariawad;Sundergarh;Dindori;Manot;Degloor;Baronda;Betmogra;Bamnidhi;Rampur;Kurubhata;Jaraikela
+Shindkheda,1,11,379,2.8971483797174367,False,Pati;Kogaon;Gandlapet;Baronda;Tapi at burhanpur;Dhariawad;Halia;Rampur;Nandipalli;Salebhata;Chhidgaon
+Shirpur,1,12,408,3.7735212148241732,False,Pati;Kogaon;Gandlapet;Baronda;Tapi at burhanpur;Dhariawad;Altuma;Nandipalli;Halia;Salebhata;Rampur;Chhidgaon
+Silgi at kotrai,1,14,510,4.402216392703542,False,Manendragarh;Dindori;Belkhedi;Chhidgaon;Manot;Dhariawad;Sundergarh;Degloor;Betmogra;Baronda;Bamnidhi;Kurubhata;Rampur;Jaraikela
+Singavaram,1,14,422,3.856075697386536,True,Singavaram;Kamalapuram;Tapi at burhanpur;Elunuthimangalam;Hogenakkal;Dameracherla;Halia;Baronda;Kogaon;Pati;Gandlapet;Tulaghat;Alladupalli;Rampur
+Sip at dholpur,1,12,433,4.367836704004809,False,Dhariawad;Sundergarh;Chhidgaon;Belkhedi;Manendragarh;Baronda;Rampur;Bamnidhi;Kurubhata;Pati;Gandlapet;Kogaon
+Sipu at sipudam(bhakudar),1,13,495,3.973049112023795,False,Kogaon;Pati;Tapi at burhanpur;Baronda;Kurubhata;Salebhata;Bamnidhi;Adityapur;Chhidgaon;Rampur;Dhariawad;Altuma;Sundergarh
+Sirimoda,2,17,483,5.644502141206475,False,Sakleshpur;Warunji;Koyna;Kudlur;M.h. halli;K.m. vadi;Hogenakkal;Muthankera;Akkihebbal;Dindori;T.k.halli;Ambasamudram;Tulaghat;Manot;Degloor;Betmogra;Manendragarh
+Sohagpura,1,12,404,3.3264672284244194,False,Dhariawad;Manendragarh;Sundergarh;Belkhedi;Degloor;Betmogra;Chhidgaon;Dindori;Gandlapet;Baronda;Manot;Rampur
+Somanpally(seasonal),1,11,455,2.2722267532968075,False,Dameracherla;Halia;Keesara;Paleru bridge;Salebhata;Rampur;Madhira;Alladupalli;Kogaon;Tapi at burhanpur;Baronda
+Songe bange,2,15,447,5.4673756005476095,False,Warunji;Koyna;Tulaghat;Kudlur;Hogenakkal;Sakleshpur;Betmogra;Degloor;Dindori;Manendragarh;Manot;Muthankera;Ozerkheda;Belkhedi;T.k.halli
+Suddakal,1,15,493,3.628118215531548,False,Degloor;Betmogra;Gandlapet;Halia;Dhariawad;Baronda;Dameracherla;Paleru bridge;Rampur;Singavaram;Pati;Kogaon;Belkhedi;Dindori;Tapi at burhanpur
+Sundergarh,1,12,475,3.366049251914366,True,Sundergarh;Chhidgaon;Belkhedi;Dhariawad;Bamnidhi;Baronda;Manendragarh;Rampur;Kurubhata;Altuma;Adityapur;Salebhata
+Surubali,2,12,344,3.717984180596052,False,Warunji;Hogenakkal;Tulaghat;Kudlur;Koyna;Dindori;Manot;Degloor;Betmogra;Manendragarh;Sakleshpur;Belkhedi
+T. bekkupe,2,15,457,6.895702539763065,False,T.k.halli;M.h. halli;Warunji;Akkihebbal;Hogenakkal;Dindori;Manot;Kudlur;K.m. vadi;Sakleshpur;Singavaram;Muthankera;Manendragarh;Koyna;Betmogra
+T. narasipur,2,16,513,3.902210898380208,False,Akkihebbal;T.k.halli;K.m. vadi;M.h. halli;Muthankera;Kudlur;Warunji;Hogenakkal;Manot;Sakleshpur;Dindori;Elunuthimangalam;Koyna;Jaraikela;Pudur;Manendragarh
+T.k.halli,2,15,502,6.254837346874811,True,T.k.halli;Akkihebbal;Manot;M.h. halli;K.m. vadi;Dindori;Hogenakkal;Warunji;Kudlur;Manendragarh;Jaraikela;Muthankera;Singavaram;Sakleshpur;Belkhedi
+Takali,1,12,429,1.8954384114584515,False,Gandlapet;Degloor;Paleru bridge;Betmogra;Dhariawad;Rampur;Halia;Madhira;Baronda;Salebhata;Dameracherla;Keesara
+Talaji   talaja,1,11,417,3.656232279741237,False,Kogaon;Pati;Nandipalli;Alladupalli;Halia;Tapi at burhanpur;Salebhata;Dameracherla;Keesara;Madhira;Baronda
+Talikot,1,15,479,4.4200760611519785,False,Degloor;Betmogra;Gandlapet;Dindori;Manot;Dhariawad;Singavaram;Manendragarh;Baronda;Belkhedi;Rampur;Halia;Dameracherla;Tapi at burhanpur;Hogenakkal
+Tamar,1,13,541,3.892124791790706,False,Sundergarh;Chhidgaon;Belkhedi;Baronda;Bamnidhi;Kurubhata;Manendragarh;Dhariawad;Rampur;Adityapur;Manot;Salebhata;Jaraikela
+Tapi at burhanpur,1,11,449,3.776266416785454,True,Tapi at burhanpur;Kogaon;Baronda;Kurubhata;Bamnidhi;Salebhata;Rampur;Adityapur;sandia;Pati;Jaraikela
+Tapi at dedtalai,1,13,523,5.896685578949887,False,Tapi at burhanpur;Baronda;Kogaon;Kurubhata;Bamnidhi;Rampur;Jaraikela;sandia;Adityapur;Salebhata;Pati;Singavaram;Chhidgaon
+Tenduni at maheshwar,1,13,537,3.8937865158975926,False,Dhariawad;Belkhedi;Chhidgaon;Sundergarh;Manendragarh;Baronda;Bamnidhi;Rampur;Kurubhata;Manot;Jaraikela;Adityapur;Kogaon
+Terwad (seasonal),2,17,510,6.28496997221305,False,Warunji;Hogenakkal;Tulaghat;Kudlur;Koyna;Betmogra;Degloor;Manot;T.k.halli;Dindori;Singavaram;Manendragarh;Baronda;Belkhedi;Kamalapuram;M.h. halli;Sakleshpur
+Teska,1,16,552,2.89490287328524,False,Belkhedi;Dindori;Dhariawad;Manendragarh;Manot;Degloor;Betmogra;Chhidgaon;Baronda;Gandlapet;Rampur;Pati;Sundergarh;Tapi at burhanpur;Kogaon;Bamnidhi
+Thandalaiputhur,1,17,531,6.45535244542071,False,Nandipalli;Magaral;Alladupalli;Madhira;Halia;Kamalapuram;Keesara;Theni;Singavaram;Altuma;Tulaghat;Dameracherla;Ambasamudram;Gandlapet;Pati;Elunuthimangalam;Paleru bridge
+Theni,3,16,416,6.20359764928402,True,Theni;Ambasamudram;Hogenakkal;Elunuthimangalam;Kamalapuram;Pudur;Singavaram;Kudlur;Tulaghat;Magaral;Nandipalli;Ozerkheda;Pati;Alladupalli;Tapi at burhanpur;Altuma
+Thevur,3,16,523,5.9153562557659125,False,Tulaghat;Ozerkheda;Elunuthimangalam;Magaral;Kamalapuram;Altuma;Hogenakkal;Pudur;Singavaram;Madhira;Salebhata;Keesara;Rampur;Baronda;Adityapur;Halia
+Thiruvalam,1,12,409,3.8508194991165796,False,Magaral;Kamalapuram;Halia;Singavaram;Madhira;Dameracherla;Keesara;Tulaghat;Nandipalli;Alladupalli;Gandlapet;Paleru bridge
+Thiruvattar,3,17,493,11.947002965135582,False,Thumpamon;Ambasamudram;Kalampur;Ozerkheda;Tulaghat;Magaral;Pudur;Pulamanthole;Theni;Arangali;Hogenakkal;Madhira;Elunuthimangalam;Altuma;Kamalapuram;Keesara;Kudlur
+Thoppur,3,13,341,4.806092037318497,False,Ambasamudram;Tulaghat;Hogenakkal;Magaral;Theni;Singavaram;Kamalapuram;Nandipalli;Halia;Ozerkheda;Gandlapet;Madhira;Kudlur
+Thottathinkadavu,3,17,527,8.213224772442741,False,Arangali;Pulamanthole;Kalampur;Thumpamon;Pudur;Ozerkheda;Muthankera;Kudlur;Tulaghat;Ambasamudram;Hogenakkal;Koyna;Elunuthimangalam;Warunji;Theni;Altuma;Sundergarh
+Thumpamon,3,17,519,9.969248837119697,True,Thumpamon;Kalampur;Pulamanthole;Arangali;Ozerkheda;Pudur;Ambasamudram;Tulaghat;Elunuthimangalam;Altuma;Hogenakkal;Magaral;Theni;Kudlur;Koyna;Warunji;Muthankera
+Tuichang,2,15,457,6.825544731592576,False,Arangali;Muthankera;Pulamanthole;K.m. vadi;Koyna;Kudlur;Warunji;Sakleshpur;Pudur;Akkihebbal;M.h. halli;Kalampur;Hogenakkal;Ozerkheda;T.k.halli
+Tuichawng,1,15,457,6.089805859391842,False,Hogenakkal;Elunuthimangalam;Theni;Pati;Tapi at burhanpur;Tulaghat;Pudur;Singavaram;Kudlur;Kurubhata;Chhidgaon;Baronda;Kogaon;Kamalapuram;Bamnidhi
+Tulaghat,1,16,527,6.2947254071384515,True,Tulaghat;Ozerkheda;Hogenakkal;Altuma;Elunuthimangalam;Baronda;Bamnidhi;Rampur;Sundergarh;Kurubhata;Singavaram;Adityapur;Salebhata;Kamalapuram;Pudur;Tapi at burhanpur
+V.kallathur,1,17,537,7.622329951832472,False,Magaral;Nandipalli;Madhira;Alladupalli;Kamalapuram;Halia;Keesara;Singavaram;Tulaghat;Ambasamudram;Theni;Altuma;Dameracherla;Gandlapet;Elunuthimangalam;Ozerkheda;Paleru bridge
+Valamuru (pamuleru),2,19,533,7.793710419580805,False,Ambasamudram;Tulaghat;Hogenakkal;Kudlur;Warunji;Koyna;Ozerkheda;Singavaram;Theni;Degloor;Gandlapet;Kamalapuram;Elunuthimangalam;Muthankera;Betmogra;Sakleshpur;Altuma;Sundergarh;Baronda
+Valayinkil,3,16,484,12.57323691208858,False,Ambasamudram;Thumpamon;Theni;Kalampur;Tulaghat;Ozerkheda;Magaral;Hogenakkal;Kudlur;Pudur;Pulamanthole;Koyna;Arangali;Nandipalli;Warunji;Altuma
+Valigonda,1,15,491,2.7068645389616486,False,Betmogra;Degloor;Gandlapet;Dameracherla;Halia;Singavaram;Rampur;Baronda;Paleru bridge;Tapi at burhanpur;Kamalapuram;Kogaon;Dhariawad;Salebhata;Pati
+Varanavasi,1,16,508,6.540442253870778,False,Madhira;Paleru bridge;Keesara;Magaral;Halia;Altuma;Nandipalli;Dameracherla;Gandlapet;Tulaghat;Alladupalli;Degloor;Betmogra;Ozerkheda;Rampur;Kamalapuram
+Veerlapalem,1,14,492,5.304208285334551,False,Paleru bridge;Madhira;Halia;Keesara;Gandlapet;Degloor;Dameracherla;Betmogra;Altuma;Magaral;Rampur;Nandipalli;Alladupalli;Salebhata
+Vellaikadavu,3,15,449,11.834824980187069,False,Thumpamon;Kalampur;Ambasamudram;Ozerkheda;Magaral;Tulaghat;Madhira;Pudur;Altuma;Keesara;Pulamanthole;Theni;Nandipalli;Elunuthimangalam;Hogenakkal
+Venganur,1,14,471,5.602666355212174,False,Magaral;Nandipalli;Alladupalli;Kamalapuram;Madhira;Keesara;Halia;Singavaram;Dameracherla;Tulaghat;Elunuthimangalam;Altuma;Theni;Paleru bridge
+Vikkiralapeta,1,14,522,5.4166739080860955,False,Keesara;Madhira;Magaral;Alladupalli;Nandipalli;Halia;Paleru bridge;Dameracherla;Gandlapet;Altuma;Kamalapuram;Salebhata;Kogaon;Rampur
+Vinchur,1,15,541,3.711383131934295,False,Pati;Gandlapet;Kogaon;Dhariawad;Baronda;Chhidgaon;Tapi at burhanpur;Sundergarh;Belkhedi;Rampur;Halia;Singavaram;Degloor;Bamnidhi;Salebhata
+Wankadi,1,15,519,1.8105879314668563,False,Sundergarh;Dhariawad;Gandlapet;Degloor;Chhidgaon;Belkhedi;Betmogra;Baronda;Rampur;Manendragarh;Altuma;Pati;Kogaon;Bamnidhi;Salebhata
+Warunji,2,15,443,5.180223328376707,True,Warunji;Koyna;Kudlur;Sakleshpur;Muthankera;M.h. halli;K.m. vadi;Hogenakkal;T.k.halli;Akkihebbal;Dindori;Tulaghat;Manot;Manendragarh;Betmogra
+Zari,1,10,335,2.86834927000657,False,Baronda;Betmogra;Tapi at burhanpur;Degloor;Kogaon;Gandlapet;Dhariawad;Rampur;Manot;Belkhedi

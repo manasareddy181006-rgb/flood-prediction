@@ -1,0 +1,5 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Kamarajupeta,1999,5,19.44,01-Sep-1999,244,9.56,0.0
+River Water Discharge_Kamarajupeta,2000,9,0.0,01-Jan-2000,1,0.0,0.0
+River Water Discharge_Kamarajupeta,2001,1,0.0,01-Jun-2001,152,0.0,0.0
+River Water Discharge_Kamarajupeta,2020,1,0.0,01-Jan-2020,1,0.0,0.0

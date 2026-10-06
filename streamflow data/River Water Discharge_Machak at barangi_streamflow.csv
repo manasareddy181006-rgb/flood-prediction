@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Machak at barangi,2019,215,500.0,11-Aug-2019,223,68.17,10.5
+River Water Discharge_Machak at barangi,2020,366,417.87,17-Aug-2020,230,9.49,0.6
+River Water Discharge_Machak at barangi,2021,365,98.24,17-Sep-2021,260,4.55,0.0
+River Water Discharge_Machak at barangi,2022,365,480.0,18-Jul-2022,199,16.4,0.0
+River Water Discharge_Machak at barangi,2023,365,750.3,16-Sep-2023,259,12.34,0.0
+River Water Discharge_Machak at barangi,2024,366,113.6,25-Aug-2024,238,8.29,0.0
+River Water Discharge_Machak at barangi,2025,284,158.61,30-Aug-2025,242,9.45,0.0

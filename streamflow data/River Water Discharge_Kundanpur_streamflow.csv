@@ -1,0 +1,22 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Kundanpur,2000,366,34.95,18-Jul-2000,200,0.57,0.0
+River Water Discharge_Kundanpur,2001,365,47.25,03-Jul-2001,184,0.76,0.0
+River Water Discharge_Kundanpur,2002,242,9.57,16-Jun-2002,167,0.11,0.0
+River Water Discharge_Kundanpur,2003,164,62.09,02-Aug-2003,214,3.62,0.0
+River Water Discharge_Kundanpur,2004,107,350.48,12-Aug-2004,225,20.4,0.27
+River Water Discharge_Kundanpur,2005,116,708.19,28-Jul-2005,209,18.63,0.17
+River Water Discharge_Kundanpur,2006,117,969.97,19-Aug-2006,231,64.89,0.29
+River Water Discharge_Kundanpur,2007,130,668.34,09-Jul-2007,190,35.71,1.52
+River Water Discharge_Kundanpur,2008,91,243.8,11-Jul-2008,193,18.49,1.19
+River Water Discharge_Kundanpur,2009,85,155.85,29-Aug-2009,241,14.08,1.37
+River Water Discharge_Kundanpur,2010,98,615.73,06-Aug-2010,218,39.19,1.99
+River Water Discharge_Kundanpur,2011,108,327.34,09-Aug-2011,221,31.91,0.6
+River Water Discharge_Kundanpur,2012,111,640.58,13-Aug-2012,226,41.5,0.65
+River Water Discharge_Kundanpur,2013,126,332.1,30-Sep-2013,273,39.85,4.33
+River Water Discharge_Kundanpur,2015,122,172.11,24-Jul-2015,205,12.77,0.0
+River Water Discharge_Kundanpur,2016,153,394.65,04-Aug-2016,217,30.24,0.0
+River Water Discharge_Kundanpur,2017,214,176.06,26-Jul-2017,207,11.59,0.0
+River Water Discharge_Kundanpur,2018,358,155.5,22-Aug-2018,234,5.56,0.0
+River Water Discharge_Kundanpur,2020,456,210.8,22-Aug-2020,235,11.43,0.0
+River Water Discharge_Kundanpur,2021,466,77.13,16-Sep-2021,259,8.56,0.0
+River Water Discharge_Kundanpur,2022,59,0.0,01-Jan-2022,1,0.0,0.0

@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Nagaram,2019,148,9910.0,30-Sep-2019,273,100.58,0.0
+River Water Discharge_Nagaram,2020,347,1681.23,15-Oct-2020,289,66.16,0.0
+River Water Discharge_Nagaram,2021,329,1192.61,24-Jul-2021,205,21.58,0.0
+River Water Discharge_Nagaram,2022,293,400.0,11-Sep-2022,254,7.67,0.0
+River Water Discharge_Nagaram,2023,268,3718.11,28-Jul-2023,209,159.02,0.0
+River Water Discharge_Nagaram,2024,179,530.25,02-Sep-2024,246,23.46,0.0
+River Water Discharge_Nagaram,2025,54,44.71,04-Sep-2025,247,8.84,0.0

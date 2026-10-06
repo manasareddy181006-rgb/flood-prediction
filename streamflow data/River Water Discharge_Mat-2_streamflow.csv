@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Mat-2,2018,120,3.63,04-Jan-2018,4,1.47,0.32
+River Water Discharge_Mat-2,2019,281,91.82,01-Sep-2019,244,4.84,0.1
+River Water Discharge_Mat-2,2020,153,85.23,06-Oct-2020,280,31.25,5.41
+River Water Discharge_Mat-2,2021,364,31.72,15-Sep-2021,258,9.54,1.08
+River Water Discharge_Mat-2,2022,365,31.72,15-Sep-2022,258,7.9,1.38
+River Water Discharge_Mat-2,2023,365,151.06,08-Aug-2023,220,13.46,0.68
+River Water Discharge_Mat-2,2024,260,103.5,02-Jul-2024,184,13.22,0.13
+River Water Discharge_Mat-2,2025,110,17.1,03-Jul-2025,184,9.2,1.65

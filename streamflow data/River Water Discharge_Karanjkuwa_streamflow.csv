@@ -1,0 +1,7 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Karanjkuwa,2018,122,0.0,01-Jan-2018,1,0.0,0.0
+River Water Discharge_Karanjkuwa,2019,730,9.71,06-Aug-2019,218,0.08,0.0
+River Water Discharge_Karanjkuwa,2020,184,7.37,15-Aug-2020,228,0.09,0.0
+River Water Discharge_Karanjkuwa,2021,306,0.0,01-Jun-2021,152,0.0,0.0
+River Water Discharge_Karanjkuwa,2022,60,0.0,01-Jun-2022,152,0.0,0.0
+River Water Discharge_Karanjkuwa,2023,306,0.0,01-Jun-2023,152,0.0,0.0

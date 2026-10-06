@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Karam at dahiwar,2019,214,150.0,30-Aug-2019,242,30.71,0.0
+River Water Discharge_Karam at dahiwar,2020,245,180.0,22-Aug-2020,235,23.46,0.0
+River Water Discharge_Karam at dahiwar,2021,365,26.08,16-Jul-2021,197,1.73,0.0
+River Water Discharge_Karam at dahiwar,2022,363,21.0,13-Aug-2022,225,1.92,0.0
+River Water Discharge_Karam at dahiwar,2023,365,192.0,17-Sep-2023,260,5.27,0.0
+River Water Discharge_Karam at dahiwar,2024,377,110.0,23-Sep-2024,267,9.63,0.0
+River Water Discharge_Karam at dahiwar,2025,267,97.0,20-Aug-2025,232,6.03,0.0

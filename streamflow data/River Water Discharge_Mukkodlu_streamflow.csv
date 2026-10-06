@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Mukkodlu,2018,48,4.46,02-Nov-2018,306,3.1,1.91
+River Water Discharge_Mukkodlu,2019,291,115.79,07-Aug-2019,219,8.03,0.35
+River Water Discharge_Mukkodlu,2020,274,71.21,22-Sep-2020,266,10.55,0.64
+River Water Discharge_Mukkodlu,2021,278,67.34,14-Sep-2021,257,10.79,0.67
+River Water Discharge_Mukkodlu,2022,335,342.0,12-Jul-2022,193,31.41,0.73
+River Water Discharge_Mukkodlu,2023,317,84.04,07-Jul-2023,188,10.11,0.68
+River Water Discharge_Mukkodlu,2024,269,63.92,02-Jul-2024,184,10.17,0.25
+River Water Discharge_Mukkodlu,2025,119,4.89,21-May-2025,141,1.94,0.81

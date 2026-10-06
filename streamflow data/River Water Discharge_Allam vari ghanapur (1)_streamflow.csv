@@ -1,0 +1,4 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Allam vari ghanapur (1),2017,83,23.63,07-Aug-2017,219,5.79,0.0
+River Water Discharge_Allam vari ghanapur (1),2018,183,47.11,28-Aug-2018,240,3.46,0.0
+River Water Discharge_Allam vari ghanapur (1),2019,47,2.27,29-Jan-2019,29,0.76,0.43

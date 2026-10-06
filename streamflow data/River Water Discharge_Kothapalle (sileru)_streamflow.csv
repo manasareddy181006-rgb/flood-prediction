@@ -1,0 +1,7 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Kothapalle (sileru),2020,16,213.42,20-Jun-2020,172,119.49,51.2
+River Water Discharge_Kothapalle (sileru),2021,211,441.1,28-Sep-2021,271,114.1,14.0
+River Water Discharge_Kothapalle (sileru),2022,351,527.7,12-Jul-2022,193,111.15,6.53
+River Water Discharge_Kothapalle (sileru),2023,358,629.0,13-Sep-2023,256,122.39,14.12
+River Water Discharge_Kothapalle (sileru),2024,357,790.0,28-Jul-2024,210,136.9,0.0
+River Water Discharge_Kothapalle (sileru),2025,243,375.0,27-Aug-2025,239,136.96,0.0

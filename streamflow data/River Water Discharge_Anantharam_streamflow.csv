@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Anantharam,2018,184,0.0,01-Jan-2018,1,0.0,0.0
+River Water Discharge_Anantharam,2019,337,0.0,01-Jan-2019,1,0.0,0.0
+River Water Discharge_Anantharam,2020,332,793.05,14-Oct-2020,288,10.9,0.0
+River Water Discharge_Anantharam,2021,365,174.39,31-Aug-2021,243,6.91,0.0
+River Water Discharge_Anantharam,2022,343,422.0,23-Jul-2022,204,11.86,0.0
+River Water Discharge_Anantharam,2023,329,1363.2,28-Jul-2023,209,8.6,0.0
+River Water Discharge_Anantharam,2024,372,107.72,02-Sep-2024,246,1.08,0.0
+River Water Discharge_Anantharam,2025,211,0.0,01-Jan-2025,1,0.0,0.0

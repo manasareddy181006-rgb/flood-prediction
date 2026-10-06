@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Thiruvattar,2019,185,179.86,31-Oct-2019,304,5.02,0.0
+River Water Discharge_Thiruvattar,2020,273,83.08,16-Oct-2020,290,3.12,0.0
+River Water Discharge_Thiruvattar,2021,327,385.46,14-Nov-2021,318,14.13,0.0
+River Water Discharge_Thiruvattar,2022,360,50.07,05-Nov-2022,309,3.14,0.0
+River Water Discharge_Thiruvattar,2023,365,973.0,16-Jul-2023,197,6.3,0.14
+River Water Discharge_Thiruvattar,2024,369,170.05,15-Nov-2024,320,5.12,0.0
+River Water Discharge_Thiruvattar,2025,94,2.07,03-Mar-2025,62,0.97,0.29

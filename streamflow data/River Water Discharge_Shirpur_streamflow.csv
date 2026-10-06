@@ -1,0 +1,4 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Shirpur,2021,55,35.95,02-Oct-2021,275,13.86,1.75
+River Water Discharge_Shirpur,2022,61,36.67,07-Oct-2022,280,10.36,0.0
+River Water Discharge_Shirpur,2024,86,51.97,26-Aug-2024,239,14.65,1.45

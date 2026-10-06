@@ -1,0 +1,12 @@
+INDEX FLOOD MODEL
+============================================================
+
+Fitted on 53 gauged sites
+R2=0.8245  adjR2=0.8016  LOO R2=0.7556
+Residual s.d. (log10) = 0.2474
+Smearing factor = 1.1601
+
+log10(index_flood) = -6.1804 +0.0813*lat +2.0848*log10_rain_annual_mean_mm +0.7817*log10_area -0.0409*lon +0.0858*temp_mean_min_C +0.0005*min_elev_m
+index_flood = 1.1601 * 10^(above)
+
+LOO median abs error 42.2%, RMSE 95.9%

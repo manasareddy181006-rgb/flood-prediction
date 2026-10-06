@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Denwa at matkuli,2019,603,687.73,07-Aug-2019,219,114.82,0.0
+River Water Discharge_Denwa at matkuli,2020,732,478.52,31-Aug-2020,244,18.94,0.0
+River Water Discharge_Denwa at matkuli,2021,730,1150.0,25-Jul-2021,206,47.22,0.17
+River Water Discharge_Denwa at matkuli,2022,481,2154.0,16-Aug-2022,228,39.99,0.39
+River Water Discharge_Denwa at matkuli,2023,366,658.7,04-Aug-2023,216,33.97,1.28
+River Water Discharge_Denwa at matkuli,2024,366,726.48,03-Aug-2024,216,21.26,0.85
+River Water Discharge_Denwa at matkuli,2025,275,340.0,30-Jul-2025,211,22.6,0.0

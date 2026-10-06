@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Harur,2019,1,0.27,24-Sep-2019,267,0.27,0.27
+River Water Discharge_Harur,2020,29,2.67,08-Dec-2020,343,0.56,0.16
+River Water Discharge_Harur,2021,222,65.0,19-Nov-2021,323,2.41,0.03
+River Water Discharge_Harur,2022,364,5.88,13-Dec-2022,347,0.85,0.0
+River Water Discharge_Harur,2023,161,2.65,01-Jan-2023,1,0.34,0.0
+River Water Discharge_Harur,2024,276,221.37,02-Dec-2024,337,2.55,0.0
+River Water Discharge_Harur,2025,206,6.57,01-Jan-2025,1,0.53,0.0

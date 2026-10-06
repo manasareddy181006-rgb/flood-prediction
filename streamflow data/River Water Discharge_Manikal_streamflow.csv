@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Manikal,2019,60,12.59,09-Nov-2019,313,3.79,0.1
+River Water Discharge_Manikal,2020,223,81.22,09-Sep-2020,253,4.27,0.0
+River Water Discharge_Manikal,2021,297,50.55,18-Oct-2021,291,5.72,0.0
+River Water Discharge_Manikal,2022,354,75.94,04-Aug-2022,216,4.87,0.0
+River Water Discharge_Manikal,2023,359,96.06,05-Jul-2023,186,4.64,0.0
+River Water Discharge_Manikal,2024,241,77.84,30-Jul-2024,212,5.84,0.0
+River Water Discharge_Manikal,2025,26,7.75,01-Jul-2025,182,0.53,0.11

@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Khandiovari,2017,97,207.81,27-Jul-2017,208,25.16,0.43
+River Water Discharge_Khandiovari,2018,57,73.49,30-Aug-2018,242,9.35,1.09
+River Water Discharge_Khandiovari,2021,273,60.74,13-Sep-2021,256,2.95,0.0
+River Water Discharge_Khandiovari,2022,303,265.04,18-Jun-2022,169,19.32,0.0
+River Water Discharge_Khandiovari,2023,287,103.49,19-Sep-2023,262,4.19,0.87
+River Water Discharge_Khandiovari,2024,276,197.11,29-Aug-2024,242,9.29,0.0
+River Water Discharge_Khandiovari,2025,153,2.79,07-May-2025,127,0.83,0.13

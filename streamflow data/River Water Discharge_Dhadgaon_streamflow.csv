@@ -1,0 +1,7 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Dhadgaon,2018,62,0.0,01-Jan-2018,1,0.0,0.0
+River Water Discharge_Dhadgaon,2019,608,2255.35,04-Aug-2019,216,13.06,0.0
+River Water Discharge_Dhadgaon,2020,184,242.19,30-Aug-2020,243,5.65,0.0
+River Water Discharge_Dhadgaon,2021,306,47.46,26-Jul-2021,207,1.98,0.0
+River Water Discharge_Dhadgaon,2022,60,0.0,01-Jun-2022,152,0.0,0.0
+River Water Discharge_Dhadgaon,2023,306,80.39,17-Sep-2023,260,1.82,0.0

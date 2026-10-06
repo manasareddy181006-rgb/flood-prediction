@@ -1,0 +1,10 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Ganjem,2016,124,712.15,05-Jul-2016,187,168.92,4.91
+River Water Discharge_Ganjem,2017,88,1070.93,21-Jul-2017,202,232.57,34.15
+River Water Discharge_Ganjem,2018,166,1262.81,17-Aug-2018,229,155.17,0.83
+River Water Discharge_Ganjem,2020,38,931.59,21-Sep-2020,265,224.92,90.01
+River Water Discharge_Ganjem,2021,214,6901.0,23-Jul-2021,204,254.13,0.0
+River Water Discharge_Ganjem,2022,365,1208.0,06-Jul-2022,187,93.1,0.0
+River Water Discharge_Ganjem,2023,274,1371.8,20-Jul-2023,201,84.81,0.0
+River Water Discharge_Ganjem,2024,100,1948.46,01-Aug-2024,214,351.31,65.93
+River Water Discharge_Ganjem,2025,15,409.43,26-Jun-2025,177,220.06,133.74

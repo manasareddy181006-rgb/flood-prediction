@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Kokkedoddy,2018,43,387.92,20-Nov-2018,324,11.97,0.98
+River Water Discharge_Kokkedoddy,2019,292,82.5,09-Oct-2019,282,6.96,0.43
+River Water Discharge_Kokkedoddy,2020,277,99.18,03-Sep-2020,247,13.29,0.08
+River Water Discharge_Kokkedoddy,2021,296,107.09,20-Nov-2021,324,14.98,0.45
+River Water Discharge_Kokkedoddy,2022,334,679.3,30-Aug-2022,242,39.71,0.0
+River Water Discharge_Kokkedoddy,2023,322,85.17,08-Nov-2023,312,7.3,0.23
+River Water Discharge_Kokkedoddy,2024,301,80.0,01-Aug-2024,214,6.75,0.47
+River Water Discharge_Kokkedoddy,2025,163,89.75,21-May-2025,141,7.59,0.64

@@ -1,0 +1,6 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Khariya,2018,306,1542.8,21-Aug-2018,233,116.48,0.0
+River Water Discharge_Khariya,2020,306,1040.98,30-Jul-2020,212,138.67,0.0
+River Water Discharge_Khariya,2022,306,4756.97,07-Jul-2022,188,292.45,0.0
+River Water Discharge_Khariya,2023,306,3304.89,16-Sep-2023,259,87.76,0.0
+River Water Discharge_Khariya,2024,258,1949.61,29-Jul-2024,211,157.65,0.0

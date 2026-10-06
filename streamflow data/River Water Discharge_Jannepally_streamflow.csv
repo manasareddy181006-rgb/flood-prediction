@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Jannepally,2018,1,0.0,29-Jul-2018,210,0.0,0.0
+River Water Discharge_Jannepally,2019,34,34.96,08-Aug-2019,220,11.35,0.0
+River Water Discharge_Jannepally,2020,183,9.37,24-Jul-2020,206,0.18,0.0
+River Water Discharge_Jannepally,2021,205,258.75,28-Sep-2021,271,10.35,0.0
+River Water Discharge_Jannepally,2022,158,26388.06,23-Jul-2022,204,229.68,0.0
+River Water Discharge_Jannepally,2023,344,321.15,28-Jul-2023,209,20.13,0.0
+River Water Discharge_Jannepally,2024,361,235.24,05-Sep-2024,249,17.21,0.0
+River Water Discharge_Jannepally,2025,261,202.9,29-Aug-2025,241,22.94,0.0

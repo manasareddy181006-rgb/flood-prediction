@@ -1,0 +1,6 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Ankushapur,2017,59,37.18,10-Oct-2017,283,5.43,0.0
+River Water Discharge_Ankushapur,2018,279,200.0,12-Aug-2018,224,4.99,0.0
+River Water Discharge_Ankushapur,2019,184,527.85,20-Oct-2019,293,20.04,0.0
+River Water Discharge_Ankushapur,2020,352,1873.81,16-Aug-2020,229,55.15,0.0
+River Water Discharge_Ankushapur,2021,213,916.77,23-Jul-2021,204,19.56,0.0

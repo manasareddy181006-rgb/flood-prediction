@@ -1,0 +1,10 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Veerlapalem,2017,64,47.0,13-Oct-2017,286,5.63,0.0
+River Water Discharge_Veerlapalem,2018,364,36.49,19-Sep-2018,262,2.93,0.0
+River Water Discharge_Veerlapalem,2019,365,107.02,18-Sep-2019,261,4.79,0.0
+River Water Discharge_Veerlapalem,2020,366,147.39,14-Oct-2020,288,8.13,0.0
+River Water Discharge_Veerlapalem,2021,365,94.32,30-Aug-2021,242,8.58,0.0
+River Water Discharge_Veerlapalem,2022,359,96.47,01-Oct-2022,274,8.31,0.0
+River Water Discharge_Veerlapalem,2023,365,19.0,19-Mar-2023,78,2.93,0.0
+River Water Discharge_Veerlapalem,2024,366,121.01,02-Sep-2024,246,4.31,0.0
+River Water Discharge_Veerlapalem,2025,205,64.9,23-Feb-2025,54,5.1,0.0

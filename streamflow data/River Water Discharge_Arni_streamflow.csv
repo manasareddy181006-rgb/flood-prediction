@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Arni,2018,293,1054.68,16-Aug-2018,228,15.04,0.0
+River Water Discharge_Arni,2019,305,84.62,30-Jul-2019,211,2.92,0.0
+River Water Discharge_Arni,2020,301,391.47,17-Aug-2020,230,28.59,0.0
+River Water Discharge_Arni,2021,228,579.95,28-Sep-2021,271,41.84,0.0
+River Water Discharge_Arni,2022,300,451.96,15-Aug-2022,227,49.7,0.0
+River Water Discharge_Arni,2023,250,64.4,26-Sep-2023,269,5.56,0.0
+River Water Discharge_Arni,2024,423,772.17,03-Sep-2024,247,24.91,0.0
+River Water Discharge_Arni,2025,272,723.15,29-Aug-2025,241,14.31,0.0

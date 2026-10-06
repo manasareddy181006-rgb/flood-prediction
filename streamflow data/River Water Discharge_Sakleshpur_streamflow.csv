@@ -1,0 +1,25 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Sakleshpur,2002,228,421.68,14-Aug-2002,226,31.1,0.26
+River Water Discharge_Sakleshpur,2003,353,170.85,29-Jul-2003,210,13.55,0.24
+River Water Discharge_Sakleshpur,2004,340,291.88,16-Jun-2004,168,26.62,0.0
+River Water Discharge_Sakleshpur,2005,299,462.5,03-Aug-2005,215,43.14,0.0
+River Water Discharge_Sakleshpur,2006,355,456.25,05-Jul-2006,186,54.24,0.56
+River Water Discharge_Sakleshpur,2007,336,613.1,01-Jul-2007,182,62.43,0.04
+River Water Discharge_Sakleshpur,2008,358,383.4,13-Aug-2008,226,34.07,0.26
+River Water Discharge_Sakleshpur,2009,359,717.9,16-Jul-2009,197,39.74,0.82
+River Water Discharge_Sakleshpur,2010,363,339.57,31-Aug-2010,243,37.79,0.71
+River Water Discharge_Sakleshpur,2011,345,363.66,19-Jul-2011,200,39.02,1.5
+River Water Discharge_Sakleshpur,2012,363,453.49,06-Aug-2012,219,28.61,0.39
+River Water Discharge_Sakleshpur,2013,349,1913.0,04-Aug-2013,216,45.0,0.09
+River Water Discharge_Sakleshpur,2014,347,487.74,31-Jul-2014,212,39.06,0.46
+River Water Discharge_Sakleshpur,2015,362,360.16,22-Jun-2015,173,25.08,0.97
+River Water Discharge_Sakleshpur,2016,324,246.12,29-Jun-2016,181,17.2,0.11
+River Water Discharge_Sakleshpur,2017,334,293.94,20-Jul-2017,201,19.81,0.0
+River Water Discharge_Sakleshpur,2018,289,748.96,12-Jun-2018,163,47.03,0.0
+River Water Discharge_Sakleshpur,2019,272,878.88,07-Aug-2019,219,48.22,0.0
+River Water Discharge_Sakleshpur,2020,357,890.07,31-Oct-2020,305,51.7,0.0
+River Water Discharge_Sakleshpur,2021,130,608.79,24-Jul-2021,205,70.78,0.0
+River Water Discharge_Sakleshpur,2022,337,768.3,09-Aug-2022,221,52.94,0.83
+River Water Discharge_Sakleshpur,2023,324,328.66,24-Jul-2023,205,19.34,0.15
+River Water Discharge_Sakleshpur,2024,251,674.85,30-Jul-2024,212,61.37,0.09
+River Water Discharge_Sakleshpur,2025,174,532.26,26-Jun-2025,177,50.78,0.32

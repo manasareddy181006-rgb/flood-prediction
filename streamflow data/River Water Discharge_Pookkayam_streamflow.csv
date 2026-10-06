@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Pookkayam,2019,160,128.6,10-Aug-2019,222,25.18,0.0
+River Water Discharge_Pookkayam,2020,319,186.26,08-Aug-2020,221,16.69,0.0
+River Water Discharge_Pookkayam,2021,345,79.48,08-Sep-2021,251,14.08,0.2
+River Water Discharge_Pookkayam,2022,337,212.1,10-Jul-2022,191,20.74,0.0
+River Water Discharge_Pookkayam,2023,363,120.0,23-Jul-2023,204,9.45,0.0
+River Water Discharge_Pookkayam,2024,401,350.0,31-Jul-2024,213,18.94,0.01
+River Water Discharge_Pookkayam,2025,109,197.84,17-Jun-2025,168,9.51,0.0

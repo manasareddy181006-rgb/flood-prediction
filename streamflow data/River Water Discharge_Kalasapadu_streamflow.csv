@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Kalasapadu,2018,214,0.0,01-Jun-2018,152,0.0,0.0
+River Water Discharge_Kalasapadu,2019,365,0.6,24-Sep-2019,267,0.01,0.0
+River Water Discharge_Kalasapadu,2020,270,103.7,27-Sep-2020,271,2.7,0.0
+River Water Discharge_Kalasapadu,2021,291,81.6,30-Nov-2021,334,1.17,0.05
+River Water Discharge_Kalasapadu,2022,305,2.04,08-Sep-2022,251,0.35,0.0
+River Water Discharge_Kalasapadu,2023,228,5.7,05-Sep-2023,248,0.27,0.0
+River Water Discharge_Kalasapadu,2024,47,6.13,07-Dec-2024,342,1.21,0.0
+River Water Discharge_Kalasapadu,2025,1,0.31,29-Jan-2025,29,0.31,0.31

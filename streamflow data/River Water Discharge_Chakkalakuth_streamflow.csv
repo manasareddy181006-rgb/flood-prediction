@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Chakkalakuth,2019,162,393.2,10-Aug-2019,222,35.13,1.1
+River Water Discharge_Chakkalakuth,2020,250,190.33,08-Aug-2020,221,20.61,0.04
+River Water Discharge_Chakkalakuth,2021,338,206.9,12-Oct-2021,285,16.31,0.0
+River Water Discharge_Chakkalakuth,2022,353,211.91,15-Jul-2022,196,21.05,0.0
+River Water Discharge_Chakkalakuth,2023,365,162.0,23-Jul-2023,204,11.13,0.0
+River Water Discharge_Chakkalakuth,2024,391,328.86,30-Jul-2024,212,23.79,0.02
+River Water Discharge_Chakkalakuth,2025,59,1.5,01-Jan-2025,1,0.36,0.0

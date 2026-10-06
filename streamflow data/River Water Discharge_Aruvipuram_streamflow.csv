@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Aruvipuram,2019,200,282.43,31-Oct-2019,304,13.6,0.0
+River Water Discharge_Aruvipuram,2020,339,223.62,22-May-2020,143,12.81,0.0
+River Water Discharge_Aruvipuram,2021,359,490.84,17-Oct-2021,290,30.43,0.95
+River Water Discharge_Aruvipuram,2022,351,236.72,02-Aug-2022,214,12.67,0.0
+River Water Discharge_Aruvipuram,2023,365,234.49,03-Oct-2023,276,11.29,0.28
+River Water Discharge_Aruvipuram,2024,366,72.5,19-May-2024,140,13.46,0.98
+River Water Discharge_Aruvipuram,2025,90,11.27,03-Jan-2025,3,2.18,0.98

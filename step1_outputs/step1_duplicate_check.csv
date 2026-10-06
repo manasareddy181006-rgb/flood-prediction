@@ -1,0 +1,9 @@
+issue,value,rows,stations
+same station name,Allam vari ghanapur,12;13,Allam vari ghanapur__row12;Allam vari ghanapur__row13
+same station name,Ankushapur,20;21,Ankushapur__row20;Ankushapur__row21
+same station name,Garimillapalli,819;820,Garimillapalli__row819;Garimillapalli__row820
+same streamflow file,River Water Discharge_Allam vari ghanapur_streamflow,12;13,Allam vari ghanapur__row12;Allam vari ghanapur__row13
+same streamflow file,River Water Discharge_Ankushapur_streamflow,20;21,Ankushapur__row20;Ankushapur__row21
+same streamflow file,River Water Discharge_Garimillapalli_streamflow,819;820,Garimillapalli__row819;Garimillapalli__row820
+identical attributes,,371;372,Chitrasani -duplicate;Chitrasani
+identical attributes,,819;820,Garimillapalli__row819;Garimillapalli__row820

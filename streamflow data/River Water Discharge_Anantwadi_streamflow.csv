@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Anantwadi,2018,306,684.08,21-Aug-2018,233,47.95,0.0
+River Water Discharge_Anantwadi,2019,305,613.7,03-Aug-2019,215,29.63,0.0
+River Water Discharge_Anantwadi,2020,306,405.49,21-Aug-2020,234,66.54,0.0
+River Water Discharge_Anantwadi,2021,302,805.23,08-Sep-2021,251,111.93,0.0
+River Water Discharge_Anantwadi,2022,305,577.87,12-Jul-2022,193,99.53,0.0
+River Water Discharge_Anantwadi,2023,297,2950.0,22-Jul-2023,203,58.79,0.0
+River Water Discharge_Anantwadi,2024,240,1894.95,01-Sep-2024,245,71.14,0.0
+River Water Discharge_Anantwadi,2025,52,1106.34,19-Aug-2025,231,205.47,0.0

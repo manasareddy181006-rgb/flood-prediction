@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Bhamragad,2018,730,4750.0,19-Aug-2018,231,169.24,40.6
+River Water Discharge_Bhamragad,2019,730,7550.0,07-Sep-2019,250,287.05,40.6
+River Water Discharge_Bhamragad,2020,732,3250.0,21-Aug-2020,234,159.61,0.0
+River Water Discharge_Bhamragad,2021,401,1000.0,13-Sep-2021,256,73.54,0.0
+River Water Discharge_Bhamragad,2022,296,2000.0,13-Jul-2022,194,201.16,0.0
+River Water Discharge_Bhamragad,2023,730,1450.0,19-Jul-2023,200,108.32,42.3
+River Water Discharge_Bhamragad,2024,732,6650.0,10-Sep-2024,254,189.5,41.08
+River Water Discharge_Bhamragad,2025,302,56.0,06-May-2025,126,53.02,48.0

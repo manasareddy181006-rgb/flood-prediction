@@ -1,0 +1,7 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Akkalpada,2018,122,0.0,01-Jan-2018,1,0.0,0.0
+River Water Discharge_Akkalpada,2019,306,1563.3,09-Aug-2019,221,43.12,0.0
+River Water Discharge_Akkalpada,2020,184,240.09,16-Aug-2020,229,29.84,0.0
+River Water Discharge_Akkalpada,2021,306,113.25,02-Oct-2021,275,4.57,0.0
+River Water Discharge_Akkalpada,2022,60,0.0,01-Jun-2022,152,0.0,0.0
+River Water Discharge_Akkalpada,2023,306,56.62,05-Aug-2023,217,4.16,0.0

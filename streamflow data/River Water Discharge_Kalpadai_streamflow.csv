@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Kalpadai,2018,215,4.78,25-Nov-2018,329,0.2,0.0
+River Water Discharge_Kalpadai,2019,362,23.81,01-Dec-2019,335,0.59,0.0
+River Water Discharge_Kalpadai,2020,327,35.34,20-Oct-2020,294,1.91,0.0
+River Water Discharge_Kalpadai,2021,267,84.56,07-Jan-2021,7,3.2,0.0
+River Water Discharge_Kalpadai,2022,323,57.39,12-Nov-2022,316,1.82,0.0
+River Water Discharge_Kalpadai,2023,304,36.46,08-Nov-2023,312,1.1,0.0
+River Water Discharge_Kalpadai,2024,193,88.67,02-Dec-2024,337,3.77,0.0
+River Water Discharge_Kalpadai,2025,67,2.8,12-Mar-2025,71,0.71,0.0

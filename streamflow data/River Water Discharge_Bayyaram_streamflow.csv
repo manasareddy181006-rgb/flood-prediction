@@ -1,0 +1,7 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Bayyaram,2003,211,0.0,01-Jan-2003,1,0.0,0.0
+River Water Discharge_Bayyaram,2004,276,24.28,27-Jul-2004,209,0.22,0.0
+River Water Discharge_Bayyaram,2005,263,275.62,24-Sep-2005,267,2.21,0.0
+River Water Discharge_Bayyaram,2006,169,274.91,20-Sep-2006,263,9.37,0.0
+River Water Discharge_Bayyaram,2007,27,0.0,01-Feb-2007,32,0.0,0.0
+River Water Discharge_Bayyaram,2008,31,198.4,24-Mar-2008,84,8.06,0.0

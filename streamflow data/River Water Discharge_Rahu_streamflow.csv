@@ -1,0 +1,4 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Rahu,2023,214,488.96,02-Oct-2023,275,61.75,0.0
+River Water Discharge_Rahu,2024,365,2887.23,26-Jul-2024,208,109.25,0.0
+River Water Discharge_Rahu,2025,108,2053.88,20-Aug-2025,232,246.48,0.0

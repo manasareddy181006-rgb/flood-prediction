@@ -1,0 +1,6 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Prakasha(damarkheda),2017,19,25.72,31-Aug-2017,243,11.55,2.28
+River Water Discharge_Prakasha(damarkheda),2018,13,15.43,29-Aug-2018,241,9.25,2.93
+River Water Discharge_Prakasha(damarkheda),2021,25,560.04,29-Sep-2021,272,35.38,5.15
+River Water Discharge_Prakasha(damarkheda),2022,2,13.6,01-Oct-2022,274,12.87,12.15
+River Water Discharge_Prakasha(damarkheda),2024,35,542.68,27-Aug-2024,240,31.42,3.45

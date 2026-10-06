@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Deb at khajuri,2019,214,60.5,10-Aug-2019,222,13.68,0.0
+River Water Discharge_Deb at khajuri,2020,338,30.98,27-Sep-2020,271,4.77,0.0
+River Water Discharge_Deb at khajuri,2021,365,20.5,26-Sep-2021,269,3.85,0.0
+River Water Discharge_Deb at khajuri,2022,365,59.0,15-Jul-2022,196,11.64,0.0
+River Water Discharge_Deb at khajuri,2023,365,155.0,17-Sep-2023,260,10.55,0.0
+River Water Discharge_Deb at khajuri,2024,382,73.5,03-Sep-2024,247,11.07,0.0
+River Water Discharge_Deb at khajuri,2025,266,42.3,18-Aug-2025,230,5.51,0.0

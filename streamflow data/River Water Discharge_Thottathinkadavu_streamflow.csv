@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Thottathinkadavu,2019,161,573.23,07-Aug-2019,219,55.81,3.08
+River Water Discharge_Thottathinkadavu,2020,290,431.47,08-Aug-2020,221,31.31,0.31
+River Water Discharge_Thottathinkadavu,2021,341,216.37,16-Jul-2021,197,27.71,0.29
+River Water Discharge_Thottathinkadavu,2022,347,361.57,05-Aug-2022,217,31.98,0.0
+River Water Discharge_Thottathinkadavu,2023,360,358.85,25-Jul-2023,206,21.35,0.0
+River Water Discharge_Thottathinkadavu,2024,512,720.5,30-Jul-2024,212,29.25,0.18
+River Water Discharge_Thottathinkadavu,2025,85,4.88,27-Mar-2025,86,1.6,0.0

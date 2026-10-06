@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Sharad,2018,304,485.54,17-Aug-2018,229,15.06,0.0
+River Water Discharge_Sharad,2019,290,113.56,04-Sep-2019,247,7.79,0.0
+River Water Discharge_Sharad,2020,303,274.24,29-Jul-2020,211,18.23,0.0
+River Water Discharge_Sharad,2021,261,847.68,19-Aug-2021,231,34.59,0.0
+River Water Discharge_Sharad,2022,306,1097.22,08-Aug-2022,220,68.0,0.0
+River Water Discharge_Sharad,2023,247,396.26,27-Sep-2023,270,21.06,0.0
+River Water Discharge_Sharad,2024,245,2029.12,01-Sep-2024,245,83.33,0.0
+River Water Discharge_Sharad,2025,106,485.54,09-Jul-2025,190,63.84,13.69

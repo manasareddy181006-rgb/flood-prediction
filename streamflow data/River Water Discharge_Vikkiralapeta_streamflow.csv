@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Vikkiralapeta,2018,362,0.0,01-Jan-2018,1,0.0,0.0
+River Water Discharge_Vikkiralapeta,2019,211,0.0,01-Jan-2019,1,0.0,0.0
+River Water Discharge_Vikkiralapeta,2020,44,5.8,28-Nov-2020,333,0.69,0.0
+River Water Discharge_Vikkiralapeta,2021,356,60.34,21-Nov-2021,325,1.46,0.0
+River Water Discharge_Vikkiralapeta,2022,209,690.0,12-Dec-2022,346,9.1,0.0
+River Water Discharge_Vikkiralapeta,2023,345,393.76,06-Dec-2023,340,1.83,0.0
+River Water Discharge_Vikkiralapeta,2024,369,54.14,18-Oct-2024,292,0.79,0.0
+River Water Discharge_Vikkiralapeta,2025,212,0.0,01-Jan-2025,1,0.0,0.0

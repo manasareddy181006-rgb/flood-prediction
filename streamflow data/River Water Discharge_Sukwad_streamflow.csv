@@ -1,0 +1,7 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Sukwad,2018,306,1161.3,18-Aug-2018,230,45.16,0.0
+River Water Discharge_Sukwad,2019,124,1722.56,01-Oct-2019,274,150.44,0.0
+River Water Discharge_Sukwad,2020,184,4812.9,30-Aug-2020,243,757.62,62.44
+River Water Discharge_Sukwad,2021,306,8113.23,29-Sep-2021,272,587.75,0.0
+River Water Discharge_Sukwad,2022,62,106.94,28-Jun-2022,179,8.23,0.0
+River Water Discharge_Sukwad,2023,306,25268.5,17-Sep-2023,260,614.18,0.0

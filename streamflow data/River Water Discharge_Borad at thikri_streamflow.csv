@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Borad at thikri,2019,214,132.0,08-Aug-2019,220,21.56,5.3
+River Water Discharge_Borad at thikri,2020,292,32.0,31-Jul-2020,213,10.52,0.0
+River Water Discharge_Borad at thikri,2021,365,27.0,30-May-2021,150,7.11,0.0
+River Water Discharge_Borad at thikri,2022,365,80.25,14-Jul-2022,195,10.65,0.0
+River Water Discharge_Borad at thikri,2023,365,150.0,17-Sep-2023,260,10.67,0.0
+River Water Discharge_Borad at thikri,2024,372,125.0,02-Sep-2024,246,11.22,0.0
+River Water Discharge_Borad at thikri,2025,241,11.6,20-Jun-2025,171,2.87,0.0

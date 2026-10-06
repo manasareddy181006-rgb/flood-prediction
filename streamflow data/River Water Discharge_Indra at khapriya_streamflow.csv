@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Indra at khapriya,2019,398,157.8,11-Sep-2019,254,24.95,0.0
+River Water Discharge_Indra at khapriya,2020,732,450.0,01-Sep-2020,245,22.38,3.0
+River Water Discharge_Indra at khapriya,2021,730,49.74,21-Aug-2021,233,9.36,1.0
+River Water Discharge_Indra at khapriya,2022,575,75.12,16-Aug-2022,228,6.82,0.0
+River Water Discharge_Indra at khapriya,2023,365,180.2,16-Sep-2023,259,5.88,0.0
+River Water Discharge_Indra at khapriya,2024,374,73.9,22-Jul-2024,204,4.17,0.0
+River Water Discharge_Indra at khapriya,2025,267,112.14,24-Jul-2025,205,5.81,0.0

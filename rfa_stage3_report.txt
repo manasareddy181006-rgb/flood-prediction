@@ -1,0 +1,74 @@
+RFA STAGE 3 REPORT
+
+======================================================================
+REGION 1 — 35 contributing sites, 1270 station-years
+======================================================================
+
+Discordancy critical value (N=35): 3.000
+  DISCORDANT  Sundergarh                         Di= 4.23 n= 43  t=0.385 t3=+0.515
+
+HETEROGENEITY — all sites  (35 sites)
+  Regional avg:  L-CV=0.4686  L-skew=0.3510  L-kurt=0.1937
+  Fitted kappa:  k=-0.0904  h=+0.8185
+  H1 =  11.55   HETEROGENEOUS
+  H2 =   5.90   HETEROGENEOUS
+  H3 =   2.78   HETEROGENEOUS
+
+HETEROGENEITY — discordant removed  (34 sites)
+  Regional avg:  L-CV=0.4716  L-skew=0.3452  L-kurt=0.1893
+  Fitted kappa:  k=-0.0793  h=+0.8168
+  H1 =  11.44   HETEROGENEOUS
+  H2 =   5.94   HETEROGENEOUS
+  H3 =   2.63   HETEROGENEOUS
+
+GOODNESS OF FIT (|Z| <= 1.64 accepted)
+  GNO: Z =  +1.43   ACCEPT
+  PE3: Z =  -1.44   ACCEPT
+  GEV: Z =  +3.14   reject
+  GLO: Z =  +4.56   reject
+  GPA: Z = +20.19   reject
+  -> best fit: GNO
+
+======================================================================
+REGION 2 — 13 contributing sites, 421 station-years
+======================================================================
+
+Discordancy critical value (N=13): 2.869
+  No discordant sites.
+
+HETEROGENEITY — all sites  (13 sites)
+  Regional avg:  L-CV=0.3398  L-skew=0.2820  L-kurt=0.1795
+  Fitted kappa:  k=-0.0854  h=+0.3585
+  H1 =   8.33   HETEROGENEOUS
+  H2 =   2.93   HETEROGENEOUS
+  H3 =   0.37   HOMOGENEOUS
+
+GOODNESS OF FIT (|Z| <= 1.64 accepted)
+  GNO: Z =  +0.06   ACCEPT
+  GEV: Z =  +0.84   ACCEPT
+  PE3: Z =  -1.28   ACCEPT
+  GLO: Z =  +2.01   reject
+  GPA: Z = +11.17   reject
+  -> best fit: GNO
+
+======================================================================
+REGION 3 — 8 contributing sites, 248 station-years
+======================================================================
+
+Discordancy critical value (N=8): 2.140
+  No discordant sites.
+
+HETEROGENEITY — all sites  (8 sites)
+  Regional avg:  L-CV=0.3106  L-skew=0.2927  L-kurt=0.1853
+  Fitted kappa:  k=-0.1005  h=+0.3709
+  H1 =   6.91   HETEROGENEOUS
+  H2 =   3.70   HETEROGENEOUS
+  H3 =   1.02   possibly heterog.
+
+GOODNESS OF FIT (|Z| <= 1.64 accepted)
+  GNO: Z =  +0.01   ACCEPT
+  GEV: Z =  +0.65   ACCEPT
+  PE3: Z =  -1.10   ACCEPT
+  GLO: Z =  +1.53   ACCEPT
+  GPA: Z =  +8.78   reject
+  -> best fit: GNO

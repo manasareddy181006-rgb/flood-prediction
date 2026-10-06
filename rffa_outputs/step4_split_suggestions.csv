@@ -1,0 +1,13 @@
+region,sub_region,n_sites,pooled_years,H1,H2,H3,H1_class,sim_dist,Di_crit,discordant_sites,max_Di,members
+1,1,4,86,2.2886287859754963,2.694520275703073,1.5872874250142377,definitely heterogeneous,KAP,,,,Pedageddada;Potteru (potteruvagu);Tuichang;Tulaghat
+1,2,16,695,8.270673258628532,3.1856258907684945,2.2843374402086982,definitely heterogeneous,KAP,3.0,Khanditar,4.48070352496064,Adityapur;Altuma;Bamnidhi;Baronda;Dindori;Fekoghat;Jaraikela;Kelo at raigarh;Khanditar;Kurubhata;Parmanpur;Rampur;Salebhata;Manendragarh;Manot;Sundergarh
+2,1,5,201,3.329465941736528,3.1661439541323415,3.540238554514324,definitely heterogeneous,KAP,1.333,,1.3168742937800098,Akkihebbal;M.h. halli;Sevanur;T. narasipur;T.k.halli
+2,2,11,419,7.462506112129808,5.8595295765922915,3.3863427186141104,definitely heterogeneous,GLO,2.632,,2.021488361263281,Hogenakkal;K.m. vadi;Koyna;Sakleshpur;Samdoli (seasonal);Muthankera;Navalgund;T. bekkupe;Talikot;Terwad (seasonal);Warunji
+3,1,10,362,7.175780864376586,6.0464815212649405,4.158745113909578,definitely heterogeneous,GLO,2.491,,1.9062309406623494,Ambarampalayam;Ambasamudram;Arangali;Kalampur;Kallooppara;Kudlur;Pulamanthole;Thevur;Thoppur;Thumpamon
+3,2,3,117,1.4943842589853396,1.1640883252524457,0.4192148578495954,possibly heterogeneous,KAP,,,,Elunuthimangalam;Pudur;Theni
+4,1,15,539,8.402298662810136,6.657238640067342,4.749175914207612,definitely heterogeneous,KAP,3.0,Patan,3.5066033940595753,Belkhedi;Betmogra;Chanwada;Chhidgaon;Dhariawad;Degloor;Kheda;Kogaon;Kundanpur;Patan;Pati;Ratanpur;Morane;Teska;Zari
+4,2,6,147,4.764468028889043,3.494224752536625,2.1659296766496756,definitely heterogeneous,GLO,1.648,,1.5261051478412586,Bamnia;Chitrasani -duplicate;Dabri;Jotasan;Rambhapur;Ozerkheda
+5,1,5,225,4.127115370089062,2.979091762170707,1.5635212723537006,definitely heterogeneous,KAP,1.333,,1.3288241012671165,Alladupalli;Dameracherla;Kamalapuram;Singavaram;Somanpally(seasonal)
+5,2,5,228,7.055134653687537,5.618161866969636,4.407215674621627,definitely heterogeneous,KAP,1.333,,1.3187195608129476,sandia;Pachegaon;Rangeli;Narmadapuram;Tapi at burhanpur
+6,1,9,350,3.647821712768216,2.3557337015117583,1.437254094633156,definitely heterogeneous,KAP,2.329,,1.6298281224344848,Chinamusi  tumadu;Errakalva    ananthapalli;Gandlapet;Halia;Keesara;Paleru bridge;Madhira;Magaral;Nandipalli
+6,2,2,36,-0.16779950516698508,0.06041618164261012,-0.287485528024577,acceptably homogeneous,KAP,,,,Kattaleru   tiruvuru;Kovvada kalva near dommeru

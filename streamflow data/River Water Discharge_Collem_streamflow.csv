@@ -1,0 +1,3 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Collem,2016,171,111.8,04-Aug-2016,217,13.15,0.0
+River Water Discharge_Collem,2017,150,1.0,31-May-2017,151,0.01,0.0

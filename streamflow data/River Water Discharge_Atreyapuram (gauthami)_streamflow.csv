@@ -1,0 +1,6 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Atreyapuram (gauthami),2021,212,13454.0,01-Oct-2021,274,2804.97,9.01
+River Water Discharge_Atreyapuram (gauthami),2022,344,40787.06,17-Jul-2022,198,3591.45,0.0
+River Water Discharge_Atreyapuram (gauthami),2023,357,65000.0,01-Oct-2023,274,2052.73,2.2
+River Water Discharge_Atreyapuram (gauthami),2024,358,200000.0,28-Jul-2024,210,2591.63,0.0
+River Water Discharge_Atreyapuram (gauthami),2025,241,18000.0,31-Aug-2025,243,997.14,0.0

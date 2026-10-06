@@ -1,0 +1,14 @@
+RFA STAGE 4 — ROI vs CLUSTERING
+============================================================
+
+Contributing sites: 53   Targets: 276
+ROI pool H1 median: 4.54
+  H1<1: 4   1-2: 19   >=2: 253
+
+    T  ROI bias%  ROI RMSE%  CLU bias%  CLU RMSE%   winner
+    2        5.5       21.3        7.8       27.2      ROI
+    5        3.1        8.2        2.5        8.0  cluster
+   10        3.1       12.5        1.9       13.8      ROI
+   25        3.9       21.9        2.6       25.3      ROI
+   50        4.9       29.1        3.9       33.9      ROI
+  100        6.3       36.2        5.6       42.4      ROI

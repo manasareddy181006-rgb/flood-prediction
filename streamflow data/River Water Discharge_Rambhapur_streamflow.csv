@@ -1,0 +1,22 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Rambhapur,2000,334,98.76,16-Aug-2000,229,3.5,0.0
+River Water Discharge_Rambhapur,2001,274,1155.16,12-Aug-2001,224,5.68,0.0
+River Water Discharge_Rambhapur,2002,206,33.53,08-Aug-2002,220,1.77,0.0
+River Water Discharge_Rambhapur,2003,150,303.55,24-Sep-2003,267,17.57,0.0
+River Water Discharge_Rambhapur,2004,97,436.4,12-Aug-2004,225,34.66,0.75
+River Water Discharge_Rambhapur,2005,41,373.34,28-Jul-2005,209,16.21,0.69
+River Water Discharge_Rambhapur,2006,120,554.63,12-Aug-2006,224,48.51,0.5
+River Water Discharge_Rambhapur,2007,128,1047.9,10-Jul-2007,191,39.59,0.58
+River Water Discharge_Rambhapur,2008,96,421.54,09-Aug-2008,222,8.6,0.0
+River Water Discharge_Rambhapur,2009,60,54.63,23-Jul-2009,204,8.29,0.59
+River Water Discharge_Rambhapur,2010,94,353.8,28-Aug-2010,240,15.58,0.36
+River Water Discharge_Rambhapur,2011,98,452.43,30-Aug-2011,242,36.21,0.55
+River Water Discharge_Rambhapur,2012,113,760.6,13-Aug-2012,226,42.51,0.69
+River Water Discharge_Rambhapur,2013,137,475.8,05-Jul-2013,186,25.79,0.38
+River Water Discharge_Rambhapur,2015,90,465.36,26-Jul-2015,207,24.89,0.0
+River Water Discharge_Rambhapur,2016,132,152.68,11-Aug-2016,224,18.65,0.0
+River Water Discharge_Rambhapur,2017,214,51.93,17-Sep-2017,260,3.04,0.0
+River Water Discharge_Rambhapur,2018,365,42.37,21-Jul-2018,202,1.35,0.0
+River Water Discharge_Rambhapur,2020,468,41.12,20-Sep-2020,264,3.52,0.0
+River Water Discharge_Rambhapur,2021,441,4185.0,07-Oct-2021,280,14.29,0.0
+River Water Discharge_Rambhapur,2022,59,0.0,01-Jan-2022,1,0.0,0.0

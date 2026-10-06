@@ -1,0 +1,7 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Lakshmananpatti,2017,25,0.0,06-Jun-2017,157,0.0,0.0
+River Water Discharge_Lakshmananpatti,2021,58,42.17,14-Jan-2021,14,11.31,0.33
+River Water Discharge_Lakshmananpatti,2022,243,28.78,03-Jan-2022,3,3.11,0.0
+River Water Discharge_Lakshmananpatti,2023,221,4.37,06-Nov-2023,310,0.73,0.0
+River Water Discharge_Lakshmananpatti,2024,124,41.6,14-Dec-2024,349,3.97,0.0
+River Water Discharge_Lakshmananpatti,2025,77,3.09,22-Jan-2025,22,0.76,0.16

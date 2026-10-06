@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Belkund at ghughra,2019,214,27.12,15-Aug-2019,227,5.74,0.67
+River Water Discharge_Belkund at ghughra,2020,366,35.4,09-Aug-2020,222,5.98,1.38
+River Water Discharge_Belkund at ghughra,2021,365,79.14,17-Sep-2021,260,4.17,0.97
+River Water Discharge_Belkund at ghughra,2022,372,98.76,22-Aug-2022,234,6.09,0.0
+River Water Discharge_Belkund at ghughra,2023,365,129.0,04-Aug-2023,216,9.16,0.0
+River Water Discharge_Belkund at ghughra,2024,430,268.0,25-Jul-2024,207,11.11,0.0
+River Water Discharge_Belkund at ghughra,2025,293,109.7,06-Jul-2025,187,9.22,0.0

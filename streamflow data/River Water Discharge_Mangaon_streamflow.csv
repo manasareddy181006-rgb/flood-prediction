@@ -1,0 +1,14 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Mangaon,2013,4,149.79,01-Aug-2013,213,75.53,5.47
+River Water Discharge_Mangaon,2014,4,395.7,01-Sep-2014,244,98.92,0.0
+River Water Discharge_Mangaon,2015,334,240.0,24-Jun-2015,175,12.91,0.0
+River Water Discharge_Mangaon,2016,245,682.11,03-Aug-2016,216,52.25,0.0
+River Water Discharge_Mangaon,2017,334,498.0,08-Nov-2017,312,35.96,0.0
+River Water Discharge_Mangaon,2018,334,765.58,10-Jul-2018,191,31.15,0.0
+River Water Discharge_Mangaon,2019,365,1301.06,03-Aug-2019,215,48.69,0.0
+River Water Discharge_Mangaon,2020,342,690.29,06-Aug-2020,219,26.61,0.0
+River Water Discharge_Mangaon,2021,331,880.74,22-Jul-2021,203,26.3,0.0
+River Water Discharge_Mangaon,2022,347,448.06,10-Aug-2022,222,28.44,0.0
+River Water Discharge_Mangaon,2023,276,880.24,21-Jul-2023,202,42.49,0.0
+River Water Discharge_Mangaon,2024,364,713.06,25-Jul-2024,207,37.56,0.0
+River Water Discharge_Mangaon,2025,249,839.99,20-Aug-2025,232,53.65,0.0

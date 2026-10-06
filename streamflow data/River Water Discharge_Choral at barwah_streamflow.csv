@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Choral at barwah,2019,179,41.0,13-Sep-2019,256,7.92,2.24
+River Water Discharge_Choral at barwah,2020,220,24.0,23-Sep-2020,267,4.5,0.0
+River Water Discharge_Choral at barwah,2021,365,26.0,25-Sep-2021,268,1.85,0.0
+River Water Discharge_Choral at barwah,2022,363,104.0,10-Aug-2022,222,4.8,0.0
+River Water Discharge_Choral at barwah,2023,365,205.12,16-Sep-2023,259,7.44,0.0
+River Water Discharge_Choral at barwah,2024,396,63.0,26-Aug-2024,239,5.78,0.0
+River Water Discharge_Choral at barwah,2025,310,67.39,31-Aug-2025,243,3.21,0.0

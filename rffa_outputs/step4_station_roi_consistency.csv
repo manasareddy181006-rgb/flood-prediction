@@ -1,0 +1,92 @@
+station,cluster,roi_frac_in_own_cluster,frac_clustermates_whose_roi_has_station,roi_majority_cluster,roi_majority_frac,flag
+sandia,5,0.75,0.4,5,0.75,consistent
+Adityapur,1,1.0,0.2631578947368421,1,1.0,consistent
+Akkihebbal,2,1.0,0.21428571428571427,2,1.0,consistent
+Alladupalli,5,1.0,0.4,5,1.0,consistent
+Altuma,1,1.0,0.15789473684210525,1,1.0,consistent
+Ambarampalayam,3,1.0,0.5,3,1.0,consistent
+Ambasamudram,3,1.0,0.4166666666666667,3,1.0,consistent
+Arangali,3,1.0,0.25,3,1.0,consistent
+Bamnia,4,1.0,0.2,4,1.0,consistent
+Bamnidhi,1,1.0,0.5789473684210527,1,1.0,consistent
+Baronda,1,1.0,0.47368421052631576,1,1.0,consistent
+Belkhedi,4,0.4,0.15,1,0.6,transfer candidate
+Betmogra,4,0.5,0.1,4,0.5,consistent
+Chanwada,4,1.0,0.25,4,1.0,consistent
+Chhidgaon,4,1.0,0.3,4,1.0,consistent
+Chinamusi  tumadu,6,1.0,0.5,6,1.0,consistent
+Chitrasani -duplicate,4,1.0,0.2,4,1.0,consistent
+Dabri,4,1.0,0.15,4,1.0,consistent
+Dameracherla,5,0.75,0.4,5,0.75,consistent
+Dhariawad,4,1.0,0.45,4,1.0,consistent
+Dindori,1,0.5,0.10526315789473684,1,0.5,consistent
+Elunuthimangalam,3,0.25,0.08333333333333333,5,0.5,transfer candidate
+Errakalva    ananthapalli,6,1.0,0.7,6,1.0,consistent
+Fekoghat,1,1.0,0.10526315789473684,1,1.0,consistent
+Degloor,4,0.5,0.15,4,0.5,consistent
+Gandlapet,6,0.5,0.2,4,0.5,consistent
+Halia,6,1.0,0.3,6,1.0,consistent
+Hogenakkal,2,0.25,0.07142857142857142,3,0.75,transfer candidate
+Jaraikela,1,1.0,0.05263157894736842,1,1.0,consistent
+Jotasan,4,1.0,0.05,4,1.0,consistent
+K.m. vadi,2,1.0,0.2857142857142857,2,1.0,consistent
+Kalampur,3,1.0,0.25,3,1.0,consistent
+Kallooppara,3,1.0,0.3333333333333333,3,1.0,consistent
+Kamalapuram,5,0.75,0.3,5,0.75,consistent
+Kattaleru   tiruvuru,6,1.0,0.1,6,1.0,consistent
+Keesara,6,1.0,0.7,6,1.0,consistent
+Kelo at raigarh,1,0.9,0.3684210526315789,1,0.9,consistent
+Khanditar,1,1.0,0.10526315789473684,1,1.0,consistent
+Kheda,4,1.0,0.1,4,1.0,consistent
+Kogaon,4,1.0,0.25,4,1.0,consistent
+Kovvada kalva near dommeru,6,1.0,0.1,6,1.0,consistent
+Koyna,2,0.75,0.14285714285714285,2,0.75,consistent
+Kudlur,3,0.5,0.08333333333333333,2,0.5,consistent
+Kundanpur,4,1.0,0.2,4,1.0,consistent
+Kurubhata,1,1.0,0.3684210526315789,1,1.0,consistent
+M.h. halli,2,1.0,0.2857142857142857,2,1.0,consistent
+Pachegaon,5,0.5,0.0,4,0.5,consistent
+Paleru bridge,6,1.0,0.8,6,1.0,consistent
+Parmanpur,1,1.0,0.3684210526315789,1,1.0,consistent
+Patan,4,0.5,0.0,1,0.5,consistent
+Pati,4,1.0,0.35,4,1.0,consistent
+Pedageddada,1,0.5,0.05263157894736842,1,0.5,consistent
+Potteru (potteruvagu),1,0.75,0.10526315789473684,1,0.75,consistent
+Pudur,3,1.0,0.16666666666666666,3,1.0,consistent
+Pulamanthole,3,1.0,0.5,3,1.0,consistent
+Rambhapur,4,1.0,0.2,4,1.0,consistent
+Rampur,1,1.0,0.42105263157894735,1,1.0,consistent
+Rangeli,5,0.5,0.4,4,0.5,consistent
+Ratanpur,4,1.0,0.1,4,1.0,consistent
+Sakleshpur,2,1.0,0.21428571428571427,2,1.0,consistent
+Salebhata,1,1.0,0.5263157894736842,1,1.0,consistent
+Samdoli (seasonal),2,1.0,0.2857142857142857,2,1.0,consistent
+Sevanur,5,0.25,0.0,2,0.5,transfer candidate
+Madhira,6,1.0,0.9,6,1.0,consistent
+Magaral,6,0.75,0.1,6,0.75,consistent
+Manendragarh,1,0.6,0.3157894736842105,1,0.6,consistent
+Manot,1,0.75,0.05263157894736842,1,0.75,consistent
+Morane,4,0.75,0.25,4,0.75,consistent
+Muthankera,2,0.75,0.07142857142857142,2,0.75,consistent
+Nandipalli,6,1.0,0.1,6,1.0,consistent
+Narmadapuram,5,1.0,0.2,5,1.0,consistent
+Navalgund,2,1.0,0.35714285714285715,2,1.0,consistent
+Ozerkheda,4,1.0,0.0,4,1.0,consistent
+Singavaram,5,0.75,0.3,5,0.75,consistent
+Somanpally(seasonal),5,0.75,0.3,5,0.75,consistent
+Sundergarh,1,0.375,0.3157894736842105,1,0.375,exclude/split candidate
+T. bekkupe,2,1.0,0.42857142857142855,2,1.0,consistent
+T. narasipur,2,1.0,0.21428571428571427,2,1.0,consistent
+T.k.halli,2,1.0,0.21428571428571427,2,1.0,consistent
+Talikot,2,0.5,0.21428571428571427,2,0.5,consistent
+Tapi at burhanpur,5,0.75,0.4,5,0.75,consistent
+Terwad (seasonal),2,1.0,0.35714285714285715,2,1.0,consistent
+Teska,4,1.0,0.25,4,1.0,consistent
+Theni,3,1.0,0.25,3,1.0,consistent
+Thevur,3,0.5,0.16666666666666666,3,0.5,consistent
+Thoppur,3,1.0,0.3333333333333333,3,1.0,consistent
+Thumpamon,3,1.0,0.4166666666666667,3,1.0,consistent
+Tuichang,1,1.0,0.0,1,1.0,consistent
+Tulaghat,1,1.0,0.15789473684210525,1,1.0,consistent
+Warunji,2,1.0,0.42857142857142855,2,1.0,consistent
+Zari,4,0.75,0.05,4,0.75,consistent

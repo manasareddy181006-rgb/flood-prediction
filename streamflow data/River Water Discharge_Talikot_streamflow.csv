@@ -1,0 +1,26 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Talikot,1995,102,80.0,12-Oct-1995,285,8.07,0.0
+River Water Discharge_Talikot,1996,366,375.7,12-Sep-1996,256,10.62,0.0
+River Water Discharge_Talikot,1997,365,182.0,28-Oct-1997,301,4.0,0.0
+River Water Discharge_Talikot,1998,365,486.0,14-Oct-1998,287,21.21,0.0
+River Water Discharge_Talikot,1999,365,141.0,12-Jun-1999,163,5.52,0.0
+River Water Discharge_Talikot,2000,366,435.2,30-Sep-2000,274,10.05,0.0
+River Water Discharge_Talikot,2001,365,534.2,08-Oct-2001,281,11.35,0.0
+River Water Discharge_Talikot,2002,365,339.0,13-Oct-2002,286,5.07,0.0
+River Water Discharge_Talikot,2003,365,158.79,03-Oct-2003,276,1.18,0.0
+River Water Discharge_Talikot,2004,366,143.9,05-Oct-2004,279,3.79,0.0
+River Water Discharge_Talikot,2005,365,190.73,08-Sep-2005,251,3.55,0.0
+River Water Discharge_Talikot,2006,334,234.72,20-Jun-2006,171,6.64,0.0
+River Water Discharge_Talikot,2007,183,748.53,24-Jun-2007,175,16.72,0.0
+River Water Discharge_Talikot,2013,183,115.73,20-Sep-2013,263,7.28,0.0
+River Water Discharge_Talikot,2015,171,182.46,11-Sep-2015,254,11.31,0.0
+River Water Discharge_Talikot,2016,1,5.07,01-Sep-2016,245,5.07,5.07
+River Water Discharge_Talikot,2017,79,108.99,21-Jun-2017,172,15.04,0.47
+River Water Discharge_Talikot,2018,35,52.77,18-Sep-2018,261,3.54,0.4
+River Water Discharge_Talikot,2019,131,320.0,20-Oct-2019,293,15.31,0.0
+River Water Discharge_Talikot,2020,147,660.0,16-Oct-2020,290,32.93,0.4
+River Water Discharge_Talikot,2021,205,190.0,29-Aug-2021,241,7.56,0.45
+River Water Discharge_Talikot,2022,350,700.0,06-Aug-2022,218,10.89,0.14
+River Water Discharge_Talikot,2023,324,14.0,08-Sep-2023,251,1.44,0.06
+River Water Discharge_Talikot,2024,208,300.0,09-Jun-2024,161,9.84,0.24
+River Water Discharge_Talikot,2025,85,6.48,17-Jun-2025,168,1.34,0.12

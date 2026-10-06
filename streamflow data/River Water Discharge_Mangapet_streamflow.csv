@@ -1,0 +1,6 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Mangapet,2003,6,0.0,01-Jan-2003,1,0.0,0.0
+River Water Discharge_Mangapet,2004,10,3.0,13-Jul-2004,195,0.56,0.0
+River Water Discharge_Mangapet,2005,9,1.15,01-Oct-2005,274,0.25,0.0
+River Water Discharge_Mangapet,2006,6,2.73,01-Oct-2006,274,0.45,0.0
+River Water Discharge_Mangapet,2008,1,0.0,01-Mar-2008,61,0.0,0.0

@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Khadka,2018,306,2162.84,17-Aug-2018,229,92.15,0.0
+River Water Discharge_Khadka,2019,304,239.57,31-Jul-2019,212,25.26,0.0
+River Water Discharge_Khadka,2020,306,404.21,19-Aug-2020,232,68.05,0.0
+River Water Discharge_Khadka,2021,302,1783.27,19-Aug-2021,231,123.55,0.0
+River Water Discharge_Khadka,2022,301,3005.51,14-Jul-2022,195,179.65,0.0
+River Water Discharge_Khadka,2023,188,364.31,05-Jul-2023,186,32.0,0.0
+River Water Discharge_Khadka,2024,240,2363.31,01-Sep-2024,245,189.45,14.03
+River Water Discharge_Khadka,2025,52,2523.93,19-Aug-2025,231,449.36,59.71

@@ -1,0 +1,10 @@
+# Large, regenerable diagnostic plots (234 files, ~217MB) - rerun code/*.py to regenerate
+plots/
+
+# Windows shortcut, not project content
+*.lnk
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Kondazhy,2019,48,575.73,05-Sep-2019,248,160.02,0.0
+River Water Discharge_Kondazhy,2020,179,640.97,07-Aug-2020,220,44.93,0.0
+River Water Discharge_Kondazhy,2021,259,469.87,16-Jul-2021,197,43.45,0.0
+River Water Discharge_Kondazhy,2022,347,451.16,05-Aug-2022,217,25.9,0.0
+River Water Discharge_Kondazhy,2023,297,304.86,25-Jul-2023,206,12.8,0.0
+River Water Discharge_Kondazhy,2024,147,496.28,19-Jul-2024,201,41.3,0.82
+River Water Discharge_Kondazhy,2025,3,2.9,16-Jan-2025,16,2.69,2.44

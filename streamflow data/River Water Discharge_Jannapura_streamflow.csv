@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Jannapura,2018,49,2.0,02-Nov-2018,306,0.79,0.18
+River Water Discharge_Jannapura,2019,209,774.08,30-Jul-2019,211,4.65,0.1
+River Water Discharge_Jannapura,2020,248,4.67,12-Aug-2020,225,1.13,0.3
+River Water Discharge_Jannapura,2021,259,23.03,07-Oct-2021,280,1.28,0.18
+River Water Discharge_Jannapura,2022,336,9.32,15-Oct-2022,288,1.08,0.14
+River Water Discharge_Jannapura,2023,277,36.7,16-Mar-2023,75,1.62,0.0
+River Water Discharge_Jannapura,2024,189,2.66,29-Oct-2024,303,0.77,0.1
+River Water Discharge_Jannapura,2025,22,4.5,26-Jun-2025,177,1.95,0.76

@@ -1,0 +1,7 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Sohagpura,2017,72,78.19,02-Aug-2017,214,4.1,0.1
+River Water Discharge_Sohagpura,2021,171,17.52,27-Jul-2021,208,2.44,0.0
+River Water Discharge_Sohagpura,2022,322,225.21,23-Aug-2022,235,3.76,0.01
+River Water Discharge_Sohagpura,2023,270,128.82,18-Sep-2023,261,2.23,0.05
+River Water Discharge_Sohagpura,2024,256,451.48,02-Oct-2024,276,6.72,0.0
+River Water Discharge_Sohagpura,2025,54,0.95,09-May-2025,129,0.45,0.0

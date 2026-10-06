@@ -1,0 +1,4 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Lasur,2014,214,0.0,01-Jun-2014,152,0.0,0.0
+River Water Discharge_Lasur,2015,90,0.0,01-Jan-2015,1,0.0,0.0
+River Water Discharge_Lasur,2016,1,0.0,01-Sep-2016,245,0.0,0.0

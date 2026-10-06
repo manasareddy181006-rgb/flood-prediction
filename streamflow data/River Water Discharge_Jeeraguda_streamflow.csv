@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Jeeraguda,2019,32,61.28,04-Dec-2019,338,27.83,0.0
+River Water Discharge_Jeeraguda,2020,317,545.99,25-Jul-2020,207,57.32,0.0
+River Water Discharge_Jeeraguda,2021,365,169.22,24-Sep-2021,267,29.2,0.0
+River Water Discharge_Jeeraguda,2022,355,454.96,10-Aug-2022,222,37.9,4.2
+River Water Discharge_Jeeraguda,2023,361,230.72,18-Aug-2023,230,38.06,10.0
+River Water Discharge_Jeeraguda,2024,363,1227.04,08-Sep-2024,252,62.71,7.0
+River Water Discharge_Jeeraguda,2025,265,1158.8,27-Aug-2025,239,78.25,10.0

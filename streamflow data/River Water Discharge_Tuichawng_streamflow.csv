@@ -1,0 +1,7 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Tuichawng,2020,202,325.47,03-Aug-2020,216,64.58,6.8
+River Water Discharge_Tuichawng,2021,371,540.36,31-Aug-2021,243,41.64,0.43
+River Water Discharge_Tuichawng,2022,365,246.26,20-Jun-2022,171,21.87,0.09
+River Water Discharge_Tuichawng,2023,365,559.89,09-Aug-2023,221,23.53,0.04
+River Water Discharge_Tuichawng,2024,321,240.51,03-Jul-2024,185,24.59,0.0
+River Water Discharge_Tuichawng,2025,166,740172.0,08-Jul-2025,189,4499.41,0.98

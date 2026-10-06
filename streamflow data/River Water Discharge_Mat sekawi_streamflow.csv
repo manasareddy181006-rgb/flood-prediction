@@ -1,0 +1,12 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Mat sekawi,2013,365,350.21,28-Aug-2013,240,46.04,0.2
+River Water Discharge_Mat sekawi,2014,365,363.46,20-Sep-2014,263,32.1,0.24
+River Water Discharge_Mat sekawi,2015,365,735.93,07-Sep-2015,250,55.35,0.43
+River Water Discharge_Mat sekawi,2016,182,189.2,10-Jul-2016,192,39.48,1.18
+River Water Discharge_Mat sekawi,2017,114,453.14,26-Aug-2017,238,75.94,1.0
+River Water Discharge_Mat sekawi,2020,153,285.39,01-Aug-2020,214,58.33,6.44
+River Water Discharge_Mat sekawi,2021,365,279.34,12-Aug-2021,224,24.19,3.56
+River Water Discharge_Mat sekawi,2022,365,148.03,21-Jun-2022,172,12.7,2.02
+River Water Discharge_Mat sekawi,2023,365,147.47,08-Aug-2023,220,7.93,1.38
+River Water Discharge_Mat sekawi,2024,333,184.21,28-May-2024,149,9.79,1.66
+River Water Discharge_Mat sekawi,2025,231,193.78,03-Jun-2025,154,18.39,1.8

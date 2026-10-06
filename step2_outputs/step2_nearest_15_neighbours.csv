@@ -1,0 +1,1351 @@
+station,rank,neighbour,distance
+sandia,1,Narmadapuram,1.2850870726823813
+sandia,2,Tapi at burhanpur,1.3282705291704906
+sandia,3,Rangeli,1.9070481450599073
+sandia,4,Kurubhata,1.9196103044302162
+sandia,5,Kogaon,2.0739849023793457
+sandia,6,Zari,2.0921140363180006
+sandia,7,Kundanpur,2.226263215697689
+sandia,8,Bamnidhi,2.2374765877609555
+sandia,9,Patan,2.281888381205544
+sandia,10,Manot,2.2891680809753923
+sandia,11,Jaraikela,2.3367841017910145
+sandia,12,Salebhata,2.3595306911721314
+sandia,13,Dameracherla,2.3921486123872895
+sandia,14,Somanpally(seasonal),2.416702021935901
+sandia,15,Chanwada,2.4595031610189855
+Adityapur,1,Salebhata,1.0254060238490497
+Adityapur,2,Bamnidhi,1.1913417161277067
+Adityapur,3,Kurubhata,1.201955082322748
+Adityapur,4,Parmanpur,1.3002066865078954
+Adityapur,5,Khanditar,1.3672825675468165
+Adityapur,6,Rampur,1.429775891792393
+Adityapur,7,Baronda,1.8203253612436097
+Adityapur,8,Jaraikela,1.8962061160286907
+Adityapur,9,Kelo at raigarh,1.993716647559133
+Adityapur,10,Altuma,2.105620204739011
+Adityapur,11,Patan,2.440029335421988
+Adityapur,12,Fekoghat,2.561068193923117
+Adityapur,13,sandia,2.569514269163659
+Adityapur,14,Manot,2.61621206506389
+Adityapur,15,Sundergarh,2.645527051943279
+Akkihebbal,1,T. narasipur,1.3269430119447598
+Akkihebbal,2,M.h. halli,1.3425225920305142
+Akkihebbal,3,T.k.halli,1.5862327378218748
+Akkihebbal,4,T. bekkupe,2.0908858587065935
+Akkihebbal,5,K.m. vadi,2.2213426163479526
+Akkihebbal,6,Navalgund,2.569748825150291
+Akkihebbal,7,Kamalapuram,3.0720620637232057
+Akkihebbal,8,Singavaram,3.164159424449969
+Akkihebbal,9,Elunuthimangalam,3.4901365753471625
+Akkihebbal,10,Warunji,3.4993098630263586
+Akkihebbal,11,Hogenakkal,3.5194591301801013
+Akkihebbal,12,Pachegaon,3.5520993659846654
+Akkihebbal,13,Sevanur,3.683922717066249
+Akkihebbal,14,Samdoli (seasonal),3.7343600385447897
+Akkihebbal,15,Talikot,3.784531714332655
+Alladupalli,1,Somanpally(seasonal),2.0702192496365774
+Alladupalli,2,Singavaram,2.075648288322317
+Alladupalli,3,Kamalapuram,2.179681842236001
+Alladupalli,4,Magaral,2.2409927509124565
+Alladupalli,5,Dameracherla,2.334914645681727
+Alladupalli,6,Halia,2.3351768336903826
+Alladupalli,7,Keesara,2.4745101064399897
+Alladupalli,8,Nandipalli,2.5140932328682912
+Alladupalli,9,Gandlapet,2.7143137965313286
+Alladupalli,10,Madhira,2.842980368934304
+Alladupalli,11,Tapi at burhanpur,2.8781827899258245
+Alladupalli,12,Errakalva    ananthapalli,2.91582217258494
+Alladupalli,13,Pachegaon,3.077508713534644
+Alladupalli,14,Morane,3.167895604467247
+Alladupalli,15,Salebhata,3.2581894266724505
+Altuma,1,Kelo at raigarh,1.747609012972461
+Altuma,2,Salebhata,1.79587033892354
+Altuma,3,Sundergarh,1.8011820221438393
+Altuma,4,Parmanpur,1.8636899017064263
+Altuma,5,Bamnidhi,1.9878875934253415
+Altuma,6,Rampur,2.0060857006469854
+Altuma,7,Adityapur,2.105620204739011
+Altuma,8,Fekoghat,2.121687910317772
+Altuma,9,Baronda,2.2019139183194594
+Altuma,10,Kurubhata,2.266637332578284
+Altuma,11,Errakalva    ananthapalli,2.3172708822141965
+Altuma,12,Madhira,2.4019951459198197
+Altuma,13,Khanditar,2.6213937769971993
+Altuma,14,Tulaghat,2.676690330228342
+Altuma,15,Keesara,2.715172193598884
+Ambarampalayam,1,Arangali,1.3341185070604298
+Ambarampalayam,2,Ambasamudram,1.849127263279851
+Ambarampalayam,3,Pulamanthole,1.9395893785983822
+Ambarampalayam,4,Muthankera,2.0631643851517887
+Ambarampalayam,5,Pudur,2.2734572530540107
+Ambarampalayam,6,Thumpamon,2.3743487234884735
+Ambarampalayam,7,Kudlur,2.4713942954378223
+Ambarampalayam,8,Thoppur,2.563340574466071
+Ambarampalayam,9,Hogenakkal,2.6045182402753415
+Ambarampalayam,10,Thevur,2.939731064269896
+Ambarampalayam,11,Kallooppara,2.9583941962324363
+Ambarampalayam,12,Kalampur,3.194061514766542
+Ambarampalayam,13,Theni,3.29854612968452
+Ambarampalayam,14,Potteru (potteruvagu),3.533663941288138
+Ambarampalayam,15,K.m. vadi,3.7177609031339043
+Ambasamudram,1,Ambarampalayam,1.849127263279851
+Ambasamudram,2,Thumpamon,1.9932355991965494
+Ambasamudram,3,Muthankera,2.0048236222590625
+Ambasamudram,4,Thoppur,2.097738030599573
+Ambasamudram,5,Kudlur,2.1665773700407738
+Ambasamudram,6,Arangali,2.202101526108505
+Ambasamudram,7,Kallooppara,2.4977473032414195
+Ambasamudram,8,Hogenakkal,2.699276308319822
+Ambasamudram,9,Kalampur,2.772181804411891
+Ambasamudram,10,Pulamanthole,2.845891449515621
+Ambasamudram,11,Thevur,3.245381029947799
+Ambasamudram,12,Theni,3.4333598031769212
+Ambasamudram,13,Pudur,3.497659142466809
+Ambasamudram,14,Sakleshpur,3.507650042427554
+Ambasamudram,15,Samdoli (seasonal),3.850250098736716
+Arangali,1,Ambarampalayam,1.3341185070604298
+Arangali,2,Pulamanthole,1.9420944321962172
+Arangali,3,Ambasamudram,2.202101526108505
+Arangali,4,Thumpamon,2.2974864942626065
+Arangali,5,Muthankera,2.4378699845505793
+Arangali,6,Kudlur,2.5473369563287047
+Arangali,7,Pudur,3.066311678868403
+Arangali,8,Thoppur,3.2474166818005714
+Arangali,9,Kallooppara,3.270842283579463
+Arangali,10,Hogenakkal,3.3524546404982947
+Arangali,11,Kalampur,3.5082497306378086
+Arangali,12,Potteru (potteruvagu),3.8190722300790427
+Arangali,13,Thevur,3.9895736189065563
+Arangali,14,Sakleshpur,4.134453401560129
+Arangali,15,Theni,4.175033041767389
+Bamnia,1,Dabri,0.32775919269930043
+Bamnia,2,Rambhapur,0.7244561457330537
+Bamnia,3,Dhariawad,1.1940936596920264
+Bamnia,4,Chhidgaon,1.879203018815954
+Bamnia,5,Teska,1.9522556997926697
+Bamnia,6,Belkhedi,1.976336126794866
+Bamnia,7,Kundanpur,2.1831410596484275
+Bamnia,8,Ratanpur,2.205536872592054
+Bamnia,9,Kheda,2.2735827370792774
+Bamnia,10,Pati,2.351567440653595
+Bamnia,11,Degloor,2.5326933019927775
+Bamnia,12,Sundergarh,2.6134784697344116
+Bamnia,13,Kogaon,2.6300774755752214
+Bamnia,14,Gandlapet,2.658301201987424
+Bamnia,15,Betmogra,2.691809063421356
+Bamnidhi,1,Rampur,0.6499446653841693
+Bamnidhi,2,Parmanpur,0.8617791796976366
+Bamnidhi,3,Kurubhata,0.9085850660992028
+Bamnidhi,4,Salebhata,0.9216949614625255
+Bamnidhi,5,Baronda,0.962826463753384
+Bamnidhi,6,Adityapur,1.1913417161277067
+Bamnidhi,7,Kelo at raigarh,1.3917047907945632
+Bamnidhi,8,Belkhedi,1.605739205681821
+Bamnidhi,9,Patan,1.771810099741623
+Bamnidhi,10,Manot,1.907492085120765
+Bamnidhi,11,Chhidgaon,1.91312437517506
+Bamnidhi,12,Altuma,1.9878875934253415
+Bamnidhi,13,Khanditar,2.0450699068106104
+Bamnidhi,14,Sundergarh,2.048974122063607
+Bamnidhi,15,Manendragarh,2.0512302102244124
+Baronda,1,Bamnidhi,0.962826463753384
+Baronda,2,Rampur,0.9901259612067157
+Baronda,3,Salebhata,1.3498848733072397
+Baronda,4,Parmanpur,1.3994089417272997
+Baronda,5,Patan,1.3995720006968293
+Baronda,6,Kurubhata,1.4537051423717717
+Baronda,7,Belkhedi,1.664497019575763
+Baronda,8,Kelo at raigarh,1.7510173277566747
+Baronda,9,Chhidgaon,1.7916866950619132
+Baronda,10,Adityapur,1.8203253612436097
+Baronda,11,Teska,1.8278985684239049
+Baronda,12,Kogaon,1.8314424113568468
+Baronda,13,Halia,1.9173466184445176
+Baronda,14,Gandlapet,1.935046923973418
+Baronda,15,Zari,1.9871815029399096
+Belkhedi,1,Chhidgaon,0.9187051325072959
+Belkhedi,2,Teska,0.9768658923592337
+Belkhedi,3,Manendragarh,1.2281823237954048
+Belkhedi,4,Dindori,1.482907877025949
+Belkhedi,5,Kelo at raigarh,1.53806763298356
+Belkhedi,6,Dhariawad,1.5542363153815755
+Belkhedi,7,Bamnidhi,1.605739205681821
+Belkhedi,8,Manot,1.6620262007126483
+Belkhedi,9,Baronda,1.664497019575763
+Belkhedi,10,Rampur,1.7009144213003122
+Belkhedi,11,Kundanpur,1.7793983272113252
+Belkhedi,12,Sundergarh,1.797223818176311
+Belkhedi,13,Patan,1.8269605605957235
+Belkhedi,14,Parmanpur,1.8783480634957679
+Belkhedi,15,Zari,1.8891285030600062
+Betmogra,1,Degloor,0.4039640528213049
+Betmogra,2,Talikot,1.531531494336434
+Betmogra,3,Paleru bridge,1.7840702449540895
+Betmogra,4,Zari,1.8431934339020999
+Betmogra,5,Teska,2.110034659405104
+Betmogra,6,Belkhedi,2.179987555365616
+Betmogra,7,Dhariawad,2.2107672793886626
+Betmogra,8,Chinamusi  tumadu,2.389603678719284
+Betmogra,9,Rambhapur,2.397197735562822
+Betmogra,10,Kundanpur,2.4323080091451676
+Betmogra,11,Rampur,2.4371488650846356
+Betmogra,12,Halia,2.4628380553552667
+Betmogra,13,Samdoli (seasonal),2.5055380063558212
+Betmogra,14,Terwad (seasonal),2.5138316058453327
+Betmogra,15,Chhidgaon,2.5340250687737074
+Chanwada,1,Kogaon,1.1389465723466732
+Chanwada,2,Pati,1.6175086459033463
+Chanwada,3,Kheda,1.7188668280249195
+Chanwada,4,Ratanpur,1.804042247007941
+Chanwada,5,Kundanpur,1.8731107413496122
+Chanwada,6,Tapi at burhanpur,2.0607358096230217
+Chanwada,7,Morane,2.1652223218027173
+Chanwada,8,Zari,2.2687486355262347
+Chanwada,9,Patan,2.277264386504561
+Chanwada,10,Chhidgaon,2.295962243284452
+Chanwada,11,Rangeli,2.313794201104668
+Chanwada,12,Dhariawad,2.3735203133078344
+Chanwada,13,sandia,2.4595031610189855
+Chanwada,14,Gandlapet,2.550179140442119
+Chanwada,15,Halia,2.6762468063425557
+Chhidgaon,1,Belkhedi,0.9187051325072959
+Chhidgaon,2,Teska,1.2435669205017887
+Chhidgaon,3,Pati,1.4405109309737956
+Chhidgaon,4,Dhariawad,1.467939817526452
+Chhidgaon,5,Kundanpur,1.5767847825360042
+Chhidgaon,6,Kogaon,1.5882102316250812
+Chhidgaon,7,Patan,1.6205449095860152
+Chhidgaon,8,Baronda,1.7916866950619132
+Chhidgaon,9,Rambhapur,1.8018487631895148
+Chhidgaon,10,Dindori,1.8445240388143405
+Chhidgaon,11,Bamnia,1.879203018815954
+Chhidgaon,12,Bamnidhi,1.91312437517506
+Chhidgaon,13,Zari,1.955532183112094
+Chhidgaon,14,Manendragarh,1.9634413559609243
+Chhidgaon,15,Kelo at raigarh,1.9668276612017939
+Chinamusi  tumadu,1,Paleru bridge,0.959641393911512
+Chinamusi  tumadu,2,Madhira,1.4735591411666642
+Chinamusi  tumadu,3,Keesara,1.704657783824851
+Chinamusi  tumadu,4,Errakalva    ananthapalli,1.7942363223007385
+Chinamusi  tumadu,5,Halia,2.147585851089236
+Chinamusi  tumadu,6,Degloor,2.3437923170069443
+Chinamusi  tumadu,7,Betmogra,2.389603678719284
+Chinamusi  tumadu,8,Dameracherla,2.73744163544377
+Chinamusi  tumadu,9,Talikot,2.7848922628349078
+Chinamusi  tumadu,10,Rampur,2.831800723963612
+Chinamusi  tumadu,11,Salebhata,2.9938773854431133
+Chinamusi  tumadu,12,Zari,3.0382017791493063
+Chinamusi  tumadu,13,Magaral,3.044323366990261
+Chinamusi  tumadu,14,Parmanpur,3.0645826000579897
+Chinamusi  tumadu,15,Gandlapet,3.086979648897
+Dabri,1,Bamnia,0.32775919269930043
+Dabri,2,Rambhapur,0.8973944822596568
+Dabri,3,Dhariawad,1.3662718029774648
+Dabri,4,Teska,2.0123721372755936
+Dabri,5,Chhidgaon,2.0715200881167553
+Dabri,6,Belkhedi,2.074107926991551
+Dabri,7,Kundanpur,2.4155525063228005
+Dabri,8,Ratanpur,2.464062355770963
+Dabri,9,Kheda,2.534696599514983
+Dabri,10,Pati,2.5512706830547534
+Dabri,11,Degloor,2.5537917678252486
+Dabri,12,Sundergarh,2.652073118061065
+Dabri,13,Manendragarh,2.696503206539717
+Dabri,14,Betmogra,2.7087713941101588
+Dabri,15,Gandlapet,2.7547732039294446
+Dameracherla,1,Somanpally(seasonal),1.1810993202317062
+Dameracherla,2,Halia,1.7080680703239652
+Dameracherla,3,Singavaram,1.815176148065814
+Dameracherla,4,Zari,1.8629441814815422
+Dameracherla,5,Keesara,2.0517831358092233
+Dameracherla,6,Kamalapuram,2.1559952878679485
+Dameracherla,7,Tapi at burhanpur,2.3166559752689437
+Dameracherla,8,Paleru bridge,2.3175550856498335
+Dameracherla,9,Alladupalli,2.334914645681727
+Dameracherla,10,Salebhata,2.34568159810954
+Dameracherla,11,Madhira,2.3888935384352625
+Dameracherla,12,sandia,2.3921486123872895
+Dameracherla,13,Talikot,2.454585363312905
+Dameracherla,14,Rampur,2.502604927264957
+Dameracherla,15,Errakalva    ananthapalli,2.5528065353018605
+Dhariawad,1,Rambhapur,0.9396158980085695
+Dhariawad,2,Bamnia,1.1940936596920264
+Dhariawad,3,Kundanpur,1.249937357021545
+Dhariawad,4,Dabri,1.3662718029774648
+Dhariawad,5,Chhidgaon,1.467939817526452
+Dhariawad,6,Belkhedi,1.5542363153815755
+Dhariawad,7,Ratanpur,1.6025055036891112
+Dhariawad,8,Teska,1.6719349988201255
+Dhariawad,9,Kheda,1.680321627804161
+Dhariawad,10,Kogaon,2.034354754138555
+Dhariawad,11,Zari,2.0879071172042933
+Dhariawad,12,Degloor,2.091929206168484
+Dhariawad,13,Pati,2.119095498799988
+Dhariawad,14,Betmogra,2.2107672793886626
+Dhariawad,15,Chanwada,2.3735203133078344
+Dindori,1,Manot,1.2355643869894577
+Dindori,2,Teska,1.4628414279394806
+Dindori,3,Belkhedi,1.482907877025949
+Dindori,4,Manendragarh,1.500566844443662
+Dindori,5,Chhidgaon,1.8445240388143405
+Dindori,6,Baronda,1.9982781060474566
+Dindori,7,Bamnidhi,2.163660507092741
+Dindori,8,Kurubhata,2.327600992839423
+Dindori,9,Rampur,2.3295095526898333
+Dindori,10,Patan,2.3886448038902435
+Dindori,11,Parmanpur,2.391623733907034
+Dindori,12,Kelo at raigarh,2.434383029060049
+Dindori,13,Zari,2.5339798964549125
+Dindori,14,Sundergarh,2.5526142866292214
+Dindori,15,Degloor,2.6832629606369354
+Elunuthimangalam,1,Kamalapuram,2.210109447991447
+Elunuthimangalam,2,Pudur,2.3262159469058243
+Elunuthimangalam,3,T. narasipur,2.567315080411036
+Elunuthimangalam,4,Singavaram,2.685586346986937
+Elunuthimangalam,5,T.k.halli,3.0098585383668586
+Elunuthimangalam,6,Thevur,3.3515934139408685
+Elunuthimangalam,7,Alladupalli,3.3983652172086307
+Elunuthimangalam,8,Akkihebbal,3.4901365753471625
+Elunuthimangalam,9,Pachegaon,3.638301430153464
+Elunuthimangalam,10,Magaral,3.642204640969102
+Elunuthimangalam,11,T. bekkupe,3.6892754160398344
+Elunuthimangalam,12,Hogenakkal,3.8096032789926073
+Elunuthimangalam,13,Navalgund,3.874137244311941
+Elunuthimangalam,14,Dameracherla,3.924701414542973
+Elunuthimangalam,15,M.h. halli,3.9427126182582373
+Errakalva    ananthapalli,1,Madhira,0.8177433737991391
+Errakalva    ananthapalli,2,Keesara,0.8855963593999809
+Errakalva    ananthapalli,3,Halia,1.1823249457488714
+Errakalva    ananthapalli,4,Chinamusi  tumadu,1.7942363223007385
+Errakalva    ananthapalli,5,Paleru bridge,1.823977720456935
+Errakalva    ananthapalli,6,Magaral,1.9430921358414202
+Errakalva    ananthapalli,7,Gandlapet,2.032065121068333
+Errakalva    ananthapalli,8,Salebhata,2.093705830518783
+Errakalva    ananthapalli,9,Rampur,2.113283646956233
+Errakalva    ananthapalli,10,Kattaleru   tiruvuru,2.2053465566155874
+Errakalva    ananthapalli,11,Baronda,2.276433250905623
+Errakalva    ananthapalli,12,Kovvada kalva near dommeru,2.2979422646231336
+Errakalva    ananthapalli,13,Altuma,2.3172708822141965
+Errakalva    ananthapalli,14,Parmanpur,2.426530634308563
+Errakalva    ananthapalli,15,Bamnidhi,2.4677834270567436
+Fekoghat,1,Kelo at raigarh,1.7462237525524889
+Fekoghat,2,Parmanpur,2.0066007116598463
+Fekoghat,3,Altuma,2.121687910317772
+Fekoghat,4,Sundergarh,2.1459905130666583
+Fekoghat,5,Rampur,2.246790943529563
+Fekoghat,6,Salebhata,2.4502243478884296
+Fekoghat,7,Adityapur,2.561068193923117
+Fekoghat,8,Bamnidhi,2.57194151505874
+Fekoghat,9,Errakalva    ananthapalli,2.780183874594509
+Fekoghat,10,Paleru bridge,2.841740296602458
+Fekoghat,11,Baronda,2.8465075508737097
+Fekoghat,12,Madhira,2.8659568265351623
+Fekoghat,13,Manendragarh,3.034367105262329
+Fekoghat,14,Belkhedi,3.078972598131386
+Fekoghat,15,Kattaleru   tiruvuru,3.081026084352013
+Degloor,1,Betmogra,0.4039640528213049
+Degloor,2,Talikot,1.3299439447743817
+Degloor,3,Zari,1.6933949629603313
+Degloor,4,Paleru bridge,1.733584033625281
+Degloor,5,Teska,1.901288159465148
+Degloor,6,Belkhedi,2.0154661584745748
+Degloor,7,Dhariawad,2.091929206168484
+Degloor,8,Halia,2.219728559209807
+Degloor,9,Kundanpur,2.2875996597398824
+Degloor,10,Rambhapur,2.2932222755798217
+Degloor,11,Rampur,2.330344169779799
+Degloor,12,Chinamusi  tumadu,2.3437923170069443
+Degloor,13,Chhidgaon,2.3753684374489157
+Degloor,14,Samdoli (seasonal),2.417906059482718
+Degloor,15,Terwad (seasonal),2.4564315994839614
+Gandlapet,1,Halia,1.3630439072653473
+Gandlapet,2,Baronda,1.935046923973418
+Gandlapet,3,Teska,1.9890593059670965
+Gandlapet,4,Madhira,2.029015790602981
+Gandlapet,5,Errakalva    ananthapalli,2.032065121068333
+Gandlapet,6,Kogaon,2.083080606436583
+Gandlapet,7,Zari,2.108336375691958
+Gandlapet,8,Pati,2.1371670218632377
+Gandlapet,9,Keesara,2.16761862631359
+Gandlapet,10,Kattaleru   tiruvuru,2.2124231914445103
+Gandlapet,11,Patan,2.2913079492415225
+Gandlapet,12,Morane,2.309067768410257
+Gandlapet,13,Belkhedi,2.3157361097094835
+Gandlapet,14,Rampur,2.3345927876718506
+Gandlapet,15,Chhidgaon,2.354960745182863
+Halia,1,Keesara,1.098976857318765
+Halia,2,Errakalva    ananthapalli,1.1823249457488714
+Halia,3,Madhira,1.2857959730242334
+Halia,4,Gandlapet,1.3630439072653473
+Halia,5,Dameracherla,1.7080680703239652
+Halia,6,Zari,1.7891549740887245
+Halia,7,Paleru bridge,1.8220366433164747
+Halia,8,Baronda,1.9173466184445176
+Halia,9,Magaral,1.9613257918950604
+Halia,10,Rampur,1.9851155858887
+Halia,11,Salebhata,2.045484495015412
+Halia,12,Chinamusi  tumadu,2.147585851089236
+Halia,13,Singavaram,2.1675099127686197
+Halia,14,Kogaon,2.170741071348429
+Halia,15,Degloor,2.219728559209807
+Hogenakkal,1,Muthankera,1.4794885456147016
+Hogenakkal,2,Samdoli (seasonal),1.9092112153139322
+Hogenakkal,3,T. bekkupe,1.955316873089439
+Hogenakkal,4,Kudlur,1.96340632499141
+Hogenakkal,5,Terwad (seasonal),2.085096514129869
+Hogenakkal,6,K.m. vadi,2.091747789308752
+Hogenakkal,7,Thevur,2.2095073875802105
+Hogenakkal,8,Thoppur,2.2108292358295913
+Hogenakkal,9,Sakleshpur,2.275951033283405
+Hogenakkal,10,Singavaram,2.40143067840382
+Hogenakkal,11,Ambarampalayam,2.6045182402753415
+Hogenakkal,12,M.h. halli,2.6260284646446053
+Hogenakkal,13,Potteru (potteruvagu),2.6681698900058906
+Hogenakkal,14,Ambasamudram,2.699276308319822
+Hogenakkal,15,Talikot,2.7974795064946765
+Jaraikela,1,Kurubhata,1.6415960340737439
+Jaraikela,2,Adityapur,1.8962061160286907
+Jaraikela,3,Manot,2.109586770586427
+Jaraikela,4,Bamnidhi,2.1840012493448184
+Jaraikela,5,Salebhata,2.335578299876922
+Jaraikela,6,sandia,2.3367841017910145
+Jaraikela,7,Khanditar,2.5037793227247844
+Jaraikela,8,Parmanpur,2.512206224831833
+Jaraikela,9,Narmadapuram,2.5437777794470433
+Jaraikela,10,Rampur,2.5542537108690366
+Jaraikela,11,Baronda,2.843293580812188
+Jaraikela,12,Dameracherla,2.8555986217416662
+Jaraikela,13,Tapi at burhanpur,2.9109412793906095
+Jaraikela,14,Somanpally(seasonal),2.91665135245507
+Jaraikela,15,Belkhedi,2.9513560355642934
+Jotasan,1,Chhidgaon,2.321794081697547
+Jotasan,2,Pati,2.5019281668531836
+Jotasan,3,Tapi at burhanpur,2.686121590060436
+Jotasan,4,Rangeli,2.7134923792446806
+Jotasan,5,Dhariawad,2.7262834657371284
+Jotasan,6,Ozerkheda,2.7472502804000487
+Jotasan,7,Belkhedi,2.7589495642727413
+Jotasan,8,Kundanpur,2.780007439200496
+Jotasan,9,Manot,2.819658585694361
+Jotasan,10,Pachegaon,2.9457967137569807
+Jotasan,11,Teska,2.9572039881644443
+Jotasan,12,Kogaon,2.9646322739944657
+Jotasan,13,Dindori,3.097458167481477
+Jotasan,14,Rambhapur,3.10016271525326
+Jotasan,15,Chanwada,3.1762549217815375
+K.m. vadi,1,M.h. halli,1.2352975184473913
+K.m. vadi,2,T. bekkupe,1.2831757824121868
+K.m. vadi,3,Sakleshpur,1.9103512000682479
+K.m. vadi,4,Hogenakkal,2.091747789308752
+K.m. vadi,5,Samdoli (seasonal),2.162794526642839
+K.m. vadi,6,Akkihebbal,2.2213426163479526
+K.m. vadi,7,Terwad (seasonal),2.302441606254446
+K.m. vadi,8,Navalgund,2.338272438555689
+K.m. vadi,9,Muthankera,2.417004482219716
+K.m. vadi,10,T.k.halli,2.522789555002498
+K.m. vadi,11,Warunji,2.5259490653878887
+K.m. vadi,12,Talikot,2.6657402957500542
+K.m. vadi,13,Kudlur,2.758623174144433
+K.m. vadi,14,T. narasipur,3.0115329812098954
+K.m. vadi,15,Singavaram,3.02552064399187
+Kalampur,1,Kallooppara,0.702518188231908
+Kalampur,2,Thumpamon,2.0287449713474097
+Kalampur,3,Pulamanthole,2.4753969478044646
+Kalampur,4,Thoppur,2.530883678163018
+Kalampur,5,Ambasamudram,2.772181804411891
+Kalampur,6,Thevur,2.799861414494034
+Kalampur,7,Muthankera,3.170918204363592
+Kalampur,8,Kudlur,3.181277879817474
+Kalampur,9,Ambarampalayam,3.194061514766542
+Kalampur,10,Hogenakkal,3.2737842386535
+Kalampur,11,Terwad (seasonal),3.4962523400304124
+Kalampur,12,Arangali,3.5082497306378086
+Kalampur,13,Samdoli (seasonal),3.5733701835219995
+Kalampur,14,Ozerkheda,3.579340780037948
+Kalampur,15,Pudur,3.7322855997210946
+Kallooppara,1,Kalampur,0.702518188231908
+Kallooppara,2,Thumpamon,1.49865304368531
+Kallooppara,3,Pulamanthole,2.2450200304691195
+Kallooppara,4,Ambasamudram,2.4977473032414195
+Kallooppara,5,Thoppur,2.5323885444217824
+Kallooppara,6,Thevur,2.7965558119234544
+Kallooppara,7,Ambarampalayam,2.9583941962324363
+Kallooppara,8,Muthankera,3.2592379274399423
+Kallooppara,9,Arangali,3.270842283579463
+Kallooppara,10,Kudlur,3.314670962449019
+Kallooppara,11,Hogenakkal,3.407560681461737
+Kallooppara,12,Pudur,3.4921391339710754
+Kallooppara,13,Ozerkheda,3.767838697470116
+Kallooppara,14,Magaral,3.769446961108207
+Kallooppara,15,Terwad (seasonal),3.8440894353899533
+Kamalapuram,1,Singavaram,0.8978501514537707
+Kamalapuram,2,Dameracherla,2.1559952878679485
+Kamalapuram,3,T.k.halli,2.171105277900655
+Kamalapuram,4,Alladupalli,2.179681842236001
+Kamalapuram,5,Elunuthimangalam,2.210109447991447
+Kamalapuram,6,Pachegaon,2.213213041506788
+Kamalapuram,7,Somanpally(seasonal),2.3110132461515476
+Kamalapuram,8,T. narasipur,2.5997580957605737
+Kamalapuram,9,T. bekkupe,2.6802096057119558
+Kamalapuram,10,Tapi at burhanpur,2.6835527518178086
+Kamalapuram,11,Magaral,2.690421400174087
+Kamalapuram,12,Halia,2.8008128835697064
+Kamalapuram,13,Navalgund,2.8731806342743718
+Kamalapuram,14,Hogenakkal,2.9472505874397843
+Kamalapuram,15,Akkihebbal,3.0720620637232057
+Kattaleru   tiruvuru,1,Kovvada kalva near dommeru,0.6895618257853483
+Kattaleru   tiruvuru,2,Errakalva    ananthapalli,2.2053465566155874
+Kattaleru   tiruvuru,3,Gandlapet,2.2124231914445103
+Kattaleru   tiruvuru,4,Madhira,2.2811028329638607
+Kattaleru   tiruvuru,5,Halia,2.6254298107893277
+Kattaleru   tiruvuru,6,Keesara,2.711617288769378
+Kattaleru   tiruvuru,7,Altuma,3.0533285192101807
+Kattaleru   tiruvuru,8,Fekoghat,3.081026084352013
+Kattaleru   tiruvuru,9,Sundergarh,3.1189777743639424
+Kattaleru   tiruvuru,10,Nandipalli,3.1259941911389264
+Kattaleru   tiruvuru,11,Paleru bridge,3.126743430111286
+Kattaleru   tiruvuru,12,Chinamusi  tumadu,3.1357222123227553
+Kattaleru   tiruvuru,13,Kelo at raigarh,3.2432907905946484
+Kattaleru   tiruvuru,14,Baronda,3.2976739319845474
+Kattaleru   tiruvuru,15,Dabri,3.339219605453106
+Keesara,1,Madhira,0.7362992279983644
+Keesara,2,Errakalva    ananthapalli,0.8855963593999809
+Keesara,3,Halia,1.098976857318765
+Keesara,4,Paleru bridge,1.6984888725478544
+Keesara,5,Chinamusi  tumadu,1.704657783824851
+Keesara,6,Magaral,2.017715656092581
+Keesara,7,Salebhata,2.0352622456203355
+Keesara,8,Dameracherla,2.0517831358092233
+Keesara,9,Gandlapet,2.16761862631359
+Keesara,10,Rampur,2.2310778385603287
+Keesara,11,Baronda,2.4631440106972295
+Keesara,12,Alladupalli,2.4745101064399897
+Keesara,13,Somanpally(seasonal),2.4786243048013654
+Keesara,14,Zari,2.5469556396348105
+Keesara,15,Bamnidhi,2.566812990023048
+Kelo at raigarh,1,Sundergarh,0.9264241619769883
+Kelo at raigarh,2,Parmanpur,1.0724817294592024
+Kelo at raigarh,3,Rampur,1.334565649246753
+Kelo at raigarh,4,Bamnidhi,1.3917047907945632
+Kelo at raigarh,5,Belkhedi,1.53806763298356
+Kelo at raigarh,6,Manendragarh,1.6500709500444406
+Kelo at raigarh,7,Fekoghat,1.7462237525524889
+Kelo at raigarh,8,Altuma,1.747609012972461
+Kelo at raigarh,9,Baronda,1.7510173277566747
+Kelo at raigarh,10,Salebhata,1.8218739602072744
+Kelo at raigarh,11,Kurubhata,1.9111105382376483
+Kelo at raigarh,12,Chhidgaon,1.9668276612017939
+Kelo at raigarh,13,Adityapur,1.993716647559133
+Kelo at raigarh,14,Patan,2.251814114368254
+Kelo at raigarh,15,Teska,2.285248572044524
+Khanditar,1,Adityapur,1.3672825675468165
+Khanditar,2,Salebhata,1.505120219362629
+Khanditar,3,Bamnidhi,2.0450699068106104
+Khanditar,4,Kurubhata,2.0472156291769643
+Khanditar,5,Rampur,2.210764260367012
+Khanditar,6,Parmanpur,2.2368454771551254
+Khanditar,7,Baronda,2.486140746742766
+Khanditar,8,Jaraikela,2.5037793227247844
+Khanditar,9,Altuma,2.6213937769971993
+Khanditar,10,sandia,2.769496532900333
+Khanditar,11,Keesara,2.785038487757418
+Khanditar,12,Dameracherla,2.8557553238853393
+Khanditar,13,Errakalva    ananthapalli,2.908608910373167
+Khanditar,14,Halia,3.000163891967021
+Khanditar,15,Somanpally(seasonal),3.041889431799475
+Kheda,1,Ratanpur,0.13424483162265563
+Kheda,2,Kundanpur,1.559155777493606
+Kheda,3,Dhariawad,1.680321627804161
+Kheda,4,Chanwada,1.7188668280249195
+Kheda,5,Rambhapur,1.8701080419439564
+Kheda,6,Kogaon,1.9265940616225399
+Kheda,7,Zari,2.2146855059487147
+Kheda,8,Bamnia,2.2735827370792774
+Kheda,9,Chhidgaon,2.3250185538621833
+Kheda,10,Pati,2.4403137028016615
+Kheda,11,Dabri,2.534696599514983
+Kheda,12,Patan,2.681151532833808
+Kheda,13,Belkhedi,2.68865649288996
+Kheda,14,Degloor,2.6960855675484017
+Kheda,15,Betmogra,2.741545021377084
+Kogaon,1,Chanwada,1.1389465723466732
+Kogaon,2,Pati,1.1410338893521252
+Kogaon,3,Kundanpur,1.5446984920545668
+Kogaon,4,Zari,1.5564256418031595
+Kogaon,5,Patan,1.5571369554494645
+Kogaon,6,Chhidgaon,1.5882102316250812
+Kogaon,7,Tapi at burhanpur,1.7383388520522598
+Kogaon,8,Baronda,1.8314424113568468
+Kogaon,9,Kheda,1.9265940616225399
+Kogaon,10,Ratanpur,1.9715186990534088
+Kogaon,11,Teska,1.974991531656406
+Kogaon,12,Belkhedi,2.0011982901547674
+Kogaon,13,Morane,2.0155272512952065
+Kogaon,14,Dhariawad,2.034354754138555
+Kogaon,15,sandia,2.0739849023793457
+Kovvada kalva near dommeru,1,Kattaleru   tiruvuru,0.6895618257853483
+Kovvada kalva near dommeru,2,Errakalva    ananthapalli,2.2979422646231336
+Kovvada kalva near dommeru,3,Madhira,2.4853000065321456
+Kovvada kalva near dommeru,4,Gandlapet,2.6071567497003256
+Kovvada kalva near dommeru,5,Keesara,2.837136875465845
+Kovvada kalva near dommeru,6,Halia,2.8606061690146842
+Kovvada kalva near dommeru,7,Fekoghat,3.117087219520153
+Kovvada kalva near dommeru,8,Altuma,3.2079368136146256
+Kovvada kalva near dommeru,9,Nandipalli,3.2396874854056903
+Kovvada kalva near dommeru,10,Chinamusi  tumadu,3.3146953901089664
+Kovvada kalva near dommeru,11,Paleru bridge,3.339463054701979
+Kovvada kalva near dommeru,12,Sundergarh,3.428409540176962
+Kovvada kalva near dommeru,13,Kelo at raigarh,3.5062153931784286
+Kovvada kalva near dommeru,14,Magaral,3.5085408459201624
+Kovvada kalva near dommeru,15,Baronda,3.5863953359561735
+Koyna,1,Warunji,1.6599797845708166
+Koyna,2,Sakleshpur,2.7862545337304607
+Koyna,3,Kudlur,2.802443870350496
+Koyna,4,Terwad (seasonal),3.3277790829788865
+Koyna,5,Samdoli (seasonal),3.3448588631729606
+Koyna,6,K.m. vadi,3.644976663371325
+Koyna,7,Muthankera,3.6686820349556264
+Koyna,8,Ozerkheda,3.669665659523596
+Koyna,9,Thoppur,3.8179808078519546
+Koyna,10,M.h. halli,3.8886170374830775
+Koyna,11,Hogenakkal,3.9905711100603303
+Koyna,12,T. bekkupe,4.041601470889853
+Koyna,13,Pedageddada,4.16350049809595
+Koyna,14,Betmogra,4.192429203695159
+Koyna,15,Degloor,4.255434305986099
+Kudlur,1,Muthankera,1.3665222669004362
+Kudlur,2,Hogenakkal,1.96340632499141
+Kudlur,3,Sakleshpur,1.9723445329991542
+Kudlur,4,Thoppur,2.0244663251675363
+Kudlur,5,Ambasamudram,2.1665773700407738
+Kudlur,6,Ambarampalayam,2.4713942954378223
+Kudlur,7,Arangali,2.5473369563287047
+Kudlur,8,Warunji,2.62695338534945
+Kudlur,9,K.m. vadi,2.758623174144433
+Kudlur,10,Samdoli (seasonal),2.7798640123978307
+Kudlur,11,Koyna,2.802443870350496
+Kudlur,12,Terwad (seasonal),2.863907560830377
+Kudlur,13,Potteru (potteruvagu),3.0183653676320956
+Kudlur,14,T. bekkupe,3.0606151435967406
+Kudlur,15,M.h. halli,3.105653129721565
+Kundanpur,1,Dhariawad,1.249937357021545
+Kundanpur,2,Zari,1.4234903253367592
+Kundanpur,3,Ratanpur,1.5323225481561327
+Kundanpur,4,Kogaon,1.5446984920545668
+Kundanpur,5,Kheda,1.559155777493606
+Kundanpur,6,Chhidgaon,1.5767847825360042
+Kundanpur,7,Belkhedi,1.7793983272113252
+Kundanpur,8,Teska,1.8103591977280256
+Kundanpur,9,Chanwada,1.8731107413496122
+Kundanpur,10,Patan,1.9844736704819244
+Kundanpur,11,Rambhapur,2.0042178244083266
+Kundanpur,12,Pati,2.0303580556874503
+Kundanpur,13,Tapi at burhanpur,2.1600205267797805
+Kundanpur,14,Bamnia,2.1831410596484275
+Kundanpur,15,sandia,2.226263215697689
+Kurubhata,1,Bamnidhi,0.9085850660992028
+Kurubhata,2,Adityapur,1.201955082322748
+Kurubhata,3,Salebhata,1.2543416202381357
+Kurubhata,4,Baronda,1.4537051423717717
+Kurubhata,5,Rampur,1.4757302807499297
+Kurubhata,6,Parmanpur,1.5772641627673036
+Kurubhata,7,Jaraikela,1.6415960340737439
+Kurubhata,8,Manot,1.8207656807488817
+Kurubhata,9,Kelo at raigarh,1.9111105382376483
+Kurubhata,10,sandia,1.9196103044302162
+Kurubhata,11,Belkhedi,1.9404518082968645
+Kurubhata,12,Patan,1.9848858416319355
+Kurubhata,13,Khanditar,2.0472156291769643
+Kurubhata,14,Tapi at burhanpur,2.188425611024842
+Kurubhata,15,Chhidgaon,2.205525017386747
+M.h. halli,1,K.m. vadi,1.2352975184473913
+M.h. halli,2,T. bekkupe,1.3393968502459561
+M.h. halli,3,Akkihebbal,1.3425225920305142
+M.h. halli,4,T.k.halli,2.2043765652514993
+M.h. halli,5,T. narasipur,2.3766801665924238
+M.h. halli,6,Navalgund,2.4892967059430564
+M.h. halli,7,Warunji,2.5959577781892156
+M.h. halli,8,Hogenakkal,2.6260284646446053
+M.h. halli,9,Sakleshpur,2.626660079738823
+M.h. halli,10,Samdoli (seasonal),2.789272614081645
+M.h. halli,11,Muthankera,2.8404266841046364
+M.h. halli,12,Terwad (seasonal),2.8733147213000185
+M.h. halli,13,Kudlur,3.105653129721565
+M.h. halli,14,Singavaram,3.1218411589905224
+M.h. halli,15,Talikot,3.2015270629327497
+Pachegaon,1,Tapi at burhanpur,1.5459555445849944
+Pachegaon,2,Singavaram,2.067043712887748
+Pachegaon,3,Rangeli,2.1314679141115365
+Pachegaon,4,Kamalapuram,2.213213041506788
+Pachegaon,5,Morane,2.38436517886493
+Pachegaon,6,Narmadapuram,2.4867151318903518
+Pachegaon,7,sandia,2.4945387800186354
+Pachegaon,8,Zari,2.6940820759323354
+Pachegaon,9,Pati,2.7185803796376886
+Pachegaon,10,Kogaon,2.72560751990184
+Pachegaon,11,Somanpally(seasonal),2.821781130775694
+Pachegaon,12,Dameracherla,2.835956238583399
+Pachegaon,13,T.k.halli,2.843721750614515
+Pachegaon,14,Manot,2.8574640014381223
+Pachegaon,15,Kundanpur,2.8822151274864307
+Paleru bridge,1,Chinamusi  tumadu,0.959641393911512
+Paleru bridge,2,Madhira,1.585809074816975
+Paleru bridge,3,Keesara,1.6984888725478544
+Paleru bridge,4,Degloor,1.733584033625281
+Paleru bridge,5,Betmogra,1.7840702449540895
+Paleru bridge,6,Halia,1.8220366433164747
+Paleru bridge,7,Errakalva    ananthapalli,1.823977720456935
+Paleru bridge,8,Rampur,2.233423247271543
+Paleru bridge,9,Dameracherla,2.3175550856498335
+Paleru bridge,10,Zari,2.3476547719459293
+Paleru bridge,11,Talikot,2.351117549626601
+Paleru bridge,12,Parmanpur,2.500788371289192
+Paleru bridge,13,Salebhata,2.5370856472724523
+Paleru bridge,14,Bamnidhi,2.692139967430814
+Paleru bridge,15,Gandlapet,2.697408521202857
+Parmanpur,1,Rampur,0.6853489854902531
+Parmanpur,2,Bamnidhi,0.8617791796976366
+Parmanpur,3,Kelo at raigarh,1.0724817294592024
+Parmanpur,4,Salebhata,1.2431361344994558
+Parmanpur,5,Adityapur,1.3002066865078954
+Parmanpur,6,Baronda,1.3994089417272997
+Parmanpur,7,Kurubhata,1.5772641627673036
+Parmanpur,8,Sundergarh,1.8284457766188387
+Parmanpur,9,Altuma,1.8636899017064263
+Parmanpur,10,Belkhedi,1.8783480634957679
+Parmanpur,11,Fekoghat,2.0066007116598463
+Parmanpur,12,Manendragarh,2.0651687623271746
+Parmanpur,13,Patan,2.1791861058884967
+Parmanpur,14,Chhidgaon,2.2277503147145263
+Parmanpur,15,Khanditar,2.2368454771551254
+Patan,1,Baronda,1.3995720006968293
+Patan,2,Kogaon,1.5571369554494645
+Patan,3,Chhidgaon,1.6205449095860152
+Patan,4,Bamnidhi,1.771810099741623
+Patan,5,Belkhedi,1.8269605605957235
+Patan,6,Rampur,1.8365437722350246
+Patan,7,Pati,1.963523681576753
+Patan,8,Teska,1.9779830547301345
+Patan,9,Kundanpur,1.9844736704819244
+Patan,10,Kurubhata,1.9848858416319355
+Patan,11,Zari,2.100214713427596
+Patan,12,Salebhata,2.130399582639222
+Patan,13,Parmanpur,2.1791861058884967
+Patan,14,Kelo at raigarh,2.251814114368254
+Patan,15,Chanwada,2.277264386504561
+Pati,1,Kogaon,1.1410338893521252
+Pati,2,Chhidgaon,1.4405109309737956
+Pati,3,Morane,1.4750461489372193
+Pati,4,Chanwada,1.6175086459033463
+Pati,5,Teska,1.9352272525348773
+Pati,6,Patan,1.963523681576753
+Pati,7,Kundanpur,2.0303580556874503
+Pati,8,Belkhedi,2.0700112496436436
+Pati,9,Dhariawad,2.119095498799988
+Pati,10,Gandlapet,2.1371670218632377
+Pati,11,Tapi at burhanpur,2.1495323956514487
+Pati,12,Baronda,2.196351248614016
+Pati,13,Zari,2.2853460556112246
+Pati,14,Bamnia,2.351567440653595
+Pati,15,Rambhapur,2.4117036589792247
+Pedageddada,1,Tulaghat,2.9578391683371175
+Pedageddada,2,Thoppur,2.9746256895557743
+Pedageddada,3,Kudlur,3.6429200893183853
+Pedageddada,4,Ozerkheda,3.7058197321384827
+Pedageddada,5,Sundergarh,4.068496596587478
+Pedageddada,6,Altuma,4.150152970451076
+Pedageddada,7,Ambasamudram,4.155136102423723
+Pedageddada,8,Koyna,4.16350049809595
+Pedageddada,9,Potteru (potteruvagu),4.181188167430231
+Pedageddada,10,Hogenakkal,4.294227689125257
+Pedageddada,11,Kalampur,4.306269703700679
+Pedageddada,12,Warunji,4.393287088339752
+Pedageddada,13,Kallooppara,4.415437753071246
+Pedageddada,14,Thumpamon,4.4996864561994245
+Pedageddada,15,Kelo at raigarh,4.4999542527090854
+Potteru (potteruvagu),1,Tulaghat,1.8683151284059363
+Potteru (potteruvagu),2,Hogenakkal,2.6681698900058906
+Potteru (potteruvagu),3,Manot,2.835619421854938
+Potteru (potteruvagu),4,Kudlur,3.0183653676320956
+Potteru (potteruvagu),5,Singavaram,3.1897125258863555
+Potteru (potteruvagu),6,T. bekkupe,3.1921476558460573
+Potteru (potteruvagu),7,Bamnidhi,3.2396341040647982
+Potteru (potteruvagu),8,Dindori,3.2405272605900532
+Potteru (potteruvagu),9,Muthankera,3.2716144190169563
+Potteru (potteruvagu),10,Kamalapuram,3.3235520629627033
+Potteru (potteruvagu),11,Kurubhata,3.332856022657992
+Potteru (potteruvagu),12,Thoppur,3.3491152916340012
+Potteru (potteruvagu),13,Samdoli (seasonal),3.351886109329513
+Potteru (potteruvagu),14,Baronda,3.4120908729241832
+Potteru (potteruvagu),15,Terwad (seasonal),3.4168521721878276
+Pudur,1,Ambarampalayam,2.2734572530540107
+Pudur,2,Elunuthimangalam,2.3262159469058243
+Pudur,3,Pulamanthole,2.596304414780159
+Pudur,4,Thevur,2.8243390601533167
+Pudur,5,Arangali,3.066311678868403
+Pudur,6,Kamalapuram,3.3175415786372504
+Pudur,7,Theni,3.3188529540317564
+Pudur,8,Thumpamon,3.3572725701186705
+Pudur,9,Hogenakkal,3.3835219777467493
+Pudur,10,Muthankera,3.4593041046703856
+Pudur,11,Kallooppara,3.4921391339710754
+Pudur,12,Ambasamudram,3.497659142466809
+Pudur,13,Singavaram,3.5210732678403893
+Pudur,14,T. narasipur,3.650796357889044
+Pudur,15,Magaral,3.705771873129224
+Pulamanthole,1,Thumpamon,1.7623880050201135
+Pulamanthole,2,Ambarampalayam,1.9395893785983822
+Pulamanthole,3,Arangali,1.9420944321962172
+Pulamanthole,4,Kallooppara,2.2450200304691195
+Pulamanthole,5,Kalampur,2.4753969478044646
+Pulamanthole,6,Pudur,2.596304414780159
+Pulamanthole,7,Ambasamudram,2.845891449515621
+Pulamanthole,8,Muthankera,3.162228786787318
+Pulamanthole,9,Thoppur,3.1650063571268645
+Pulamanthole,10,Thevur,3.2751531222437915
+Pulamanthole,11,Kudlur,3.299415105059791
+Pulamanthole,12,Hogenakkal,3.5993917363909294
+Pulamanthole,13,Ozerkheda,3.7947069099887454
+Pulamanthole,14,Potteru (potteruvagu),4.220934307815042
+Pulamanthole,15,Samdoli (seasonal),4.366171784562088
+Rambhapur,1,Bamnia,0.7244561457330537
+Rambhapur,2,Dabri,0.8973944822596568
+Rambhapur,3,Dhariawad,0.9396158980085695
+Rambhapur,4,Ratanpur,1.7853948956839374
+Rambhapur,5,Chhidgaon,1.8018487631895148
+Rambhapur,6,Kheda,1.8701080419439564
+Rambhapur,7,Belkhedi,1.960152136892343
+Rambhapur,8,Kundanpur,2.0042178244083266
+Rambhapur,9,Teska,2.112260400962208
+Rambhapur,10,Degloor,2.2932222755798217
+Rambhapur,11,Betmogra,2.397197735562822
+Rambhapur,12,Pati,2.4117036589792247
+Rambhapur,13,Kogaon,2.5380690764927807
+Rambhapur,14,Kelo at raigarh,2.5962658758649098
+Rambhapur,15,Sundergarh,2.6516344687169395
+Rampur,1,Bamnidhi,0.6499446653841693
+Rampur,2,Parmanpur,0.6853489854902531
+Rampur,3,Salebhata,0.960014152008016
+Rampur,4,Baronda,0.9901259612067157
+Rampur,5,Kelo at raigarh,1.334565649246753
+Rampur,6,Adityapur,1.429775891792393
+Rampur,7,Kurubhata,1.4757302807499297
+Rampur,8,Belkhedi,1.7009144213003122
+Rampur,9,Patan,1.8365437722350246
+Rampur,10,Halia,1.9851155858887
+Rampur,11,Altuma,2.0060857006469854
+Rampur,12,Zari,2.0138822068712896
+Rampur,13,Chhidgaon,2.014648749626707
+Rampur,14,Sundergarh,2.0555398943516425
+Rampur,15,Errakalva    ananthapalli,2.113283646956233
+Rangeli,1,Tapi at burhanpur,1.5840034300943329
+Rangeli,2,Narmadapuram,1.6561795890835844
+Rangeli,3,sandia,1.9070481450599073
+Rangeli,4,Pachegaon,2.1314679141115365
+Rangeli,5,Kundanpur,2.2646291397144354
+Rangeli,6,Chanwada,2.313794201104668
+Rangeli,7,Kogaon,2.5571677758220033
+Rangeli,8,Jotasan,2.7134923792446806
+Rangeli,9,Somanpally(seasonal),2.724241945829434
+Rangeli,10,Zari,2.7621866021020804
+Rangeli,11,Kurubhata,2.9261318043278823
+Rangeli,12,Pati,2.9452814955645126
+Rangeli,13,Chhidgaon,2.998795921645977
+Rangeli,14,Manot,3.010660261698819
+Rangeli,15,Dhariawad,3.0289849873570334
+Ratanpur,1,Kheda,0.13424483162265563
+Ratanpur,2,Kundanpur,1.5323225481561327
+Ratanpur,3,Dhariawad,1.6025055036891112
+Ratanpur,4,Rambhapur,1.7853948956839374
+Ratanpur,5,Chanwada,1.804042247007941
+Ratanpur,6,Kogaon,1.9715186990534088
+Ratanpur,7,Bamnia,2.205536872592054
+Ratanpur,8,Zari,2.2178954671415703
+Ratanpur,9,Chhidgaon,2.2896379320278846
+Ratanpur,10,Dabri,2.464062355770963
+Ratanpur,11,Pati,2.4734061913204295
+Ratanpur,12,Belkhedi,2.628601129478285
+Ratanpur,13,Degloor,2.641801302309619
+Ratanpur,14,Patan,2.67916239161512
+Ratanpur,15,Betmogra,2.682072554788063
+Sakleshpur,1,K.m. vadi,1.9103512000682479
+Sakleshpur,2,Kudlur,1.9723445329991542
+Sakleshpur,3,Muthankera,2.067421412551224
+Sakleshpur,4,Samdoli (seasonal),2.1577567189076654
+Sakleshpur,5,Terwad (seasonal),2.26792872665366
+Sakleshpur,6,Hogenakkal,2.275951033283405
+Sakleshpur,7,Warunji,2.454248037620068
+Sakleshpur,8,T. bekkupe,2.5810094180051055
+Sakleshpur,9,M.h. halli,2.626660079738823
+Sakleshpur,10,Koyna,2.7862545337304607
+Sakleshpur,11,Thoppur,3.0463521838692262
+Sakleshpur,12,Talikot,3.2210027443612894
+Sakleshpur,13,Ambasamudram,3.507650042427554
+Sakleshpur,14,Navalgund,3.5593887775789246
+Sakleshpur,15,Ozerkheda,3.727852471959918
+Salebhata,1,Bamnidhi,0.9216949614625255
+Salebhata,2,Rampur,0.960014152008016
+Salebhata,3,Adityapur,1.0254060238490497
+Salebhata,4,Parmanpur,1.2431361344994558
+Salebhata,5,Kurubhata,1.2543416202381357
+Salebhata,6,Baronda,1.3498848733072397
+Salebhata,7,Khanditar,1.505120219362629
+Salebhata,8,Altuma,1.79587033892354
+Salebhata,9,Kelo at raigarh,1.8218739602072744
+Salebhata,10,Keesara,2.0352622456203355
+Salebhata,11,Halia,2.045484495015412
+Salebhata,12,Errakalva    ananthapalli,2.093705830518783
+Salebhata,13,Patan,2.130399582639222
+Salebhata,14,Madhira,2.1567729083169045
+Salebhata,15,Kogaon,2.321603959398608
+Samdoli (seasonal),1,Terwad (seasonal),0.3759249051051036
+Samdoli (seasonal),2,Talikot,1.8316459946941435
+Samdoli (seasonal),3,Hogenakkal,1.9092112153139322
+Samdoli (seasonal),4,T. bekkupe,2.1373899757647727
+Samdoli (seasonal),5,Sakleshpur,2.1577567189076654
+Samdoli (seasonal),6,K.m. vadi,2.162794526642839
+Samdoli (seasonal),7,Warunji,2.319262537255084
+Samdoli (seasonal),8,Degloor,2.417906059482718
+Samdoli (seasonal),9,Muthankera,2.438054764374671
+Samdoli (seasonal),10,Betmogra,2.5055380063558212
+Samdoli (seasonal),11,Navalgund,2.58997677815613
+Samdoli (seasonal),12,Ozerkheda,2.602843024201227
+Samdoli (seasonal),13,Zari,2.7481678266978413
+Samdoli (seasonal),14,Kudlur,2.7798640123978307
+Samdoli (seasonal),15,Singavaram,2.7825273414054874
+Sevanur,1,T. narasipur,2.7837204630679584
+Sevanur,2,Akkihebbal,3.683922717066249
+Sevanur,3,T.k.halli,3.8128838140450356
+Sevanur,4,Elunuthimangalam,4.0655034929149005
+Sevanur,5,Kamalapuram,4.249279178908442
+Sevanur,6,M.h. halli,4.896257716051429
+Sevanur,7,Singavaram,4.937647007891936
+Sevanur,8,Pachegaon,5.041518531828475
+Sevanur,9,T. bekkupe,5.300362031524033
+Sevanur,10,Pudur,5.325713376539844
+Sevanur,11,Navalgund,5.353256226834685
+Sevanur,12,Narmadapuram,5.395040094310573
+Sevanur,13,Somanpally(seasonal),5.490591318580671
+Sevanur,14,Dameracherla,5.7054786282584065
+Sevanur,15,K.m. vadi,5.72593530918112
+Madhira,1,Keesara,0.7362992279983644
+Madhira,2,Errakalva    ananthapalli,0.8177433737991391
+Madhira,3,Halia,1.2857959730242334
+Madhira,4,Chinamusi  tumadu,1.4735591411666642
+Madhira,5,Paleru bridge,1.585809074816975
+Madhira,6,Gandlapet,2.029015790602981
+Madhira,7,Salebhata,2.1567729083169045
+Madhira,8,Rampur,2.2404312931470582
+Madhira,9,Kattaleru   tiruvuru,2.2811028329638607
+Madhira,10,Magaral,2.284307661999197
+Madhira,11,Dameracherla,2.3888935384352625
+Madhira,12,Altuma,2.4019951459198197
+Madhira,13,Kovvada kalva near dommeru,2.4853000065321456
+Madhira,14,Baronda,2.5154510572935904
+Madhira,15,Bamnidhi,2.5825743061099593
+Magaral,1,Nandipalli,1.6912819357501152
+Magaral,2,Thevur,1.8928308283706743
+Magaral,3,Errakalva    ananthapalli,1.9430921358414202
+Magaral,4,Halia,1.9613257918950604
+Magaral,5,Keesara,2.017715656092581
+Magaral,6,Alladupalli,2.2409927509124565
+Magaral,7,Singavaram,2.2773105660020114
+Magaral,8,Madhira,2.284307661999197
+Magaral,9,Kamalapuram,2.690421400174087
+Magaral,10,Gandlapet,2.768823768279351
+Magaral,11,Dameracherla,2.811517999551482
+Magaral,12,Hogenakkal,2.8675723616282576
+Magaral,13,Chinamusi  tumadu,3.044323366990261
+Magaral,14,Baronda,3.103025773123892
+Magaral,15,Salebhata,3.164700084150552
+Manendragarh,1,Belkhedi,1.2281823237954048
+Manendragarh,2,Dindori,1.500566844443662
+Manendragarh,3,Kelo at raigarh,1.6500709500444406
+Manendragarh,4,Teska,1.8189534306448372
+Manendragarh,5,Sundergarh,1.8219396188893984
+Manendragarh,6,Manot,1.8822047078276778
+Manendragarh,7,Chhidgaon,1.9634413559609243
+Manendragarh,8,Bamnidhi,2.0512302102244124
+Manendragarh,9,Parmanpur,2.0651687623271746
+Manendragarh,10,Rampur,2.1718953584657923
+Manendragarh,11,Baronda,2.302463011291091
+Manendragarh,12,Kurubhata,2.3390654661181793
+Manendragarh,13,Dhariawad,2.4524116134735343
+Manendragarh,14,Degloor,2.484320330382809
+Manendragarh,15,Betmogra,2.5464623953684336
+Manot,1,Dindori,1.2355643869894577
+Manot,2,Belkhedi,1.6620262007126483
+Manot,3,Kurubhata,1.8207656807488817
+Manot,4,Teska,1.8740286471775796
+Manot,5,Manendragarh,1.8822047078276778
+Manot,6,Bamnidhi,1.907492085120765
+Manot,7,Chhidgaon,2.0433541844891225
+Manot,8,Baronda,2.0876881205219715
+Manot,9,Jaraikela,2.109586770586427
+Manot,10,Zari,2.159977758116569
+Manot,11,Rampur,2.1878753513558773
+Manot,12,Tapi at burhanpur,2.288894484453423
+Manot,13,sandia,2.2891680809753923
+Manot,14,Parmanpur,2.3349306114430037
+Manot,15,Kundanpur,2.412656144111198
+Morane,1,Pati,1.4750461489372193
+Morane,2,Kogaon,2.0155272512952065
+Morane,3,Chanwada,2.1652223218027173
+Morane,4,Gandlapet,2.309067768410257
+Morane,5,Tapi at burhanpur,2.328702002220326
+Morane,6,Pachegaon,2.38436517886493
+Morane,7,Patan,2.6436896659010864
+Morane,8,Chhidgaon,2.679924667358415
+Morane,9,Teska,2.815347787578107
+Morane,10,Baronda,2.8465623781210994
+Morane,11,Nandipalli,2.9099585136849035
+Morane,12,Kundanpur,2.9384942132958773
+Morane,13,Zari,2.971976559108938
+Morane,14,Halia,3.0163772599022822
+Morane,15,Belkhedi,3.0835665403991905
+Muthankera,1,Kudlur,1.3665222669004362
+Muthankera,2,Hogenakkal,1.4794885456147016
+Muthankera,3,Ambasamudram,2.0048236222590625
+Muthankera,4,Ambarampalayam,2.0631643851517887
+Muthankera,5,Sakleshpur,2.067421412551224
+Muthankera,6,K.m. vadi,2.417004482219716
+Muthankera,7,Arangali,2.4378699845505793
+Muthankera,8,Samdoli (seasonal),2.438054764374671
+Muthankera,9,Thoppur,2.459748563136758
+Muthankera,10,Terwad (seasonal),2.561702567534815
+Muthankera,11,T. bekkupe,2.799080447580621
+Muthankera,12,M.h. halli,2.8404266841046364
+Muthankera,13,Thevur,2.9952303574302523
+Muthankera,14,Warunji,3.1071786481672468
+Muthankera,15,Pulamanthole,3.162228786787318
+Nandipalli,1,Magaral,1.6912819357501152
+Nandipalli,2,Halia,2.4470564917888233
+Nandipalli,3,Alladupalli,2.5140932328682912
+Nandipalli,4,Gandlapet,2.5228434409646985
+Nandipalli,5,Errakalva    ananthapalli,2.533528867275564
+Nandipalli,6,Keesara,2.7356195571277953
+Nandipalli,7,Morane,2.9099585136849035
+Nandipalli,8,Madhira,2.9207294028941067
+Nandipalli,9,Thevur,2.9290128734817094
+Nandipalli,10,Baronda,2.994089789499449
+Nandipalli,11,Kattaleru   tiruvuru,3.1259941911389264
+Nandipalli,12,Singavaram,3.140691205110631
+Nandipalli,13,Pati,3.14100921351037
+Nandipalli,14,Kogaon,3.20640615788196
+Nandipalli,15,Kovvada kalva near dommeru,3.2396874854056903
+Narmadapuram,1,sandia,1.2850870726823813
+Narmadapuram,2,Rangeli,1.6561795890835844
+Narmadapuram,3,Tapi at burhanpur,1.8033621503704034
+Narmadapuram,4,Somanpally(seasonal),2.3635967451822792
+Narmadapuram,5,Pachegaon,2.4867151318903518
+Narmadapuram,6,Jaraikela,2.5437777794470433
+Narmadapuram,7,Kurubhata,2.7131815457951856
+Narmadapuram,8,Dameracherla,2.7177880717334633
+Narmadapuram,9,Zari,2.987256305394396
+Narmadapuram,10,Manot,3.027984753772134
+Narmadapuram,11,Kundanpur,3.0418366462806867
+Narmadapuram,12,Kogaon,3.081463279607601
+Narmadapuram,13,Chanwada,3.147666364104125
+Narmadapuram,14,Salebhata,3.1689356488687275
+Narmadapuram,15,Bamnidhi,3.2161992218261917
+Navalgund,1,Talikot,1.7908571000532165
+Navalgund,2,T. bekkupe,1.9335708273130952
+Navalgund,3,T.k.halli,2.0168848555948213
+Navalgund,4,K.m. vadi,2.338272438555689
+Navalgund,5,Singavaram,2.4854662658771267
+Navalgund,6,M.h. halli,2.4892967059430564
+Navalgund,7,Akkihebbal,2.569748825150291
+Navalgund,8,Samdoli (seasonal),2.58997677815613
+Navalgund,9,Terwad (seasonal),2.6131323669152393
+Navalgund,10,Degloor,2.8476996657471285
+Navalgund,11,Kamalapuram,2.8731806342743718
+Navalgund,12,Dameracherla,2.880696852063957
+Navalgund,13,Betmogra,3.0623288939308293
+Navalgund,14,Warunji,3.1051936781296847
+Navalgund,15,Zari,3.1053657540183224
+Ozerkheda,1,Samdoli (seasonal),2.602843024201227
+Ozerkheda,2,Pati,2.7218855969500297
+Ozerkheda,3,Jotasan,2.7472502804000487
+Ozerkheda,4,Terwad (seasonal),2.767430129182347
+Ozerkheda,5,Chhidgaon,2.898424825885623
+Ozerkheda,6,Rambhapur,2.9983508718845866
+Ozerkheda,7,Hogenakkal,3.0221449533752356
+Ozerkheda,8,Thoppur,3.0544430964772067
+Ozerkheda,9,Tulaghat,3.1562849282675187
+Ozerkheda,10,Dhariawad,3.1768887252845652
+Ozerkheda,11,Kogaon,3.2090489073889663
+Ozerkheda,12,Warunji,3.21754844166779
+Ozerkheda,13,Kudlur,3.251509944668215
+Ozerkheda,14,Muthankera,3.2527982256943306
+Ozerkheda,15,Belkhedi,3.259078511902172
+Singavaram,1,Kamalapuram,0.8978501514537707
+Singavaram,2,Dameracherla,1.815176148065814
+Singavaram,3,Pachegaon,2.067043712887748
+Singavaram,4,Alladupalli,2.075648288322317
+Singavaram,5,T.k.halli,2.145962880989748
+Singavaram,6,Halia,2.1675099127686197
+Singavaram,7,Somanpally(seasonal),2.2461237732720885
+Singavaram,8,T. bekkupe,2.258487738445979
+Singavaram,9,Magaral,2.2773105660020114
+Singavaram,10,Hogenakkal,2.40143067840382
+Singavaram,11,Tapi at burhanpur,2.421887387506187
+Singavaram,12,Navalgund,2.4854662658771267
+Singavaram,13,Zari,2.5744785696206067
+Singavaram,14,Talikot,2.5770674722182876
+Singavaram,15,Gandlapet,2.663737717860128
+Somanpally(seasonal),1,Dameracherla,1.1810993202317062
+Somanpally(seasonal),2,Alladupalli,2.0702192496365774
+Somanpally(seasonal),3,Singavaram,2.2461237732720885
+Somanpally(seasonal),4,Kamalapuram,2.3110132461515476
+Somanpally(seasonal),5,Halia,2.311198657515259
+Somanpally(seasonal),6,Tapi at burhanpur,2.336978916355962
+Somanpally(seasonal),7,Narmadapuram,2.3635967451822792
+Somanpally(seasonal),8,sandia,2.416702021935901
+Somanpally(seasonal),9,Keesara,2.4786243048013654
+Somanpally(seasonal),10,Zari,2.5474500204472603
+Somanpally(seasonal),11,Salebhata,2.596375975779267
+Somanpally(seasonal),12,Rangeli,2.724241945829434
+Somanpally(seasonal),13,Madhira,2.7791654643951764
+Somanpally(seasonal),14,Gandlapet,2.8003343380114964
+Somanpally(seasonal),15,Pachegaon,2.821781130775694
+Sundergarh,1,Kelo at raigarh,0.9264241619769883
+Sundergarh,2,Belkhedi,1.797223818176311
+Sundergarh,3,Altuma,1.8011820221438393
+Sundergarh,4,Manendragarh,1.8219396188893984
+Sundergarh,5,Parmanpur,1.8284457766188387
+Sundergarh,6,Bamnidhi,2.048974122063607
+Sundergarh,7,Rampur,2.0555398943516425
+Sundergarh,8,Chhidgaon,2.091038375983009
+Sundergarh,9,Baronda,2.13471189465921
+Sundergarh,10,Fekoghat,2.1459905130666583
+Sundergarh,11,Kurubhata,2.4125139475607877
+Sundergarh,12,Teska,2.434597177023244
+Sundergarh,13,Salebhata,2.477336594886185
+Sundergarh,14,Dindori,2.5526142866292214
+Sundergarh,15,Patan,2.574646687390417
+T. bekkupe,1,K.m. vadi,1.2831757824121868
+T. bekkupe,2,M.h. halli,1.3393968502459561
+T. bekkupe,3,Navalgund,1.9335708273130952
+T. bekkupe,4,Hogenakkal,1.955316873089439
+T. bekkupe,5,T.k.halli,2.0360962096320283
+T. bekkupe,6,Akkihebbal,2.0908858587065935
+T. bekkupe,7,Talikot,2.115503782006565
+T. bekkupe,8,Samdoli (seasonal),2.1373899757647727
+T. bekkupe,9,Terwad (seasonal),2.2124748318747636
+T. bekkupe,10,Singavaram,2.258487738445979
+T. bekkupe,11,Sakleshpur,2.5810094180051055
+T. bekkupe,12,Kamalapuram,2.6802096057119558
+T. bekkupe,13,Warunji,2.713521180620892
+T. bekkupe,14,Muthankera,2.799080447580621
+T. bekkupe,15,T. narasipur,2.8340460362401214
+T. narasipur,1,Akkihebbal,1.3269430119447598
+T. narasipur,2,T.k.halli,1.6440967797288524
+T. narasipur,3,M.h. halli,2.3766801665924238
+T. narasipur,4,Elunuthimangalam,2.567315080411036
+T. narasipur,5,Kamalapuram,2.5997580957605737
+T. narasipur,6,Sevanur,2.7837204630679584
+T. narasipur,7,T. bekkupe,2.8340460362401214
+T. narasipur,8,Singavaram,2.9699369495651706
+T. narasipur,9,K.m. vadi,3.0115329812098954
+T. narasipur,10,Navalgund,3.1338182952752165
+T. narasipur,11,Pachegaon,3.3597918007864354
+T. narasipur,12,Pudur,3.650796357889044
+T. narasipur,13,Hogenakkal,3.809949267516463
+T. narasipur,14,Dameracherla,4.202669684188828
+T. narasipur,15,Muthankera,4.207044768271352
+T.k.halli,1,Akkihebbal,1.5862327378218748
+T.k.halli,2,T. narasipur,1.6440967797288524
+T.k.halli,3,Navalgund,2.0168848555948213
+T.k.halli,4,T. bekkupe,2.0360962096320283
+T.k.halli,5,Singavaram,2.145962880989748
+T.k.halli,6,Kamalapuram,2.171105277900655
+T.k.halli,7,M.h. halli,2.2043765652514993
+T.k.halli,8,K.m. vadi,2.522789555002498
+T.k.halli,9,Pachegaon,2.843721750614515
+T.k.halli,10,Elunuthimangalam,3.0098585383668586
+T.k.halli,11,Dameracherla,3.135801010300415
+T.k.halli,12,Talikot,3.187149104244385
+T.k.halli,13,Hogenakkal,3.329456414707198
+T.k.halli,14,Somanpally(seasonal),3.3619459306497443
+T.k.halli,15,Samdoli (seasonal),3.4795631226101085
+Talikot,1,Degloor,1.3299439447743817
+Talikot,2,Betmogra,1.531531494336434
+Talikot,3,Navalgund,1.7908571000532165
+Talikot,4,Samdoli (seasonal),1.8316459946941435
+Talikot,5,Terwad (seasonal),1.8620172498414178
+Talikot,6,Zari,1.937306619942513
+Talikot,7,T. bekkupe,2.115503782006565
+Talikot,8,Halia,2.293865702194002
+Talikot,9,Paleru bridge,2.351117549626601
+Talikot,10,Teska,2.4018380583674297
+Talikot,11,Dameracherla,2.454585363312905
+Talikot,12,Gandlapet,2.5764750534050727
+Talikot,13,Singavaram,2.5770674722182876
+Talikot,14,K.m. vadi,2.6657402957500542
+Talikot,15,Kundanpur,2.7360359757208483
+Tapi at burhanpur,1,sandia,1.3282705291704906
+Tapi at burhanpur,2,Pachegaon,1.5459555445849944
+Tapi at burhanpur,3,Rangeli,1.5840034300943329
+Tapi at burhanpur,4,Kogaon,1.7383388520522598
+Tapi at burhanpur,5,Narmadapuram,1.8033621503704034
+Tapi at burhanpur,6,Zari,2.0242642634631896
+Tapi at burhanpur,7,Chanwada,2.0607358096230217
+Tapi at burhanpur,8,Pati,2.1495323956514487
+Tapi at burhanpur,9,Kundanpur,2.1600205267797805
+Tapi at burhanpur,10,Kurubhata,2.188425611024842
+Tapi at burhanpur,11,Manot,2.288894484453423
+Tapi at burhanpur,12,Dameracherla,2.3166559752689437
+Tapi at burhanpur,13,Morane,2.328702002220326
+Tapi at burhanpur,14,Somanpally(seasonal),2.336978916355962
+Tapi at burhanpur,15,Baronda,2.3949162074067782
+Terwad (seasonal),1,Samdoli (seasonal),0.3759249051051036
+Terwad (seasonal),2,Talikot,1.8620172498414178
+Terwad (seasonal),3,Hogenakkal,2.085096514129869
+Terwad (seasonal),4,T. bekkupe,2.2124748318747636
+Terwad (seasonal),5,Sakleshpur,2.26792872665366
+Terwad (seasonal),6,K.m. vadi,2.302441606254446
+Terwad (seasonal),7,Warunji,2.306350398746833
+Terwad (seasonal),8,Degloor,2.4564315994839614
+Terwad (seasonal),9,Betmogra,2.5138316058453327
+Terwad (seasonal),10,Muthankera,2.561702567534815
+Terwad (seasonal),11,Navalgund,2.6131323669152393
+Terwad (seasonal),12,Ozerkheda,2.767430129182347
+Terwad (seasonal),13,Zari,2.843995835887926
+Terwad (seasonal),14,Kudlur,2.863907560830377
+Terwad (seasonal),15,M.h. halli,2.8733147213000185
+Teska,1,Belkhedi,0.9768658923592337
+Teska,2,Chhidgaon,1.2435669205017887
+Teska,3,Dindori,1.4628414279394806
+Teska,4,Dhariawad,1.6719349988201255
+Teska,5,Zari,1.6857813581011427
+Teska,6,Kundanpur,1.8103591977280256
+Teska,7,Manendragarh,1.8189534306448372
+Teska,8,Baronda,1.8278985684239049
+Teska,9,Manot,1.8740286471775796
+Teska,10,Degloor,1.901288159465148
+Teska,11,Pati,1.9352272525348773
+Teska,12,Bamnia,1.9522556997926697
+Teska,13,Kogaon,1.974991531656406
+Teska,14,Patan,1.9779830547301345
+Teska,15,Gandlapet,1.9890593059670965
+Theni,1,Ambarampalayam,3.29854612968452
+Theni,2,Pudur,3.3188529540317564
+Theni,3,Ambasamudram,3.4333598031769212
+Theni,4,Thevur,3.9020836898811133
+Theni,5,Muthankera,4.074548102832695
+Theni,6,Arangali,4.175033041767389
+Theni,7,Hogenakkal,4.2197123588482075
+Theni,8,Magaral,4.2823531624068965
+Theni,9,Thumpamon,4.38315426654144
+Theni,10,Elunuthimangalam,4.412342461264486
+Theni,11,Nandipalli,4.4421209338359855
+Theni,12,Thoppur,4.527486417261983
+Theni,13,Pulamanthole,4.545783105127906
+Theni,14,Kamalapuram,4.724365986852863
+Theni,15,Singavaram,4.7601423058789605
+Thevur,1,Magaral,1.8928308283706743
+Thevur,2,Hogenakkal,2.2095073875802105
+Thevur,3,Thoppur,2.6215954691939425
+Thevur,4,Errakalva    ananthapalli,2.6556790848062013
+Thevur,5,Halia,2.790745056717674
+Thevur,6,Singavaram,2.7917084126398035
+Thevur,7,Kallooppara,2.7965558119234544
+Thevur,8,Kalampur,2.799861414494034
+Thevur,9,Pudur,2.8243390601533167
+Thevur,10,Madhira,2.883053196514207
+Thevur,11,Nandipalli,2.9290128734817094
+Thevur,12,Ambarampalayam,2.939731064269896
+Thevur,13,Keesara,2.961561822212579
+Thevur,14,Muthankera,2.9952303574302523
+Thevur,15,Samdoli (seasonal),3.0673472868954255
+Thoppur,1,Kudlur,2.0244663251675363
+Thoppur,2,Ambasamudram,2.097738030599573
+Thoppur,3,Hogenakkal,2.2108292358295913
+Thoppur,4,Muthankera,2.459748563136758
+Thoppur,5,Kalampur,2.530883678163018
+Thoppur,6,Kallooppara,2.5323885444217824
+Thoppur,7,Ambarampalayam,2.563340574466071
+Thoppur,8,Thevur,2.6215954691939425
+Thoppur,9,Thumpamon,2.7642806661432355
+Thoppur,10,Pedageddada,2.9746256895557743
+Thoppur,11,Sakleshpur,3.0463521838692262
+Thoppur,12,Ozerkheda,3.0544430964772067
+Thoppur,13,Samdoli (seasonal),3.160133399091102
+Thoppur,14,Pulamanthole,3.1650063571268645
+Thoppur,15,Arangali,3.2474166818005714
+Thumpamon,1,Kallooppara,1.49865304368531
+Thumpamon,2,Pulamanthole,1.7623880050201135
+Thumpamon,3,Ambasamudram,1.9932355991965494
+Thumpamon,4,Kalampur,2.0287449713474097
+Thumpamon,5,Arangali,2.2974864942626065
+Thumpamon,6,Ambarampalayam,2.3743487234884735
+Thumpamon,7,Thoppur,2.7642806661432355
+Thumpamon,8,Kudlur,3.1734200748292603
+Thumpamon,9,Muthankera,3.2341959158706524
+Thumpamon,10,Pudur,3.3572725701186705
+Thumpamon,11,Thevur,3.540113221782728
+Thumpamon,12,Hogenakkal,3.7301044538680093
+Thumpamon,13,Ozerkheda,4.079506412219318
+Thumpamon,14,Theni,4.38315426654144
+Thumpamon,15,Potteru (potteruvagu),4.402759141753434
+Tuichang,1,Tulaghat,5.0222824600889435
+Tuichang,2,Potteru (potteruvagu),5.400268084125843
+Tuichang,3,Pedageddada,5.9841344636754705
+Tuichang,4,Kudlur,6.069572698099721
+Tuichang,5,Koyna,6.450399818765394
+Tuichang,6,Arangali,6.537637168235644
+Tuichang,7,Warunji,6.618144943691503
+Tuichang,8,Manendragarh,6.733214523195241
+Tuichang,9,Manot,6.76237462203609
+Tuichang,10,Dindori,6.770566061180563
+Tuichang,11,Jaraikela,6.787899401148595
+Tuichang,12,Muthankera,6.802081707800837
+Tuichang,13,Parmanpur,6.88112659653165
+Tuichang,14,Altuma,6.953776938605865
+Tuichang,15,Ambasamudram,6.959752456846726
+Tulaghat,1,Potteru (potteruvagu),1.8683151284059363
+Tulaghat,2,Parmanpur,2.58076758351951
+Tulaghat,3,Altuma,2.676690330228342
+Tulaghat,4,Bamnidhi,2.7040431059001158
+Tulaghat,5,Manendragarh,2.7795878925190025
+Tulaghat,6,Kelo at raigarh,2.790866293814244
+Tulaghat,7,Sundergarh,2.8173171990281713
+Tulaghat,8,Rampur,2.8226753014503743
+Tulaghat,9,Dindori,2.8236674858080812
+Tulaghat,10,Manot,2.8327149367049156
+Tulaghat,11,Baronda,2.9448691361233235
+Tulaghat,12,Pedageddada,2.9578391683371175
+Tulaghat,13,Belkhedi,2.9723864484460227
+Tulaghat,14,Kurubhata,2.9815050128846985
+Tulaghat,15,Salebhata,3.1521979671857316
+Warunji,1,Koyna,1.6599797845708166
+Warunji,2,Terwad (seasonal),2.306350398746833
+Warunji,3,Samdoli (seasonal),2.319262537255084
+Warunji,4,Sakleshpur,2.454248037620068
+Warunji,5,K.m. vadi,2.5259490653878887
+Warunji,6,M.h. halli,2.5959577781892156
+Warunji,7,Kudlur,2.62695338534945
+Warunji,8,T. bekkupe,2.713521180620892
+Warunji,9,Hogenakkal,3.089288905715371
+Warunji,10,Navalgund,3.1051936781296847
+Warunji,11,Muthankera,3.1071786481672468
+Warunji,12,Talikot,3.1155357446666687
+Warunji,13,Ozerkheda,3.21754844166779
+Warunji,14,Degloor,3.357291913358871
+Warunji,15,Betmogra,3.3654239889514272
+Zari,1,Kundanpur,1.4234903253367592
+Zari,2,Kogaon,1.5564256418031595
+Zari,3,Teska,1.6857813581011427
+Zari,4,Degloor,1.6933949629603313
+Zari,5,Halia,1.7891549740887245
+Zari,6,Betmogra,1.8431934339020999
+Zari,7,Dameracherla,1.8629441814815422
+Zari,8,Belkhedi,1.8891285030600062
+Zari,9,Talikot,1.937306619942513
+Zari,10,Chhidgaon,1.955532183112094
+Zari,11,Baronda,1.9871815029399096
+Zari,12,Rampur,2.0138822068712896
+Zari,13,Tapi at burhanpur,2.0242642634631896
+Zari,14,Bamnidhi,2.076786196980662
+Zari,15,Dhariawad,2.0879071172042933

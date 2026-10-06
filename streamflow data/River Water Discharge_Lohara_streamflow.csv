@@ -1,0 +1,7 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Lohara,2019,1,4817.0,31-Aug-2019,243,4817.0,4817.0
+River Water Discharge_Lohara,2020,21,115.88,12-Oct-2020,286,41.74,12.41
+River Water Discharge_Lohara,2021,88,162866.0,25-Aug-2021,237,1922.5,0.34
+River Water Discharge_Lohara,2022,96,602.05,08-Aug-2022,220,94.68,0.94
+River Water Discharge_Lohara,2023,60,73.42,27-Sep-2023,270,31.29,0.0
+River Water Discharge_Lohara,2024,102,296.99,03-Sep-2024,247,44.87,0.0

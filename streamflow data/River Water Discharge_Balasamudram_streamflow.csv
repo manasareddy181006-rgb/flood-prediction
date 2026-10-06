@@ -1,0 +1,7 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Balasamudram,2020,30,15.1,09-Dec-2020,344,2.48,0.0
+River Water Discharge_Balasamudram,2021,130,23.32,15-Jan-2021,15,1.44,0.0
+River Water Discharge_Balasamudram,2022,317,10.74,13-Oct-2022,286,0.26,0.0
+River Water Discharge_Balasamudram,2023,181,16.72,18-Dec-2023,352,0.16,0.0
+River Water Discharge_Balasamudram,2024,98,66.3,13-Dec-2024,348,1.24,0.03
+River Water Discharge_Balasamudram,2025,47,0.41,01-Mar-2025,60,0.1,0.04

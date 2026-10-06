@@ -1,0 +1,3 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Bamrul,2021,40,315.47,29-Sep-2021,272,47.69,2.7
+River Water Discharge_Bamrul,2022,46,82.6,21-Sep-2022,264,24.55,1.57

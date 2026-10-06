@@ -1,0 +1,289 @@
+station,streamflow_file,step1_status,years_in_file,years_used,partial_years_lt_292_days,median_annual_max,max_annual_max,max_over_median,years_gt_10x_median,years_lt_median_over_10,flag
+,All_Stations_Streamflow,,62,62,1703,14072.380000000001,1083542.0,76.99777862735372,2018:641030;2021:162866;2024:1.08354e+06;2025:740172,1964:4.15;1965:500;1968:1068.1,CHECK: possible unit error / spike / near-zero year
+bhamgarh,River Water Discharge_ bhamgarh_streamflow,<= 15 years of AMS,7,7,2,610.5,1262.13,2.0673710073710074,,,
+sandia,River Water Discharge_ sandia_streamflow,kept,48,48,2,8797.439999999999,25288.18,2.874493034337262,,,
+A.p.puram,River Water Discharge_A.p.puram_streamflow,<= 15 years of AMS,13,13,9,21.2,399.8,18.858490566037737,2021:258.07;2023:399.8;2024:359.44,2012:0.09;2013:0.04;2022:0.33,CHECK: possible unit error / spike / near-zero year
+Abna at khandwa,River Water Discharge_Abna at khandwa_streamflow,<= 15 years of AMS,7,7,2,11.67,155.0,13.281919451585262,2022:155;2023:145,,CHECK: possible unit error / spike / near-zero year
+Adityapur,River Water Discharge_Adityapur_streamflow,kept,55,55,2,2030.47,6700.0,3.299728634257093,,1971:36.6;2010:139.67,CHECK: possible unit error / spike / near-zero year
+Adkasthala,River Water Discharge_Adkasthala_streamflow,<= 15 years of AMS,7,7,6,184.52,230.1,1.247019293301539,,,
+Akkalpada,River Water Discharge_Akkalpada_streamflow,<= 15 years of AMS,4,4,1,176.67000000000002,1563.3,8.848700967906264,,,
+Akkihebbal,River Water Discharge_Akkihebbal_streamflow,kept,24,24,8,238.2,2185.0,9.172963895885811,,,
+Alandurai,River Water Discharge_Alandurai_streamflow,<= 15 years of AMS,9,9,8,40.0,109.51,2.73775,,2017:2.81;2018:1.97,CHECK: possible unit error / spike / near-zero year
+Alladupalli,River Water Discharge_Alladupalli_streamflow,kept,41,41,3,1005.0,4916.4,4.891940298507462,,2025:73.87,CHECK: possible unit error / spike / near-zero year
+,River Water Discharge_Allam vari ghanapur (1)_streamflow,,3,3,3,23.63,47.11,1.9936521371138385,,2019:2.27,CHECK: possible unit error / spike / near-zero year
+Allam vari ghanapur__row12,River Water Discharge_Allam vari ghanapur_streamflow,<= 15 years of AMS,9,9,4,887.92,1500.0,1.6893413821064962,,2017:17.34,CHECK: possible unit error / spike / near-zero year
+Allam vari ghanapur__row13,River Water Discharge_Allam vari ghanapur_streamflow,<= 15 years of AMS,9,9,4,887.92,1500.0,1.6893413821064962,,2017:17.34,CHECK: possible unit error / spike / near-zero year
+Altuma,River Water Discharge_Altuma_streamflow,kept,36,36,6,434.645,1585.84,3.648586777715147,,,
+Ambaliyara,River Water Discharge_Ambaliyara_streamflow,<= 15 years of AMS,1,1,1,15.42,15.42,1.0,,,
+Ambarampalayam,River Water Discharge_Ambarampalayam_streamflow,kept,48,48,2,56.599999999999994,5122.0,90.49469964664311,1992:5122;2009:1286.98,,CHECK: possible unit error / spike / near-zero year
+Ambasamudram,River Water Discharge_Ambasamudram_streamflow,kept,26,26,8,44.295,219.1,4.946382210181736,,,
+Anantharam,River Water Discharge_Anantharam_streamflow,<= 15 years of AMS,5,5,0,422.0,1363.2,3.2303317535545024,,,
+Anantwadi,River Water Discharge_Anantwadi_streamflow,<= 15 years of AMS,8,8,2,744.655,2950.0,3.9615660943658475,,,
+,River Water Discharge_Ankushapur_2_streamflow,,8,8,6,507.935,3000.0,5.906267534231742,,,
+Ankushapur__row20,River Water Discharge_Ankushapur_streamflow,<= 15 years of AMS,5,5,4,527.85,1873.81,3.549891067538126,,2017:37.18,CHECK: possible unit error / spike / near-zero year
+Ankushapur__row21,River Water Discharge_Ankushapur_streamflow,<= 15 years of AMS,5,5,4,527.85,1873.81,3.549891067538126,,2017:37.18,CHECK: possible unit error / spike / near-zero year
+Arangali,River Water Discharge_Arangali_streamflow,kept,48,48,8,606.74,1889.0,3.1133599235257274,,,
+Arkkannur,River Water Discharge_Arkkannur_streamflow,<= 15 years of AMS,7,7,2,94.09,220.0,2.3381868423849506,,2025:4.26,CHECK: possible unit error / spike / near-zero year
+Arni,River Water Discharge_Arni_streamflow,<= 15 years of AMS,8,8,3,515.955,1054.68,2.044131755676367,,,
+Aruvipuram,River Water Discharge_Aruvipuram_streamflow,<= 15 years of AMS,7,7,2,234.49,490.84,2.093223591624376,,2025:11.27,CHECK: possible unit error / spike / near-zero year
+Asegaon,River Water Discharge_Asegaon_streamflow,<= 15 years of AMS,0,0,0,,,,,,
+,River Water Discharge_Atreyapuram (gauthami)_streamflow,,5,5,2,40787.06,200000.0,4.903515968054575,,,
+Ayoor,River Water Discharge_Ayoor_streamflow,<= 15 years of AMS,1,1,1,70.47,70.47,1.0,,,
+Balasamudram,River Water Discharge_Balasamudram_streamflow,<= 15 years of AMS,6,6,5,15.91,66.3,4.167190446260213,,2025:0.41,CHECK: possible unit error / spike / near-zero year
+Bamnia,River Water Discharge_Bamnia_streamflow,kept,19,19,15,102.26,783.32,7.660082143555643,,2002:3.64,CHECK: possible unit error / spike / near-zero year
+Bamnidhi,River Water Discharge_Bamnidhi_streamflow,kept,55,55,1,1691.0,12700.0,7.510348905972797,,,
+Bamrul,River Water Discharge_Bamrul_streamflow,<= 15 years of AMS,2,2,2,199.03500000000003,315.47,1.5849976134850654,,,
+Baronda,River Water Discharge_Baronda_streamflow,kept,49,49,2,1068.92,6593.8,6.168656213748456,,1977:6,CHECK: possible unit error / spike / near-zero year
+Bayyaram,River Water Discharge_Bayyaram_streamflow,<= 15 years of AMS,4,4,4,236.65500000000003,275.62,1.1646489615685278,,,
+Belkhedi,River Water Discharge_Belkhedi_streamflow,kept,49,49,2,1280.0,7600.0,5.9375,,,
+Belkund at ghughra,River Water Discharge_Belkund at ghughra_streamflow,<= 15 years of AMS,7,7,1,98.76,268.0,2.713649250708789,,,
+,River Water Discharge_Bendrahalli_streamflow,,21,21,11,21.38,671.0,31.3844714686623,2017:521.5;2018:671;2019:435.83;2023:315,2016:1.12,CHECK: possible unit error / spike / near-zero year
+Betmogra,River Water Discharge_Betmogra_streamflow,kept,28,28,11,226.74,27114.92,119.58595748434328,2020:27114.9,1986:0.6;2012:11.05;2014:3.64;2016:12.22;2017:3.97;2018:4.74,CHECK: possible unit error / spike / near-zero year
+Bettadamane,River Water Discharge_Bettadamane_streamflow,<= 15 years of AMS,8,8,6,261.46,577.2,2.207603457507841,,2018:16.94,CHECK: possible unit error / spike / near-zero year
+Bhadli,River Water Discharge_Bhadli_streamflow,<= 15 years of AMS,1,1,1,266.88,266.88,1.0,,,
+Bhakudar (sipu dam),River Water Discharge_Bhakudar (sipu dam)_streamflow,<= 15 years of AMS,13,13,13,47.3,1528.0,32.30443974630021,1990:1528,1981:3.06;1982:2.84,CHECK: possible unit error / spike / near-zero year
+Bhamragad,River Water Discharge_Bhamragad_streamflow,<= 15 years of AMS,8,8,0,2625.0,7550.0,2.876190476190476,,2025:56,CHECK: possible unit error / spike / near-zero year
+Bifercation of e&w tammileru,River Water Discharge_Bifercation of e&w tammileru_streamflow,<= 15 years of AMS,13,13,13,73.73,709.23,9.619286586192866,,2011:4.93,CHECK: possible unit error / spike / near-zero year
+Borad at thikri,River Water Discharge_Borad at thikri_streamflow,<= 15 years of AMS,7,7,2,80.25,150.0,1.8691588785046729,,,
+Butaram,River Water Discharge_Butaram_streamflow,<= 15 years of AMS,0,0,0,,,,,,
+Chakkalakuth,River Water Discharge_Chakkalakuth_streamflow,<= 15 years of AMS,7,7,3,206.9,393.2,1.9004349927501207,,2025:1.5,CHECK: possible unit error / spike / near-zero year
+Chakrar at gadasarai,River Water Discharge_Chakrar at gadasarai_streamflow,<= 15 years of AMS,7,7,1,175.0,522.5,2.9857142857142858,,,
+Chanwada,River Water Discharge_Chanwada_streamflow,kept,46,46,38,2059.4849999999997,9070.0,4.404013624765415,,1979:63.6;2017:172.82,CHECK: possible unit error / spike / near-zero year
+Cherpad,River Water Discharge_Cherpad_streamflow,<= 15 years of AMS,1,1,1,213.51,213.51,1.0,,,
+Chhidgaon,River Water Discharge_Chhidgaon_streamflow,kept,50,50,3,1532.5,9625.0,6.280587275693311,,1976:2.7,CHECK: possible unit error / spike / near-zero year
+Chikkamalur,River Water Discharge_Chikkamalur_streamflow,<= 15 years of AMS,7,7,6,1.61,108.02,67.09316770186335,2022:108.02,2018:0.04,CHECK: possible unit error / spike / near-zero year
+Chimthane,River Water Discharge_Chimthane_streamflow,<= 15 years of AMS,2,2,2,61.03999999999999,77.71,1.2730996068152032,,,
+Chinamusi  tumadu,River Water Discharge_Chinamusi  tumadu_streamflow,kept,17,17,17,120.69,1148.24,9.513961388681746,,,
+Chitrasani -duplicate,River Water Discharge_Chitrasani -duplicate_streamflow,name marked duplicate,22,22,22,3.9800000000000004,625.46,157.15075376884423,2015:625.46;2017:555.94,2001:0.35;2008:0.32,CHECK: possible unit error / spike / near-zero year
+Chitrasani,River Water Discharge_Chitrasani_streamflow,<= 15 years of AMS,3,3,3,95.59,349.68,3.6581232346479755,,,
+Choral at barwah,River Water Discharge_Choral at barwah_streamflow,<= 15 years of AMS,7,7,2,63.0,205.12,3.255873015873016,,,
+Collem,River Water Discharge_Collem_streamflow,<= 15 years of AMS,2,2,2,56.4,111.8,1.9822695035460993,,2017:1,CHECK: possible unit error / spike / near-zero year
+Dabri,River Water Discharge_Dabri_streamflow,kept,18,18,16,696.0,4419.75,6.350215517241379,,2000:48.51;2002:18.4;2018:17.29,CHECK: possible unit error / spike / near-zero year
+Dameracherla,River Water Discharge_Dameracherla_streamflow,kept,58,58,5,467.245,7700.0,16.479577095528043,1983:5762;2023:7700,2002:15.67;2003:42.52;2012:40.37,CHECK: possible unit error / spike / near-zero year
+Daredu,River Water Discharge_Daredu_streamflow,<= 15 years of AMS,6,6,4,44.985,13741.14,305.460486828943,2019:13741.1;2020:7210.74,,CHECK: possible unit error / spike / near-zero year
+Datuni at dudwas,River Water Discharge_Datuni at dudwas_streamflow,<= 15 years of AMS,7,7,2,355.89,1350.0,3.7933069206777374,,,
+Deb at khajuri,River Water Discharge_Deb at khajuri_streamflow,<= 15 years of AMS,7,7,2,59.0,155.0,2.6271186440677967,,,
+Degloor,River Water Discharge_Degloor_streamflow,kept,38,38,9,428.83500000000004,3067.73,7.1536371798010885,,2009:22.47;2016:22.93;2017:15.4;2018:15.36,CHECK: possible unit error / spike / near-zero year
+Denwa at matkuli,River Water Discharge_Denwa at matkuli_streamflow,<= 15 years of AMS,7,7,1,687.73,2154.0,3.1320430983089294,,,
+Dhadgaon,River Water Discharge_Dhadgaon_streamflow,<= 15 years of AMS,4,4,1,161.29,2255.35,13.983197966395933,2019:2255.35,,CHECK: possible unit error / spike / near-zero year
+Dhariawad,River Water Discharge_Dhariawad_streamflow,kept,34,34,8,204.14,1979.94,9.698932105417851,,1998:12.37;2001:16.1;2003:17.25;2013:4.38;2016:2.45;2021:18.85;2025:8.32,CHECK: possible unit error / spike / near-zero year
+Dhule,River Water Discharge_Dhule_streamflow,<= 15 years of AMS,6,6,3,89.53999999999999,1184.32,13.22671431762341,2019:1184.32,,CHECK: possible unit error / spike / near-zero year
+Dindori,River Water Discharge_Dindori_streamflow,kept,38,38,4,1302.845,4710.0,3.6151652729219514,,,
+Dipuru,River Water Discharge_Dipuru_streamflow,<= 15 years of AMS,7,7,5,25.47,209.32,8.218296034550452,,2019:0.7;2024:0.99;2025:0.29,CHECK: possible unit error / spike / near-zero year
+Doddipadu,River Water Discharge_Doddipadu_streamflow,<= 15 years of AMS,12,12,6,82.435,1798.0,21.81112391581246,2019:1798,2014:2.5,CHECK: possible unit error / spike / near-zero year
+Dudhi at panagar,River Water Discharge_Dudhi at panagar_streamflow,<= 15 years of AMS,7,7,1,279.8,390.83,1.3968191565403858,,,
+Elunuthimangalam,River Water Discharge_Elunuthimangalam_streamflow,kept,28,28,7,50.935,175.3,3.441641307548837,,,
+Errakalva    ananthapalli,River Water Discharge_Errakalva    ananthapalli_streamflow,kept,20,20,20,289.74,1252.91,4.324256229723201,,2002:17.26,CHECK: possible unit error / spike / near-zero year
+Fekoghat,River Water Discharge_Fekoghat_streamflow,kept,38,38,38,268.505,1487.95,5.541610025884062,,,
+Gagadio   sanaliya,River Water Discharge_Gagadio   sanaliya_streamflow,<= 15 years of AMS,1,1,1,30.2,30.2,1.0,,,
+Gandlapet,River Water Discharge_Gandlapet_streamflow,kept,35,35,10,182.35,3250.89,17.827748834658625,2022:3250.89,1987:9.49;1997:8.25;2002:12.9;2004:4.83;2016:2.04;2017:0.71;2018:5.48;2020:17.85,CHECK: possible unit error / spike / near-zero year
+Ganjem,River Water Discharge_Ganjem_streamflow,<= 15 years of AMS,9,9,8,1208.0,6901.0,5.712748344370861,,,
+,River Water Discharge_Garimillapalli_2_streamflow,,3,3,3,8.52,66.0,7.746478873239437,,2019:0.27,CHECK: possible unit error / spike / near-zero year
+Garimillapalli__row819,River Water Discharge_Garimillapalli_streamflow,<= 15 years of AMS,8,8,4,171.63,290.0,1.689681291149566,,2017:2.75,CHECK: possible unit error / spike / near-zero year
+Garimillapalli__row820,River Water Discharge_Garimillapalli_streamflow,<= 15 years of AMS,8,8,4,171.63,290.0,1.689681291149566,,2017:2.75,CHECK: possible unit error / spike / near-zero year
+Gaur at bhalawara,River Water Discharge_Gaur at bhalawara_streamflow,<= 15 years of AMS,7,7,2,235.85,950.3,4.029255882976468,,,
+Gavachi(ver),River Water Discharge_Gavachi(ver)_streamflow,<= 15 years of AMS,5,5,5,362.48,574.78,1.5856874862061354,,,
+,River Water Discharge_Gidhade_streamflow,,48,48,48,1744.415,1083542.0,621.1492104803043,2024:1.08354e+06,2001:89.12;2009:126.25,CHECK: possible unit error / spike / near-zero year
+Halia,River Water Discharge_Halia_streamflow,kept,42,42,5,137.4,3383.1,24.622270742358076,1991:2647;2005:3383.1,1992:7.62;2002:2.44;2025:8.51,CHECK: possible unit error / spike / near-zero year
+Hamdapur,River Water Discharge_Hamdapur_streamflow,<= 15 years of AMS,7,7,4,433.65,651.76,1.5029632191859796,,,
+Harur,River Water Discharge_Harur_streamflow,<= 15 years of AMS,7,7,6,5.88,221.37,37.64795918367347,2021:65;2024:221.37,2019:0.27,CHECK: possible unit error / spike / near-zero year
+Hathed at misrod,River Water Discharge_Hathed at misrod_streamflow,<= 15 years of AMS,7,7,0,149.83,321.1,2.143095508242675,,,
+Hemavathy reservoir,River Water Discharge_Hemavathy reservoir_streamflow,<= 15 years of AMS,1,1,1,20.12,20.12,1.0,,,
+Hiran at singaldeep,River Water Discharge_Hiran at singaldeep_streamflow,<= 15 years of AMS,7,7,1,383.85,830.51,2.1636316269376055,,,
+Hogenakkal,River Water Discharge_Hogenakkal_streamflow,kept,27,27,7,19.04,251.4,13.203781512605042,2005:251.4,2009:1.02;2016:1.41;2025:1.17,CHECK: possible unit error / spike / near-zero year
+Hommaragalli,River Water Discharge_Hommaragalli_streamflow,<= 15 years of AMS,7,7,4,922.58,1295.82,1.4045611220707146,,2025:40.69,CHECK: possible unit error / spike / near-zero year
+Indra at khapriya,River Water Discharge_Indra at khapriya_streamflow,<= 15 years of AMS,7,7,1,112.14,450.0,4.012841091492777,,,
+Jamner at sandalpur,River Water Discharge_Jamner at sandalpur_streamflow,<= 15 years of AMS,7,7,2,269.66,1500.0,5.562560261069494,,,
+Jannapura,River Water Discharge_Jannapura_streamflow,<= 15 years of AMS,8,8,7,6.995,774.08,110.66190135811294,2019:774.08,,CHECK: possible unit error / spike / near-zero year
+Jannepally,River Water Discharge_Jannepally_streamflow,<= 15 years of AMS,7,7,5,235.24,26388.06,112.17505526271043,2022:26388.1,2020:9.37,CHECK: possible unit error / spike / near-zero year
+Jaraikela,River Water Discharge_Jaraikela_streamflow,kept,54,54,4,2397.9300000000003,12539.0,5.229093426413614,,,
+Jeeraguda,River Water Discharge_Jeeraguda_streamflow,<= 15 years of AMS,7,7,2,454.96,1227.04,2.697028310181115,,,
+Jotasan,River Water Discharge_Jotasan_streamflow,kept,28,28,28,19.63,1059.0,53.948038716250636,2006:438.44;2015:1059;2017:380.63;2022:535.62;2023:209.99,2013:0.5;2025:1.18,CHECK: possible unit error / spike / near-zero year
+K.m. vadi,River Water Discharge_K.m. vadi_streamflow,kept,47,47,11,177.13,3258.48,18.39598035341275,2018:3258.48;2019:2006.92,,CHECK: possible unit error / spike / near-zero year
+Kalampur,River Water Discharge_Kalampur_streamflow,kept,40,40,6,370.20000000000005,805.5,2.1758508914100485,,,
+Kalasapadu,River Water Discharge_Kalasapadu_streamflow,<= 15 years of AMS,7,7,5,5.7,103.7,18.19298245614035,2020:103.7;2021:81.6,2025:0.31,CHECK: possible unit error / spike / near-zero year
+Kalimachak at charuwa,River Water Discharge_Kalimachak at charuwa_streamflow,<= 15 years of AMS,7,7,2,102.09,550.8,5.3952394945636195,,,
+Kallooppara,River Water Discharge_Kallooppara_streamflow,kept,40,40,3,597.005,7338.81,12.292711116322309,2018:7338.81,,CHECK: possible unit error / spike / near-zero year
+Kalpadai,River Water Discharge_Kalpadai_streamflow,<= 15 years of AMS,8,8,4,35.900000000000006,88.67,2.4699164345403894,,2025:2.8,CHECK: possible unit error / spike / near-zero year
+Kamalapuram,River Water Discharge_Kamalapuram_streamflow,kept,32,32,7,112.35,1999.0,17.792612372051625,2021:1999,1999:4.09;2004:3;2006:3.17;2009:9.82,CHECK: possible unit error / spike / near-zero year
+Kamarajupeta,River Water Discharge_Kamarajupeta_streamflow,<= 15 years of AMS,1,1,1,19.44,19.44,1.0,,,
+Kanas (s),River Water Discharge_Kanas (s)_streamflow,<= 15 years of AMS,1,1,1,4.92,4.92,1.0,,,
+Kaner at mendhikheda,River Water Discharge_Kaner at mendhikheda_streamflow,<= 15 years of AMS,7,7,1,317.0,500.0,1.5772870662460567,,,
+Kanodar,River Water Discharge_Kanodar_streamflow,<= 15 years of AMS,1,1,1,1.2,1.2,1.0,,,
+Karam at dahiwar,River Water Discharge_Karam at dahiwar_streamflow,<= 15 years of AMS,7,7,3,110.0,192.0,1.7454545454545454,,,
+Karanjkuwa,River Water Discharge_Karanjkuwa_streamflow,<= 15 years of AMS,2,2,1,8.540000000000001,9.71,1.1370023419203747,,,
+Karoti,River Water Discharge_Karoti_streamflow,<= 15 years of AMS,3,3,3,23.56,169.03,7.1744482173174875,,2024:0.51,CHECK: possible unit error / spike / near-zero year
+Katangatola,River Water Discharge_Katangatola_streamflow,<= 15 years of AMS,7,7,1,270.0,680.12,2.518962962962963,,,
+Kattaleru   tiruvuru,River Water Discharge_Kattaleru   tiruvuru_streamflow,kept,16,16,16,150.255,434.04,2.88868922831187,,,
+Keesara,River Water Discharge_Keesara_streamflow,kept,61,61,3,1484.9,7000.0,4.714122163108627,,1972:117.53,CHECK: possible unit error / spike / near-zero year
+Kelo at raigarh,River Water Discharge_Kelo at raigarh_streamflow,kept,31,31,29,502.82,2013.74,4.004892406825504,,1995:19.17;2019:26.96,CHECK: possible unit error / spike / near-zero year
+Kesrali,River Water Discharge_Kesrali_streamflow,<= 15 years of AMS,1,1,1,382.5,382.5,1.0,,,
+Khadakewada,River Water Discharge_Khadakewada_streamflow,<= 15 years of AMS,2,2,2,446.655,533.92,1.1953745060505312,,,
+Khadka,River Water Discharge_Khadka_streamflow,<= 15 years of AMS,8,8,3,1973.055,3005.51,1.5232773541538376,,,
+Khandiovari,River Water Discharge_Khandiovari_streamflow,<= 15 years of AMS,7,7,6,103.49,265.04,2.5610203884433282,,2025:2.79,CHECK: possible unit error / spike / near-zero year
+Khanditar,River Water Discharge_Khanditar_streamflow,kept,22,22,0,3651.3050000000003,641030.0,175.56188814684063,2018:641030,,CHECK: possible unit error / spike / near-zero year
+Khariya,River Water Discharge_Khariya_streamflow,<= 15 years of AMS,5,5,1,1949.61,4756.97,2.439959786829161,,,
+Kheda,River Water Discharge_Kheda_streamflow,kept,30,30,30,54.005,1796.57,33.26673456161466,1991:707.9;1997:1721;2005:1796.57;2024:1007.03,1992:0.9;1993:1.27;1999:3.5;2009:0.32;2019:1.33,CHECK: possible unit error / spike / near-zero year
+Khedbrahma,River Water Discharge_Khedbrahma_streamflow,<= 15 years of AMS,1,1,1,212.14,212.14,1.0,,,
+Khorsi_balodabazar,River Water Discharge_Khorsi_balodabazar_streamflow,<= 15 years of AMS,1,1,1,67.16,67.16,1.0,,,
+Kodaganar dam,River Water Discharge_Kodaganar dam_streamflow,<= 15 years of AMS,0,0,0,,,,,,
+Kogaon,River Water Discharge_Kogaon_streamflow,kept,49,49,3,1450.0,8300.0,5.724137931034483,,2005:124.84,CHECK: possible unit error / spike / near-zero year
+Kokkedoddy,River Water Discharge_Kokkedoddy_streamflow,<= 15 years of AMS,8,8,3,94.465,679.3,7.191023130259884,,,
+Kolar at mahgaon,River Water Discharge_Kolar at mahgaon_streamflow,<= 15 years of AMS,7,7,1,383.85,557.59,1.4526247231991662,,,
+,River Water Discharge_Kolgaon_streamflow,,7,7,4,5853.62,15534.89,2.6538945131388783,,,
+Koli(bk),River Water Discharge_Koli(bk)_streamflow,<= 15 years of AMS,8,8,4,723.185,1200.67,1.660252909006686,,,
+Koliari   rampur,River Water Discharge_Koliari   rampur_streamflow,<= 15 years of AMS,1,1,1,3.45,3.45,1.0,,,
+Kondazhy,River Water Discharge_Kondazhy_streamflow,<= 15 years of AMS,7,7,5,469.87,640.97,1.3641432736714412,,2025:2.9,CHECK: possible unit error / spike / near-zero year
+Kothapalle (sileru),River Water Discharge_Kothapalle (sileru)_streamflow,<= 15 years of AMS,6,6,3,484.40000000000003,790.0,1.6308835672997521,,,
+Kottapuram,River Water Discharge_Kottapuram_streamflow,<= 15 years of AMS,7,7,6,31.12,85.2,2.7377892030848328,,2025:1.35,CHECK: possible unit error / spike / near-zero year
+Kovvada kalva near dommeru,River Water Discharge_Kovvada kalva near dommeru_streamflow,kept,20,20,20,59.32,136.0,2.2926500337154416,,,
+Kovvadakalva   pragadapalli,River Water Discharge_Kovvadakalva   pragadapalli_streamflow,<= 15 years of AMS,15,15,15,33.3,317.47,9.533633633633634,,,
+Koyna,River Water Discharge_Koyna_streamflow,kept,36,36,2,749.75,3174.0,4.233411137045682,,1972:66.5;2003:65.32;2007:53.88,CHECK: possible unit error / spike / near-zero year
+Kudlur,River Water Discharge_Kudlur_streamflow,kept,27,27,9,30.52,137.73,4.512778505897772,,2002:1.51;2003:2.59;2004:2.75;2025:1.52,CHECK: possible unit error / spike / near-zero year
+Kukshi,River Water Discharge_Kukshi_streamflow,<= 15 years of AMS,3,3,1,82.07,193.03,2.3520165712196905,,,
+Kundanpur,River Water Discharge_Kundanpur_streamflow,kept,20,20,15,227.3,969.97,4.267355917289925,,2002:9.57,CHECK: possible unit error / spike / near-zero year
+Kunturla (machkund),River Water Discharge_Kunturla (machkund)_streamflow,<= 15 years of AMS,8,8,1,134.995,857.57,6.352605652061188,,,
+Kurubhata,River Water Discharge_Kurubhata_streamflow,kept,48,48,13,1523.2800000000002,2693.63,1.7683091749382909,,,
+Lakkavalli,River Water Discharge_Lakkavalli_streamflow,<= 15 years of AMS,8,8,5,426.99,2385.33,5.586383756059861,,2018:3.94,CHECK: possible unit error / spike / near-zero year
+Lakshmananpatti,River Water Discharge_Lakshmananpatti_streamflow,<= 15 years of AMS,5,5,5,28.78,42.17,1.4652536483669214,,,
+Lasur,River Water Discharge_Lasur_streamflow,<= 15 years of AMS,0,0,0,,,,,,
+Lohara,River Water Discharge_Lohara_streamflow,<= 15 years of AMS,6,6,6,449.52,162866.0,362.31090941448656,2019:4817;2021:162866,,CHECK: possible unit error / spike / near-zero year
+Lonkheda,River Water Discharge_Lonkheda_streamflow,<= 15 years of AMS,3,3,1,45.16,214.21,4.743356953055802,,2021:0.2,CHECK: possible unit error / spike / near-zero year
+M.h. halli,River Water Discharge_M.h. halli_streamflow,kept,48,48,11,383.505,15261.56,39.79494400333763,2018:15261.6;2019:8437.06,,CHECK: possible unit error / spike / near-zero year
+Maan at gopalpura,River Water Discharge_Maan at gopalpura_streamflow,<= 15 years of AMS,7,7,2,110.3,285.0,2.5838621940163193,,,
+Machak at barangi,River Water Discharge_Machak at barangi_streamflow,<= 15 years of AMS,7,7,2,417.87,750.3,1.7955344963744704,,,
+Machna at shahpur,River Water Discharge_Machna at shahpur_streamflow,<= 15 years of AMS,7,7,2,100.01,551.31,5.512548745125486,,,
+Machrewa at bakori,River Water Discharge_Machrewa at bakori_streamflow,<= 15 years of AMS,7,7,1,558.2,1050.0,1.881046219992834,,2021:32.8,CHECK: possible unit error / spike / near-zero year
+Madhira,River Water Discharge_Madhira_streamflow,kept,42,42,5,383.55,2309.07,6.020258114978491,,,
+Madhya bharat paper ltd (mbpl),River Water Discharge_Madhya bharat paper ltd (mbpl)_streamflow,<= 15 years of AMS,0,0,0,,,,,,
+Magaral,River Water Discharge_Magaral_streamflow,kept,42,42,7,152.305,2073.51,13.61419520042021,1985:1595.7;2021:1629.37;2024:2073.51,1973:14.3;1980:0.3;1981:12.5;1987:4.98;1995:11.21;1999:11.14;2000:0.12;2001:1.23;2016:0.94,CHECK: possible unit error / spike / near-zero year
+Mahanadi_ arang,River Water Discharge_Mahanadi_ arang_streamflow,<= 15 years of AMS,3,3,2,1168.0,1849.0,1.5830479452054795,,,
+Mahanadi_ kasdol,River Water Discharge_Mahanadi_ kasdol_streamflow,<= 15 years of AMS,2,2,2,4933.39,9200.0,1.8648434443658417,,,
+Malpur,River Water Discharge_Malpur_streamflow,<= 15 years of AMS,0,0,0,,,,,,
+Manakkad,River Water Discharge_Manakkad_streamflow,<= 15 years of AMS,7,7,4,241.55,435.1,1.801283378182571,,,
+Mandal,River Water Discharge_Mandal_streamflow,<= 15 years of AMS,4,4,2,100.825,293.31,2.909099925613687,,,
+Mandalapadu,River Water Discharge_Mandalapadu_streamflow,<= 15 years of AMS,1,1,1,6.2,6.2,1.0,,,
+Manendragarh,River Water Discharge_Manendragarh_streamflow,kept,37,37,3,278.96,2329.0,8.34886722110697,,,
+Mangaon,River Water Discharge_Mangaon_streamflow,<= 15 years of AMS,13,13,5,690.29,1301.06,1.8848020397224354,,,
+,River Water Discharge_Mangapet_streamflow,,3,3,3,2.73,3.0,1.098901098901099,,,
+Manikal,River Water Discharge_Manikal_streamflow,<= 15 years of AMS,7,7,4,75.94,96.06,1.264946010007901,,,
+Manot,River Water Discharge_Manot_streamflow,kept,50,50,1,2259.3,6520.0,2.8858495994334525,,1976:11,CHECK: possible unit error / spike / near-zero year
+Maruthankuzhy,River Water Discharge_Maruthankuzhy_streamflow,<= 15 years of AMS,1,1,1,6.48,6.48,1.0,,,
+Mat sekawi,River Water Discharge_Mat sekawi_streamflow,<= 15 years of AMS,11,11,4,279.34,735.93,2.63453139543209,,,
+Mat-2,River Water Discharge_Mat-2_streamflow,<= 15 years of AMS,8,8,5,58.475,151.06,2.583326207781103,,2018:3.63,CHECK: possible unit error / spike / near-zero year
+Mat-i,River Water Discharge_Mat-i_streamflow,<= 15 years of AMS,12,12,4,117.135,801.0,6.838263542066846,,2013:2.99,CHECK: possible unit error / spike / near-zero year
+Mayambadi,River Water Discharge_Mayambadi_streamflow,<= 15 years of AMS,8,8,4,28.6,38.09,1.3318181818181818,,2025:2.25,CHECK: possible unit error / spike / near-zero year
+Meghraj,River Water Discharge_Meghraj_streamflow,<= 15 years of AMS,1,1,1,83.6,83.6,1.0,,,
+Mirawadi,River Water Discharge_Mirawadi_streamflow,<= 15 years of AMS,5,5,1,1162.0,1985.71,1.7088726333907056,,,
+Morane,River Water Discharge_Morane_streamflow,kept,35,35,35,35.37,877.09,24.797568560927342,2022:743.85;2024:877.09,1986:1;1992:2.3;2021:2.53,CHECK: possible unit error / spike / near-zero year
+Mukki,River Water Discharge_Mukki_streamflow,<= 15 years of AMS,1,1,1,12.58,12.58,1.0,,,
+Mukkodlu,River Water Discharge_Mukkodlu_streamflow,<= 15 years of AMS,8,8,6,69.275,342.0,4.936845904005773,,2018:4.46;2025:4.89,CHECK: possible unit error / spike / near-zero year
+Mundakayam_gd,River Water Discharge_Mundakayam_gd_streamflow,<= 15 years of AMS,1,1,1,76.18,76.18,1.0,,,
+Munugodu,River Water Discharge_Munugodu_streamflow,<= 15 years of AMS,9,9,4,105.0,13374.0,127.37142857142857,2019:13374,,CHECK: possible unit error / spike / near-zero year
+Murli,River Water Discharge_Murli_streamflow,<= 15 years of AMS,8,8,3,1349.04,4624.95,3.428326810176125,,,
+Muthanga (ponkuzhi),River Water Discharge_Muthanga (ponkuzhi)_streamflow,<= 15 years of AMS,1,1,0,97.58,97.58,1.0,,,
+Muthankera,River Water Discharge_Muthankera_streamflow,kept,53,53,3,792.73,2357.0,2.9732695873752726,,,
+Nagaram,River Water Discharge_Nagaram_streamflow,<= 15 years of AMS,7,7,4,1192.61,9910.0,8.309506041371446,,2025:44.71,CHECK: possible unit error / spike / near-zero year
+Nagari,River Water Discharge_Nagari_streamflow,<= 15 years of AMS,7,7,4,142.27,677.98,4.765445982990089,,2019:3.7,CHECK: possible unit error / spike / near-zero year
+Nandalur,River Water Discharge_Nandalur_streamflow,<= 15 years of AMS,10,10,6,135.3,10460.0,77.30968218773096,2020:2926;2021:10460,2016:10.33;2018:9.99,CHECK: possible unit error / spike / near-zero year
+Nandipalli,River Water Discharge_Nandipalli_streamflow,kept,36,36,5,103.88,1183.73,11.39516750096265,2007:1183.73,1999:5.16;2004:5.41;2014:2;2016:2.47;2018:4.85;2025:9.58,CHECK: possible unit error / spike / near-zero year
+Nandre,River Water Discharge_Nandre_streamflow,<= 15 years of AMS,8,8,2,158.08499999999998,680.0,4.301483379194738,,,
+Narasingarayainpet,River Water Discharge_Narasingarayainpet_streamflow,<= 15 years of AMS,7,7,4,14.66,1623.0,110.7094133697135,2021:1623,,CHECK: possible unit error / spike / near-zero year
+Narmadapuram,River Water Discharge_Narmadapuram_streamflow,kept,54,54,2,13337.6,31600.0,2.3692418426103647,,,
+Navalgund,River Water Discharge_Navalgund_streamflow,kept,17,17,3,270.0,407.8,1.5103703703703704,,,
+Noornagar,River Water Discharge_Noornagar_streamflow,<= 15 years of AMS,7,7,2,1251.25,2226.73,1.7796043956043957,,,
+Odendurai,River Water Discharge_Odendurai_streamflow,<= 15 years of AMS,9,9,5,27.77,61.74,2.2232625135037813,,,
+Orsang at bodeli,River Water Discharge_Orsang at bodeli_streamflow,<= 15 years of AMS,1,1,1,12.42,12.42,1.0,,,
+Ozerkheda,River Water Discharge_Ozerkheda_streamflow,kept,40,40,16,1026.0,3575.25,3.4846491228070176,,2024:2.15,CHECK: possible unit error / spike / near-zero year
+Pachegaon,River Water Discharge_Pachegaon_streamflow,kept,36,36,36,171.42000000000002,938.5,5.474857076187142,,1987:0.2;1993:0.58;1995:13.8;2003:8.98;2008:6.32,CHECK: possible unit error / spike / near-zero year
+Padampur,River Water Discharge_Padampur_streamflow,<= 15 years of AMS,11,11,7,1022.02,2296.33,2.246854268996693,,,
+Palakmati at sohagpur,River Water Discharge_Palakmati at sohagpur_streamflow,<= 15 years of AMS,7,7,1,152.85,520.95,3.408243375858685,,,
+Paleru bridge,River Water Discharge_Paleru bridge_streamflow,kept,55,55,8,220.7,2521.5,11.425011327594019,1983:2249.5;2019:2263.23;2024:2521.5,1966:18.8;1968:10.94;2003:11.13;2007:21.67;2017:11.37,CHECK: possible unit error / spike / near-zero year
+Pallamala,River Water Discharge_Pallamala_streamflow,<= 15 years of AMS,8,8,3,442.2,1324.09,2.9943238353686112,,2018:19.09;2019:43.98;2025:9.92,CHECK: possible unit error / spike / near-zero year
+Pallippady,River Water Discharge_Pallippady_streamflow,<= 15 years of AMS,7,7,3,131.04,316.55,2.4156746031746033,,2025:6.8,CHECK: possible unit error / spike / near-zero year
+Panam at santrod,River Water Discharge_Panam at santrod_streamflow,<= 15 years of AMS,1,1,1,46.45,46.45,1.0,,,
+Parmanpur,River Water Discharge_Parmanpur_streamflow,kept,24,24,23,1254.51,10000.0,7.97123976692095,,,
+Patan,River Water Discharge_Patan_streamflow,kept,47,47,5,986.2,2202.29,2.2331068748732505,,1979:12.2,CHECK: possible unit error / spike / near-zero year
+Pati,River Water Discharge_Pati_streamflow,kept,23,23,6,242.71,2395.03,9.867867001771662,,2017:2.88,CHECK: possible unit error / spike / near-zero year
+Pedageddada,River Water Discharge_Pedageddada_streamflow,kept,17,17,17,12.34,146.32,11.857374392220422,2002:146.32,,CHECK: possible unit error / spike / near-zero year
+Penuganchi prolu,River Water Discharge_Penuganchi prolu_streamflow,<= 15 years of AMS,5,5,1,2725.8,16411.34,6.020742534301856,,2025:7.79,CHECK: possible unit error / spike / near-zero year
+Pillaperu riverr   narravada.,River Water Discharge_Pillaperu riverr   narravada._streamflow,<= 15 years of AMS,10,10,10,27.064999999999998,253.5,9.366340291889896,,,
+Pipriya,River Water Discharge_Pipriya_streamflow,<= 15 years of AMS,7,7,5,35.55,58.82,1.6545710267229257,,,
+Pookkayam,River Water Discharge_Pookkayam_streamflow,<= 15 years of AMS,7,7,2,186.26,350.0,1.8790937399334264,,,
+Potteru (potteruvagu),River Water Discharge_Potteru (potteruvagu)_streamflow,kept,28,28,14,535.56,3331.49,6.220572858316529,,,
+Prakasha(damarkheda),River Water Discharge_Prakasha(damarkheda)_streamflow,<= 15 years of AMS,5,5,5,25.72,560.04,21.774494556765163,2021:560.04;2024:542.68,,CHECK: possible unit error / spike / near-zero year
+Pratappur,River Water Discharge_Pratappur_streamflow,<= 15 years of AMS,9,9,9,61.53,519.21,8.43832276938079,,,
+Pudunagara,River Water Discharge_Pudunagara_streamflow,<= 15 years of AMS,6,6,6,1.79,8.19,4.575418994413408,,,
+Pudur,River Water Discharge_Pudur_streamflow,kept,41,41,4,111.5,801.17,7.185381165919282,,2025:5.67,CHECK: possible unit error / spike / near-zero year
+Pulamanthole,River Water Discharge_Pulamanthole_streamflow,kept,40,40,3,624.82,3098.67,4.959300278480202,,,
+Pullakkayar,River Water Discharge_Pullakkayar_streamflow,<= 15 years of AMS,7,7,4,88.71,125.72,1.417202119265021,,2025:1.26,CHECK: possible unit error / spike / near-zero year
+Rahu,River Water Discharge_Rahu_streamflow,<= 15 years of AMS,3,3,2,2053.88,2887.23,1.4057442499074921,,,
+Rambhapur,River Water Discharge_Rambhapur_streamflow,kept,20,20,16,397.44,4185.0,10.529891304347826,2021:4185,2002:33.53,CHECK: possible unit error / spike / near-zero year
+Rampur,River Water Discharge_Rampur_streamflow,kept,55,55,9,1425.0,10958.38,7.690091228070175,,1988:90;2000:113,CHECK: possible unit error / spike / near-zero year
+Rangeli,River Water Discharge_Rangeli_streamflow,kept,46,46,32,142.825,5179.31,36.263329249081046,2006:5179.31;2014:1717.34,1998:11.5;2000:4.94;2001:4.19;2002:13.99;2003:10.5;2025:12.35,CHECK: possible unit error / spike / near-zero year
+Ratanpur,River Water Discharge_Ratanpur_streamflow,kept,33,33,33,36.73,1978.24,53.85897086849987,1991:467.8;1997:1978.24;2024:735.8,1993:3.07;2013:0.49,CHECK: possible unit error / spike / near-zero year
+Rayachoti,River Water Discharge_Rayachoti_streamflow,<= 15 years of AMS,4,4,3,25.255,97.39,3.8562660859235796,,2023:1.5,CHECK: possible unit error / spike / near-zero year
+Sakleshpur,River Water Discharge_Sakleshpur_streamflow,kept,24,24,6,459.375,1913.0,4.1643537414965985,,,
+Salebhata,River Water Discharge_Salebhata_streamflow,kept,54,54,5,2016.195,14545.0,7.214083955172987,,1971:3.8;2000:114,CHECK: possible unit error / spike / near-zero year
+Samdoli (seasonal),River Water Discharge_Samdoli (seasonal)_streamflow,kept,62,62,12,1467.4,3064.0,2.088046885648085,,1964:4.15;1965:14.65;1966:36.2,CHECK: possible unit error / spike / near-zero year
+Sanarpatti,River Water Discharge_Sanarpatti_streamflow,<= 15 years of AMS,1,1,1,2231.41,2231.41,1.0,,,
+Saner at chargawan,River Water Discharge_Saner at chargawan_streamflow,<= 15 years of AMS,7,7,1,40.73,346.82,8.515099435305672,,,
+Sangam (murredu),River Water Discharge_Sangam (murredu)_streamflow,<= 15 years of AMS,10,10,10,295.74,1155.16,3.905998512206668,,,
+Sanoor,River Water Discharge_Sanoor_streamflow,<= 15 years of AMS,7,7,6,54.0,83.04,1.537777777777778,,,
+,River Water Discharge_Sarangkheda (1)_streamflow,,6,6,3,5854.23,18080.0,3.088365165017432,,2022:121.58,CHECK: possible unit error / spike / near-zero year
+,River Water Discharge_Sarangkheda_streamflow,,48,48,15,6228.0,23044.0,3.7000642260757868,,1977:600,CHECK: possible unit error / spike / near-zero year
+Seedhi,River Water Discharge_Seedhi_streamflow,<= 15 years of AMS,13,13,11,289.46,708.3,2.4469702204104196,,,
+Seethapalli,River Water Discharge_Seethapalli_streamflow,<= 15 years of AMS,11,11,11,13.41,43.73,3.2609992542878445,,,
+Sevanur,River Water Discharge_Sevanur_streamflow,kept,26,26,11,5.345000000000001,77.95,14.583723105706266,1999:77.95;2009:58.4,2016:0.46,CHECK: possible unit error / spike / near-zero year
+Sharad,River Water Discharge_Sharad_streamflow,<= 15 years of AMS,8,8,5,485.54,2029.12,4.179099559253614,,,
+Sher at kacchara,River Water Discharge_Sher at kacchara_streamflow,<= 15 years of AMS,7,7,1,495.17,2230.0,4.5035038471636,,2021:30,CHECK: possible unit error / spike / near-zero year
+Shindkheda,River Water Discharge_Shindkheda_streamflow,<= 15 years of AMS,2,2,2,174.42000000000002,240.86,1.3809196193097122,,,
+Shirpur,River Water Discharge_Shirpur_streamflow,<= 15 years of AMS,3,3,3,36.67,51.97,1.4172347968366512,,,
+Silgi at kotrai,River Water Discharge_Silgi at kotrai_streamflow,<= 15 years of AMS,7,7,3,71.62,92.15,1.286651773247696,,,
+Singavaram,River Water Discharge_Singavaram_streamflow,kept,36,36,7,50.93,1705.0,33.47732181425486,1988:878;1989:620;1996:643;2021:1705,1993:2.89;2006:4.47;2009:0.35;2017:0.77;2024:1.79;2025:0.36,CHECK: possible unit error / spike / near-zero year
+Sip at dholpur,River Water Discharge_Sip at dholpur_streamflow,<= 15 years of AMS,7,7,2,273.93,527.55,1.9258569707589528,,,
+Sipu at sipudam(bhakudar),River Water Discharge_Sipu at sipudam(bhakudar)_streamflow,<= 15 years of AMS,13,13,13,149.76,1528.0,10.202991452991453,1990:1528,,CHECK: possible unit error / spike / near-zero year
+Sirimoda,River Water Discharge_Sirimoda_streamflow,<= 15 years of AMS,7,7,2,126.83,152.64,1.20350074903414,,2019:7.35,CHECK: possible unit error / spike / near-zero year
+Sohagpura,River Water Discharge_Sohagpura_streamflow,<= 15 years of AMS,6,6,5,103.505,451.48,4.36191488333897,,2025:0.95,CHECK: possible unit error / spike / near-zero year
+Somanpally(seasonal),River Water Discharge_Somanpally(seasonal)_streamflow,kept,58,58,15,915.7650000000001,6724.19,7.342702549234792,,1966:59.05;2004:25.79;2016:79.68;2017:58.61;2018:61.08,CHECK: possible unit error / spike / near-zero year
+Songe bange,River Water Discharge_Songe bange_streamflow,<= 15 years of AMS,2,2,1,692.9100000000001,700.2,1.010520846863229,,,
+Suddakal,River Water Discharge_Suddakal_streamflow,<= 15 years of AMS,8,8,2,46.145,754.82,16.357568533969012,2020:754.82,2021:0.54,CHECK: possible unit error / spike / near-zero year
+,River Water Discharge_Sukwad_streamflow,,6,6,3,3267.7299999999996,25268.5,7.732738016910823,,2022:106.94,CHECK: possible unit error / spike / near-zero year
+Sundergarh,River Water Discharge_Sundergarh_streamflow,kept,49,49,2,1419.81,10404.0,7.327741035772393,,1977:15,CHECK: possible unit error / spike / near-zero year
+Surubali,River Water Discharge_Surubali_streamflow,<= 15 years of AMS,3,3,0,618.03,634.24,1.0262285002346165,,,
+T. bekkupe,River Water Discharge_T. bekkupe_streamflow,kept,21,21,9,73.31,687.0,9.371163552039285,,,
+T. narasipur,River Water Discharge_T. narasipur_streamflow,kept,55,55,50,440.0,79273.34,180.16668181818181,2018:79273.3;2019:11022.5,,CHECK: possible unit error / spike / near-zero year
+T.k.halli,River Water Discharge_T.k.halli_streamflow,kept,48,48,11,287.995,1218.8,4.232017916977725,,2016:4.77,CHECK: possible unit error / spike / near-zero year
+Takali,River Water Discharge_Takali_streamflow,<= 15 years of AMS,8,8,3,1406.51,12405.0,8.81970266830666,,,
+Talaji   talaja,River Water Discharge_Talaji   talaja_streamflow,<= 15 years of AMS,1,1,1,22.0,22.0,1.0,,,
+Talikot,River Water Discharge_Talikot_streamflow,kept,25,25,12,190.0,748.53,3.939631578947368,,2016:5.07;2023:14;2025:6.48,CHECK: possible unit error / spike / near-zero year
+Tamar,River Water Discharge_Tamar_streamflow,<= 15 years of AMS,1,1,1,157.45,157.45,1.0,,,
+Tapi at burhanpur,River Water Discharge_Tapi at burhanpur_streamflow,kept,44,44,3,5248.6,32686.0,6.227565446023701,,1972:504.2;2015:338.41,CHECK: possible unit error / spike / near-zero year
+Tapi at dedtalai,River Water Discharge_Tapi at dedtalai_streamflow,<= 15 years of AMS,2,2,2,2241.42,4186.61,1.8678382453980065,,,
+Tenduni at maheshwar,River Water Discharge_Tenduni at maheshwar_streamflow,<= 15 years of AMS,7,7,1,1029.04,2300.0,2.2350929021223664,,,
+Terwad (seasonal),River Water Discharge_Terwad (seasonal)_streamflow,kept,47,47,11,1795.0,4110.0,2.2896935933147633,,,
+Teska,River Water Discharge_Teska_streamflow,kept,21,21,17,284.78,2566.99,9.01394058571529,,2018:22.36,CHECK: possible unit error / spike / near-zero year
+Thandalaiputhur,River Water Discharge_Thandalaiputhur_streamflow,<= 15 years of AMS,5,5,5,66.39,143.12,2.1557463473414673,,2023:0.8;2025:3.3,CHECK: possible unit error / spike / near-zero year
+Theni,River Water Discharge_Theni_streamflow,kept,48,48,8,142.765,660.0,4.622981823276014,,,
+Thevur,River Water Discharge_Thevur_streamflow,kept,24,24,10,6.595000000000001,167.83,25.448066717210008,2010:167.83,,CHECK: possible unit error / spike / near-zero year
+Thiruvalam,River Water Discharge_Thiruvalam_streamflow,<= 15 years of AMS,7,7,5,30.62,1589.3,51.90398432397126,2020:341.94;2021:1589.3,2019:1.07,CHECK: possible unit error / spike / near-zero year
+Thiruvattar,River Water Discharge_Thiruvattar_streamflow,<= 15 years of AMS,7,7,3,170.05,973.0,5.721846515730667,,2025:2.07,CHECK: possible unit error / spike / near-zero year
+Thoppur,River Water Discharge_Thoppur_streamflow,kept,20,20,12,1.5699999999999998,60.87,38.77070063694268,2000:16.69;2005:60.87;2024:43.25,2009:0.09,CHECK: possible unit error / spike / near-zero year
+Thottathinkadavu,River Water Discharge_Thottathinkadavu_streamflow,<= 15 years of AMS,7,7,3,361.57,720.5,1.9926985092789777,,2025:4.88,CHECK: possible unit error / spike / near-zero year
+Thumpamon,River Water Discharge_Thumpamon_streamflow,kept,49,49,4,346.6,800.0,2.308136180034622,,1977:9;2025:6.03,CHECK: possible unit error / spike / near-zero year
+Tuichang,River Water Discharge_Tuichang_streamflow,kept,21,21,3,467.95,980.54,2.095394807137515,,2020:27.08;2022:29.28;2023:12.49;2024:15.17,CHECK: possible unit error / spike / near-zero year
+Tuichawng,River Water Discharge_Tuichawng_streamflow,<= 15 years of AMS,6,6,2,432.915,740172.0,1709.7397872561587,2025:740172,,CHECK: possible unit error / spike / near-zero year
+Tulaghat,River Water Discharge_Tulaghat_streamflow,kept,20,20,2,1141.6100000000001,6443.06,5.6438363364020985,,2002:100.31;2017:56.28,CHECK: possible unit error / spike / near-zero year
+V.kallathur,River Water Discharge_V.kallathur_streamflow,<= 15 years of AMS,7,7,6,26.25,502.04,19.125333333333334,2024:502.04,,CHECK: possible unit error / spike / near-zero year
+Valamuru (pamuleru),River Water Discharge_Valamuru (pamuleru)_streamflow,<= 15 years of AMS,9,9,5,152.93,451.72,2.9537696985548942,,2020:7.14,CHECK: possible unit error / spike / near-zero year
+Valayinkil,River Water Discharge_Valayinkil_streamflow,<= 15 years of AMS,1,1,1,16.81,16.81,1.0,,,
+Valigonda,River Water Discharge_Valigonda_streamflow,<= 15 years of AMS,7,7,2,361.83,2698.24,7.457203659176962,,,
+Varanavasi,River Water Discharge_Varanavasi_streamflow,<= 15 years of AMS,8,8,8,17.17,164.09,9.556785090273733,,,
+Veerlapalem,River Water Discharge_Veerlapalem_streamflow,<= 15 years of AMS,9,9,2,94.32,147.39,1.5626590330788803,,,
+Vellaikadavu,River Water Discharge_Vellaikadavu_streamflow,<= 15 years of AMS,7,7,2,96.59,285.9,2.959933740552852,,2025:1.91,CHECK: possible unit error / spike / near-zero year
+Venganur,River Water Discharge_Venganur_streamflow,<= 15 years of AMS,7,7,5,10.68,81.2,7.602996254681648,,2025:0.29,CHECK: possible unit error / spike / near-zero year
+Vikkiralapeta,River Water Discharge_Vikkiralapeta_streamflow,<= 15 years of AMS,5,5,2,60.34,690.0,11.43520053032814,2022:690,2020:5.8,CHECK: possible unit error / spike / near-zero year
+Vinchur,River Water Discharge_Vinchur_streamflow,<= 15 years of AMS,3,3,2,13.13,35.17,2.6785986290936785,,,
+Wankadi,River Water Discharge_Wankadi_streamflow,<= 15 years of AMS,1,1,1,9.12,9.12,1.0,,,
+Warunji,River Water Discharge_Warunji_streamflow,kept,60,60,2,1527.935,6003.71,3.9292967305546376,,,
+Zari,River Water Discharge_Zari_streamflow,kept,36,36,35,81.995,1495.74,18.241844014878954,2020:850.54;2021:1495.74;2024:871.12;2025:900,1992:4.22;1994:4.13;1997:4.53;2003:4.32;2007:4.63;2009:3.12;2011:3.5;2012:0.6,CHECK: possible unit error / spike / near-zero year

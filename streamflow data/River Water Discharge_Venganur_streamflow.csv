@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Venganur,2018,214,0.0,01-Jun-2018,152,0.0,0.0
+River Water Discharge_Venganur,2019,365,4.43,03-Dec-2019,337,0.01,0.0
+River Water Discharge_Venganur,2020,174,10.68,04-Dec-2020,339,0.32,0.0
+River Water Discharge_Venganur,2021,184,19.28,26-Nov-2021,330,1.25,0.0
+River Water Discharge_Venganur,2022,267,6.14,12-Nov-2022,316,0.18,0.0
+River Water Discharge_Venganur,2023,324,15.33,12-Aug-2023,224,0.18,0.0
+River Water Discharge_Venganur,2024,253,81.2,13-Dec-2024,348,0.51,0.0
+River Water Discharge_Venganur,2025,85,0.29,01-Jan-2025,1,0.06,0.0

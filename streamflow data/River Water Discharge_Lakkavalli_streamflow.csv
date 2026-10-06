@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Lakkavalli,2018,15,3.94,15-Dec-2018,349,3.27,2.99
+River Water Discharge_Lakkavalli,2019,253,592.69,07-Sep-2019,250,38.87,0.0
+River Water Discharge_Lakkavalli,2020,284,261.29,19-Feb-2020,50,16.18,3.98
+River Water Discharge_Lakkavalli,2021,322,729.5,08-Aug-2021,220,27.55,0.0
+River Water Discharge_Lakkavalli,2022,364,1687.0,09-Aug-2022,221,49.04,0.0
+River Water Discharge_Lakkavalli,2023,326,117.11,13-Mar-2023,72,11.62,5.04
+River Water Discharge_Lakkavalli,2024,216,2385.33,01-Aug-2024,214,46.51,3.56
+River Water Discharge_Lakkavalli,2025,147,249.21,05-Apr-2025,95,15.57,7.58

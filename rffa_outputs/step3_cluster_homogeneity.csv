@@ -1,0 +1,7 @@
+region,n_sites,pooled_years,H1,H2,H3,H1_class,sim_dist,Di_crit,discordant_sites,max_Di,HW_adjustment_note
+1,20,781,8.748199296083184,4.240079065761843,2.830313122712332,definitely heterogeneous,KAP,3.0,Khanditar,5.485237477316556,"heterogeneous: consider merge/split/exclude/transfer (H&W 1997, s4.2.4)"
+2,15,594,9.19070694644465,8.453672334631136,6.3316095826331855,definitely heterogeneous,GLO,3.0,,2.815440201047722,"heterogeneous: consider merge/split/exclude/transfer (H&W 1997, s4.2.4)"
+3,13,479,6.932025443093745,5.683684630837331,3.6501976828760294,definitely heterogeneous,GLO,2.869,,2.5281810859958846,"heterogeneous: consider merge/split/exclude/transfer (H&W 1997, s4.2.4)"
+4,21,686,9.355789734795549,7.273990641220403,5.212764232812724,definitely heterogeneous,KAP,3.0,Patan,3.480189421823326,"heterogeneous: consider merge/split/exclude/transfer (H&W 1997, s4.2.4)"
+5,11,479,8.33568631916363,6.592844250364431,4.203800951318915,definitely heterogeneous,KAP,2.632,Narmadapuram,2.7299169087122013,"heterogeneous: consider merge/split/exclude/transfer (H&W 1997, s4.2.4)"
+6,11,386,4.806475550108675,3.827050272953352,2.436936337015858,definitely heterogeneous,KAP,2.632,,2.5686647317738163,"heterogeneous: consider merge/split/exclude/transfer (H&W 1997, s4.2.4)"

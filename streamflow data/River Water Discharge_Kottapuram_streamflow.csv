@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Kottapuram,2019,28,7.56,14-Sep-2019,257,2.78,0.56
+River Water Discharge_Kottapuram,2020,177,63.4,10-Aug-2020,223,4.82,0.14
+River Water Discharge_Kottapuram,2021,217,56.64,21-Oct-2021,294,9.12,0.22
+River Water Discharge_Kottapuram,2022,326,31.12,24-Jul-2022,205,3.09,0.0
+River Water Discharge_Kottapuram,2023,267,27.21,25-Jul-2023,206,1.5,0.0
+River Water Discharge_Kottapuram,2024,196,85.2,01-Aug-2024,214,8.52,0.0
+River Water Discharge_Kottapuram,2025,11,1.35,04-Jan-2025,4,0.41,0.1

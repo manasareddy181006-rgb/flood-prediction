@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Nandre,2018,130,23.25,24-Nov-2018,328,2.91,0.0
+River Water Discharge_Nandre,2019,302,123.0,25-Sep-2019,268,11.55,0.0
+River Water Discharge_Nandre,2020,326,680.0,16-Oct-2020,290,31.98,0.0
+River Water Discharge_Nandre,2021,365,44.0,20-Jun-2021,171,1.94,0.0
+River Water Discharge_Nandre,2022,365,338.22,15-Oct-2022,288,18.84,0.0
+River Water Discharge_Nandre,2023,365,34.98,03-Oct-2023,276,1.14,0.0
+River Water Discharge_Nandre,2024,369,193.17,26-Sep-2024,270,25.43,0.0
+River Water Discharge_Nandre,2025,248,280.0,28-May-2025,148,24.08,0.0

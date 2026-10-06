@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Manakkad,2019,103,113.18,13-Sep-2019,256,53.63,16.1
+River Water Discharge_Manakkad,2020,229,241.55,10-Aug-2020,223,63.36,17.29
+River Water Discharge_Manakkad,2021,336,435.1,22-Oct-2021,295,111.93,28.68
+River Water Discharge_Manakkad,2022,358,359.52,31-Aug-2022,243,80.76,0.0
+River Water Discharge_Manakkad,2023,323,194.56,05-Jul-2023,186,49.13,0.0
+River Water Discharge_Manakkad,2024,273,323.45,18-Jul-2024,200,54.48,1.88
+River Water Discharge_Manakkad,2025,75,65.99,28-Jan-2025,28,41.51,19.08

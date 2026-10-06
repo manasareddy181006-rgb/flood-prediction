@@ -1,0 +1,25 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Parmanpur,2001,123,10000.0,17-Jul-2001,198,357.28,0.0
+River Water Discharge_Parmanpur,2002,122,922.96,11-Sep-2002,254,95.68,0.0
+River Water Discharge_Parmanpur,2003,153,1653.25,01-Sep-2003,244,191.24,0.0
+River Water Discharge_Parmanpur,2004,103,700.0,12-Aug-2004,225,80.88,0.0
+River Water Discharge_Parmanpur,2005,108,2150.0,31-Jul-2005,212,168.63,30.8
+River Water Discharge_Parmanpur,2006,106,1629.72,22-Aug-2006,234,184.62,2.62
+River Water Discharge_Parmanpur,2007,137,1921.27,07-Jul-2007,188,162.16,0.0
+River Water Discharge_Parmanpur,2008,119,3624.55,18-Sep-2008,262,171.44,16.36
+River Water Discharge_Parmanpur,2009,153,401.81,22-Jul-2009,203,49.8,0.0
+River Water Discharge_Parmanpur,2010,153,203.63,02-Aug-2010,214,31.1,0.0
+River Water Discharge_Parmanpur,2011,107,1932.1,07-Sep-2011,250,182.0,1.42
+River Water Discharge_Parmanpur,2012,118,2357.1,16-Aug-2012,229,191.68,6.4
+River Water Discharge_Parmanpur,2013,153,941.41,31-Jul-2013,212,78.64,0.0
+River Water Discharge_Parmanpur,2014,153,3108.23,05-Aug-2014,217,98.93,0.0
+River Water Discharge_Parmanpur,2015,214,1469.02,11-Jul-2015,192,70.33,0.0
+River Water Discharge_Parmanpur,2016,305,630.0,04-Sep-2016,248,33.76,0.0
+River Water Discharge_Parmanpur,2017,153,731.41,25-Jul-2017,206,93.73,0.0
+River Water Discharge_Parmanpur,2018,237,681.67,08-Aug-2018,220,52.16,0.0
+River Water Discharge_Parmanpur,2020,88,2862.54,27-Aug-2020,240,159.55,11.02
+River Water Discharge_Parmanpur,2021,97,588.47,24-Jul-2021,205,47.88,2.71
+River Water Discharge_Parmanpur,2022,102,671.62,20-Aug-2022,232,51.51,0.0
+River Water Discharge_Parmanpur,2023,149,1040.0,03-Aug-2023,215,162.78,0.0
+River Water Discharge_Parmanpur,2024,153,295.92,25-Aug-2024,238,26.69,0.0
+River Water Discharge_Parmanpur,2025,73,2500.0,06-Jul-2025,187,149.48,7.5

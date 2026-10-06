@@ -1,0 +1,6 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Penuganchi prolu,2021,293,2725.8,08-Sep-2021,251,48.32,1.0
+River Water Discharge_Penuganchi prolu,2022,342,1200.0,24-Jul-2022,205,74.79,0.3
+River Water Discharge_Penuganchi prolu,2023,365,8208.0,28-Jul-2023,209,75.02,0.0
+River Water Discharge_Penuganchi prolu,2024,363,16411.34,02-Sep-2024,246,109.35,0.0
+River Water Discharge_Penuganchi prolu,2025,126,7.79,07-Jan-2025,7,0.97,0.0

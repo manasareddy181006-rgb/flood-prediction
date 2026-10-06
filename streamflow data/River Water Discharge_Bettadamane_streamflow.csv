@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Bettadamane,2018,51,16.94,27-Apr-2018,117,5.66,0.0
+River Water Discharge_Bettadamane,2019,241,516.61,07-Aug-2019,219,30.65,0.16
+River Water Discharge_Bettadamane,2020,266,294.0,08-Aug-2020,221,23.88,0.35
+River Water Discharge_Bettadamane,2021,284,316.69,24-Jul-2021,205,22.58,0.39
+River Water Discharge_Bettadamane,2022,333,577.2,15-Jul-2022,196,32.31,0.78
+River Water Discharge_Bettadamane,2023,324,181.89,25-Jul-2023,206,10.26,0.0
+River Water Discharge_Bettadamane,2024,242,228.92,29-Jul-2024,211,25.24,0.21
+River Water Discharge_Bettadamane,2025,102,112.65,26-May-2025,146,6.9,0.67

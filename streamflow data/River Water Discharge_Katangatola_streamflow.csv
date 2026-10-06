@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Katangatola,2019,167,215.54,08-Sep-2019,251,26.92,0.0
+River Water Discharge_Katangatola,2020,366,280.53,18-Aug-2020,231,15.49,0.0
+River Water Discharge_Katangatola,2021,365,32.72,16-Sep-2021,259,3.15,0.29
+River Water Discharge_Katangatola,2022,360,152.8,22-Aug-2022,234,10.51,0.0
+River Water Discharge_Katangatola,2023,365,270.0,04-Aug-2023,216,9.17,0.0
+River Water Discharge_Katangatola,2024,439,580.0,11-Sep-2024,255,12.43,0.62
+River Water Discharge_Katangatola,2025,294,680.12,08-Jul-2025,189,21.42,0.0

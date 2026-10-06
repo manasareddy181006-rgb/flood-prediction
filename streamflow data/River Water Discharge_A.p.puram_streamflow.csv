@@ -1,0 +1,15 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_A.p.puram,2011,210,21.64,27-Nov-2011,331,0.14,0.0
+River Water Discharge_A.p.puram,2012,366,0.09,22-Mar-2012,82,0.03,0.0
+River Water Discharge_A.p.puram,2013,360,0.04,21-Oct-2013,294,0.0,0.0
+River Water Discharge_A.p.puram,2014,340,26.51,08-May-2014,128,0.12,0.0
+River Water Discharge_A.p.puram,2015,346,67.53,24-Nov-2015,328,1.35,0.0
+River Water Discharge_A.p.puram,2016,152,3.86,01-Jan-2016,1,0.17,0.05
+River Water Discharge_A.p.puram,2017,31,0.0,06-Feb-2017,37,0.0,0.0
+River Water Discharge_A.p.puram,2018,2,7.82,24-Oct-2018,297,6.66,5.5
+River Water Discharge_A.p.puram,2019,15,21.2,02-Dec-2019,336,6.5,1.77
+River Water Discharge_A.p.puram,2021,63,258.07,30-Nov-2021,334,30.38,0.0
+River Water Discharge_A.p.puram,2022,12,0.33,02-Mar-2022,61,0.2,0.13
+River Water Discharge_A.p.puram,2023,12,399.8,18-Dec-2023,352,56.7,0.11
+River Water Discharge_A.p.puram,2024,35,359.44,13-Dec-2024,348,17.26,0.02
+River Water Discharge_A.p.puram,2025,2,5.16,27-Jun-2025,178,2.62,0.08

@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Mayambadi,2018,209,37.33,16-Nov-2018,320,0.86,0.0
+River Water Discharge_Mayambadi,2019,363,21.75,02-Dec-2019,336,1.2,0.0
+River Water Discharge_Mayambadi,2020,320,19.15,08-Oct-2020,282,2.08,0.0
+River Water Discharge_Mayambadi,2021,287,38.09,07-Jan-2021,7,2.96,0.01
+River Water Discharge_Mayambadi,2022,365,35.45,12-Nov-2022,316,1.81,0.0
+River Water Discharge_Mayambadi,2023,313,13.73,08-Nov-2023,312,0.86,0.0
+River Water Discharge_Mayambadi,2024,219,35.74,02-Dec-2024,337,2.43,0.0
+River Water Discharge_Mayambadi,2025,100,2.25,12-Mar-2025,71,0.45,0.0

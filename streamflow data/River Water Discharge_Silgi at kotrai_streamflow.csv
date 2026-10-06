@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Silgi at kotrai,2019,194,57.5,08-Aug-2019,220,10.67,0.3
+River Water Discharge_Silgi at kotrai,2020,287,59.0,22-Aug-2020,235,4.99,0.1
+River Water Discharge_Silgi at kotrai,2021,332,64.0,16-Sep-2021,259,4.47,0.12
+River Water Discharge_Silgi at kotrai,2022,344,88.0,23-Aug-2022,235,8.24,0.0
+River Water Discharge_Silgi at kotrai,2023,365,75.01,04-Aug-2023,216,6.11,0.0
+River Water Discharge_Silgi at kotrai,2024,440,71.62,04-Aug-2024,217,5.74,0.0
+River Water Discharge_Silgi at kotrai,2025,285,92.15,05-Jul-2025,186,7.47,0.0

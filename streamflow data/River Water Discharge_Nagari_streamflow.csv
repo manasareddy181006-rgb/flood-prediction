@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Nagari,2019,42,3.7,29-Dec-2019,363,2.45,1.32
+River Water Discharge_Nagari,2020,292,14.41,22-Sep-2020,266,2.37,0.0
+River Water Discharge_Nagari,2021,307,25.53,23-Sep-2021,266,2.91,0.0
+River Water Discharge_Nagari,2022,293,677.98,19-Jul-2022,200,18.98,0.0
+River Water Discharge_Nagari,2023,272,233.85,22-Jul-2023,203,14.65,0.0
+River Water Discharge_Nagari,2024,256,365.99,22-Jul-2024,204,18.73,0.0
+River Water Discharge_Nagari,2025,82,142.27,27-Jul-2025,208,8.39,0.0

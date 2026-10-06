@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Pipriya,2018,245,24.96,17-Jul-2018,198,5.78,0.0
+River Water Discharge_Pipriya,2019,306,22.5,29-Sep-2019,272,4.37,0.0
+River Water Discharge_Pipriya,2020,272,58.82,28-Aug-2020,241,3.89,0.0
+River Water Discharge_Pipriya,2021,265,35.55,26-Sep-2021,269,2.88,0.0
+River Water Discharge_Pipriya,2022,76,44.3,15-Aug-2022,227,13.12,8.2
+River Water Discharge_Pipriya,2023,304,24.96,16-Jul-2023,197,5.29,0.0
+River Water Discharge_Pipriya,2024,184,44.5,11-Sep-2024,255,13.73,0.0

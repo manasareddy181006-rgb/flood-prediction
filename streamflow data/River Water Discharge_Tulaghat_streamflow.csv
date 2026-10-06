@@ -1,0 +1,21 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Tulaghat,2000,366,275.41,31-Aug-2000,244,9.91,0.0
+River Water Discharge_Tulaghat,2001,365,3990.72,06-Jul-2001,187,48.24,0.0
+River Water Discharge_Tulaghat,2002,365,100.31,11-Aug-2002,223,13.0,0.31
+River Water Discharge_Tulaghat,2003,194,6443.06,06-Sep-2003,249,162.76,1.76
+River Water Discharge_Tulaghat,2004,366,1646.28,14-Jun-2004,166,101.24,0.0
+River Water Discharge_Tulaghat,2006,365,2151.3,29-Aug-2006,241,65.87,2.1
+River Water Discharge_Tulaghat,2007,306,1619.78,06-Aug-2007,218,24.63,0.01
+River Water Discharge_Tulaghat,2008,366,6396.62,15-Sep-2008,259,177.5,0.0
+River Water Discharge_Tulaghat,2009,365,3044.35,13-Jul-2009,194,56.18,0.0
+River Water Discharge_Tulaghat,2010,306,394.35,31-Aug-2010,243,23.52,0.0
+River Water Discharge_Tulaghat,2011,365,261.82,06-Sep-2011,249,15.06,0.0
+River Water Discharge_Tulaghat,2012,366,192.49,06-Aug-2012,219,14.25,0.0
+River Water Discharge_Tulaghat,2013,365,1271.79,14-Oct-2013,287,23.91,0.0
+River Water Discharge_Tulaghat,2014,334,1012.02,30-Jul-2014,211,34.59,1.65
+River Water Discharge_Tulaghat,2015,363,1271.2,16-Sep-2015,259,14.72,0.0
+River Water Discharge_Tulaghat,2016,366,400.95,06-Aug-2016,219,16.37,0.0
+River Water Discharge_Tulaghat,2017,303,56.28,17-Jul-2017,198,5.5,0.0
+River Water Discharge_Tulaghat,2019,246,2602.15,13-Aug-2019,225,48.19,0.0
+River Water Discharge_Tulaghat,2020,366,239.13,27-Aug-2020,240,12.05,0.0
+River Water Discharge_Tulaghat,2021,334,135.82,14-Sep-2021,257,4.57,0.0

@@ -1,0 +1,4 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Bhadli,2016,127,266.88,30-Jun-2016,182,57.22,0.0
+River Water Discharge_Bhadli,2021,150,0.0,01-Jan-2021,1,0.0,0.0
+River Water Discharge_Bhadli,2022,59,0.0,01-Jan-2022,1,0.0,0.0

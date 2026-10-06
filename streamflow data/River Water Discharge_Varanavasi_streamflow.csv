@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Varanavasi,2018,2,3.2,24-Nov-2018,328,2.07,0.94
+River Water Discharge_Varanavasi,2019,64,19.5,01-Dec-2019,335,2.75,0.05
+River Water Discharge_Varanavasi,2020,42,33.92,04-Dec-2020,339,4.08,0.08
+River Water Discharge_Varanavasi,2021,150,164.09,26-Nov-2021,330,9.3,0.06
+River Water Discharge_Varanavasi,2022,242,23.61,14-Dec-2022,348,1.64,0.06
+River Water Discharge_Varanavasi,2023,58,7.26,10-Aug-2023,222,0.65,0.07
+River Water Discharge_Varanavasi,2024,276,14.84,14-Dec-2024,349,0.39,0.0
+River Water Discharge_Varanavasi,2025,216,2.11,01-Jan-2025,1,0.11,0.0

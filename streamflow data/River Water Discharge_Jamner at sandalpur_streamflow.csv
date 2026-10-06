@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Jamner at sandalpur,2019,184,1500.0,28-Jul-2019,209,107.3,17.7
+River Water Discharge_Jamner at sandalpur,2020,366,680.0,30-Aug-2020,243,49.51,0.0
+River Water Discharge_Jamner at sandalpur,2021,365,160.8,18-Oct-2021,291,7.48,0.0
+River Water Discharge_Jamner at sandalpur,2022,363,253.21,12-Jul-2022,193,15.4,0.0
+River Water Discharge_Jamner at sandalpur,2023,365,315.87,16-Sep-2023,259,10.07,0.0
+River Water Discharge_Jamner at sandalpur,2024,366,112.17,04-Sep-2024,248,9.27,0.0
+River Water Discharge_Jamner at sandalpur,2025,259,269.66,04-Sep-2025,247,9.28,0.0

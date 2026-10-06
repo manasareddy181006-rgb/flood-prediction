@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Koli(bk),2018,306,984.64,17-Aug-2018,229,22.19,0.0
+River Water Discharge_Koli(bk),2019,305,180.46,03-Aug-2019,215,11.61,0.0
+River Water Discharge_Koli(bk),2020,305,292.43,29-Jul-2020,211,37.68,0.0
+River Water Discharge_Koli(bk),2021,291,881.29,19-Aug-2021,231,55.73,0.0
+River Water Discharge_Koli(bk),2022,300,761.68,10-Aug-2022,222,79.15,0.0
+River Water Discharge_Koli(bk),2023,191,220.66,05-Jul-2023,186,21.07,0.0
+River Water Discharge_Koli(bk),2024,238,1200.67,01-Sep-2024,245,120.0,6.78
+River Water Discharge_Koli(bk),2025,52,684.69,30-Aug-2025,242,173.05,25.65

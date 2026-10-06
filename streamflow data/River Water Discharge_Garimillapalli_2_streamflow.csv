@@ -1,0 +1,4 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Garimillapalli_2,2017,82,8.52,11-Aug-2017,223,1.22,0.0
+River Water Discharge_Garimillapalli_2,2018,191,66.0,12-Aug-2018,224,5.83,0.0
+River Water Discharge_Garimillapalli_2,2019,4,0.27,01-Jan-2019,1,0.19,0.15

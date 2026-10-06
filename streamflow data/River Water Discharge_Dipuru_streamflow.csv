@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Dipuru,2018,214,0.0,01-Jun-2018,152,0.0,0.0
+River Water Discharge_Dipuru,2019,364,0.7,02-Nov-2019,306,0.01,0.0
+River Water Discharge_Dipuru,2020,187,185.73,28-Nov-2020,333,4.41,0.0
+River Water Discharge_Dipuru,2021,62,209.32,29-Nov-2021,333,21.61,0.33
+River Water Discharge_Dipuru,2022,341,45.1,11-Dec-2022,345,1.23,0.0
+River Water Discharge_Dipuru,2023,220,25.47,06-Dec-2023,340,0.33,0.0
+River Water Discharge_Dipuru,2024,45,0.99,07-Dec-2024,342,0.27,0.0
+River Water Discharge_Dipuru,2025,52,0.29,19-Feb-2025,50,0.23,0.05

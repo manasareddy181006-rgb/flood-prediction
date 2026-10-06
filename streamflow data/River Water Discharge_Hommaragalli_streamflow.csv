@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Hommaragalli,2019,168,811.18,14-Aug-2019,226,106.77,12.11
+River Water Discharge_Hommaragalli,2020,263,1295.82,07-Aug-2020,220,64.11,1.3
+River Water Discharge_Hommaragalli,2021,306,763.9,25-Jul-2021,206,68.87,7.78
+River Water Discharge_Hommaragalli,2022,336,1231.92,10-Aug-2022,222,148.35,3.86
+River Water Discharge_Hommaragalli,2023,318,922.58,27-Jul-2023,208,37.77,1.15
+River Water Discharge_Hommaragalli,2024,288,1252.11,27-Jul-2024,209,59.4,6.83
+River Water Discharge_Hommaragalli,2025,123,40.69,19-May-2025,139,20.69,1.83

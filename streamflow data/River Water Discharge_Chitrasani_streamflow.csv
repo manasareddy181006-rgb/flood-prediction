@@ -1,0 +1,4 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Chitrasani,2022,100,349.68,17-Aug-2022,229,10.81,0.0
+River Water Discharge_Chitrasani,2023,137,95.59,30-Jul-2023,211,6.86,0.51
+River Water Discharge_Chitrasani,2024,60,10.14,04-Sep-2024,248,3.33,0.4

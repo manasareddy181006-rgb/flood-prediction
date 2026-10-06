@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Kolgaon,2018,541,6929.4,12-Jul-2018,193,69.19,0.0
+River Water Discharge_Kolgaon,2019,669,2665.88,04-Aug-2019,216,81.16,0.0
+River Water Discharge_Kolgaon,2020,577,4542.07,28-Sep-2020,272,134.49,0.0
+River Water Discharge_Kolgaon,2021,290,5853.62,23-Jul-2021,204,533.5,0.0
+River Water Discharge_Kolgaon,2023,247,2604.84,27-Sep-2023,270,222.46,0.0
+River Water Discharge_Kolgaon,2024,242,9275.09,02-Sep-2024,246,508.96,37.71
+River Water Discharge_Kolgaon,2025,62,15534.89,17-Aug-2025,229,3024.61,335.31

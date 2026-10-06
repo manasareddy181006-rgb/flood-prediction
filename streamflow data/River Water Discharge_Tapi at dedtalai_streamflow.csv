@@ -1,0 +1,4 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Tapi at dedtalai,2014,7,4186.61,28-Jul-2014,209,716.86,0.0
+River Water Discharge_Tapi at dedtalai,2015,12,296.23,01-Sep-2015,244,38.09,0.0
+River Water Discharge_Tapi at dedtalai,2016,5,0.0,01-Jan-2016,1,0.0,0.0

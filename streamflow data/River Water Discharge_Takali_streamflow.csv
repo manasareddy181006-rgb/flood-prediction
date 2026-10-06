@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Takali,2018,305,12405.0,06-Jul-2018,187,69.88,0.0
+River Water Discharge_Takali,2019,304,523.29,22-Sep-2019,265,34.72,0.0
+River Water Discharge_Takali,2020,304,520.74,29-Jul-2020,211,96.76,0.0
+River Water Discharge_Takali,2021,301,1141.69,19-Aug-2021,231,112.47,0.0
+River Water Discharge_Takali,2022,302,2065.72,14-Jul-2022,195,156.39,0.0
+River Water Discharge_Takali,2023,250,576.91,08-Sep-2023,251,73.81,0.0
+River Water Discharge_Takali,2024,244,1671.33,01-Sep-2024,245,204.29,0.0
+River Water Discharge_Takali,2025,116,1679.4,17-Aug-2025,229,228.6,8.41

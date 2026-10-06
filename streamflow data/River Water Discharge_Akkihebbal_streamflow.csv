@@ -1,0 +1,25 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Akkihebbal,2002,338,242.0,27-Apr-2002,117,13.28,2.22
+River Water Discharge_Akkihebbal,2003,350,170.0,06-Oct-2003,279,7.43,0.0
+River Water Discharge_Akkihebbal,2004,347,194.7,19-Oct-2004,293,21.02,1.16
+River Water Discharge_Akkihebbal,2005,361,1438.0,02-Aug-2005,214,61.61,1.78
+River Water Discharge_Akkihebbal,2006,347,1386.0,18-Aug-2006,230,64.35,2.6
+River Water Discharge_Akkihebbal,2007,358,859.7,07-Aug-2007,219,64.58,1.4
+River Water Discharge_Akkihebbal,2008,365,1480.0,14-Aug-2008,227,51.35,2.16
+River Water Discharge_Akkihebbal,2009,365,638.89,20-Jul-2009,201,45.18,1.09
+River Water Discharge_Akkihebbal,2010,356,290.2,13-Nov-2010,317,33.89,1.19
+River Water Discharge_Akkihebbal,2011,354,381.95,05-Sep-2011,248,42.85,1.03
+River Water Discharge_Akkihebbal,2012,362,234.4,07-Oct-2012,281,15.7,0.84
+River Water Discharge_Akkihebbal,2013,356,2185.0,03-Aug-2013,215,41.87,0.0
+River Water Discharge_Akkihebbal,2014,357,634.19,07-Aug-2014,219,30.39,0.62
+River Water Discharge_Akkihebbal,2015,353,159.25,25-Aug-2015,237,18.57,0.11
+River Water Discharge_Akkihebbal,2016,260,215.94,10-Sep-2016,254,14.91,0.0
+River Water Discharge_Akkihebbal,2017,204,101.7,28-Sep-2017,271,11.62,0.19
+River Water Discharge_Akkihebbal,2018,275,436.95,24-Jul-2018,205,26.53,0.0
+River Water Discharge_Akkihebbal,2019,158,220.51,13-Sep-2019,256,45.7,0.17
+River Water Discharge_Akkihebbal,2020,236,165.53,19-Aug-2020,232,23.74,1.6
+River Water Discharge_Akkihebbal,2021,132,190.52,15-Nov-2021,319,45.73,1.42
+River Water Discharge_Akkihebbal,2022,336,2073.0,10-Aug-2022,222,125.6,1.15
+River Water Discharge_Akkihebbal,2023,323,109.53,07-Nov-2023,311,16.56,0.83
+River Water Discharge_Akkihebbal,2024,256,213.77,30-Aug-2024,243,35.75,0.57
+River Water Discharge_Akkihebbal,2025,162,227.87,09-Jul-2025,190,22.83,1.83

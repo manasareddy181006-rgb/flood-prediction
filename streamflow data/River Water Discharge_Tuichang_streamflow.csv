@@ -1,0 +1,22 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Tuichang,2005,364,317.0,01-Oct-2005,274,22.55,0.93
+River Water Discharge_Tuichang,2006,365,578.47,28-Jun-2006,179,46.54,0.4
+River Water Discharge_Tuichang,2007,365,903.57,22-Aug-2007,234,96.08,1.18
+River Water Discharge_Tuichang,2008,366,475.59,23-Aug-2008,236,32.25,1.33
+River Water Discharge_Tuichang,2009,365,326.9,18-Sep-2009,261,33.84,0.69
+River Water Discharge_Tuichang,2010,364,396.79,21-Sep-2010,264,34.23,1.11
+River Water Discharge_Tuichang,2011,365,651.56,14-Jun-2011,165,62.87,1.73
+River Water Discharge_Tuichang,2012,366,693.75,26-Jun-2012,178,45.73,1.11
+River Water Discharge_Tuichang,2013,365,480.19,24-Aug-2013,236,52.22,0.87
+River Water Discharge_Tuichang,2014,363,472.82,20-Sep-2014,263,32.46,0.41
+River Water Discharge_Tuichang,2015,302,350.3,25-Aug-2015,237,42.27,0.89
+River Water Discharge_Tuichang,2016,323,467.95,13-Sep-2016,257,50.08,1.73
+River Water Discharge_Tuichang,2017,364,980.54,20-Jun-2017,171,183.8,1.16
+River Water Discharge_Tuichang,2018,245,680.52,16-Jun-2018,167,125.98,1.16
+River Water Discharge_Tuichang,2019,364,575.07,12-Jul-2019,193,30.2,0.44
+River Water Discharge_Tuichang,2020,211,27.08,07-Aug-2020,220,12.66,3.05
+River Water Discharge_Tuichang,2021,351,59.17,11-Dec-2021,345,17.61,1.46
+River Water Discharge_Tuichang,2022,365,29.28,01-Jan-2022,1,10.1,1.44
+River Water Discharge_Tuichang,2023,365,12.49,17-Aug-2023,229,3.82,0.91
+River Water Discharge_Tuichang,2024,415,15.17,28-Aug-2024,241,4.44,0.27
+River Water Discharge_Tuichang,2025,214,139.26,03-Jun-2025,154,10.63,0.29

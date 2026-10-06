@@ -1,0 +1,6 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Thandalaiputhur,2021,40,127.82,26-Nov-2021,330,13.39,0.12
+River Water Discharge_Thandalaiputhur,2022,104,143.12,17-Oct-2022,290,10.8,0.18
+River Water Discharge_Thandalaiputhur,2023,29,0.8,01-Jan-2023,1,0.36,0.15
+River Water Discharge_Thandalaiputhur,2024,275,66.39,14-Dec-2024,349,1.79,0.0
+River Water Discharge_Thandalaiputhur,2025,205,3.3,01-Jan-2025,1,0.23,0.0

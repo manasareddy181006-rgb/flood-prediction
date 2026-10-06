@@ -1,0 +1,7 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Mirawadi,2018,179,1000.0,22-Aug-2018,234,74.58,0.0
+River Water Discharge_Mirawadi,2019,335,1985.71,08-Aug-2019,220,104.33,0.0
+River Water Discharge_Mirawadi,2020,329,1162.0,15-Oct-2020,289,54.94,0.0
+River Water Discharge_Mirawadi,2021,342,561.46,14-Sep-2021,257,29.4,0.0
+River Water Discharge_Mirawadi,2022,310,1695.97,17-Sep-2022,260,82.69,0.0
+River Water Discharge_Mirawadi,2023,31,0.0,01-May-2023,121,0.0,0.0

@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Kaner at mendhikheda,2019,214,175.0,09-Aug-2019,221,35.66,0.0
+River Water Discharge_Kaner at mendhikheda,2020,366,159.0,23-Sep-2020,267,19.39,0.0
+River Water Discharge_Kaner at mendhikheda,2021,365,155.0,24-Jul-2021,205,8.33,0.0
+River Water Discharge_Kaner at mendhikheda,2022,365,320.0,10-Aug-2022,222,18.68,1.98
+River Water Discharge_Kaner at mendhikheda,2023,365,500.0,16-Sep-2023,259,17.66,0.0
+River Water Discharge_Kaner at mendhikheda,2024,418,317.0,16-Jul-2024,198,13.21,2.4
+River Water Discharge_Kaner at mendhikheda,2025,362,324.2,31-Aug-2025,243,10.55,1.4

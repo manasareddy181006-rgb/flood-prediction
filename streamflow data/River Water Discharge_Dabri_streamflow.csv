@@ -1,0 +1,19 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Dabri,2000,366,48.51,17-Jul-2000,199,0.8,0.0
+River Water Discharge_Dabri,2001,309,110.12,21-Aug-2001,233,1.22,0.0
+River Water Discharge_Dabri,2002,186,18.4,08-Aug-2002,220,0.82,0.0
+River Water Discharge_Dabri,2003,132,102.58,28-Jul-2003,209,8.55,0.0
+River Water Discharge_Dabri,2004,85,99.81,07-Aug-2004,220,16.37,0.0
+River Water Discharge_Dabri,2005,127,360.0,01-Aug-2005,213,16.2,0.0
+River Water Discharge_Dabri,2006,82,402.0,19-Aug-2006,231,87.58,4.44
+River Water Discharge_Dabri,2007,123,1274.49,09-Aug-2007,221,73.59,1.2
+River Water Discharge_Dabri,2008,108,319.48,31-Jul-2008,213,21.98,1.02
+River Water Discharge_Dabri,2009,90,990.0,23-Jul-2009,204,36.96,0.92
+River Water Discharge_Dabri,2010,164,1967.69,02-Aug-2010,214,34.21,0.84
+River Water Discharge_Dabri,2011,106,4419.75,09-Aug-2011,221,334.04,0.93
+River Water Discharge_Dabri,2012,97,1510.85,13-Aug-2012,226,108.65,0.4
+River Water Discharge_Dabri,2013,121,2404.0,27-Jul-2013,208,124.68,4.38
+River Water Discharge_Dabri,2015,122,3961.7,25-Jul-2015,206,91.22,0.0
+River Water Discharge_Dabri,2016,123,3247.48,21-Aug-2016,234,236.64,0.0
+River Water Discharge_Dabri,2017,214,1351.39,21-Jul-2017,202,82.5,0.0
+River Water Discharge_Dabri,2018,273,17.29,29-Jun-2018,180,0.12,0.0

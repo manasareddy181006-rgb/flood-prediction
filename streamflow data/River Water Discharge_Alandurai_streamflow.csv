@@ -1,0 +1,10 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Alandurai,2017,42,2.81,07-Nov-2017,311,0.22,0.0
+River Water Discharge_Alandurai,2018,61,1.97,03-Nov-2018,307,0.94,0.33
+River Water Discharge_Alandurai,2019,211,86.33,09-Aug-2019,221,5.26,0.16
+River Water Discharge_Alandurai,2020,245,109.51,06-Aug-2020,219,4.78,0.0
+River Water Discharge_Alandurai,2021,262,40.0,17-Oct-2021,290,3.37,0.28
+River Water Discharge_Alandurai,2022,316,101.59,08-Aug-2022,220,4.29,0.0
+River Water Discharge_Alandurai,2023,262,27.41,09-Nov-2023,313,0.87,0.0
+River Water Discharge_Alandurai,2024,265,45.1,17-Jul-2024,199,2.51,0.11
+River Water Discharge_Alandurai,2025,82,21.82,26-Jun-2025,177,3.04,1.1

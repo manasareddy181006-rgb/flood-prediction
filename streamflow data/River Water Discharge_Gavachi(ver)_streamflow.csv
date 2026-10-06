@@ -1,0 +1,6 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Gavachi(ver),2020,172,367.97,24-Aug-2020,237,22.96,0.0
+River Water Discharge_Gavachi(ver),2021,163,362.48,29-Sep-2021,272,10.78,0.87
+River Water Discharge_Gavachi(ver),2022,241,574.78,17-Aug-2022,229,23.95,0.0
+River Water Discharge_Gavachi(ver),2023,264,111.63,15-Jul-2023,196,6.07,0.0
+River Water Discharge_Gavachi(ver),2024,72,71.64,02-Jul-2024,184,5.41,0.2

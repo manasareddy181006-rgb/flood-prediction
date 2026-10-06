@@ -1,0 +1,12 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Padampur,2015,184,193.92,28-Aug-2015,240,20.66,0.0
+River Water Discharge_Padampur,2016,366,200.0,13-Sep-2016,257,18.96,0.0
+River Water Discharge_Padampur,2017,353,221.14,17-Jul-2017,198,14.35,0.0
+River Water Discharge_Padampur,2018,204,2289.88,27-Aug-2018,239,63.6,0.0
+River Water Discharge_Padampur,2019,183,826.92,14-Aug-2019,226,62.11,0.0
+River Water Discharge_Padampur,2020,143,1931.9,28-Aug-2020,241,122.63,0.0
+River Water Discharge_Padampur,2021,184,2296.33,14-Sep-2021,257,45.84,0.66
+River Water Discharge_Padampur,2022,365,1489.96,14-Aug-2022,226,34.61,0.0
+River Water Discharge_Padampur,2023,365,1493.96,03-Aug-2023,215,43.2,0.0
+River Water Discharge_Padampur,2024,202,1022.02,25-Jul-2024,207,70.71,0.35
+River Water Discharge_Padampur,2025,109,797.0,26-Jul-2025,207,179.16,2.25

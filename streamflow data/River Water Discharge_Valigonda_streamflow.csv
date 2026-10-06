@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Valigonda,2019,184,144.09,28-Sep-2019,271,27.59,0.0
+River Water Discharge_Valigonda,2020,366,2698.24,14-Oct-2020,288,42.71,0.0
+River Water Discharge_Valigonda,2021,365,760.15,15-Jul-2021,196,31.26,0.56
+River Water Discharge_Valigonda,2022,364,640.33,27-Jul-2022,208,42.7,0.0
+River Water Discharge_Valigonda,2023,362,361.83,28-Jul-2023,209,36.39,0.0
+River Water Discharge_Valigonda,2024,360,275.17,04-Sep-2024,248,18.69,0.0
+River Water Discharge_Valigonda,2025,215,121.2,04-Apr-2025,94,12.96,0.0

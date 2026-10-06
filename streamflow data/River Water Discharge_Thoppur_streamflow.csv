@@ -1,0 +1,26 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Thoppur,1999,72,1.91,25-Oct-1999,298,0.34,0.07
+River Water Discharge_Thoppur,2000,285,16.69,01-Dec-2000,336,0.69,0.0
+River Water Discharge_Thoppur,2001,281,0.4,17-Oct-2001,290,0.06,0.0
+River Water Discharge_Thoppur,2002,8,0.0,01-Nov-2002,305,0.0,0.0
+River Water Discharge_Thoppur,2003,25,0.0,27-Oct-2003,300,0.0,0.0
+River Water Discharge_Thoppur,2004,21,0.0,01-Jun-2004,153,0.0,0.0
+River Water Discharge_Thoppur,2005,94,60.87,24-Nov-2005,328,3.01,0.0
+River Water Discharge_Thoppur,2006,353,3.8,05-Jan-2006,5,0.1,0.0
+River Water Discharge_Thoppur,2007,361,0.73,02-Nov-2007,306,0.03,0.0
+River Water Discharge_Thoppur,2008,350,0.32,12-Feb-2008,43,0.02,0.0
+River Water Discharge_Thoppur,2009,365,0.09,12-Feb-2009,43,0.0,0.0
+River Water Discharge_Thoppur,2010,349,1.94,09-Dec-2010,343,0.13,0.0
+River Water Discharge_Thoppur,2011,331,1.43,03-Jan-2011,3,0.14,0.0
+River Water Discharge_Thoppur,2012,361,0.3,11-Feb-2012,42,0.01,0.0
+River Water Discharge_Thoppur,2013,365,0.0,01-Jan-2013,1,0.0,0.0
+River Water Discharge_Thoppur,2014,365,0.0,01-Jan-2014,1,0.0,0.0
+River Water Discharge_Thoppur,2015,365,3.98,08-Dec-2015,342,0.1,0.0
+River Water Discharge_Thoppur,2016,152,1.71,29-May-2016,150,0.04,0.0
+River Water Discharge_Thoppur,2017,2,1.1,01-Aug-2017,213,1.06,1.03
+River Water Discharge_Thoppur,2020,4,0.3,10-Oct-2020,284,0.25,0.13
+River Water Discharge_Thoppur,2021,33,4.54,24-Nov-2021,328,0.91,0.07
+River Water Discharge_Thoppur,2022,87,4.2,13-Dec-2022,347,0.34,0.05
+River Water Discharge_Thoppur,2023,62,0.72,01-Jan-2023,1,0.2,0.11
+River Water Discharge_Thoppur,2024,281,43.25,03-Dec-2024,338,0.52,0.0
+River Water Discharge_Thoppur,2025,237,1.17,01-Jan-2025,1,0.0,0.0

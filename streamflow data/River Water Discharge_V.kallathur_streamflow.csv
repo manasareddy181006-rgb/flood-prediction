@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_V.kallathur,2018,214,0.0,01-Jun-2018,152,0.0,0.0
+River Water Discharge_V.kallathur,2019,365,9.43,07-Dec-2019,341,0.1,0.0
+River Water Discharge_V.kallathur,2020,170,26.25,04-Dec-2020,339,1.38,0.0
+River Water Discharge_V.kallathur,2021,133,227.76,26-Nov-2021,330,19.29,0.0
+River Water Discharge_V.kallathur,2022,288,102.61,17-Oct-2022,290,3.1,0.0
+River Water Discharge_V.kallathur,2023,229,12.74,28-Nov-2023,332,1.02,0.0
+River Water Discharge_V.kallathur,2024,107,502.04,13-Dec-2024,348,10.06,0.05
+River Water Discharge_V.kallathur,2025,53,8.4,03-Jan-2025,3,1.41,0.02

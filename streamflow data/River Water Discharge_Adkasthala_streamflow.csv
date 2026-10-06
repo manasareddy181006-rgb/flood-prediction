@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Adkasthala,2019,155,205.99,09-Sep-2019,252,26.85,0.0
+River Water Discharge_Adkasthala,2020,194,229.05,08-Aug-2020,221,27.5,0.0
+River Water Discharge_Adkasthala,2021,231,127.09,16-Jul-2021,197,22.8,0.0
+River Water Discharge_Adkasthala,2022,275,230.1,10-Jul-2022,191,24.09,0.0
+River Water Discharge_Adkasthala,2023,318,157.09,25-Jul-2023,206,13.2,0.0
+River Water Discharge_Adkasthala,2024,230,184.52,01-Aug-2024,214,28.49,0.0
+River Water Discharge_Adkasthala,2025,37,76.27,28-Jun-2025,179,8.01,0.0

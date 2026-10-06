@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Vellaikadavu,2019,166,79.61,31-Oct-2019,304,9.83,0.0
+River Water Discharge_Vellaikadavu,2020,338,85.63,07-Aug-2020,220,8.71,0.0
+River Water Discharge_Vellaikadavu,2021,361,285.9,17-Oct-2021,290,19.22,0.0
+River Water Discharge_Vellaikadavu,2022,359,192.19,02-Aug-2022,214,10.01,0.0
+River Water Discharge_Vellaikadavu,2023,365,207.71,14-Oct-2023,287,11.59,0.57
+River Water Discharge_Vellaikadavu,2024,366,96.59,28-May-2024,149,10.55,0.43
+River Water Discharge_Vellaikadavu,2025,90,1.91,03-Mar-2025,62,1.06,0.62

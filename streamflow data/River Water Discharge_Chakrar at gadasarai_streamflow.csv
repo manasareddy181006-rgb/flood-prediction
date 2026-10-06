@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Chakrar at gadasarai,2019,190,175.0,26-Sep-2019,269,28.34,2.75
+River Water Discharge_Chakrar at gadasarai,2020,351,169.84,16-Jul-2020,198,22.11,1.58
+River Water Discharge_Chakrar at gadasarai,2021,365,174.13,24-Jul-2021,205,7.79,0.61
+River Water Discharge_Chakrar at gadasarai,2022,365,355.6,21-Aug-2022,233,16.26,0.0
+River Water Discharge_Chakrar at gadasarai,2023,365,522.5,29-Jul-2023,210,12.73,0.0
+River Water Discharge_Chakrar at gadasarai,2024,448,190.0,04-Aug-2024,217,12.03,0.0
+River Water Discharge_Chakrar at gadasarai,2025,293,174.6,27-Jul-2025,208,13.38,0.0

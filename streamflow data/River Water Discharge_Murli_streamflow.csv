@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Murli,2018,306,910.23,17-Aug-2018,229,55.32,0.0
+River Water Discharge_Murli,2019,364,904.39,04-Aug-2019,216,32.65,0.0
+River Water Discharge_Murli,2020,305,4624.95,24-Sep-2020,268,351.69,0.0
+River Water Discharge_Murli,2021,304,4570.61,28-Sep-2021,271,435.51,0.0
+River Water Discharge_Murli,2022,304,2438.76,14-Jul-2022,195,185.4,0.0
+River Water Discharge_Murli,2023,213,177.93,20-Aug-2023,232,15.75,0.0
+River Water Discharge_Murli,2024,213,1787.85,01-Sep-2024,245,181.66,2.21
+River Water Discharge_Murli,2025,52,864.03,17-Aug-2025,229,301.12,60.25

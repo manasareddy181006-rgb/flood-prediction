@@ -1,0 +1,4 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Mahanadi_ arang,2015,153,985.62,21-Sep-2015,264,69.02,0.38
+River Water Discharge_Mahanadi_ arang,2019,326,1168.0,09-Aug-2019,221,40.4,0.0
+River Water Discharge_Mahanadi_ arang,2020,155,1849.0,28-Aug-2020,241,107.94,0.84

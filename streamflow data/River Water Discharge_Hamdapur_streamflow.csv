@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Hamdapur,2018,306,641.74,07-Jul-2018,188,22.46,0.0
+River Water Discharge_Hamdapur,2019,304,651.76,31-Jul-2019,212,23.57,0.0
+River Water Discharge_Hamdapur,2020,301,107.51,29-Jul-2020,211,19.94,0.0
+River Water Discharge_Hamdapur,2021,139,205.18,08-Jul-2021,189,12.15,0.0
+River Water Discharge_Hamdapur,2023,188,433.65,20-Aug-2023,232,33.95,0.0
+River Water Discharge_Hamdapur,2024,236,645.49,23-Jul-2024,205,54.85,0.0
+River Water Discharge_Hamdapur,2025,52,298.35,19-Aug-2025,231,62.3,8.28

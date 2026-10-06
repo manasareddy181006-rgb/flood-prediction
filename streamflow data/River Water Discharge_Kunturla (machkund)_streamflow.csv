@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Kunturla (machkund),2018,296,857.57,25-Feb-2018,56,14.82,0.0
+River Water Discharge_Kunturla (machkund),2019,334,110.0,06-Sep-2019,249,13.1,1.6
+River Water Discharge_Kunturla (machkund),2020,348,140.0,13-Oct-2020,287,12.9,1.29
+River Water Discharge_Kunturla (machkund),2021,364,127.0,28-Sep-2021,271,10.12,2.0
+River Water Discharge_Kunturla (machkund),2022,361,82.88,07-Oct-2022,280,12.41,1.75
+River Water Discharge_Kunturla (machkund),2023,361,129.99,06-Dec-2023,340,11.9,0.0
+River Water Discharge_Kunturla (machkund),2024,361,218.3,20-Jul-2024,202,14.68,2.0
+River Water Discharge_Kunturla (machkund),2025,260,231.66,18-Aug-2025,230,14.56,2.5

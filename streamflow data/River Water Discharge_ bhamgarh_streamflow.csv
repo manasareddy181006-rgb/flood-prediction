@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_ bhamgarh,2019,184,1262.13,29-Jul-2019,210,78.37,0.61
+River Water Discharge_ bhamgarh,2020,361,957.0,02-Sep-2020,246,59.57,0.0
+River Water Discharge_ bhamgarh,2021,365,102.46,16-Sep-2021,259,6.24,0.0
+River Water Discharge_ bhamgarh,2022,365,610.5,14-Jul-2022,195,32.18,0.0
+River Water Discharge_ bhamgarh,2023,365,725.0,09-Sep-2023,252,20.93,0.0
+River Water Discharge_ bhamgarh,2024,366,280.0,03-Sep-2024,247,30.2,0.0
+River Water Discharge_ bhamgarh,2025,258,142.69,29-Aug-2025,241,10.63,0.0

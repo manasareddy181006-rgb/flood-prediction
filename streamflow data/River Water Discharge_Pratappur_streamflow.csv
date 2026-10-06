@@ -1,0 +1,10 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Pratappur,2017,71,18.26,21-Oct-2017,294,3.88,0.0
+River Water Discharge_Pratappur,2018,27,153.89,05-Nov-2018,309,16.22,0.76
+River Water Discharge_Pratappur,2019,97,41.55,16-Sep-2019,259,8.95,0.0
+River Water Discharge_Pratappur,2020,122,519.21,11-Oct-2020,285,21.86,0.4
+River Water Discharge_Pratappur,2021,107,519.09,23-Mar-2021,82,23.02,0.0
+River Water Discharge_Pratappur,2022,128,59.8,28-Jul-2022,209,16.13,0.0
+River Water Discharge_Pratappur,2023,262,518.87,28-May-2023,148,6.74,0.0
+River Water Discharge_Pratappur,2024,253,61.53,04-May-2024,125,6.79,0.0
+River Water Discharge_Pratappur,2025,144,54.16,28-Aug-2025,240,6.17,0.0

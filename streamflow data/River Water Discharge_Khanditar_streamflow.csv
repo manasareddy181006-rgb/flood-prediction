@@ -1,0 +1,23 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Khanditar,2000,366,2834.26,30-Jul-2000,212,316.37,28.03
+River Water Discharge_Khanditar,2001,365,4435.4,24-Jul-2001,205,476.23,15.09
+River Water Discharge_Khanditar,2002,365,1560.6,13-Sep-2002,256,286.25,80.98
+River Water Discharge_Khanditar,2003,365,4895.76,12-Oct-2003,285,632.17,144.78
+River Water Discharge_Khanditar,2004,366,4050.32,24-Aug-2004,237,434.39,170.79
+River Water Discharge_Khanditar,2005,365,4845.17,31-Jul-2005,212,511.34,171.11
+River Water Discharge_Khanditar,2006,365,4958.02,26-Aug-2006,238,484.45,125.29
+River Water Discharge_Khanditar,2007,365,3555.36,30-Sep-2007,273,593.01,160.65
+River Water Discharge_Khanditar,2008,366,3913.49,20-Sep-2008,264,616.75,130.14
+River Water Discharge_Khanditar,2009,365,3398.84,23-Jul-2009,204,373.16,104.53
+River Water Discharge_Khanditar,2010,365,483.89,07-Aug-2010,219,229.82,123.17
+River Water Discharge_Khanditar,2011,365,5675.87,26-Sep-2011,269,587.44,91.82
+River Water Discharge_Khanditar,2012,366,2396.04,21-Aug-2012,234,479.75,88.25
+River Water Discharge_Khanditar,2013,365,3269.1,14-Oct-2013,287,634.94,168.46
+River Water Discharge_Khanditar,2014,365,3814.75,06-Aug-2014,218,484.97,153.39
+River Water Discharge_Khanditar,2015,365,2825.4,07-Aug-2015,219,345.27,116.07
+River Water Discharge_Khanditar,2016,366,2825.77,05-Aug-2016,218,299.3,18.39
+River Water Discharge_Khanditar,2017,365,3622.05,30-Jul-2017,211,303.0,33.57
+River Water Discharge_Khanditar,2018,365,641030.0,03-Aug-2018,215,2118.84,53.62
+River Water Discharge_Khanditar,2019,365,2646.0,09-Sep-2019,252,290.56,41.58
+River Water Discharge_Khanditar,2020,366,5646.42,28-Aug-2020,241,427.57,0.0
+River Water Discharge_Khanditar,2021,334,3680.56,15-Sep-2021,258,363.46,0.0

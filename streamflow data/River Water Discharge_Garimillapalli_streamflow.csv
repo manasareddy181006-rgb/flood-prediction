@@ -1,0 +1,10 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Garimillapalli,2017,90,2.75,23-Nov-2017,327,0.47,0.0
+River Water Discharge_Garimillapalli,2018,30,0.0,01-Jan-2018,1,0.0,0.0
+River Water Discharge_Garimillapalli,2019,211,170.48,08-Aug-2019,220,12.32,0.0
+River Water Discharge_Garimillapalli,2020,361,270.0,15-Aug-2020,228,13.96,0.0
+River Water Discharge_Garimillapalli,2021,347,182.27,29-Sep-2021,272,11.36,0.0
+River Water Discharge_Garimillapalli,2022,327,158.16,15-Jul-2022,196,13.58,0.0
+River Water Discharge_Garimillapalli,2023,300,290.0,27-Jul-2023,208,10.23,0.0
+River Water Discharge_Garimillapalli,2024,258,153.2,22-Jul-2024,204,9.07,0.0
+River Water Discharge_Garimillapalli,2025,155,172.78,29-Aug-2025,241,10.55,0.15

@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Pullakkayar,2019,86,21.44,22-Oct-2019,295,5.77,0.0
+River Water Discharge_Pullakkayar,2020,277,97.43,08-Aug-2020,221,9.24,0.0
+River Water Discharge_Pullakkayar,2021,307,88.71,25-Oct-2021,298,12.1,0.01
+River Water Discharge_Pullakkayar,2022,350,86.07,04-Aug-2022,216,12.66,0.0
+River Water Discharge_Pullakkayar,2023,325,125.72,05-Jul-2023,186,7.87,0.0
+River Water Discharge_Pullakkayar,2024,236,99.16,26-Jun-2024,178,10.52,0.01
+River Water Discharge_Pullakkayar,2025,6,1.26,07-Jan-2025,7,0.66,0.44

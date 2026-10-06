@@ -1,0 +1,14 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Seedhi,1999,123,226.48,18-Oct-1999,291,19.08,1.19
+River Water Discharge_Seedhi,2000,309,323.01,26-Aug-2000,239,16.66,0.41
+River Water Discharge_Seedhi,2001,334,337.75,03-Oct-2001,276,13.73,0.01
+River Water Discharge_Seedhi,2002,265,51.33,19-Jun-2002,170,6.39,0.11
+River Water Discharge_Seedhi,2003,179,649.79,07-Oct-2003,280,36.22,0.61
+River Water Discharge_Seedhi,2004,205,429.0,05-Oct-2004,279,15.16,1.79
+River Water Discharge_Seedhi,2005,246,289.46,22-Sep-2005,265,27.53,0.44
+River Water Discharge_Seedhi,2006,253,708.3,04-Aug-2006,216,26.13,0.05
+River Water Discharge_Seedhi,2007,151,370.72,07-Aug-2007,219,44.37,2.0
+River Water Discharge_Seedhi,2008,130,256.82,18-Sep-2008,262,36.6,2.99
+River Water Discharge_Seedhi,2009,184,115.52,04-Oct-2009,277,20.28,3.19
+River Water Discharge_Seedhi,2010,200,252.17,17-Oct-2010,290,30.11,9.08
+River Water Discharge_Seedhi,2011,49,175.03,19-Aug-2011,231,55.9,9.63

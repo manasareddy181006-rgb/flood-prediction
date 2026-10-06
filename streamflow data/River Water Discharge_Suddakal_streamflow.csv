@@ -1,0 +1,10 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Suddakal,2017,57,20.56,11-Oct-2017,284,2.22,0.0
+River Water Discharge_Suddakal,2018,92,0.0,01-Oct-2018,274,0.0,0.0
+River Water Discharge_Suddakal,2019,365,12.46,25-Sep-2019,268,0.38,0.0
+River Water Discharge_Suddakal,2020,366,754.82,16-Sep-2020,260,5.27,0.0
+River Water Discharge_Suddakal,2021,365,0.54,10-Mar-2021,69,0.01,0.0
+River Water Discharge_Suddakal,2022,365,25.0,09-Aug-2022,221,1.62,0.0
+River Water Discharge_Suddakal,2023,364,67.29,28-Jul-2023,209,4.11,0.0
+River Water Discharge_Suddakal,2024,366,186.8,02-Sep-2024,246,16.9,0.0
+River Water Discharge_Suddakal,2025,173,420.0,15-Aug-2025,227,25.2,0.0

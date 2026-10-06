@@ -1,0 +1,4 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Surubali,2002,365,421.67,24-Aug-2002,236,22.51,0.0
+River Water Discharge_Surubali,2003,365,634.24,28-Aug-2003,240,49.78,0.0
+River Water Discharge_Surubali,2004,366,618.03,08-Aug-2004,221,32.75,0.0

@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Kalimachak at charuwa,2019,184,405.3,10-Sep-2019,253,59.6,2.0
+River Water Discharge_Kalimachak at charuwa,2020,350,32.34,31-Aug-2020,244,5.05,0.43
+River Water Discharge_Kalimachak at charuwa,2021,365,27.74,15-Jun-2021,166,6.66,0.0
+River Water Discharge_Kalimachak at charuwa,2022,364,540.0,18-Jul-2022,199,10.44,0.0
+River Water Discharge_Kalimachak at charuwa,2023,365,550.8,16-Sep-2023,259,9.76,0.0
+River Water Discharge_Kalimachak at charuwa,2024,371,102.09,25-Aug-2024,238,5.81,0.0
+River Water Discharge_Kalimachak at charuwa,2025,259,48.33,30-Aug-2025,242,4.77,0.0

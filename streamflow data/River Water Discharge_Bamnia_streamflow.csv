@@ -1,0 +1,21 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Bamnia,2000,366,17.1,24-Aug-2000,237,1.33,0.0
+River Water Discharge_Bamnia,2001,225,12.45,18-Jun-2001,169,0.45,0.0
+River Water Discharge_Bamnia,2002,243,3.64,25-Aug-2002,237,0.02,0.0
+River Water Discharge_Bamnia,2004,79,73.62,25-Aug-2004,238,18.06,1.21
+River Water Discharge_Bamnia,2005,89,101.64,03-Sep-2005,246,44.84,10.0
+River Water Discharge_Bamnia,2006,83,783.32,09-Aug-2006,221,153.81,10.11
+River Water Discharge_Bamnia,2007,101,102.26,29-Jul-2007,210,43.97,9.99
+River Water Discharge_Bamnia,2008,88,783.32,09-Aug-2008,222,154.58,10.11
+River Water Discharge_Bamnia,2009,93,102.16,01-Sep-2009,244,47.31,9.72
+River Water Discharge_Bamnia,2010,99,102.85,10-Sep-2010,253,38.09,10.09
+River Water Discharge_Bamnia,2011,89,99.16,28-Jul-2011,209,47.48,9.72
+River Water Discharge_Bamnia,2012,89,323.56,06-Sep-2012,250,51.97,11.16
+River Water Discharge_Bamnia,2013,123,101.71,30-Jul-2013,211,48.51,9.99
+River Water Discharge_Bamnia,2015,62,348.06,05-Aug-2015,217,42.25,0.0
+River Water Discharge_Bamnia,2016,101,348.06,06-Aug-2016,219,51.23,0.0
+River Water Discharge_Bamnia,2017,207,104.23,26-Aug-2017,238,16.55,0.0
+River Water Discharge_Bamnia,2018,335,98.89,18-Aug-2018,230,3.01,0.0
+River Water Discharge_Bamnia,2020,402,109.9,27-Aug-2020,240,10.23,0.0
+River Water Discharge_Bamnia,2021,368,102.26,30-Aug-2021,242,14.85,0.0
+River Water Discharge_Bamnia,2022,59,0.0,01-Jan-2022,1,0.0,0.0

@@ -1,0 +1,6 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Mandalapadu,2003,6,0.0,01-Jan-2003,1,0.0,0.0
+River Water Discharge_Mandalapadu,2004,9,0.0,01-Jan-2004,1,0.0,0.0
+River Water Discharge_Mandalapadu,2005,10,6.2,01-Oct-2005,274,0.62,0.0
+River Water Discharge_Mandalapadu,2006,5,0.0,01-Jan-2006,1,0.0,0.0
+River Water Discharge_Mandalapadu,2008,1,0.0,01-Mar-2008,61,0.0,0.0

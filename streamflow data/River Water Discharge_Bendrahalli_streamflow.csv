@@ -1,0 +1,22 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Bendrahalli,2005,133,31.82,04-Nov-2005,308,7.14,0.26
+River Water Discharge_Bendrahalli,2006,354,4.49,09-Nov-2006,313,0.89,0.0
+River Water Discharge_Bendrahalli,2007,364,36.89,22-Oct-2007,295,1.42,0.0
+River Water Discharge_Bendrahalli,2008,361,15.91,24-Oct-2008,298,1.44,0.15
+River Water Discharge_Bendrahalli,2009,362,9.36,19-Sep-2009,262,1.13,0.0
+River Water Discharge_Bendrahalli,2010,362,31.9,07-Nov-2010,311,1.95,0.0
+River Water Discharge_Bendrahalli,2011,365,18.95,04-Nov-2011,308,1.53,0.3
+River Water Discharge_Bendrahalli,2012,153,5.79,01-Oct-2012,275,0.13,0.0
+River Water Discharge_Bendrahalli,2013,208,24.17,13-Sep-2013,256,1.27,0.0
+River Water Discharge_Bendrahalli,2014,343,45.68,29-Oct-2014,302,1.28,0.0
+River Water Discharge_Bendrahalli,2015,356,17.83,11-Nov-2015,315,1.04,0.0
+River Water Discharge_Bendrahalli,2016,184,1.12,29-Jul-2016,211,0.11,0.0
+River Water Discharge_Bendrahalli,2017,162,521.5,06-Oct-2017,279,12.54,0.0
+River Water Discharge_Bendrahalli,2018,117,671.0,09-Nov-2018,313,17.41,0.1
+River Water Discharge_Bendrahalli,2019,156,435.83,22-Aug-2019,234,8.16,0.04
+River Water Discharge_Bendrahalli,2020,185,13.07,10-Oct-2020,284,2.26,0.01
+River Water Discharge_Bendrahalli,2021,139,21.38,16-Nov-2021,320,3.72,0.16
+River Water Discharge_Bendrahalli,2022,301,113.8,06-Sep-2022,249,12.58,0.1
+River Water Discharge_Bendrahalli,2023,324,315.0,09-Apr-2023,99,1.79,0.17
+River Water Discharge_Bendrahalli,2024,154,18.22,05-Dec-2024,340,3.49,0.08
+River Water Discharge_Bendrahalli,2025,140,6.21,22-Jul-2025,203,0.71,0.08

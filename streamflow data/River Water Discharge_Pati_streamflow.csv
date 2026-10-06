@@ -1,0 +1,25 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Pati,1999,334,530.0,18-Jun-1999,169,8.19,0.0
+River Water Discharge_Pati,2000,365,2110.0,13-Jul-2000,195,7.93,0.0
+River Water Discharge_Pati,2001,365,2250.0,05-Aug-2001,217,11.88,0.0
+River Water Discharge_Pati,2002,364,1250.0,03-Sep-2002,246,16.76,0.0
+River Water Discharge_Pati,2003,360,1013.0,29-Sep-2003,272,22.34,0.0
+River Water Discharge_Pati,2004,356,699.9,06-Aug-2004,219,13.31,0.0
+River Water Discharge_Pati,2005,352,83.15,02-Aug-2005,214,3.47,0.0
+River Water Discharge_Pati,2006,151,0.0,01-Jan-2006,1,0.0,0.0
+River Water Discharge_Pati,2008,178,300.94,20-Sep-2008,264,12.88,0.0
+River Water Discharge_Pati,2009,341,230.14,05-Sep-2009,248,6.98,0.0
+River Water Discharge_Pati,2010,335,2395.03,09-Sep-2010,252,21.6,0.0
+River Water Discharge_Pati,2011,363,227.01,01-Sep-2011,244,12.65,0.0
+River Water Discharge_Pati,2012,366,117.57,07-Sep-2012,251,8.15,0.0
+River Water Discharge_Pati,2013,365,484.66,23-Sep-2013,266,19.0,0.0
+River Water Discharge_Pati,2014,360,242.71,09-Sep-2014,252,11.22,0.0
+River Water Discharge_Pati,2015,290,98.99,19-Sep-2015,262,6.8,0.0
+River Water Discharge_Pati,2016,337,93.87,19-Sep-2016,263,11.51,1.1
+River Water Discharge_Pati,2017,90,2.88,21-Feb-2017,52,2.06,1.24
+River Water Discharge_Pati,2020,153,137.0,23-Aug-2020,236,21.11,0.0
+River Water Discharge_Pati,2021,214,185.41,29-Sep-2021,272,14.12,0.0
+River Water Discharge_Pati,2022,365,108.82,02-Sep-2022,245,9.94,0.0
+River Water Discharge_Pati,2023,365,170.18,18-Sep-2023,261,9.76,0.0
+River Water Discharge_Pati,2024,366,652.0,26-Aug-2024,239,21.45,0.0
+River Water Discharge_Pati,2025,273,900.0,30-Aug-2025,242,12.71,0.0

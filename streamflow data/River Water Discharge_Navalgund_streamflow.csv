@@ -1,0 +1,18 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Navalgund,1991,214,217.9,10-Jun-1991,161,13.78,0.0
+River Water Discharge_Navalgund,1992,366,185.5,18-Nov-1992,323,6.82,0.0
+River Water Discharge_Navalgund,1993,365,333.5,18-Oct-1993,291,7.02,0.0
+River Water Discharge_Navalgund,1994,365,169.9,26-Oct-1994,299,10.24,0.0
+River Water Discharge_Navalgund,1995,365,270.0,19-Oct-1995,292,7.92,0.0
+River Water Discharge_Navalgund,1996,366,407.8,29-Sep-1996,273,10.45,0.0
+River Water Discharge_Navalgund,1997,365,192.0,28-Nov-1997,332,9.71,0.0
+River Water Discharge_Navalgund,1998,365,320.0,15-Oct-1998,288,9.79,0.0
+River Water Discharge_Navalgund,1999,365,333.3,14-Oct-1999,287,9.3,0.0
+River Water Discharge_Navalgund,2000,366,270.0,18-Sep-2000,262,9.66,0.0
+River Water Discharge_Navalgund,2001,365,356.0,23-Sep-2001,266,5.19,0.0
+River Water Discharge_Navalgund,2002,365,138.6,19-Oct-2002,292,2.66,0.0
+River Water Discharge_Navalgund,2003,365,155.0,08-Oct-2003,281,2.03,0.0
+River Water Discharge_Navalgund,2004,366,263.3,06-Jun-2004,158,5.89,0.0
+River Water Discharge_Navalgund,2005,365,338.07,01-Sep-2005,244,10.51,0.0
+River Water Discharge_Navalgund,2006,151,50.0,25-May-2006,145,5.63,0.0
+River Water Discharge_Navalgund,2017,4,281.81,23-Jul-2017,204,159.65,64.36

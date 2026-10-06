@@ -1,0 +1,7 @@
+region,n_sites,pooled_years,H1,H2,H3,H1_class,sim_dist,Di_crit,discordant_sites,max_Di,recommendation
+1,20,781,8.748199296083184,4.240079065761843,2.830313122712332,definitely heterogeneous,KAP,3.0,Khanditar,5.485237477316556,heterogeneous: split (see step4_split_suggestions.csv) or exclude sites
+2,16,620,9.094198987580514,8.423220143014968,5.900987999517042,definitely heterogeneous,GLO,3.0,,2.989084348836709,heterogeneous: split (see step4_split_suggestions.csv) or exclude sites
+3,13,479,6.932025443093745,5.683684630837331,3.6501976828760294,definitely heterogeneous,GLO,2.869,,2.5281810859958846,heterogeneous: split (see step4_split_suggestions.csv) or exclude sites
+4,21,686,9.355789734795549,7.273990641220403,5.212764232812724,definitely heterogeneous,KAP,3.0,Patan,3.480189421823326,heterogeneous: split (see step4_split_suggestions.csv) or exclude sites
+5,10,453,8.343699301355938,6.447520571641418,4.011500845392861,definitely heterogeneous,KAP,2.491,Narmadapuram,2.5876741359956763,heterogeneous: split (see step4_split_suggestions.csv) or exclude sites
+6,11,386,4.806475550108675,3.827050272953352,2.436936337015858,definitely heterogeneous,KAP,2.632,,2.5686647317738163,heterogeneous: split (see step4_split_suggestions.csv) or exclude sites

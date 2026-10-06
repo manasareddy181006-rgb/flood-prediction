@@ -1,0 +1,5 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Kukshi,2016,153,193.03,04-Aug-2016,217,19.08,0.0
+River Water Discharge_Kukshi,2020,466,82.07,26-Aug-2020,239,6.64,0.0
+River Water Discharge_Kukshi,2021,413,34.54,08-Sep-2021,251,1.02,0.0
+River Water Discharge_Kukshi,2022,59,0.0,01-Jan-2022,1,0.0,0.0

@@ -1,0 +1,8 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Dhule,2018,302,25.99,24-Aug-2018,236,0.17,0.0
+River Water Discharge_Dhule,2019,184,1184.32,09-Aug-2019,221,53.59,0.0
+River Water Discharge_Dhule,2020,184,95.08,17-Aug-2020,230,17.66,0.0
+River Water Discharge_Dhule,2021,306,141.84,30-Sep-2021,273,4.16,0.0
+River Water Discharge_Dhule,2022,62,0.0,01-Jun-2022,152,0.0,0.0
+River Water Discharge_Dhule,2023,306,67.1,09-Sep-2023,252,2.21,0.0
+River Water Discharge_Dhule,2024,122,84.0,01-Nov-2024,306,73.62,59.0

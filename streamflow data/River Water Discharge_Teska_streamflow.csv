@@ -1,0 +1,23 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Teska,2000,212,131.85,10-Jun-2000,162,6.75,0.0
+River Water Discharge_Teska,2001,325,251.7,12-Aug-2001,224,6.59,0.0
+River Water Discharge_Teska,2002,75,191.24,18-Aug-2002,230,18.82,0.0
+River Water Discharge_Teska,2003,194,875.37,27-Jul-2003,208,31.35,0.0
+River Water Discharge_Teska,2004,180,183.2,23-Aug-2004,236,16.15,0.0
+River Water Discharge_Teska,2005,156,1142.26,15-Sep-2005,258,44.88,0.0
+River Water Discharge_Teska,2006,142,1376.83,18-Aug-2006,230,75.92,1.42
+River Water Discharge_Teska,2007,164,2566.99,07-Aug-2007,219,68.35,1.47
+River Water Discharge_Teska,2008,131,284.78,06-Sep-2008,250,28.54,0.0
+River Water Discharge_Teska,2009,175,259.3,22-Jul-2009,203,27.09,1.92
+River Water Discharge_Teska,2010,152,826.29,05-Sep-2010,248,44.45,2.03
+River Water Discharge_Teska,2011,101,244.4,23-Jul-2011,204,40.29,8.39
+River Water Discharge_Teska,2012,71,850.22,05-Sep-2012,249,55.97,2.54
+River Water Discharge_Teska,2013,41,1050.84,23-Aug-2013,235,75.06,4.65
+River Water Discharge_Teska,2014,45,95.51,08-Sep-2014,251,5.99,0.0
+River Water Discharge_Teska,2015,92,950.26,05-Aug-2015,217,22.66,0.0
+River Water Discharge_Teska,2016,91,292.05,12-Jul-2016,194,18.38,0.0
+River Water Discharge_Teska,2017,214,66.62,15-Sep-2017,258,1.75,0.0
+River Water Discharge_Teska,2018,365,22.36,22-Sep-2018,265,0.13,0.0
+River Water Discharge_Teska,2020,400,1207.37,29-Aug-2020,242,17.84,0.0
+River Water Discharge_Teska,2021,424,224.64,23-Jul-2021,204,6.05,0.0
+River Water Discharge_Teska,2022,59,0.0,01-Jan-2022,1,0.0,0.0

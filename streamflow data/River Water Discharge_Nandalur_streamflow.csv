@@ -1,0 +1,14 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Nandalur,2013,2,0.0,01-Jun-2013,152,0.0,0.0
+River Water Discharge_Nandalur,2014,12,0.0,01-Jan-2014,1,0.0,0.0
+River Water Discharge_Nandalur,2015,12,1229.0,17-Nov-2015,321,118.55,0.0
+River Water Discharge_Nandalur,2016,219,10.33,09-May-2016,130,0.09,0.0
+River Water Discharge_Nandalur,2017,360,391.5,10-Oct-2017,283,3.79,0.0
+River Water Discharge_Nandalur,2018,363,9.99,31-May-2018,151,0.08,0.0
+River Water Discharge_Nandalur,2019,365,0.0,01-Jan-2019,1,0.0,0.0
+River Water Discharge_Nandalur,2020,254,2926.0,27-Nov-2020,332,41.7,0.0
+River Water Discharge_Nandalur,2021,311,10460.0,19-Nov-2021,323,99.11,0.0
+River Water Discharge_Nandalur,2022,306,148.4,14-Dec-2022,348,14.48,0.0
+River Water Discharge_Nandalur,2023,170,122.2,06-Dec-2023,340,3.5,0.0
+River Water Discharge_Nandalur,2024,56,55.6,05-Dec-2024,340,10.15,0.0
+River Water Discharge_Nandalur,2025,32,13.7,01-Jan-2025,1,2.6,0.06

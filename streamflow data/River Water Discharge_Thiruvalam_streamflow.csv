@@ -1,0 +1,9 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Thiruvalam,2018,214,0.0,01-Jun-2018,152,0.0,0.0
+River Water Discharge_Thiruvalam,2019,365,1.07,03-Dec-2019,337,0.01,0.0
+River Water Discharge_Thiruvalam,2020,264,341.94,27-Nov-2020,332,5.71,0.0
+River Water Discharge_Thiruvalam,2021,273,1589.3,19-Nov-2021,323,37.08,0.1
+River Water Discharge_Thiruvalam,2022,335,69.22,02-Jan-2022,2,3.96,0.0
+River Water Discharge_Thiruvalam,2023,272,20.03,06-Dec-2023,340,0.84,0.0
+River Water Discharge_Thiruvalam,2024,124,30.62,31-Dec-2024,366,2.23,0.0
+River Water Discharge_Thiruvalam,2025,76,26.3,02-Jan-2025,2,2.06,0.0

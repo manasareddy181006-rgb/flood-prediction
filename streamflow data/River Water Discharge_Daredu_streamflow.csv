@@ -1,0 +1,7 @@
+station,year,n_obs,max_discharge_cumec,max_discharge_date,max_discharge_doy,mean_discharge_cumec,min_discharge_cumec
+River Water Discharge_Daredu,2016,1,7.91,26-Oct-2016,300,7.91,7.91
+River Water Discharge_Daredu,2017,34,11.73,24-Oct-2017,297,4.72,0.62
+River Water Discharge_Daredu,2018,365,13.12,18-Dec-2018,352,1.03,0.0
+River Water Discharge_Daredu,2019,354,13741.14,08-Aug-2019,220,3372.09,0.0
+River Water Discharge_Daredu,2020,51,7210.74,01-Jan-2020,1,1663.71,0.0
+River Water Discharge_Daredu,2022,1,76.85,28-Jan-2022,28,76.85,76.85
