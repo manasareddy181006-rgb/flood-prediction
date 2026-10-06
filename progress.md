@@ -40,6 +40,13 @@ current week's section; a new week heading is started each Monday.
 - Set up git + GitHub remote (`manasareddy181006-rgb/flood-prediction`) for this project.
   Going forward: every change is committed and pushed, and gets a line here, so the log always
   matches what's on GitHub.
+- Standing rules set up (no need to ask going forward):
+  - Every change gets pushed straight to GitHub, and a line added here.
+  - `claude_prompt_history.md` is now auto-appended on every prompt via a `UserPromptSubmit` hook
+    (`.claude/settings.json` + `.claude/hooks/log_prompt.py`) so the full prompt history is tracked
+    in git for review.
+  - An IITM-template slide deck is due at the end of every week (pending: need the actual IITM
+    Beamer/PPT template source to match the branding exactly — asked prof/user for it).
 
 ---
 
