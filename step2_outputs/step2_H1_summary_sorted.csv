@@ -1,0 +1,91 @@
+station,roi_size,H1,H2,H3,H1_class,acceptance,sim_distribution,pooled_years
+Salebhata,5,-0.5833537005502307,-0.5653521970397334,-0.4468551128074313,acceptably homogeneous,H1<1,KAP,237
+Baronda,5,-0.5611272974726391,-0.5203074525625181,-0.4030333888361199,acceptably homogeneous,H1<1,KAP,237
+Parmanpur,5,-0.5466433606321479,-0.4835556278243583,-0.3962940326092928,acceptably homogeneous,H1<1,KAP,237
+Bamnidhi,5,-0.5183416552031129,-0.5106415964262823,-0.411412181824226,acceptably homogeneous,H1<1,KAP,237
+Rampur,5,-0.5183416552031129,-0.5106415964262823,-0.411412181824226,acceptably homogeneous,H1<1,KAP,237
+Adityapur,5,-0.1069642656366594,0.2256733128427605,0.5321487528575881,acceptably homogeneous,H1<1,KAP,243
+Kelo at raigarh,7,-0.0578477174212119,-0.2506136038522212,-0.1993089148520324,acceptably homogeneous,H1<1,KAP,317
+Sundergarh,7,-0.038074806981204,-0.2588695230503505,-0.2036846116918901,acceptably homogeneous,H1<1,KAP,317
+Kovvada kalva near dommeru,5,-0.0135256480595755,-0.03251958451442,-0.4137760014773179,acceptably homogeneous,H1<1,KAP,159
+Kattaleru   tiruvuru,5,0.0219179896722262,-0.0077132401493941,-0.3723775860131114,acceptably homogeneous,H1<1,KAP,159
+Fekoghat,8,0.4210398414761799,0.012728170976172,-0.0946127516297063,acceptably homogeneous,H1<1,KAP,361
+Altuma,7,0.4868577186013213,0.0124740744953571,-0.2356045133074812,acceptably homogeneous,H1<1,KAP,304
+Pati,5,0.5433408789119112,-0.4473058411871594,-1.1981203687003137,acceptably homogeneous,H1<1,KAP,188
+Kogaon,5,0.5523011976310532,-0.4519316770752568,-1.2424293273675358,acceptably homogeneous,H1<1,KAP,188
+Chanwada,5,0.5831442602718984,-0.4185489883533827,-1.166643599973183,acceptably homogeneous,H1<1,KAP,188
+Rambhapur,9,0.8484878343036469,0.3234551100991795,-0.1957598869973702,acceptably homogeneous,H1<1,KAP,254
+Belkhedi,9,0.8791778291052927,0.3365892719671296,-0.1956297867839727,acceptably homogeneous,H1<1,KAP,254
+Chhidgaon,9,0.8843954051609854,0.3813922996446497,-0.157931184715211,acceptably homogeneous,H1<1,KAP,254
+Dabri,9,0.8858400949054387,0.3569069535545897,-0.1912376111917731,acceptably homogeneous,H1<1,KAP,254
+Kundanpur,9,0.8897735382666478,0.35337657855663,-0.1969281995417926,acceptably homogeneous,H1<1,KAP,254
+Bamnia,9,0.9132584897999768,0.3529821390115391,-0.1896047541552327,acceptably homogeneous,H1<1,KAP,254
+Dhariawad,9,0.917007876784296,0.3948561510327626,-0.1494485944738375,acceptably homogeneous,H1<1,KAP,254
+Teska,9,0.969940360331781,0.3904033376203162,-0.16951393255713,acceptably homogeneous,H1<1,KAP,254
+Chinamusi  tumadu,5,1.0820209614900302,1.1010150012318605,1.2512147101345812,possibly heterogeneous,1<=H1<2 only,KAP,195
+Paleru bridge,5,1.1374633406596886,1.061884121744555,1.1786357635219369,possibly heterogeneous,1<=H1<2 only,KAP,195
+Sakleshpur,5,1.2934011604423696,0.4767552419984928,0.2122146143435858,possibly heterogeneous,1<=H1<2 only,GLO,167
+K.m. vadi,5,1.460047665613833,1.6555786521045006,2.0942612955183524,possibly heterogeneous,1<=H1<2 only,KAP,188
+Kheda,7,1.4857206763686817,1.1348084895221815,0.6819204759780413,possibly heterogeneous,1<=H1<2 only,KAP,174
+M.h. halli,5,1.5064981714085133,1.7479212505827182,2.1923769612448534,possibly heterogeneous,1<=H1<2 only,KAP,188
+Ratanpur,7,1.5147238205826328,1.1912021531274524,0.7356730522603759,possibly heterogeneous,1<=H1<2 only,KAP,174
+T. bekkupe,5,1.5800710636292503,1.8427789467444071,2.2724451008831155,possibly heterogeneous,1<=H1<2 only,KAP,188
+Manot,11,1.5924667116391646,0.7087447294537983,-0.2639207270353552,possibly heterogeneous,1<=H1<2 only,KAP,459
+Dindori,11,1.620403913675148,0.7150569889418336,-0.2791190124833739,possibly heterogeneous,1<=H1<2 only,KAP,459
+Manendragarh,11,1.6309012336483126,0.6696427214153684,-0.3211235880742745,possibly heterogeneous,1<=H1<2 only,KAP,459
+Pedageddada,5,1.6790690406126143,1.0567240145703236,0.5834229717408146,possibly heterogeneous,1<=H1<2 only,KAP,111
+Tuichang,5,1.869366144610172,2.4106159662005107,1.4388899132321256,possibly heterogeneous,1<=H1<2 only,KAP,123
+Kalampur,5,2.6205616571686416,3.0453360923814223,3.0805249973991224,definitely heterogeneous,heterogeneous at minimum size,GLO,195
+Kallooppara,5,2.6205616571686416,3.0453360923814223,3.0805249973991224,definitely heterogeneous,heterogeneous at minimum size,GLO,195
+Errakalva    ananthapalli,5,2.641295063428615,2.548040285604937,2.6464024781763555,definitely heterogeneous,heterogeneous at minimum size,KAP,220
+Pulamanthole,5,2.713639911506399,3.1986135582596584,3.2486885119375937,definitely heterogeneous,heterogeneous at minimum size,GLO,195
+Thumpamon,5,2.7138378956304843,3.127174922047784,3.0908190495628447,definitely heterogeneous,heterogeneous at minimum size,GLO,195
+Halia,5,2.831484772831188,2.6540559203313143,2.6181335772528374,definitely heterogeneous,heterogeneous at minimum size,KAP,220
+Madhira,5,2.831484772831188,2.6540559203313143,2.6181335772528374,definitely heterogeneous,heterogeneous at minimum size,KAP,220
+Keesara,5,2.852304492513796,2.5799120017549253,2.627824474852399,definitely heterogeneous,heterogeneous at minimum size,KAP,220
+Patan,5,2.9715171148375363,3.5700830284456053,2.6624775390100206,definitely heterogeneous,heterogeneous at minimum size,KAP,230
+T.k.halli,5,3.0063281430187456,2.958065606250325,3.1827922851946413,definitely heterogeneous,heterogeneous at minimum size,GLO,196
+Akkihebbal,5,3.070676489712672,3.070972534123518,3.271615817983613,definitely heterogeneous,heterogeneous at minimum size,GLO,196
+T. narasipur,5,3.078659327726778,3.1298596552562747,3.389633004828572,definitely heterogeneous,heterogeneous at minimum size,GLO,196
+Muthankera,5,3.181284555650121,2.3288465086183696,0.99863943413743,definitely heterogeneous,heterogeneous at minimum size,GLO,178
+Kudlur,5,3.185342906279445,2.357911567533104,1.0239587455523746,definitely heterogeneous,heterogeneous at minimum size,GLO,178
+Hogenakkal,5,3.185342906279445,2.357911567533104,1.0239587455523746,definitely heterogeneous,heterogeneous at minimum size,GLO,178
+Sevanur,5,3.291060818771308,3.188660736078044,3.5619288192378327,definitely heterogeneous,heterogeneous at minimum size,KAP,201
+Dameracherla,5,3.3022965032516503,3.621867457993721,3.5224692358805534,definitely heterogeneous,heterogeneous at minimum size,KAP,261
+Somanpally(seasonal),5,3.3022965032516503,3.62186745799372,3.5224692358805534,definitely heterogeneous,heterogeneous at minimum size,KAP,261
+Tulaghat,5,3.6473806487581455,2.547737242133187,1.1486418559863067,definitely heterogeneous,heterogeneous at minimum size,KAP,191
+Zari,5,3.66798632317007,0.9855424207362344,-0.8856248600037894,definitely heterogeneous,heterogeneous at minimum size,KAP,176
+Thevur,5,3.669141373180557,3.5065183009466123,2.210422510654126,definitely heterogeneous,heterogeneous at minimum size,KAP,189
+Morane,5,3.712028136494317,2.6314968143079955,1.87742450392901,definitely heterogeneous,heterogeneous at minimum size,KAP,203
+Nandipalli,5,3.755388957200529,3.133463348038405,1.8750758212199687,definitely heterogeneous,heterogeneous at minimum size,KAP,201
+Potteru (potteruvagu),5,3.807488520503573,2.5198033386653824,1.153579387055969,definitely heterogeneous,heterogeneous at minimum size,KAP,191
+Magaral,5,3.839517357126656,3.120552517727821,1.8192410353791384,definitely heterogeneous,heterogeneous at minimum size,KAP,201
+Alladupalli,5,4.026063265283487,2.8873089513468453,1.563862128219463,definitely heterogeneous,heterogeneous at minimum size,KAP,225
+Gandlapet,5,4.0261484566589925,3.454192653834239,2.436046359102382,definitely heterogeneous,heterogeneous at minimum size,KAP,200
+Betmogra,5,4.056499007431297,3.3770719118458388,3.557442427110185,definitely heterogeneous,heterogeneous at minimum size,KAP,148
+Singavaram,5,4.058007910799604,2.993772406240741,1.6112548377555471,definitely heterogeneous,heterogeneous at minimum size,KAP,225
+Talikot,5,4.075698380090063,3.3241198822065763,3.3476078251842694,definitely heterogeneous,heterogeneous at minimum size,KAP,148
+Degloor,5,4.12030984755943,3.349073345929341,3.526277881312952,definitely heterogeneous,heterogeneous at minimum size,KAP,148
+Kamalapuram,5,4.143380993871786,2.9931081323336977,1.654613435664628,definitely heterogeneous,heterogeneous at minimum size,KAP,225
+Jotasan,5,4.82359051757356,2.878538788296036,1.3852376320626034,definitely heterogeneous,heterogeneous at minimum size,KAP,170
+Elunuthimangalam,5,4.974428649715993,4.529013614752845,3.722913419086184,definitely heterogeneous,heterogeneous at minimum size,GLO,199
+Koyna,5,5.152097979352836,5.105821127010265,3.20296322120939,definitely heterogeneous,heterogeneous at minimum size,KAP,209
+Warunji,5,5.332589882584983,5.054594515835525,3.124461513454789,definitely heterogeneous,heterogeneous at minimum size,KAP,209
+Navalgund,5,5.774768642842431,7.808481068455493,6.741935102279183,definitely heterogeneous,heterogeneous at minimum size,GLO,172
+Kurubhata,5,6.269544233341157,4.065610166197042,2.8727400222560813,definitely heterogeneous,heterogeneous at minimum size,KAP,236
+Jaraikela,5,6.617289370920578,4.412833855328678,3.5540652649198297,definitely heterogeneous,heterogeneous at minimum size,KAP,266
+Tapi at burhanpur,5,6.678315559615526,5.487759613671801,4.179922674017756,definitely heterogeneous,heterogeneous at minimum size,KAP,228
+Thoppur,5,6.7144832386084286,3.698697521833597,1.0042838517656705,definitely heterogeneous,heterogeneous at minimum size,KAP,153
+Pudur,5,6.8633296015451615,5.257364202830207,3.0037967767389118,definitely heterogeneous,heterogeneous at minimum size,GLO,226
+Narmadapuram,5,6.923325062456858,5.657390052304818,4.317446351478747,definitely heterogeneous,heterogeneous at minimum size,KAP,228
+Theni,5,7.003825597424876,4.00570830304498,2.444384825914827,definitely heterogeneous,heterogeneous at minimum size,KAP,223
+Ambasamudram,5,7.037703525082294,4.7093825357705965,2.91062444644374,definitely heterogeneous,heterogeneous at minimum size,GLO,202
+Pachegaon,5,7.14468583810492,5.488206363597287,4.143669298887238,definitely heterogeneous,heterogeneous at minimum size,KAP,228
+sandia,5,7.222771897545551,5.546373389481272,4.196881007562526,definitely heterogeneous,heterogeneous at minimum size,KAP,228
+Ambarampalayam,5,7.39078595435682,5.010437601808335,3.3987111164353614,definitely heterogeneous,heterogeneous at minimum size,GLO,211
+Arangali,5,7.39078595435682,5.010437601808335,3.3987111164353614,definitely heterogeneous,heterogeneous at minimum size,GLO,211
+Rangeli,5,7.414428465382442,5.644646049512167,4.214039138942924,definitely heterogeneous,heterogeneous at minimum size,KAP,228
+Ozerkheda,5,7.902363062125371,4.546293829185644,2.423335739770204,definitely heterogeneous,heterogeneous at minimum size,GLO,229
+Khanditar,5,10.402742387363975,6.037487748111083,5.571507934603675,definitely heterogeneous,heterogeneous at minimum size,KAP,234
+Samdoli (seasonal),5,10.556813465209984,7.820908984661711,5.157102507642448,definitely heterogeneous,heterogeneous at minimum size,GLO,200
+Terwad (seasonal),5,10.59374362560181,7.361879172612221,5.089634577559597,definitely heterogeneous,heterogeneous at minimum size,GLO,200
