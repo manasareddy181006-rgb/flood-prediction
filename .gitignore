@@ -4,6 +4,9 @@ plots/
 # Windows shortcut, not project content
 *.lnk
 
+# Copyrighted reference papers kept for local reading only - not redistributed via git
+*.pdf
+
 # Python
 __pycache__/
 *.pyc

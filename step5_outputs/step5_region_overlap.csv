@@ -1,0 +1,91 @@
+station,original_region_size,ungauged_pool_size,jaccard_overlap,original_neighbours,ungauged_neighbours
+sandia,4,5,0.8,Narmadapuram;Tapi at burhanpur;Rangeli;Pachegaon,Narmadapuram;Tapi at burhanpur;Rangeli;Pachegaon;Kogaon
+Adityapur,4,5,0.8,Salebhata;Bamnidhi;Rampur;Parmanpur,Salebhata;Bamnidhi;Rampur;Parmanpur;Kurubhata
+Akkihebbal,4,5,0.8,T. narasipur;T.k.halli;M.h. halli;T. bekkupe,T. narasipur;T.k.halli;M.h. halli;T. bekkupe;K.m. vadi
+Alladupalli,4,5,0.8,Somanpally(seasonal);Dameracherla;Singavaram;Kamalapuram,Somanpally(seasonal);Dameracherla;Singavaram;Kamalapuram;Halia
+Altuma,6,7,0.8571428571428571,Kelo at raigarh;Sundergarh;Parmanpur;Rampur;Bamnidhi;Salebhata,Kelo at raigarh;Sundergarh;Parmanpur;Rampur;Bamnidhi;Salebhata;Baronda
+Ambarampalayam,4,5,0.8,Arangali;Pulamanthole;Thumpamon;Ambasamudram,Arangali;Pulamanthole;Thumpamon;Ambasamudram;Kallooppara
+Ambasamudram,4,5,0.8,Ambarampalayam;Arangali;Muthankera;Kudlur,Ambarampalayam;Arangali;Muthankera;Kudlur;Hogenakkal
+Arangali,4,5,0.8,Ambarampalayam;Pulamanthole;Thumpamon;Ambasamudram,Ambarampalayam;Pulamanthole;Thumpamon;Ambasamudram;Kallooppara
+Bamnia,8,8,0.6,Dabri;Rambhapur;Dhariawad;Chhidgaon;Belkhedi;Teska;Kundanpur;Pati,Dabri;Rambhapur;Dhariawad;Chhidgaon;Belkhedi;Teska;Degloor;Kogaon
+Bamnidhi,4,5,0.8,Rampur;Parmanpur;Salebhata;Baronda,Rampur;Parmanpur;Salebhata;Baronda;Kurubhata
+Baronda,4,5,0.8,Bamnidhi;Rampur;Parmanpur;Salebhata,Bamnidhi;Rampur;Parmanpur;Salebhata;Kurubhata
+Belkhedi,8,8,1.0,Chhidgaon;Teska;Dhariawad;Kundanpur;Rambhapur;Bamnia;Dabri;Pati,Chhidgaon;Teska;Dhariawad;Kundanpur;Rambhapur;Bamnia;Dabri;Pati
+Betmogra,4,5,0.8,Degloor;Talikot;Zari;Teska,Degloor;Talikot;Zari;Teska;Belkhedi
+Chanwada,4,7,0.5714285714285714,Kogaon;Pati;Chhidgaon;Kundanpur,Kogaon;Pati;Chhidgaon;Kundanpur;Dhariawad;Belkhedi;Teska
+Chhidgaon,8,8,1.0,Belkhedi;Teska;Dhariawad;Kundanpur;Rambhapur;Bamnia;Dabri;Pati,Belkhedi;Teska;Dhariawad;Kundanpur;Rambhapur;Bamnia;Dabri;Pati
+Chinamusi  tumadu,4,5,0.8,Paleru bridge;Madhira;Keesara;Errakalva    ananthapalli,Paleru bridge;Madhira;Keesara;Errakalva    ananthapalli;Halia
+Dabri,8,9,0.8888888888888888,Bamnia;Rambhapur;Dhariawad;Chhidgaon;Belkhedi;Teska;Kundanpur;Pati,Bamnia;Rambhapur;Dhariawad;Chhidgaon;Belkhedi;Teska;Kundanpur;Pati;Kogaon
+Dameracherla,4,5,0.8,Somanpally(seasonal);Halia;Keesara;Madhira,Somanpally(seasonal);Halia;Keesara;Madhira;Errakalva    ananthapalli
+Dhariawad,8,9,0.8888888888888888,Rambhapur;Bamnia;Dabri;Chhidgaon;Belkhedi;Teska;Kundanpur;Pati,Rambhapur;Bamnia;Dabri;Chhidgaon;Belkhedi;Teska;Kundanpur;Pati;Kogaon
+Dindori,10,9,0.46153846153846156,Manot;Belkhedi;Teska;Chhidgaon;Manendragarh;Baronda;Bamnidhi;Rampur;Parmanpur;Kelo at raigarh,Manot;Belkhedi;Teska;Chhidgaon;Manendragarh;Baronda;Kundanpur;Kogaon;Pati
+Elunuthimangalam,4,5,0.8,Kamalapuram;Singavaram;T.k.halli;T. narasipur,Kamalapuram;Singavaram;T.k.halli;T. narasipur;Akkihebbal
+Errakalva    ananthapalli,4,5,0.8,Madhira;Keesara;Halia;Paleru bridge,Madhira;Keesara;Halia;Paleru bridge;Chinamusi  tumadu
+Fekoghat,7,7,1.0,Kelo at raigarh;Parmanpur;Rampur;Bamnidhi;Salebhata;Adityapur;Baronda,Kelo at raigarh;Parmanpur;Rampur;Bamnidhi;Salebhata;Adityapur;Baronda
+Degloor,4,5,0.8,Betmogra;Talikot;Zari;Teska,Betmogra;Talikot;Zari;Teska;Belkhedi
+Gandlapet,4,5,0.8,Halia;Errakalva    ananthapalli;Madhira;Keesara,Halia;Errakalva    ananthapalli;Madhira;Keesara;Paleru bridge
+Halia,4,7,0.5714285714285714,Keesara;Errakalva    ananthapalli;Madhira;Paleru bridge,Keesara;Errakalva    ananthapalli;Madhira;Paleru bridge;Chinamusi  tumadu;Rampur;Salebhata
+Hogenakkal,4,5,0.8,Muthankera;Kudlur;Sakleshpur;K.m. vadi,Muthankera;Kudlur;Sakleshpur;K.m. vadi;Samdoli (seasonal)
+Jaraikela,4,5,0.8,Kurubhata;Adityapur;Bamnidhi;Salebhata,Kurubhata;Adityapur;Bamnidhi;Salebhata;Rampur
+Jotasan,4,7,0.5714285714285714,Chhidgaon;Pati;Kogaon;Kundanpur,Chhidgaon;Pati;Kogaon;Kundanpur;Dhariawad;Belkhedi;Teska
+K.m. vadi,4,5,0.8,M.h. halli;T. bekkupe;Akkihebbal;T.k.halli,M.h. halli;T. bekkupe;Akkihebbal;T.k.halli;Navalgund
+Kalampur,4,5,0.8,Kallooppara;Thumpamon;Pulamanthole;Ambasamudram,Kallooppara;Thumpamon;Pulamanthole;Ambasamudram;Ambarampalayam
+Kallooppara,4,5,0.8,Kalampur;Thumpamon;Pulamanthole;Ambasamudram,Kalampur;Thumpamon;Pulamanthole;Ambasamudram;Ambarampalayam
+Kamalapuram,4,5,0.8,Singavaram;Dameracherla;Somanpally(seasonal);Alladupalli,Singavaram;Dameracherla;Somanpally(seasonal);Alladupalli;Halia
+Kattaleru   tiruvuru,4,5,0.8,Kovvada kalva near dommeru;Errakalva    ananthapalli;Madhira;Keesara,Kovvada kalva near dommeru;Errakalva    ananthapalli;Madhira;Keesara;Halia
+Keesara,4,5,0.8,Madhira;Errakalva    ananthapalli;Halia;Paleru bridge,Madhira;Errakalva    ananthapalli;Halia;Paleru bridge;Chinamusi  tumadu
+Kelo at raigarh,6,6,1.0,Sundergarh;Parmanpur;Rampur;Bamnidhi;Baronda;Salebhata,Sundergarh;Parmanpur;Rampur;Bamnidhi;Baronda;Salebhata
+Khanditar,4,5,0.8,Adityapur;Salebhata;Bamnidhi;Kurubhata,Adityapur;Salebhata;Bamnidhi;Kurubhata;Rampur
+Kheda,6,6,1.0,Ratanpur;Kundanpur;Dhariawad;Rambhapur;Bamnia;Dabri,Ratanpur;Kundanpur;Dhariawad;Rambhapur;Bamnia;Dabri
+Kogaon,4,7,0.5714285714285714,Chanwada;Pati;Chhidgaon;Kundanpur,Chanwada;Pati;Chhidgaon;Kundanpur;Dhariawad;Belkhedi;Teska
+Kovvada kalva near dommeru,4,5,0.8,Kattaleru   tiruvuru;Errakalva    ananthapalli;Madhira;Keesara,Kattaleru   tiruvuru;Errakalva    ananthapalli;Madhira;Keesara;Halia
+Koyna,4,5,0.8,Warunji;Sakleshpur;Kudlur;Samdoli (seasonal),Warunji;Sakleshpur;Kudlur;Samdoli (seasonal);Terwad (seasonal)
+Kudlur,4,5,0.8,Muthankera;Hogenakkal;Sakleshpur;K.m. vadi,Muthankera;Hogenakkal;Sakleshpur;K.m. vadi;Samdoli (seasonal)
+Kundanpur,8,8,1.0,Dhariawad;Chhidgaon;Belkhedi;Teska;Rambhapur;Bamnia;Dabri;Pati,Dhariawad;Chhidgaon;Belkhedi;Teska;Rambhapur;Bamnia;Dabri;Pati
+Kurubhata,4,8,0.5,Bamnidhi;Salebhata;Rampur;Parmanpur,Bamnidhi;Salebhata;Rampur;Parmanpur;Adityapur;Baronda;Kelo at raigarh;Belkhedi
+M.h. halli,4,5,0.8,K.m. vadi;T. bekkupe;Akkihebbal;T.k.halli,K.m. vadi;T. bekkupe;Akkihebbal;T.k.halli;Navalgund
+Pachegaon,4,5,0.8,Tapi at burhanpur;Rangeli;sandia;Narmadapuram,Tapi at burhanpur;Rangeli;sandia;Narmadapuram;Kogaon
+Paleru bridge,4,5,0.8,Chinamusi  tumadu;Madhira;Keesara;Errakalva    ananthapalli,Chinamusi  tumadu;Madhira;Keesara;Errakalva    ananthapalli;Halia
+Parmanpur,4,5,0.8,Rampur;Bamnidhi;Salebhata;Baronda,Rampur;Bamnidhi;Salebhata;Baronda;Kurubhata
+Patan,4,5,0.8,Baronda;Bamnidhi;Rampur;Parmanpur,Baronda;Bamnidhi;Rampur;Parmanpur;Salebhata
+Pati,4,7,0.5714285714285714,Kogaon;Chanwada;Chhidgaon;Kundanpur,Kogaon;Chanwada;Chhidgaon;Kundanpur;Dhariawad;Belkhedi;Teska
+Pedageddada,4,5,0.8,Tulaghat;Thoppur;Kudlur;Hogenakkal,Tulaghat;Thoppur;Kudlur;Hogenakkal;Muthankera
+Potteru (potteruvagu),4,5,0.8,Tulaghat;Manot;Dindori;Bamnidhi,Tulaghat;Manot;Dindori;Bamnidhi;Kurubhata
+Pudur,4,5,0.8,Ambarampalayam;Pulamanthole;Arangali;Thumpamon,Ambarampalayam;Pulamanthole;Arangali;Thumpamon;Ambasamudram
+Pulamanthole,4,5,0.8,Thumpamon;Kallooppara;Kalampur;Ambasamudram,Thumpamon;Kallooppara;Kalampur;Ambasamudram;Ambarampalayam
+Rambhapur,8,9,0.8888888888888888,Bamnia;Dabri;Dhariawad;Chhidgaon;Belkhedi;Teska;Kundanpur;Pati,Bamnia;Dabri;Dhariawad;Chhidgaon;Belkhedi;Teska;Kundanpur;Pati;Kogaon
+Rampur,4,5,0.8,Bamnidhi;Parmanpur;Salebhata;Baronda,Bamnidhi;Parmanpur;Salebhata;Baronda;Kurubhata
+Rangeli,4,5,0.8,Tapi at burhanpur;sandia;Narmadapuram;Pachegaon,Tapi at burhanpur;sandia;Narmadapuram;Pachegaon;Kogaon
+Ratanpur,6,6,1.0,Kheda;Kundanpur;Dhariawad;Rambhapur;Bamnia;Dabri,Kheda;Kundanpur;Dhariawad;Rambhapur;Bamnia;Dabri
+Sakleshpur,4,5,0.8,K.m. vadi;T. bekkupe;M.h. halli;Hogenakkal,K.m. vadi;T. bekkupe;M.h. halli;Hogenakkal;Samdoli (seasonal)
+Salebhata,4,5,0.8,Bamnidhi;Rampur;Parmanpur;Baronda,Bamnidhi;Rampur;Parmanpur;Baronda;Kurubhata
+Samdoli (seasonal),4,5,0.8,Terwad (seasonal);Talikot;Degloor;Betmogra,Terwad (seasonal);Talikot;Degloor;Betmogra;Zari
+Sevanur,4,5,0.8,T. narasipur;Akkihebbal;T.k.halli;M.h. halli,T. narasipur;Akkihebbal;T.k.halli;M.h. halli;T. bekkupe
+Madhira,4,5,0.8,Keesara;Errakalva    ananthapalli;Halia;Paleru bridge,Keesara;Errakalva    ananthapalli;Halia;Paleru bridge;Chinamusi  tumadu
+Magaral,4,5,0.8,Nandipalli;Halia;Errakalva    ananthapalli;Keesara,Nandipalli;Halia;Errakalva    ananthapalli;Keesara;Madhira
+Manendragarh,10,10,1.0,Belkhedi;Teska;Chhidgaon;Dindori;Manot;Baronda;Bamnidhi;Rampur;Parmanpur;Kelo at raigarh,Belkhedi;Teska;Chhidgaon;Dindori;Manot;Baronda;Bamnidhi;Rampur;Parmanpur;Kelo at raigarh
+Manot,10,6,0.6,Dindori;Belkhedi;Teska;Chhidgaon;Manendragarh;Baronda;Bamnidhi;Rampur;Parmanpur;Kelo at raigarh,Dindori;Belkhedi;Teska;Chhidgaon;Manendragarh;Baronda
+Morane,4,5,0.8,Pati;Kogaon;Chanwada;Chhidgaon,Pati;Kogaon;Chanwada;Chhidgaon;Patan
+Muthankera,4,5,0.8,Kudlur;Hogenakkal;Sakleshpur;K.m. vadi,Kudlur;Hogenakkal;Sakleshpur;K.m. vadi;Samdoli (seasonal)
+Nandipalli,4,5,0.8,Magaral;Halia;Errakalva    ananthapalli;Keesara,Magaral;Halia;Errakalva    ananthapalli;Keesara;Madhira
+Narmadapuram,4,5,0.8,sandia;Tapi at burhanpur;Rangeli;Pachegaon,sandia;Tapi at burhanpur;Rangeli;Pachegaon;Kogaon
+Navalgund,4,5,0.8,Talikot;T. bekkupe;K.m. vadi;Samdoli (seasonal),Talikot;T. bekkupe;K.m. vadi;Samdoli (seasonal);Terwad (seasonal)
+Ozerkheda,4,5,0.8,Samdoli (seasonal);Terwad (seasonal);Hogenakkal;Muthankera,Samdoli (seasonal);Terwad (seasonal);Hogenakkal;Muthankera;Kudlur
+Singavaram,4,5,0.8,Kamalapuram;Dameracherla;Somanpally(seasonal);Alladupalli,Kamalapuram;Dameracherla;Somanpally(seasonal);Alladupalli;Halia
+Somanpally(seasonal),4,5,0.8,Dameracherla;Halia;Keesara;Madhira,Dameracherla;Halia;Keesara;Madhira;Errakalva    ananthapalli
+Sundergarh,6,6,1.0,Kelo at raigarh;Parmanpur;Rampur;Bamnidhi;Baronda;Salebhata,Kelo at raigarh;Parmanpur;Rampur;Bamnidhi;Baronda;Salebhata
+T. bekkupe,4,5,0.8,K.m. vadi;M.h. halli;Akkihebbal;T.k.halli,K.m. vadi;M.h. halli;Akkihebbal;T.k.halli;Navalgund
+T. narasipur,4,5,0.8,Akkihebbal;T.k.halli;M.h. halli;T. bekkupe,Akkihebbal;T.k.halli;M.h. halli;T. bekkupe;K.m. vadi
+T.k.halli,4,5,0.8,Akkihebbal;T. narasipur;M.h. halli;T. bekkupe,Akkihebbal;T. narasipur;M.h. halli;T. bekkupe;K.m. vadi
+Talikot,4,5,0.8,Degloor;Betmogra;Zari;Teska,Degloor;Betmogra;Zari;Teska;Belkhedi
+Tapi at burhanpur,4,5,0.8,sandia;Narmadapuram;Rangeli;Pachegaon,sandia;Narmadapuram;Rangeli;Pachegaon;Kogaon
+Terwad (seasonal),4,5,0.8,Samdoli (seasonal);Talikot;Degloor;Betmogra,Samdoli (seasonal);Talikot;Degloor;Betmogra;Zari
+Teska,8,8,1.0,Belkhedi;Chhidgaon;Dhariawad;Kundanpur;Rambhapur;Bamnia;Dabri;Pati,Belkhedi;Chhidgaon;Dhariawad;Kundanpur;Rambhapur;Bamnia;Dabri;Pati
+Theni,4,5,0.8,Ambarampalayam;Ambasamudram;Arangali;Muthankera,Ambarampalayam;Ambasamudram;Arangali;Muthankera;Kudlur
+Thevur,4,5,0.8,Magaral;Errakalva    ananthapalli;Halia;Keesara,Magaral;Errakalva    ananthapalli;Halia;Keesara;Madhira
+Thoppur,4,5,0.8,Kudlur;Muthankera;Hogenakkal;Ambasamudram,Kudlur;Muthankera;Hogenakkal;Ambasamudram;Ambarampalayam
+Thumpamon,4,5,0.8,Kallooppara;Kalampur;Pulamanthole;Ambasamudram,Kallooppara;Kalampur;Pulamanthole;Ambasamudram;Ambarampalayam
+Tuichang,4,5,0.8,Tulaghat;Potteru (potteruvagu);Kudlur;Hogenakkal,Tulaghat;Potteru (potteruvagu);Kudlur;Hogenakkal;Muthankera
+Tulaghat,4,5,0.8,Potteru (potteruvagu);Manot;Dindori;Bamnidhi,Potteru (potteruvagu);Manot;Dindori;Bamnidhi;Kurubhata
+Warunji,4,5,0.8,Koyna;Sakleshpur;Kudlur;Samdoli (seasonal),Koyna;Sakleshpur;Kudlur;Samdoli (seasonal);Terwad (seasonal)
+Zari,4,5,0.8,Kundanpur;Kogaon;Chhidgaon;Teska,Kundanpur;Kogaon;Chhidgaon;Teska;Belkhedi

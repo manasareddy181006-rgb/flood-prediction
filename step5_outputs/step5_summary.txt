@@ -1,0 +1,20 @@
+================ STEP 5 SUMMARY: UNGAUGED-SITE LEAVE-ONE-OUT TEST ================
+
+Stations tested: 90
+
+
+Region membership stability (original vs re-derived with own data masked):
+  median Jaccard overlap = 0.80
+  exact same neighbour set (Jaccard=1): 10 / 90
+  no overlap at all (Jaccard=0): 0 / 90
+
+Index flood (mu) prediction, |%% error| (leave-one-out MLR):
+  median 70.8%%, IQR [34.4, 254.4]%%
+
+Q(T) estimated-vs-computed |%% error| by return period:
+  T=   2 yr: median   77.4%%  IQR [  40.2,  296.4]%%  (n=88)
+  T=   5 yr: median   75.8%%  IQR [  36.7,  258.2]%%  (n=88)
+  T=  10 yr: median   70.9%%  IQR [  32.1,  253.1]%%  (n=88)
+  T=  25 yr: median   73.1%%  IQR [  28.7,  237.7]%%  (n=88)
+  T=  50 yr: median   74.3%%  IQR [  28.9,  249.6]%%  (n=88)
+  T= 100 yr: median   76.1%%  IQR [  31.6,  258.4]%%  (n=88)

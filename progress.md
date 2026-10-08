@@ -5,7 +5,48 @@ current week's section; a new week heading is started each Monday.
 
 ---
 
-## Week of 2026-10-06
+## Week of 2026-10-06 (cont'd, 2026-10-08)
+
+Built Step 3, 4, 5 from scratch against the corrected Step 1/Step 2 outputs only (the old
+`stage 2-5.py` scripts are no longer used anywhere in this pipeline).
+
+- **`code/step3.py` — distribution selection + regional growth curve** (Hosking & Wallis
+  1997 ch. 5). For each target's final ROI: regional-average L-moments -> fit GLO/GEV/GPA
+  (all three are the already-verified 4-parameter kappa distribution at fixed h=-1/0/+1, so
+  no new approximation needed) plus GNO/PE3 (fit by numerically integrating L-moments of
+  their quantile functions and root-finding the shape parameter) -> score each with the
+  Z^DIST statistic (same kappa-Monte-Carlo machinery as roi.py's H1-H3) -> pick the
+  best-fitting, |Z|<=1.64 preferred -> growth curve q(T) at T=2,5,10,25,50,100.
+  A self-test runs at import time (kappa-exact vs numerical-integration agreement; GNO/PE3
+  reduce to the normal distribution at shape=0) so a wrong formula fails loudly, not
+  silently. Result: 83/90 regions get an acceptably-fitting distribution (|Z|<=1.64); GLO
+  (27), GPA (18), PE3 (16), GNO (15), GEV (14) all get chosen somewhere.
+- **`code/step4.py` — multiple linear regression for the index flood (mu)**. Forward
+  selection on adjusted R^2 with a VIF<=5 collinearity guard, Duan smearing bias correction
+  on the log10 back-transform. Full-sample result: predictors
+  {lat, log10(area), rainfall_max_mm, temp_max_C, lon, mean_elev_m}, adjusted R^2 = 0.40,
+  median in-sample |error| on mu = 66%. Confirms the Step 2 finding that these attributes
+  only weakly predict flood behaviour -- not a bug, a real data limitation.
+- **`code/step5.py` — the ungauged-site test, full leave-one-out over all 90 stations**
+  (not just one, per "the right way to test"). For each station: mask its own flow record,
+  re-derive its region from gauged neighbours only (Di/H1-H3 computed on the pool, never on
+  the masked target), refit the Step 4 regression excluding it, predict Q(T) from
+  attributes alone, and compare to its real at-site answer.
+  - **Region stability** ("does it join the same stations as before?"): median Jaccard
+    overlap with the original (non-masked) region = 0.80; exact same neighbour set in
+    10/90 cases; zero overlap in none of them -- attribute-based pooling is reasonably
+    robust to not having the target's own gauge.
+  - **Q(T) error**: median |% error| ~70-77% across all return periods (T=50: 74%, T=100:
+    76%), consistent with Step 4's weak R^2 -- errors do not notably worsen with return
+    period here, unlike the usual tail-extrapolation expectation, likely because the index
+    flood (mu) prediction error dominates over the growth-curve shape error.
+  - 2 of 90 stations (`Khanditar`, `T. narasipur`) get no valid at-site distribution fit at
+    all -- both are exactly the stations already flagged as discordant against the whole
+    dataset (and `Khanditar` is the one with the suspected unit error, 641,030 vs a 3,651
+    median). Correct "no fit" rather than a wrong number, not a bug.
+  - Outputs: `step5_ungauged_test.csv` (full per-station results), `step5_region_overlap.csv`,
+    `step5_est_vs_computed_T50.png` / `_T100.png` (Est-vs-Computed scatter, 1:1 line, as
+    asked), `step5_error_by_return_period.png`, `step5_summary.txt`.
 
 - Reviewed `code/step1.py` (attribute finalisation + PCA) and `code/roi.py` (Step 2, Region of
   Influence) end-to-end against Hosking & Wallis (1997) for correctness.

@@ -1,0 +1,13 @@
+STEP 4 - INDEX FLOOD (mu) REGRESSION
+==================================================
+
+Training sites: 90
+Predictors chosen (forward selection, VIF <= 5.0): ['lat', 'log10_area', 'rainfall_max_mm', 'temp_max_C', 'lon', 'mean_elev_m']
+
+log10(mu) = -2.0033 + 0.0762*lat + 0.8987*log10_area + 0.0269*rainfall_max_mm - 0.0750*temp_max_C + 0.0157*lon - 0.0003*mean_elev_m
+
+mu_hat = smearing * 10**(fitted log10(mu))   [Duan bias correction]
+Duan smearing factor = 1.6280
+Adjusted R^2 (log10 space) = 0.3951
+Residual s.d. (log10) = 0.4727
+In-sample mu %% error: median 65.7%%, IQR [27.1, 206.7]%%
