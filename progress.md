@@ -34,6 +34,7 @@ Prof's feedback on the Step 3-5 presentation; redoing them part by part.
   362,000 vs 411 cumec via PC10 extrapolation. Restricting candidates to PC1-5 was tested:
   median error worse (89%), so kept. New plots: regression line, partial regression per PC,
   observed vs estimated mean (in-sample | LOO).
+- Added `PIPELINE_OVERVIEW.md`: short step-by-step summary of Steps 1-5 for the prof.
 
 ---
 

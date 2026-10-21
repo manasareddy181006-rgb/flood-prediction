@@ -154,3 +154,18 @@ alr outputs of step 3 is there right?
 **2026-10-21 13:20:24**
 
 do the step 4 now and after that explain me everything, what exactly was done and why and whats the reslt
+
+---
+**2026-10-21 13:34:44**
+
+bro yr i still dont understand what exactly was done in step 4, idk i gotta explain to proffff
+
+---
+**2026-10-21 13:43:13**
+
+We don't throw in all 10. One at a time, we add the PC that helps most, and only if it's statistically significant (p < 0.05), meaning the effect isn't just luck. Six made it in: PC1, PC7, PC3, PC4, PC6, PC9. howw? and how did regression calclutae them, in code did u use a library or how is it executed or come to? adn how did an mu come to 33k smtg aren;t they normalised? and what exactky are the outputs
+
+---
+**2026-10-21 21:21:51**
+
+alr now my prof wants every step from the beginning of this pcs stuff to understand what is happening at each step,so i want u to give me an md file for this, also the steps need not be too detail just that he's inn loop of whats happening, also in git evrything is being updated right? like old ones which are wrong are being removed no?
