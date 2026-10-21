@@ -5,6 +5,26 @@ current week's section; a new week heading is started each Monday.
 
 ---
 
+## Week of 2026-10-19
+
+Prof's feedback on the Step 3-5 presentation; redoing them part by part.
+
+- **Step 2 - regions now pool ~500 station-years (H&W "5T rule": T = 100 yr needs >= 5T).**
+  Old regions pooled only ~210-250 years (mostly 5 stations). First try (just keep growing to
+  500 years) made all 90 regions definitely heterogeneous (median H1 6.4). Fix, per H&W s4.4
+  ("remove the sites that cause heterogeneity"): `roi.grow()` now grows towards 500 years but
+  EXCLUDES any candidate that would push H1 to >= 1, and moves on to the next-nearest; if the
+  first 5 stations are already heterogeneous, the most extreme-L-CV member is dropped.
+  Result: 89/90 regions acceptably homogeneous (median H1 0.52), median 515 station-years
+  (81/90 reach 500; 9 stop at 368-388 years because no further station keeps H1 < 1 -
+  accepted as "slightly under 500"). Region size median 13 (9-17). `grow()` also takes
+  `use_target_flow=False` so Step 5's ungauged test uses the exact same rule.
+  `step2_roi_discordant_excluded.csv` replaced by `step2_roi_excluded.csv` (with reason).
+- **Step 3 re-run on the new regions (method unchanged):** 90/90 regions get an acceptable
+  distribution (|Z| <= 1.64), up from 83/90. Chosen: GNO 33, GLO 19, GPA 17, GEV 13, PE3 8.
+
+---
+
 ## Week of 2026-10-06 (cont'd, 2026-10-08)
 
 Built Step 3, 4, 5 from scratch against the corrected Step 1/Step 2 outputs only (the old

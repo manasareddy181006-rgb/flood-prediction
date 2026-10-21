@@ -17,11 +17,11 @@ For EACH target catchment, independently:
        discordant is EXCLUDED and recorded, and growth continues with the next neighbour.
      - From ROI_MIN_SIZE stations onward, heterogeneity H1, H2, H3 are computed from the
        annual-maximum STREAMFLOW L-moments (kappa-distribution Monte Carlo, H&W 1997 s4.3).
-  3. Region keeps growing while H1 < 1. Growth stops after ROI_PATIENCE consecutive
-     additions with H1 >= 2 (or at ROI_MAX_SIZE); the final region is the largest one
-     before H1 first stays >= 1 (tier "H1<1"). If no size reaches H1 < 1, the largest
-     size with H1 < 2 is used (tier "1<=H1<2 only"); otherwise the minimum size is
-     reported as heterogeneous.
+  3. The region grows until it pools MIN_STATION_YEARS (500) years of record -- the H&W
+     "5T rule" for the T = 100 yr quantile -- while staying homogeneous: a candidate that
+     would push H1 to >= H1_ACCEPT is EXCLUDED (H&W 1997 s4.4, remove the sites that cause
+     the heterogeneity) and the next-nearest is tried. If candidates run out first, the
+     region is kept slightly short of 500 years rather than made heterogeneous.
   4. Final region is re-tested with NSIM_FINAL simulations; H1/H2/H3 and Di reported.
 
 Outputs in <DATA_DIR>/step2_outputs/
@@ -52,12 +52,10 @@ GROWTH_MODE = "centroid"    # "centroid": after each addition the region becomes
                             # "target": classical ROI (Burn 1990), always nearest to the target catchment
 ROI_MIN_SIZE = 5            # H not evaluated below this many stations (H is meaningless for 2-4)
 ROI_MAX_SIZE = 60
-ROI_PATIENCE = 2            # stop after this many consecutive H1 >= 2 (H1 is noisy)
-ROI_PATIENCE_GRACE = 10     # patience-based stopping is only allowed once the region has reached
-                            # this size. H1 at N = 5-7 is highly sample-noisy (H&W 1997 s4.3 warn
-                            # it is "meaningless" there); judging growth on it at that size means
-                            # almost every region gets 2 noisy draws and quits at the floor before
-                            # ever being tested at a size where H1 is a reliable statistic.
+MIN_STATION_YEARS = 500     # pooled record length floor for a final region: H&W "5T rule" --
+                            # a T-year quantile needs >= 5T station-years, so T = 100 -> 500
+H1_ACCEPT = 1.0             # a candidate that pushes the region's H1 to >= this is excluded
+                            # (H1 < 1 = "acceptably homogeneous", H&W 1997 s4.3.3)
 EXCLUDE_DISCORDANT = True   # drop a newly added neighbour if it is discordant in the region
 DI_MIN_REGION = 7           # Di exclusion only once the trial region has >= 7 stations:
                             # for N = 5-6 the largest POSSIBLE Di is (N-1)/3, which equals the
@@ -223,55 +221,68 @@ def h_class(h1):
 # =============================================================================
 # ROI GROWTH
 # =============================================================================
-def grow(t, Z, L, n):
-    """Grow the region around target t. Returns region (in order of addition),
-    excluded [(idx, size_at_exclusion, Di, crit)], H path, and a log of every step."""
+def grow(t, Z, L, n, use_target_flow=True):
+    """Grow the region around target t towards MIN_STATION_YEARS pooled years, keeping it
+    homogeneous (H&W 1997 s4.4: remove/reassign the sites that make a region heterogeneous).
+
+    Candidates are taken in order of distance to the region's combined point (or the target).
+    A candidate is EXCLUDED if it is discordant (Di) or if adding it pushes H1 to >= H1_ACCEPT;
+    growth then moves on to the next-nearest candidate. If the first ROI_MIN_SIZE stations are
+    already heterogeneous, the member with the most extreme L-CV (H1 measures L-CV dispersion) is
+    removed and growth continues. Stops at MIN_STATION_YEARS, ROI_MAX_SIZE or when candidates
+    run out -- so a region may end slightly short of 500 years rather than become heterogeneous.
+
+    use_target_flow=False (step5 ungauged test): the target's flow record is masked -- it is
+    used only as the search point in attribute space, never in Di/H1/years.
+    Returns region (in order of addition), excluded [(idx, size_at_exclusion, reason)],
+    H path and a log of every step."""
     region, excluded, path, steps = [t], [], [], []
+    stat = (lambda r: r) if use_target_flow else (lambda r: [j for j in r if j != t])
     pool = [j for j in range(len(Z)) if j != t]
-    run = streak = 0
-    while pool and len(region) < ROI_MAX_SIZE:
+    streak = 0
+    while pool and len(region) < ROI_MAX_SIZE and n[stat(region)].sum() < MIN_STATION_YEARS:
         ref = Z[region].mean(0) if GROWTH_MODE == "centroid" else Z[t]
         d_ref = np.linalg.norm(Z[pool] - ref, axis=1)
         c = pool.pop(int(np.argmin(d_ref)))          # nearest to the combined point (or target)
         d_c = float(d_ref.min())
         trial = region + [c]
-        if EXCLUDE_DISCORDANT and len(trial) >= DI_MIN_REGION and streak < MAX_CONSEC_EXCLUSIONS:
-            Di, crit = discordancy(L[trial])
+        S = stat(trial)
+        base = dict(size=len(region), candidate=c, dist_to_ref=d_c,
+                    dist_to_target=float(np.linalg.norm(Z[c] - Z[t])))
+        if EXCLUDE_DISCORDANT and len(S) >= DI_MIN_REGION and streak < MAX_CONSEC_EXCLUSIONS:
+            Di, crit = discordancy(L[S])
             if Di[-1] > crit + 1e-9:
-                excluded.append((c, len(region), Di[-1], crit))
-                steps.append(dict(size=len(region), candidate=c, dist_to_ref=d_c,
-                                  dist_to_target=float(np.linalg.norm(Z[c] - Z[t])),
-                                  action=f"excluded (Di={Di[-1]:.2f} > {crit})"))
+                excluded.append((c, len(region), f"discordant (Di={Di[-1]:.2f} > {crit})"))
+                steps.append(dict(base, action=f"excluded (Di={Di[-1]:.2f} > {crit})"))
                 streak += 1
                 continue
+        if len(S) >= ROI_MIN_SIZE:
+            H, _ = heterogeneity(L[S], n[S], NSIM_GROW)
+            if H[0] >= H1_ACCEPT:
+                if len(S) == ROI_MIN_SIZE:
+                    # seed itself heterogeneous: keep the candidate, drop the most extreme-L-CV
+                    # member (never the target) and keep growing
+                    w = n[S] / n[S].sum()
+                    dev = np.abs(L[S, 0] - w @ L[S, 0])
+                    drop = max((j for j in S if j != t), key=lambda j: dev[S.index(j)])
+                    trial.remove(drop)
+                    excluded.append((drop, len(region), f"heterogeneous seed (H1={H[0]:.2f})"))
+                    steps.append(dict(base, action="added"))
+                    steps.append(dict(base, candidate=drop, action=f"removed (seed H1={H[0]:.2f})"))
+                    region = trial
+                    continue
+                excluded.append((c, len(region), f"heterogeneous (H1={H[0]:.2f} >= {H1_ACCEPT})"))
+                steps.append(dict(base, action=f"excluded (H1={H[0]:.2f} >= {H1_ACCEPT})", H1=H[0]))
+                continue
+            path.append(dict(size=len(trial), added=c, H1=H[0], H2=H[1], H3=H[2],
+                             years=float(n[S].sum())))
+            base.update(H1=H[0], H2=H[1], H3=H[2])
         streak = 0
         region = trial
-        rec = dict(size=len(region), candidate=c, dist_to_ref=d_c,
-                   dist_to_target=float(np.linalg.norm(Z[c] - Z[t])), action="added")
-        if len(region) >= ROI_MIN_SIZE:
-            H, _ = heterogeneity(L[region], n[region], NSIM_GROW)
-            path.append(dict(size=len(region), added=c, H1=H[0], H2=H[1], H3=H[2]))
-            rec.update(H1=H[0], H2=H[1], H3=H[2])
-            run = run + 1 if (H[0] >= 2 and len(region) >= ROI_PATIENCE_GRACE) else 0
-        steps.append(rec)
-        if run >= ROI_PATIENCE:
-            break
+        steps.append(dict(base, size=len(region), action="added"))
     return region, excluded, path, steps
 
 
-def choose(path, thr):
-    last_ok, run = None, 0
-    for p in path:
-        if p["H1"] < thr:
-            last_ok, run = p, 0
-        else:
-            run = run + 1 if p["size"] >= ROI_PATIENCE_GRACE else 0
-            if run >= ROI_PATIENCE:
-                break
-    return last_ok
-
-
-# =============================================================================
 def neighbour_similarity(D, t, k=5, reps=2000):
     """Does closeness in PC space mean similar flood behaviour (L-CV)? If not, ROI regions
     cannot become homogeneous whatever the growth rule."""
@@ -370,20 +381,15 @@ def main():
                               action=st["action"], dist_to_region_point=st["dist_to_ref"],
                               dist_to_target=st["dist_to_target"],
                               H1=st.get("H1", np.nan), H2=st.get("H2", np.nan), H3=st.get("H3", np.nan)))
-        ok1, ok2 = choose(path, 1.0), choose(path, 2.0)
-        if ok1:
-            size, tier = ok1["size"], "H1<1"
-        elif ok2:
-            size, tier = ok2["size"], "1<=H1<2 only"
-        else:
-            size, tier = min(ROI_MIN_SIZE, len(region)), "heterogeneous at minimum size"
-        final = region[:size]
+        final, size = region, len(region)
+        tier = (f">= {MIN_STATION_YEARS} station-years" if n[final].sum() >= MIN_STATION_YEARS
+                else f"< {MIN_STATION_YEARS} station-years (candidates exhausted)")
 
         H, dist = heterogeneity(L[final], n[final], NSIM_FINAL)
         Di, crit = discordancy(L[final])
         disc_final = [names[j] for j, d in zip(final, Di)
                   if np.isfinite(d) and d > crit + 1e-9 and len(final) >= DI_MIN_REGION]
-        excl = [e for e in excluded if e[1] < size]
+        excl = excluded
 
         results.append(dict(
             station=names[t], roi_size=size, acceptance=tier,
@@ -392,8 +398,10 @@ def main():
             regional_L_CV=float((n[final] / n[final].sum()) @ L[final, 0]),
             max_distance_from_target=float(D[t, final].max()),
             centroid_drift=float(np.linalg.norm(Z[final].mean(0) - Z[t])),
-            n_discordant_excluded=len(excl),
-            discordant_excluded=";".join(names[e[0]] for e in excl),
+            n_excluded=len(excl),
+            n_excluded_discordant=sum(e[2].startswith("discordant") for e in excl),
+            n_excluded_heterogeneous=sum(not e[2].startswith("discordant") for e in excl),
+            excluded=";".join(names[e[0]] for e in excl),
             Di_crit_final=crit, discordant_in_final=";".join(disc_final),
             target_discordant=names[t] in disc_final,
             members=";".join(names[j] for j in final)))
@@ -401,9 +409,9 @@ def main():
             members_long.append(dict(target=names[t], order_added=rank, member=names[j],
                                      distance_from_target=D[t, j],
                                      Di=Di[rank] if np.isfinite(Di[rank]) else np.nan))
-        for c, at, d, cr in excl:
+        for c, at, why in excl:
             excl_long.append(dict(target=names[t], excluded=names[c], region_size_at_exclusion=at,
-                                  Di=d, Di_crit=cr))
+                                  reason=why))
         if (t + 1) % 10 == 0 or t == len(names) - 1:
             el = time.time() - t0
             print(f"  {t + 1}/{len(names)} done  ({el / 60:.1f} min, ~{el / (t + 1) * (len(names) - t - 1) / 60:.1f} min left)")
@@ -412,8 +420,8 @@ def main():
     res.to_csv(f"{out}/step2_roi_results.csv", index=False)
     pd.DataFrame(paths).to_csv(f"{out}/step2_roi_growth_paths.csv", index=False)
     pd.DataFrame(members_long).to_csv(f"{out}/step2_roi_members.csv", index=False)
-    pd.DataFrame(excl_long, columns=["target", "excluded", "region_size_at_exclusion", "Di", "Di_crit"]
-                 ).to_csv(f"{out}/step2_roi_discordant_excluded.csv", index=False)
+    pd.DataFrame(excl_long, columns=["target", "excluded", "region_size_at_exclusion", "reason"]
+                 ).to_csv(f"{out}/step2_roi_excluded.csv", index=False)
 
     # ---------------- plots ----------------
     fig, ax = plt.subplots(1, 3, figsize=(15, 4))
@@ -455,7 +463,10 @@ def main():
     print(f"\nROI size: median {res.roi_size.median():.0f}, range {res.roi_size.min()}-{res.roi_size.max()}")
     print(f"H1 of final regions: median {res.H1.median():.2f}")
     print(res.H1_class.value_counts().to_string())
-    print(f"Catchments where a neighbour was excluded as discordant: {(res.n_discordant_excluded > 0).sum()}")
+    print(f"Pooled station-years: median {res.pooled_years.median():.0f}, range "
+          f"{res.pooled_years.min()}-{res.pooled_years.max()}")
+    print(f"Neighbours excluded per region: median {res.n_excluded.median():.0f} "
+          f"(discordant {int(res.n_excluded_discordant.sum())}, heterogeneous {int(res.n_excluded_heterogeneous.sum())} in total)")
     print(f"Catchments whose own station is discordant in its ROI: {int(res.target_discordant.sum())}")
     print(f"\nOutputs in {out}")
 
