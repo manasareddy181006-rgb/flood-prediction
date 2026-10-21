@@ -144,3 +144,13 @@ Once fitted, each distribution has a predicted L-kurtosis, Ï„4_model.
 </pasted_content id="0a19">
 
  how do u choose the best distribution
+
+---
+**2026-10-21 13:03:20**
+
+alr outputs of step 3 is there right?
+
+---
+**2026-10-21 13:20:24**
+
+do the step 4 now and after that explain me everything, what exactly was done and why and whats the reslt

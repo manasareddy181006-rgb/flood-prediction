@@ -1,13 +1,65 @@
-STEP 4 - INDEX FLOOD (mu) REGRESSION
-==================================================
+STEP 4 - INDEX FLOOD (mu) REGRESSION ON PRINCIPAL COMPONENTS
+==============================================================
 
-Training sites: 90
-Predictors chosen (forward selection, VIF <= 5.0): ['lat', 'log10_area', 'rainfall_max_mm', 'temp_max_C', 'lon', 'mean_elev_m']
+Training stations: 90   response: log10(mean annual maximum flow, cumec)
+Candidate predictors: PC1..PC10 (Step 1 PCA, all components)
+Selection: forward stepwise, a PC enters only if p < 0.05
+PC scores reproduce step1_pc_scores_all_components.csv: max |diff| = 8.9e-16
 
-log10(mu) = -2.0033 + 0.0762*lat + 0.8987*log10_area + 0.0269*rainfall_max_mm - 0.0750*temp_max_C + 0.0157*lon - 0.0003*mean_elev_m
+Entry order (p at entry): PC1 (0.00023), PC7 (0.00043), PC3 (0.017), PC4 (0.014), PC6 (0.024), PC9 (0.028)
 
-mu_hat = smearing * 10**(fitted log10(mu))   [Duan bias correction]
-Duan smearing factor = 1.6280
-Adjusted R^2 (log10 space) = 0.3951
-Residual s.d. (log10) = 0.4727
-In-sample mu %% error: median 65.7%%, IQR [27.1, 206.7]%%
+log10(mu) = 2.7340 + 0.1235*PC1 + 0.4207*PC7 + 0.1148*PC3 + 0.1273*PC4 - 0.1886*PC6 - 0.3662*PC9
+
+Coefficients:
+     term       b      SE      t         p  entry_order
+intercept   2.734  0.0523  52.28 2.697e-65          NaN
+      PC1  0.1235 0.02706  4.563 1.725e-05            1
+      PC7  0.4207  0.1034  4.069 0.0001071            2
+      PC3  0.1148 0.04351  2.639  0.009919            3
+      PC4  0.1273 0.04851  2.623   0.01036            4
+      PC6 -0.1886 0.07998 -2.359   0.02069            5
+      PC9 -0.3662  0.1637 -2.237   0.02798            6
+
+R^2 = 0.4268   adjusted R^2 = 0.3853   residual s.e. (log10) = 0.4962   F = 10.30 (p = 1.7e-08)
+Duan smearing factor S = 1.6665   mu_hat = S * 10**(fitted log10 mu)
+
+Same equation in the ORIGINAL attributes (PC_k = sum_j e_jk (x_j - mean_j)/sd_j substituted):
+  log10(mu) = -1.0947 + sum_j coef_per_unit_j * x_j
+      attribute  coef_per_unit  coef_per_1sd  mean_train  sd_train
+   ln(area_km2)         0.4087        0.4354       7.758     1.065
+  drain_density         -1.491      -0.05559      0.6524   0.03727
+    mean_elev_m     -0.0004653       -0.1074       486.8     230.8
+       relief_m     -0.0002126        -0.113       899.9     531.8
+ mean_slope_deg         0.0199       0.07976        6.93     4.008
+            lat        0.02813        0.1297        17.8     4.611
+            lon        0.01729       0.06397       78.49       3.7
+rainfall_max_mm        0.02948        0.2963       91.19     10.05
+     temp_max_C       -0.05696       -0.2131       42.44     3.742
+     temp_min_C       -0.02743       -0.1173       7.956     4.276
+  (coef_per_1sd = change in log10 mu for a 1-s.d. increase of that attribute)
+
+Observed vs estimated mu:
+  in-sample     : R^2(log10) = 0.427, median |%err| = 57.4%
+  leave-one-out : R^2(log10) = 0.082, median |%err| = 65.6%  (= the ungauged-site accuracy)
+  leave-one-out selected the same PCs as the full model in 38/90 cases
+
+WORKED EXAMPLE - 'Muthankera' treated as UNGAUGED (PCA + regression refit without it)
+  equation without it: log10(mu) = 2.7313 + 0.1281*PC1 + 0.3976*PC7 + 0.1306*PC4 - 0.2112*PC6 + 0.1127*PC3 - 0.3566*PC9
+  attribute            x        mean      sd        z = (x-mean)/sd
+  area_km2               7.128     7.765     1.069   -0.596
+  drain_density          0.647     0.652     0.037   -0.151
+  mean_elev_m          828.530   482.981   229.240    1.507
+  relief_m            1330.000   895.067   532.791    0.816
+  mean_slope_deg        11.230     6.881     4.005    1.086
+  lat                   11.808    17.868     4.593   -1.319
+  lon                   76.084    78.517     3.711   -0.655
+  rainfall_max_mm       98.710    91.102    10.076    0.755
+  temp_max_C            35.840    42.518     3.696   -1.807
+  temp_min_C            11.520     7.916     4.284    0.841
+  PC1 = sum z_j * e_j,PC1 = (-0.60)(0.119) + (-0.15)(0.195) + (1.51)(-0.249) + (0.82)(-0.388) + (1.09)(-0.320) + (-1.32)(0.453) + (-0.66)(0.115) + (0.76)(0.093) + (-1.81)(0.488) + (0.84)(-0.409) = -2.969
+  PC7 = sum z_j * e_j,PC7 = (-0.60)(0.616) + (-0.15)(-0.011) + (1.51)(0.224) + (0.82)(0.029) + (1.09)(-0.125) + (-1.32)(-0.100) + (-0.66)(-0.052) + (0.76)(0.719) + (-1.81)(0.008) + (0.84)(0.156) = 0.687
+  PC4 = sum z_j * e_j,PC4 = (-0.60)(0.252) + (-0.15)(0.089) + (1.51)(-0.063) + (0.82)(0.409) + (1.09)(0.357) + (-1.32)(0.112) + (-0.66)(0.774) + (0.76)(-0.063) + (-1.81)(0.093) + (0.84)(-0.075) = -0.470
+  PC6 = sum z_j * e_j,PC6 = (-0.60)(-0.266) + (-0.15)(0.507) + (1.51)(0.649) + (0.82)(-0.299) + (1.09)(-0.138) + (-1.32)(-0.141) + (-0.66)(0.332) + (0.76)(-0.000) + (-1.81)(0.014) + (0.84)(0.114) = 0.706
+  PC3 = sum z_j * e_j,PC3 = (-0.60)(0.100) + (-0.15)(-0.543) + (1.51)(0.596) + (0.82)(-0.134) + (1.09)(0.192) + (-1.32)(0.305) + (-0.66)(-0.022) + (0.76)(-0.109) + (-1.81)(-0.088) + (0.84)(-0.415) = 0.361
+  PC9 = sum z_j * e_j,PC9 = (-0.60)(-0.193) + (-0.15)(-0.217) + (1.51)(0.254) + (0.82)(0.475) + (1.09)(-0.221) + (-1.32)(-0.115) + (-0.66)(-0.103) + (0.76)(-0.031) + (-1.81)(0.733) + (0.84)(0.119) = -0.351
+  log10(mu) = 2.5795 -> mu_hat = 1.678 * 10^2.5795 = 637.4 cumec   (observed mu = 938.2 cumec)

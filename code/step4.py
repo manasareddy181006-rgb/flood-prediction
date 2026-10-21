@@ -1,41 +1,52 @@
 """
-STEP 4 - MULTIPLE LINEAR REGRESSION FOR THE INDEX FLOOD (mu) OF AN UNGAUGED SITE
-==================================================================================
-Step 3 gives the dimensionless REGIONAL growth curve q(T) (mean = 1) for each target's
-ROI. To turn that into a real discharge, Q(T) = mu_hat * q(T), mu_hat (the index flood,
-here taken as the at-site mean annual maximum) must come from catchment ATTRIBUTES alone
--- that is what makes the method usable at an ungauged site, and it is the step that
-"removes the normalisation" (un-does the /mu done before pooling in Step 3).
+STEP 4 - MULTIPLE LINEAR REGRESSION OF THE INDEX FLOOD (mu) ON THE PRINCIPAL COMPONENTS
+==========================================================================================
+Step 3 gives the dimensionless REGIONAL growth curve q(T) (mean = 1). To turn it into a
+discharge at an UNGAUGED site, Q(T) = mu_hat * q(T), the index flood mu (at-site mean
+annual maximum flow) must come from catchment attributes alone. This "removes the
+normalisation" of Step 3.
 
-METHOD (Hosking & Wallis 1997 s8; standard RFA practice)
-  Fit   log10(mu_i) = b0 + b1*log10(area_i) + b2*X2_i + ...   across the gauged sites.
-  Log-log in area is standard: flood magnitude scales roughly as a power of catchment
-  area, so the relationship is linear in logs with more nearly constant-variance errors.
+METHOD
+  1. Attributes -> PCs, exactly as Step 1: the 10 attributes of step1.ATTRS (area as ln),
+     standardised  z_j = (x_j - mean_j) / sd_j,  then  PC_k = sum_j z_j * e_jk  where e_jk is
+     the eigenvector loading of attribute j on PC k.
+  2. Regression on the PCs:   log10(mu) = b0 + b1*PCa + b2*PCb + ...
+     Log10 because mu spans ~3 orders of magnitude and flood size grows as a power of
+     catchment size -- the relation is linear, with near-constant error variance, in logs.
+  3. Only SIGNIFICANT PCs: forward stepwise selection -- each round adds the PC with the
+     smallest p-value (t-test on its coefficient), as long as p < P_ENTER. PCs are mutually
+     uncorrelated, so there is no collinearity between predictors.
+  4. Coefficients b, standard errors, t, p, R^2, adjusted R^2; the PC equation is also
+     re-expressed in the original attributes (substituting PC_k = sum_j z_j e_jk).
+  5. Back-transform with Duan's smearing estimate: mu_hat = S * 10**(fitted log10 mu),
+     S = mean(10**residual). A plain 10**(fit) is the median, not the mean, and under-predicts.
 
-  Predictors are added by FORWARD SELECTION on adjusted R^2 (only kept if it improves
-  fit), each candidate screened by VARIANCE INFLATION FACTOR (VIF <= 5) against predictors
-  already in the model, so two attributes that carry the same information (e.g. latitude
-  and temperature, r = -0.93 in this dataset) cannot both enter.
-
-  The log-space fit is bias-corrected on back-transformation with Duan's SMEARING
-  ESTIMATE (mean of 10**residual across the fitted sample) -- a naive 10**(fitted log)
-  systematically under-predicts mu because of Jensen's inequality.
-
-Exposes fit_mlr(attr_df, lm_df, exclude_stations=None) for step5.py's leave-one-out use
-(refits the WHOLE forward-selection procedure on the reduced training set each time, not
-just a coefficient refit -- otherwise the ungauged test would silently assume the "right"
-predictors were already known in advance).
+UNGAUGED SITE: its attributes are standardised with the TRAINING mean/sd and multiplied by
+the TRAINING eigenvectors to get its PC scores (to_pcs), then put into the equation.
+fit_mlr(..., exclude_stations=[s]) refits the PCA AND reruns the selection without s, so the
+leave-one-out ("ungauged") estimate never sees s. step5.py uses the same functions.
 
 Outputs in <DATA_DIR>/step4_outputs/:
-    step4_indexflood_model.txt   full-sample model: predictors, coefficients, diagnostics
-    step4_mu_predictions.csv     mu_at_site vs mu_predicted (in-sample) for every station
+    step4_indexflood_model.txt       equation, coefficient table, diagnostics, worked example
+    step4_coefficients.csv           b, SE, t, p for each selected PC
+    step4_attribute_equation.csv     the same equation in terms of the original attributes
+    step4_mu_predictions.csv         observed mu vs estimated mu (in-sample and leave-one-out)
+    step4_regression_line.png        observed vs fitted log10(mu) with the regression line
+    step4_partial_regression_PCs.png one partial-regression plot per selected PC
+    step4_obs_vs_est_mean.png        observed vs estimated mean (in-sample | leave-one-out)
 """
 import os
 import sys
 import numpy as np
 import pandas as pd
+from scipy import stats
+from sklearn.decomposition import PCA
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from step1 import ATTRS  # noqa: E402
 
 # =============================================================================
 # CONFIG
@@ -45,128 +56,124 @@ IN1 = os.path.join(DATA_DIR, "step1_outputs")
 IN2 = os.path.join(DATA_DIR, "step2_outputs")
 OUT_NAME = "step4_outputs"
 
-MAX_VIF = 5.0
-
-# candidate predictors: (output name, source column, transform)
-CAND_SPEC = [
-    ("log10_area", "area_km2", "log10"),
-    ("drain_density", "drain_density", None),
-    ("mean_elev_m", "mean_elev_m", None),
-    ("relief_m", "relief_m", None),
-    ("mean_slope_deg", "mean_slope_deg", None),
-    ("lat", "lat", None),
-    ("lon", "lon", None),
-    ("rainfall_max_mm", "rainfall_max_mm", None),
-    ("temp_max_C", "temp_max_C", None),
-    ("temp_min_C", "temp_min_C", None),
-]
+P_ENTER = 0.05              # a PC enters the regression only if its coefficient has p < this
+EXAMPLE_STATION = "Muthankera"
+BLUE, GREY = "#2a6fb0", "#7a7a7a"
 
 
-def build_candidates(attr_df):
-    X = pd.DataFrame(index=attr_df.index)
-    for name, col, tr in CAND_SPEC:
-        v = attr_df[col].astype(float)
-        X[name] = np.log10(v.clip(lower=1e-6)) if tr == "log10" else v
+# =============================================================================
+# ATTRIBUTES -> PCs
+# =============================================================================
+def transformed_attrs(attr_df):
+    """The 10 Step 1 attributes with Step 1's transforms (area -> ln)."""
+    X = attr_df[list(ATTRS)].astype(float).copy()
+    for c, tr in ATTRS.items():
+        if tr == "log":
+            X[c] = np.log(X[c].clip(lower=1e-6))
     return X
 
 
+def pca_fit(attr_df):
+    """Standardise + PCA on the given (training) stations. Same as step1.run_pca:
+    StandardScaler (population sd) then sklearn PCA keeping all components."""
+    X = transformed_attrs(attr_df)
+    mean, sd = X.mean(), X.std(ddof=0)
+    pca = PCA().fit(((X - mean) / sd).values)
+    pcs = [f"PC{i + 1}" for i in range(pca.n_components_)]
+    E = pd.DataFrame(pca.components_.T, index=X.columns, columns=pcs)   # eigenvectors e_jk
+    return dict(mean=mean, sd=sd, E=E, centre=pca.mean_, eigenvalues=pca.explained_variance_)
+
+
+def to_pcs(pm, attr_df):
+    """PC scores of any station (gauged or ungauged) from its attributes:
+    z = (x - mean_train) / sd_train,  PC = z @ eigenvectors."""
+    z = (transformed_attrs(attr_df) - pm["mean"]) / pm["sd"]
+    return pd.DataFrame((z.values - pm["centre"]) @ pm["E"].values,
+                        index=attr_df.index, columns=pm["E"].columns)
+
+
 # =============================================================================
-# OLS + VIF + forward selection
+# OLS + forward stepwise selection on p-values
 # =============================================================================
-def _ols(X, y):
-    """X: (n,p) WITHOUT intercept. Returns beta (incl. intercept at index 0), fitted, resid."""
-    Xd = np.column_stack([np.ones(len(X)), X])
+def ols(X, y):
+    """X: (n,p) without intercept. Full OLS table."""
+    n = len(y)
+    Xd = np.column_stack([np.ones(n), X])
+    p = Xd.shape[1] - 1
     beta, *_ = np.linalg.lstsq(Xd, y, rcond=None)
     fitted = Xd @ beta
     resid = y - fitted
-    return beta, fitted, resid
-
-
-def _adj_r2(y, resid, p):
-    n = len(y)
-    sse = np.sum(resid ** 2)
+    dof = n - p - 1
+    s2 = resid @ resid / dof
+    se = np.sqrt(np.diag(s2 * np.linalg.inv(Xd.T @ Xd)))
+    t = beta / se
+    pval = 2 * stats.t.sf(np.abs(t), dof)
     sst = np.sum((y - y.mean()) ** 2)
-    r2 = 1 - sse / sst if sst > 0 else 0.0
-    if n - p - 1 <= 0:
-        return r2
-    return 1 - (1 - r2) * (n - 1) / (n - p - 1)
+    r2 = 1 - (resid @ resid) / sst
+    adj = 1 - (1 - r2) * (n - 1) / dof
+    F = (r2 / p) / ((1 - r2) / dof) if p > 0 else np.nan
+    return dict(beta=beta, se=se, t=t, p=pval, fitted=fitted, resid=resid, s=np.sqrt(s2),
+                r2=r2, adj_r2=adj, F=F, F_p=stats.f.sf(F, p, dof) if p > 0 else np.nan, dof=dof)
 
 
-def _vif(X, j):
-    """VIF of column j regressed on all other columns in X (ndarray, no intercept)."""
-    other = np.delete(X, j, axis=1)
-    if other.shape[1] == 0:
-        return 1.0
-    beta, fitted, resid = _ols(other, X[:, j])
-    sse = np.sum(resid ** 2)
-    sst = np.sum((X[:, j] - X[:, j].mean()) ** 2)
-    r2 = 1 - sse / sst if sst > 0 else 0.0
-    return 1.0 / (1.0 - r2) if r2 < 0.999 else np.inf
-
-
-def forward_select(Xdf, y, max_vif=MAX_VIF):
-    cols = list(Xdf.columns)
-    chosen = []
-    best_adj_r2 = -np.inf
+def forward_stepwise(P, y, p_enter=P_ENTER):
+    """Add, one at a time, the PC whose coefficient has the smallest p-value, while p < p_enter.
+    Returns the chosen PCs in order of entry and the p-value at entry."""
+    chosen, entry_p = [], []
     while True:
-        candidates = [c for c in cols if c not in chosen]
-        trial_results = []
-        for c in candidates:
-            trial_cols = chosen + [c]
-            Xtrial = Xdf[trial_cols].values
-            # VIF check: the NEW column's VIF against the others already-plus-this-one
-            if len(trial_cols) > 1:
-                j = trial_cols.index(c)
-                if _vif(Xtrial, j) > max_vif:
-                    continue
-            beta, fitted, resid = _ols(Xtrial, y)
-            adj_r2 = _adj_r2(y, resid, len(trial_cols))
-            trial_results.append((adj_r2, c))
-        if not trial_results:
+        best = None
+        for c in P.columns.difference(chosen, sort=False):
+            pv = ols(P[chosen + [c]].values, y)["p"][-1]
+            if best is None or pv < best[1]:
+                best = (c, pv)
+        if best is None or best[1] >= p_enter:
             break
-        trial_results.sort(reverse=True)
-        best_this_round, best_col = trial_results[0]
-        if best_this_round <= best_adj_r2 + 1e-9:
-            break
-        chosen.append(best_col)
-        best_adj_r2 = best_this_round
-    return chosen, best_adj_r2
+        chosen.append(best[0])
+        entry_p.append(best[1])
+    return chosen, entry_p
 
 
 # =============================================================================
-def fit_mlr(attr_df, lm_df, exclude_stations=None, max_vif=MAX_VIF):
-    """attr_df: indexed by station, has the CAND_SPEC source columns.
-    lm_df: indexed by station, has 'mean_ams'.
-    exclude_stations: iterable of station names to drop from the TRAINING set (for
-    leave-one-out use in step5.py) -- forward selection is rerun from scratch on what's
-    left, so the chosen predictor set can legitimately differ run to run.
-    Returns a dict model: predictors, beta, rmse_log, smearing, chosen columns' stats.
-    """
+def fit_mlr(attr_df, lm_df, exclude_stations=None, p_enter=P_ENTER):
+    """attr_df: indexed by station (Step 1 attributes). lm_df: indexed by station, 'mean_ams'.
+    exclude_stations: dropped from training -- PCA AND selection are redone without them."""
     stations = attr_df.index.intersection(lm_df.index)
     if exclude_stations:
         stations = stations.difference(set(exclude_stations))
-    Xall = build_candidates(attr_df.loc[stations])
-    y = np.log10(lm_df.loc[stations, "mean_ams"].astype(float).clip(lower=1e-6))
+    pm = pca_fit(attr_df.loc[stations])
+    P = to_pcs(pm, attr_df.loc[stations])
+    y = np.log10(lm_df.loc[stations, "mean_ams"].astype(float).values)
+    chosen, entry_p = forward_stepwise(P, y, p_enter)
+    fit = ols(P[chosen].values, y)
+    return dict(pca=pm, predictors=chosen, entry_p=entry_p, fit=fit, beta=fit["beta"],
+                smearing=float(np.mean(10 ** fit["resid"])), n_train=len(stations),
+                train_stations=list(stations), pc_scores=P, y=y)
 
-    chosen, adj_r2 = forward_select(Xall, y, max_vif=max_vif)
-    if not chosen:
-        chosen = ["log10_area"]
-    X = Xall[chosen].values
-    beta, fitted, resid = _ols(X, y.values)
-    rmse_log = float(np.sqrt(np.mean(resid ** 2)))
-    smearing = float(np.mean(10 ** resid))  # Duan's smearing estimate
 
-    return dict(predictors=chosen, beta=beta, adj_r2=float(_adj_r2(y.values, resid, len(chosen))),
-                rmse_log=rmse_log, smearing=smearing, n_train=len(stations),
-                train_stations=list(stations))
+def predict_log10_mu(model, attr_df):
+    P = to_pcs(model["pca"], attr_df)[model["predictors"]].values
+    return model["beta"][0] + P @ model["beta"][1:]
 
 
 def predict_mu(model, attr_row):
-    """attr_row: pandas Series with the CAND_SPEC source columns for ONE station."""
-    x = np.array([1.0] + [build_candidates(attr_row.to_frame().T)[p].iloc[0]
-                           for p in model["predictors"]])
-    log10mu = float(x @ model["beta"])
-    return model["smearing"] * (10 ** log10mu)
+    """attr_row: Series (one station) or DataFrame. Returns mu_hat in cumec."""
+    df = attr_row.to_frame().T if isinstance(attr_row, pd.Series) else attr_row
+    mu = model["smearing"] * 10 ** predict_log10_mu(model, df)
+    return float(mu[0]) if isinstance(attr_row, pd.Series) else mu
+
+
+def attribute_equation(model):
+    """log10(mu) = b0 + sum_k b_k PC_k with PC_k = sum_j e_jk (x_j - m_j)/s_j
+    => per-attribute coefficient c_j = sum_k b_k e_jk / s_j (per unit of x_j) and
+       std_j = sum_k b_k e_jk (per 1 s.d. of x_j)."""
+    pm, b = model["pca"], model["beta"][1:]
+    E = pm["E"][model["predictors"]].values
+    std = E @ b
+    c = std / pm["sd"].values
+    const = model["beta"][0] - std @ (pm["centre"]) - c @ pm["mean"].values
+    units = [("ln(" + j + ")") if ATTRS[j] == "log" else j for j in pm["E"].index]
+    return pd.DataFrame({"attribute": units, "coef_per_unit": c, "coef_per_1sd": std,
+                         "mean_train": pm["mean"].values, "sd_train": pm["sd"].values}), const
 
 
 # =============================================================================
@@ -176,41 +183,158 @@ def main():
 
     attr = pd.read_csv(os.path.join(IN1, "step1_final_attributes.csv")).set_index("station")
     lm = pd.read_csv(os.path.join(IN2, "step2_atsite_lmoments.csv")).set_index("station")
+    attr = attr.loc[lm.index]
 
     model = fit_mlr(attr, lm)
+    fit, sel = model["fit"], model["predictors"]
 
-    preds = []
-    for st in model["train_stations"]:
-        mu_hat = predict_mu(model, attr.loc[st])
-        preds.append(dict(station=st, mu_at_site=lm.loc[st, "mean_ams"], mu_predicted=mu_hat,
-                           pct_error=100 * (mu_hat - lm.loc[st, "mean_ams"]) / lm.loc[st, "mean_ams"]))
-    pred_df = pd.DataFrame(preds)
-    pred_df.to_csv(f"{out}/step4_mu_predictions.csv", index=False)
+    # the PCs used here must be Step 1's PCs
+    s1 = pd.read_csv(os.path.join(IN1, "step1_pc_scores_all_components.csv")).set_index("station")
+    pc_check = float(np.abs(model["pc_scores"].values - s1.loc[model["pc_scores"].index].values).max())
 
-    eqn = "log10(mu) = " + f"{model['beta'][0]:.4f}"
-    for p, b in zip(model["predictors"], model["beta"][1:]):
-        eqn += f" {'+' if b >= 0 else '-'} {abs(b):.4f}*{p}"
-    with open(f"{out}/step4_indexflood_model.txt", "w") as fh:
-        fh.write("STEP 4 - INDEX FLOOD (mu) REGRESSION\n")
-        fh.write("=" * 50 + "\n\n")
-        fh.write(f"Training sites: {model['n_train']}\n")
-        fh.write(f"Predictors chosen (forward selection, VIF <= {MAX_VIF}): {model['predictors']}\n\n")
-        fh.write(eqn + "\n")
-        fh.write(f"\nmu_hat = smearing * 10**(fitted log10(mu))   [Duan bias correction]\n")
-        fh.write(f"Duan smearing factor = {model['smearing']:.4f}\n")
-        fh.write(f"Adjusted R^2 (log10 space) = {model['adj_r2']:.4f}\n")
-        fh.write(f"Residual s.d. (log10) = {model['rmse_log']:.4f}\n")
-        fh.write(f"In-sample mu %% error: median {pred_df.pct_error.abs().median():.1f}%%, "
-                 f"IQR [{pred_df.pct_error.abs().quantile(.25):.1f}, "
-                 f"{pred_df.pct_error.abs().quantile(.75):.1f}]%%\n")
+    # leave-one-out = ungauged estimate of every station
+    mu_obs = lm["mean_ams"].astype(float)
+    mu_in = pd.Series(predict_mu(model, attr), index=attr.index)
+    mu_loo, lg_loo, loo_sel = {}, {}, {}
+    for st in attr.index:
+        m = fit_mlr(attr, lm, exclude_stations=[st])
+        mu_loo[st] = predict_mu(m, attr.loc[st])
+        lg_loo[st] = float(predict_log10_mu(m, attr.loc[[st]])[0])
+        loo_sel[st] = ";".join(m["predictors"])
+    mu_loo, lg_loo = pd.Series(mu_loo), pd.Series(lg_loo)
 
-    print("\n================ STEP 4 SUMMARY ================")
-    print(f"Predictors: {model['predictors']}")
-    print(eqn)
-    print(f"Duan smearing factor: {model['smearing']:.4f}")
-    print(f"Adjusted R^2 (log10 space): {model['adj_r2']:.4f}")
-    print(f"Residual s.d. (log10): {model['rmse_log']:.4f}")
-    print(f"In-sample |%% error| on mu: median {pred_df.pct_error.abs().median():.1f}%%")
+    pred = pd.DataFrame({"mu_observed": mu_obs, "mu_est_insample": mu_in, "mu_est_loo": mu_loo,
+                         "log10_mu_observed": np.log10(mu_obs),
+                         "log10_mu_fitted": predict_log10_mu(model, attr), "log10_mu_loo": lg_loo})
+    pred["pct_error_insample"] = 100 * (pred.mu_est_insample - pred.mu_observed) / pred.mu_observed
+    pred["pct_error_loo"] = 100 * (pred.mu_est_loo - pred.mu_observed) / pred.mu_observed
+    pred["loo_selected_PCs"] = pd.Series(loo_sel)
+    pred = pd.concat([pred, model["pc_scores"][sel]], axis=1)
+    pred.index.name = "station"
+    pred.to_csv(f"{out}/step4_mu_predictions.csv")
+
+    coef = pd.DataFrame({"term": ["intercept"] + sel, "b": fit["beta"], "SE": fit["se"],
+                         "t": fit["t"], "p": fit["p"],
+                         "entry_order": [np.nan] + list(range(1, len(sel) + 1))})
+    coef.to_csv(f"{out}/step4_coefficients.csv", index=False)
+    aeq, aconst = attribute_equation(model)
+    aeq.to_csv(f"{out}/step4_attribute_equation.csv", index=False)
+
+    def r2_log(col):
+        """R^2 of the log10 fit itself (before the smearing back-transform, which only
+        shifts every estimate by the same constant)."""
+        y, f = pred.log10_mu_observed, pred[col]
+        return 1 - np.sum((y - f) ** 2) / np.sum((y - y.mean()) ** 2)
+
+    # ---------------- report ----------------
+    eqn = f"log10(mu) = {fit['beta'][0]:.4f}" + "".join(
+        f" {'+' if b >= 0 else '-'} {abs(b):.4f}*{p}" for p, b in zip(sel, fit["beta"][1:]))
+    L = ["STEP 4 - INDEX FLOOD (mu) REGRESSION ON PRINCIPAL COMPONENTS", "=" * 62, "",
+         f"Training stations: {model['n_train']}   response: log10(mean annual maximum flow, cumec)",
+         f"Candidate predictors: PC1..PC{len(model['pca']['E'].columns)} (Step 1 PCA, all components)",
+         f"Selection: forward stepwise, a PC enters only if p < {P_ENTER}",
+         f"PC scores reproduce step1_pc_scores_all_components.csv: max |diff| = {pc_check:.1e}", "",
+         "Entry order (p at entry): " + ", ".join(f"{p} ({pv:.2g})" for p, pv in zip(sel, model["entry_p"])),
+         "", eqn, "", "Coefficients:", coef.to_string(index=False, float_format=lambda v: f"{v:.4g}"), "",
+         f"R^2 = {fit['r2']:.4f}   adjusted R^2 = {fit['adj_r2']:.4f}   "
+         f"residual s.e. (log10) = {fit['s']:.4f}   F = {fit['F']:.2f} (p = {fit['F_p']:.2g})",
+         f"Duan smearing factor S = {model['smearing']:.4f}   mu_hat = S * 10**(fitted log10 mu)", "",
+         "Same equation in the ORIGINAL attributes (PC_k = sum_j e_jk (x_j - mean_j)/sd_j substituted):",
+         f"  log10(mu) = {aconst:.4f} + sum_j coef_per_unit_j * x_j",
+         aeq.to_string(index=False, float_format=lambda v: f"{v:.4g}"),
+         "  (coef_per_1sd = change in log10 mu for a 1-s.d. increase of that attribute)", "",
+         "Observed vs estimated mu:",
+         f"  in-sample     : R^2(log10) = {r2_log('log10_mu_fitted'):.3f}, median |%err| = {pred.pct_error_insample.abs().median():.1f}%",
+         f"  leave-one-out : R^2(log10) = {r2_log('log10_mu_loo'):.3f}, median |%err| = {pred.pct_error_loo.abs().median():.1f}%"
+         f"  (= the ungauged-site accuracy)",
+         f"  leave-one-out selected the same PCs as the full model in "
+         f"{int((pred.loo_selected_PCs == ';'.join(sel)).sum())}/{len(pred)} cases"]
+
+    # worked example: converting one station to PCs like an ungauged site
+    ex = EXAMPLE_STATION if EXAMPLE_STATION in attr.index else attr.index[0]
+    m_ex = fit_mlr(attr, lm, exclude_stations=[ex])
+    pm = m_ex["pca"]
+    x = transformed_attrs(attr.loc[[ex]]).iloc[0]
+    z = (x - pm["mean"]) / pm["sd"]
+    pc = to_pcs(pm, attr.loc[[ex]]).iloc[0]
+    L += ["", f"WORKED EXAMPLE - '{ex}' treated as UNGAUGED (PCA + regression refit without it)",
+          f"  equation without it: log10(mu) = {m_ex['beta'][0]:.4f}" + "".join(
+              f" {'+' if b >= 0 else '-'} {abs(b):.4f}*{p}" for p, b in zip(m_ex["predictors"], m_ex["beta"][1:])),
+          "  attribute            x        mean      sd        z = (x-mean)/sd"]
+    L += [f"  {j:18s} {x[j]:9.3f} {pm['mean'][j]:9.3f} {pm['sd'][j]:9.3f} {z[j]:8.3f}" for j in x.index]
+    for p in m_ex["predictors"]:
+        terms = " + ".join(f"({z[j]:.2f})({pm['E'].loc[j, p]:.3f})" for j in x.index)
+        L.append(f"  {p} = sum z_j * e_j,{p} = {terms} = {pc[p]:.3f}")
+    lg = m_ex["beta"][0] + sum(b * pc[p] for p, b in zip(m_ex["predictors"], m_ex["beta"][1:]))
+    L += [f"  log10(mu) = {lg:.4f} -> mu_hat = {m_ex['smearing']:.3f} * 10^{lg:.4f} = "
+          f"{m_ex['smearing'] * 10 ** lg:.1f} cumec   (observed mu = {mu_obs[ex]:.1f} cumec)"]
+    report = "\n".join(L)
+    with open(f"{out}/step4_indexflood_model.txt", "w", encoding="utf-8") as fh:
+        fh.write(report + "\n")
+    print(report)
+
+    # ---------------- plots ----------------
+    plt.rcParams.update({"axes.spines.top": False, "axes.spines.right": False,
+                         "axes.grid": True, "grid.alpha": 0.25})
+
+    # 1) regression line: observed vs fitted log10(mu)
+    yf, yo = pred.log10_mu_fitted, pred.log10_mu_observed
+    fig, ax = plt.subplots(figsize=(6.5, 6))
+    lo, hi = min(yf.min(), yo.min()) - 0.2, max(yf.max(), yo.max()) + 0.2
+    xx = np.array([lo, hi])
+    ax.fill_between(xx, xx - fit["s"], xx + fit["s"], color=BLUE, alpha=0.10, lw=0,
+                    label=f"±1 residual s.e. ({fit['s']:.2f})")
+    ax.plot(xx, xx, color=BLUE, lw=2, label="regression line (observed = fitted)")
+    ax.scatter(yf, yo, s=36, color=BLUE, edgecolor="white", lw=0.8, zorder=3)
+    ax.set_xlim(lo, hi); ax.set_ylim(lo, hi); ax.set_aspect("equal")
+    ax.set_xlabel("fitted log10(mu)  = " + " + ".join(["b0"] + [f"b·{p}" for p in sel]))
+    ax.set_ylabel("observed log10(mu)  (mu in cumec)")
+    ax.set_title(f"Step 4 regression on PCs (n = {model['n_train']})\n"
+                 f"R² = {fit['r2']:.2f}, adj. R² = {fit['adj_r2']:.2f}", fontsize=11)
+    ax.legend(loc="upper left", fontsize=8, frameon=False)
+    fig.tight_layout(); fig.savefig(f"{out}/step4_regression_line.png", dpi=200); plt.close(fig)
+
+    # 2) partial regression (component + residual) per selected PC
+    k = len(sel)
+    ncol = min(k, 3)
+    nrow = int(np.ceil(k / ncol))
+    fig, axs = plt.subplots(nrow, ncol, figsize=(4.6 * ncol, 4.1 * nrow), squeeze=False)
+    for i, p in enumerate(sel):
+        a = axs[i // ncol, i % ncol]
+        b = fit["beta"][1 + i]
+        xv = model["pc_scores"][p].values
+        yv = b * xv + fit["resid"]
+        a.scatter(xv, yv, s=26, color=BLUE, edgecolor="white", lw=0.6)
+        xs = np.linspace(xv.min(), xv.max(), 2)
+        a.plot(xs, b * xs, color="black", lw=2)
+        a.set_xlabel(f"{p} score")
+        a.set_ylabel(f"b·{p} + residual   (log10 mu)")
+        a.set_title(f"{p}: b = {b:+.3f}, p = {fit['p'][1 + i]:.1g}", fontsize=10)
+    for j in range(k, nrow * ncol):
+        axs[j // ncol, j % ncol].axis("off")
+    fig.suptitle("Partial regression of log10(mu) on each selected PC (slope = its coefficient)", fontsize=11)
+    fig.tight_layout(); fig.savefig(f"{out}/step4_partial_regression_PCs.png", dpi=200); plt.close(fig)
+
+    # 3) observed vs estimated mean
+    fig, axs = plt.subplots(1, 2, figsize=(12, 5.8))
+    for a, col, lgc, ttl in ((axs[0], "mu_est_insample", "log10_mu_fitted", "In-sample (all 90 stations fitted)"),
+                             (axs[1], "mu_est_loo", "log10_mu_loo", "Leave-one-out (station treated as ungauged)")):
+        o, e = pred.mu_observed, pred[col]
+        lo, hi = min(o.min(), e.min()) / 1.5, max(o.max(), e.max()) * 1.5
+        a.plot([lo, hi], [lo, hi], color=GREY, ls="--", lw=1.2, label="1:1")
+        a.scatter(o, e, s=36, color=BLUE, edgecolor="white", lw=0.8, zorder=3)
+        for st in pred.index[np.abs(np.log10(e / o)) > 1.2]:          # > ~16x off: name it
+            a.annotate(st, (o[st], e[st]), xytext=(5, 3), textcoords="offset points", fontsize=8)
+        a.set_xscale("log"); a.set_yscale("log"); a.set_xlim(lo, hi); a.set_ylim(lo, hi)
+        a.set_aspect("equal")
+        a.set_xlabel("observed mean annual max flow, mu (cumec)")
+        a.set_ylabel("estimated mu from regression (cumec)")
+        err = pred[col.replace("mu_est", "pct_error")].abs().median()
+        a.set_title(f"{ttl}\nR²(log) = {r2_log(lgc):.2f}, median |error| = {err:.0f}%", fontsize=10)
+        a.legend(loc="upper left", frameon=False, fontsize=9)
+    fig.suptitle("Observed vs estimated mean (index flood)", fontsize=12)
+    fig.tight_layout(); fig.savefig(f"{out}/step4_obs_vs_est_mean.png", dpi=200); plt.close(fig)
+
     print(f"\nOutputs in {out}")
 
 

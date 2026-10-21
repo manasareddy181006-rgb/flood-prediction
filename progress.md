@@ -22,6 +22,18 @@ Prof's feedback on the Step 3-5 presentation; redoing them part by part.
   `step2_roi_discordant_excluded.csv` replaced by `step2_roi_excluded.csv` (with reason).
 - **Step 3 re-run on the new regions (method unchanged):** 90/90 regions get an acceptable
   distribution (|Z| <= 1.64), up from 83/90. Chosen: GNO 33, GLO 19, GPA 17, GEV 13, PE3 8.
+- **Step 4 rewritten - index-flood regression is now on the PCs, not raw attributes** (prof).
+  log10(mu) = b0 + sum b_k PC_k, forward stepwise on p < 0.05 over PC1-PC10. Selected PC1,
+  PC7, PC3, PC4, PC6, PC9: log10(mu) = 2.734 + 0.124 PC1 + 0.421 PC7 + 0.115 PC3 + 0.127 PC4
+  - 0.189 PC6 - 0.366 PC9; R^2 0.43, adj R^2 0.39, F p = 2e-8. Coefficients also given in
+  original attributes (largest per-s.d. effects: ln area +0.44, rainfall +0.30, temp_max -0.21).
+  Ungauged sites: standardise with training mean/sd, multiply by training eigenvectors ->
+  PC scores (worked example for Muthankera in the report). Leave-one-out (PCA + selection
+  refit without the station): median |error| on mu 66% (in-sample 57%), R^2(log) 0.08 -
+  weak, and unstable (same PCs chosen in only 38/90 LOO fits); Tuichang LOO blows up to
+  362,000 vs 411 cumec via PC10 extrapolation. Restricting candidates to PC1-5 was tested:
+  median error worse (89%), so kept. New plots: regression line, partial regression per PC,
+  observed vs estimated mean (in-sample | LOO).
 
 ---
 
